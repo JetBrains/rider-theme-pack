@@ -1,0 +1,28 @@
+
+basic background
+    E8E8E8
+    383838
+
+editor background
+    FFFFFF
+    242424
+
+toolwindow background
+    F8F8F8
+    303030
+
+basic separator
+    D0D0D0
+    202020
+
+basic foreground
+    333333
+
+secondary foreground
+    5a5a66
+
+selection background
+    b8d9ff
+
+inactive selection background
+    d5dff0
