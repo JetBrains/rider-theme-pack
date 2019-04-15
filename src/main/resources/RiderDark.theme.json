@@ -38,7 +38,7 @@
     "ToolWindow": {
       "Button": {
         "selectedBackground": "#202020",
-        "selectedForeground": "#9999A4",
+        "selectedForeground": "#B9B9BF",
         "hoverBackground": "#303030"
       },
       "Header": {
@@ -156,7 +156,7 @@
     "ToggleButton": {
       "background": "#FF00FF",
       "borderColor": "#787885",
-      "foreground": "#9999A4",
+      "foreground": "#B9B9BF",
       "buttonColor": "#787885",
       "onBackground": "#39632955",
       "onForeground": "#99C986",
@@ -286,8 +286,8 @@
       "nonEditableBackground": "#424447",
       "ArrowButton.background": "#424447",
       "ArrowButton.nonEditableBackground": "#424447",
-      "ArrowButton.iconColor": "9999A4CC",
-      "ArrowButton.disabledIconColor": "9999A466"
+      "ArrowButton.iconColor": "B9B9BFCC",
+      "ArrowButton.disabledIconColor": "B9B9BF66"
     },
 
     "ComboBoxButton": {
@@ -381,8 +381,8 @@
       "inactiveErrorFocusColor": "#DB586060",
       "warningFocusColor": "#DE971FA0",
       "inactiveWarningFocusColor": "#DE971F60",
-      "iconColor": "#9999A4cc",
-      "hoverIconColor": "#9999A4cc"
+      "iconColor": "#B9B9BFcc",
+      "hoverIconColor": "#B9B9BFcc"
     },
 
     "ToolTip": {
@@ -431,7 +431,7 @@
       "foreground": "#CCCCCC",
       "stripeColor": "#2C2C2C",
       "gridColor": "#202020",
-      "sortIconColor": "#9999A4cc",
+      "sortIconColor": "#B9B9BFcc",
       "lightSelectionBackground": "#2f4266",
       "lightSelectionForeground": "#EEEEEE",
       "lightSelectionInactiveBackground": "#3d4452",
@@ -461,7 +461,7 @@
     },
 
     "Counter": {
-      "background": "#9999A4",
+      "background": "#B9B9BF",
       "foreground": "#202020"
     },
 
@@ -537,15 +537,15 @@
 
   "icons": {
     "ColorPalette": {
-      "Actions.Grey": "#9999A4cc",
-      "Actions.GreyInline": "#9999A4cc",
-      "Actions.GreyInline.Dark": "#9999A580",
+      "Actions.Grey": "#B9B9BFcc",
+      "Actions.GreyInline": "#B9B9BFcc",
+      "Actions.GreyInline.Dark": "#B9B9BE80",
       "Actions.Red": "#BA5249CC",
       "Actions.Green": "#6EA35ACC",
       "Actions.Blue": "#6888C9CC",
       "Actions.Yellow": "#B09B45CC",
 
-      "Objects.Grey": "#9999A4cc",
+      "Objects.Grey": "#B9B9BFcc",
       "Objects.BlackText": "#333343CC",
       "Objects.Red": "#BA5249CC",
       "Objects.RedStatus": "#BA5249CC",
