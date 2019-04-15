@@ -327,7 +327,7 @@
       "MoreButton": {
         "background": "#202020",
         "innerBorderColor": "#202020",
-        "foreground": "#39A3DB"
+        "foreground": "#6888C9"
       }
     },
 
@@ -339,10 +339,10 @@
     },
 
     "Link": {
-      "activeForeground": "#39A3DB",
-      "hoverForeground": "#30B8FF",
-      "pressedForeground": "#39A3DB",
-      "visitedForeground": "#39A3DB"
+      "activeForeground": "#6888C9",
+      "hoverForeground": "#6895ED",
+      "pressedForeground": "#6888C9",
+      "visitedForeground": "#6888C9"
     },
 
     "Plugins": {
