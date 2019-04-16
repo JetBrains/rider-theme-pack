@@ -62,7 +62,8 @@
       },
       "SearchField": {
         "background": "#242424",
-        "borderColor": "#242424"
+        "borderColor": "#242424",
+        "infoForeground": "#6A6A70"
       },
       "List": {
         "separatorForeground": "#666666",
@@ -131,12 +132,14 @@
 
     "CheckBox": {
       "background": "#383838",
-      "foreground": "#B9B9BF"
+      "foreground": "#B9B9BF",
+      "disabledText": "#6A6A70"
     },
 
     "RadioButton": {
       "background": "#383838",
-      "foreground": "#B9B9BF"
+      "foreground": "#B9B9BF",
+      "disabledText": "#6A6A70"
     },
 
     "Button": {
@@ -161,12 +164,14 @@
       "onBackground": "#39632955",
       "onForeground": "#99C986",
       "offBackground": "#30303000",
-      "offForeground": "#787885"
+      "offForeground": "#787885",
+      "disabledText": "#6A6A70"
     },
 
     "List": {
       "background": "#303030",
       "foreground": "#B9B9BF",
+      "selectionBackground": "#2a5285",
       "selectionForeground": "#FFFFFF"
     },
 
@@ -186,7 +191,7 @@
       "borderColor": "#484848",
       "foreground": "#B9B9BF",
       "currentParameterForeground": "#FFFFFF",
-      "disabledForeground": "#808080",
+      "disabledForeground": "#6A6A70",
       "infoForeground": "#8F8F8F",
       "lineSeparatorColor": "#303030"
     },
@@ -198,7 +203,8 @@
       "selectionForeground": "#FFFFFF",
       "separatorColor": "#303030",
       "acceleratorForeground": "#999999",
-      "acceleratorSelectionForeground": "#FFFFFF"
+      "acceleratorSelectionForeground": "#FFFFFF",
+      "disabledForeground": "#6A6A70"
     },
 
     "PopupMenu": {
@@ -234,7 +240,8 @@
       "background": "#383838",
       "foreground": "#B9B9BF",
       "borderColor": "#383838",
-      "disabledBackground": "#383838"
+      "disabledBackground": "#383838",
+      "disabledForeground": "#6A6A70"
     },
 
     "MenuItem": {
@@ -243,7 +250,8 @@
       "selectionBackground": "#2f4266",
       "selectionForeground": "#FFFFFF",
       "acceleratorForeground": "#999999",
-      "acceleratorSelectionForeground": "#FFFFFF"
+      "acceleratorSelectionForeground": "#FFFFFF",
+      "disabledForeground": "#6A6A70"
     },
 
     "CheckBoxMenuItem": {
@@ -252,7 +260,8 @@
       "selectionBackground": "#2f4266",
       "selectionForeground": "#B9B9BF",
       "acceleratorForeground": "#999999",
-      "acceleratorSelectionForeground": "#FFFFFF"
+      "acceleratorSelectionForeground": "#FFFFFF",
+      "disabledForeground": "#6A6A70"
     },
 
     "RadioButtonMenuItem": {
@@ -261,7 +270,8 @@
       "selectionBackground": "#2f4266",
       "selectionForeground": "#B9B9BF",
       "acceleratorForeground": "#999999",
-      "acceleratorSelectionForeground": "#FFFFFF"
+      "acceleratorSelectionForeground": "#FFFFFF",
+      "disabledForeground": "#6A6A70"
     },
 
     "CompletionPopup": {
@@ -275,14 +285,14 @@
     "Label": {
       "background": "#383838",
       "foreground": "#B9B9BF",
-      "disabledForeground": "#808080",
-      "selectedDisabledForeground": "#808080"
+      "disabledForeground": "#6A6A70",
+      "selectedDisabledForeground": "#6A6A70"
     },
 
     "ComboBox": {
       "foreground": "#B9B9BF",
       "background": "#424447",
-      "disabledForeground": "#808080",
+      "disabledForeground": "#6A6A70",
       "nonEditableBackground": "#424447",
       "ArrowButton.background": "#424447",
       "ArrowButton.nonEditableBackground": "#424447",
@@ -298,7 +308,7 @@
 
     "Tree": {
       "background": "#303030",
-      "foreground": "#BBBBBB"
+      "foreground": "#B9B9BF"
     },
 
     "Notification": {
