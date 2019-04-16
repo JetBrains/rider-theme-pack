@@ -325,8 +325,8 @@
       },
 
       "MoreButton": {
-        "background": "#202020",
-        "innerBorderColor": "#202020",
+        "background": "#333c4d",
+        "innerBorderColor": "#333c4d",
         "foreground": "#6888C9"
       }
     },

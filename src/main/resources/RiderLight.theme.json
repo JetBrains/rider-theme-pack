@@ -301,9 +301,9 @@
     },
 
     "Notification": {
-      "background": "#F2F7FF",
-      "borderColor": "#F7FFFF",
-      "foreground": "#2C3F61",
+      "background": "#f2f7ff",
+      "borderColor": "#f7ffff",
+      "foreground": "#2c3f61",
 
       "errorBackground": "#FFE3E3",
       "errorBorderColor": "#FFEDED",
@@ -324,8 +324,8 @@
       },
 
       "MoreButton": {
-        "background": "#E8E8E8",
-        "innerBorderColor": "#D0D0D0",
+        "background": "#f2f7ff",
+        "innerBorderColor": "#f2f7ff",
         "foreground": "#5c85cc"
       }
     },
