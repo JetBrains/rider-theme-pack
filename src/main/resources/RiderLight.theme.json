@@ -301,9 +301,9 @@
     },
 
     "Notification": {
-      "background": "#E8E8E8",
-      "borderColor": "#F0F0F0",
-      "foreground": "#333333",
+      "background": "#F2F7FF",
+      "borderColor": "#F7FFFF",
+      "foreground": "#2C3F61",
 
       "errorBackground": "#FFE3E3",
       "errorBorderColor": "#FFEDED",
