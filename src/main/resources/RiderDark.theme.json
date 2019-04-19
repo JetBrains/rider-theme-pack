@@ -356,7 +356,7 @@
     },
 
     "Plugins": {
-      "background": "#202020",
+      "background": "#303030",
       "lightSelectionBackground": "#2f4266",
       "SectionHeader": {
         "background": "#383838",
