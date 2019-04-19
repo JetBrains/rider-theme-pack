@@ -7,9 +7,11 @@
     <property name="modified">2019-03-01T12:33:12</property>
   </metaInfo>
   <font>
-    </font>
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
+  </font>
   <font>
-    </font>
+    <option name="EDITOR_FONT_NAME" value="Menlo" />
+  </font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="e1eddc" />
     <option name="ANNOTATIONS_COLOR" value="000000" />
