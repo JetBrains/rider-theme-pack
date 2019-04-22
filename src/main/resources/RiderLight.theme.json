@@ -537,7 +537,7 @@
     "DebuggerPopup.borderColor": "#F0F0F0",
     "TitlePane.background": "#E8E8E8",
     "Separator.separatorColor": "#d0d0d0",
-    "SidePanel.background": "#E8E8E8",
+    "SidePanel.background": "#F8F8F8",
     "OptionPane.background": "#E8E8E8",
     "EditorPane.inactiveBackground": "#E8E8E8",
     "EditorPane.foreground": "#333338",
