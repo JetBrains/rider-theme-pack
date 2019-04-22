@@ -37,7 +37,7 @@
 
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "#C8C8C8",
+        "selectedBackground": "#D0D0D0",
         "selectedForeground": "#333338",
         "hoverBackground": "#D4D4D4"
       },
