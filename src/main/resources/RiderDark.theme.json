@@ -548,14 +548,14 @@
   "icons": {
     "ColorPalette": {
       "Actions.Grey": "#C6C6CCcc",
-      "Actions.GreyInline": "#C6C6CCcc",
-      "Actions.GreyInline.Dark": "#B9B9BE80",
+      "Actions.GreyInline": "#C6C6CDcc",
+      "Actions.GreyInline.Dark": "#C6C6CE80",
       "Actions.Red": "#BA5249CC",
       "Actions.Green": "#6EA35ACC",
       "Actions.Blue": "#6888C9CC",
       "Actions.Yellow": "#B09B45CC",
 
-      "Objects.Grey": "#C6C6CCcc",
+      "Objects.Grey": "#C6C6CDA0",
       "Objects.BlackText": "#333343CC",
       "Objects.Red": "#BA5249CC",
       "Objects.RedStatus": "#BA5249CC",
