@@ -546,6 +546,7 @@
   },
 
   "icons": {
+    "/nodes/folder.svg": "/any/folder.svg",
     "/nodes/treeRightArrow.png": "/dark/treeRightArrow.svg",
     "/nodes/treeDownArrow.png": "/dark/treeDownArrow.svg",
     "/mac/tree_black_right_arrow.png": "/dark/tree_black_right_arrow.svg",
