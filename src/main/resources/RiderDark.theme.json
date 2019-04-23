@@ -546,6 +546,11 @@
   },
 
   "icons": {
+    "/nodes/treeRightArrow.png": "/dark/treeRightArrow.svg",
+    "/nodes/treeDownArrow.png": "/dark/treeDownArrow.svg",
+    "/mac/tree_black_right_arrow.png": "/dark/tree_black_right_arrow.svg",
+    "/mac/tree_white_right_arrow.png": "/dark/tree_white_right_arrow.svg",
+    "/mac/tree_white_down_arrow.png": "/dark/tree_white_down_arrow.svg",
     "ColorPalette": {
       "Actions.Grey": "#C6C6CCcc",
       "Actions.GreyInline": "#C6C6CDcc",
