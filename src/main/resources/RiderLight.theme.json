@@ -525,7 +525,7 @@
       "headerForeground": "#008000",
       "groupIconBorderColor": "#000080",
       "Projects": {
-        "background": "#F0F0F0",
+        "background": "#F8F8F8",
         "selectionBackground": "#b8d9ff",
         "selectionInactiveBackground": "#d5dff0"
       }
