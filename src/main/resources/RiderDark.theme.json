@@ -291,7 +291,7 @@
 
     "ComboBox": {
       "foreground": "#C6C6CC",
-      "background": "#424447",
+      "background": "#383838",
       "disabledForeground": "#6A6A70",
       "nonEditableBackground": "#424447",
       "ArrowButton.background": "#424447",
