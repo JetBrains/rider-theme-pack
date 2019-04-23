@@ -188,7 +188,7 @@
     "ParameterInfo": {
       "background": "#383838",
       "currentOverloadBackground": "#2f4266",
-      "borderColor": "#484848",
+      "borderColor": "#585858",
       "foreground": "#C6C6CC",
       "currentParameterForeground": "#FFFFFF",
       "disabledForeground": "#6A6A70",
@@ -198,7 +198,7 @@
 
     "Menu": {
       "background": "#383838",
-      "borderColor": "#484848",
+      "borderColor": "#585858",
       "foreground": "#C6C6CC",
       "selectionForeground": "#FFFFFF",
       "separatorColor": "#303030",
@@ -217,8 +217,8 @@
 
     "Popup": {
       "paintBorder": true,
-      "borderColor": "#484848",
-      "inactiveBorderColor": "#484848",
+      "borderColor": "#585858",
+      "inactiveBorderColor": "#585858",
       "separatorColor": "#404040",
       "separatorForeground": "#666666",
       "Header": {
@@ -304,7 +304,7 @@
       "background": "#424447"
     },
 
-    "ComboPopup.border": "1,1,1,1,484848",
+    "ComboPopup.border": "1,1,1,1,585858",
 
     "Tree": {
       "background": "#303030",
@@ -533,8 +533,8 @@
 
     "DebuggerTabs.selectedBackground": "#202020",
 
-    "Window.border": "0,0,0,0,48484833",
-    "DebuggerPopup.borderColor": "#484848",
+    "Window.border": "0,0,0,0,58585833",
+    "DebuggerPopup.borderColor": "#585858",
     "TitlePane.background": "#383838",
     "Separator.separatorColor": "#202020",
     "SidePanel.background": "#303030",
