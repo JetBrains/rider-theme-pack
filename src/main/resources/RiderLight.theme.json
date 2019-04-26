@@ -553,25 +553,25 @@
     "/mac/tree_white_right_arrow.png": "/light/tree_white_right_arrow.svg",
     "/mac/tree_white_down_arrow.png": "/light/tree_white_down_arrow.svg",
     "ColorPalette": {
-      "Actions.Grey": "#71717FCC",
-      "Actions.GreyInline": "#71717Ecc",
-      "Actions.GreyInline.Dark": "#71717D80",
-      "Actions.Red": "#d96462cc",
-      "Actions.Green": "#63994dcc",
-      "Actions.Blue": "#5c85cccc",
-      "Actions.Yellow": "#cc9b14cc",
+      "Actions.Grey": "#82828fFF",
+      "Actions.GreyInline": "#82828eFF",
+      "Actions.GreyInline.Dark": "#b8b8bfFF",
+      "Actions.Red": "#e87669FF",
+      "Actions.Green": "#6ba653FF",
+      "Actions.Blue": "#5f8ad4FF",
+      "Actions.Yellow": "#dba716FF",
 
-      "Objects.Grey": "#71717CA0",
-      "Objects.BlackText": "#383848CC",
-      "Objects.Red": "#d96462cc",
-      "Objects.RedStatus": "#d96462cc",
-      "Objects.Yellow": "#cc9b14cc",
-      "Objects.YellowDark": "#cc9b14cc",
-      "Objects.Green": "#63994dcc",
-      "Objects.GreenAndroid": "#63994dcc",
-      "Objects.Blue": "#5c85cccc",
-      "Objects.Purple": "#a663a5cc",
-      "Objects.Pink": "#d96275cc"
+      "Objects.Grey": "#82828dFF",
+      "Objects.BlackText": "#383848FF",
+      "Objects.Red": "#e87669FF",
+      "Objects.RedStatus": "#e87669FF",
+      "Objects.Yellow": "#dba716FF",
+      "Objects.YellowDark": "#dba716FF",
+      "Objects.Green": "#6ba653FF",
+      "Objects.GreenAndroid": "#6ba653FF",
+      "Objects.Blue": "#5f8ad4FF",
+      "Objects.Purple": "#b36ab1FF",
+      "Objects.Pink": "#e8699cFF"
     }
   }
 }
