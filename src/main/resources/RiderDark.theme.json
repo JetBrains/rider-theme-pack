@@ -23,32 +23,32 @@
     },
 
     "Borders": {
-      "color": "#202020",
-      "ContrastBorderColor": "#202020"
+      "color": "#242424",
+      "ContrastBorderColor": "#242424"
     },
 
     "NavBar": {
-      "borderColor": "#202020"
+      "borderColor": "#242424"
     },
 
     "StatusBar": {
-      "borderColor": "#202020"
+      "borderColor": "#242424"
     },
 
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "#202020",
+        "selectedBackground": "#242424",
         "selectedForeground": "#C6C6CC",
         "hoverBackground": "#303030"
       },
       "Header": {
-        "borderColor": "#202020",
+        "borderColor": "#242424",
         "background": "#383838",
         "inactiveBackground": "#383838"
       },
       "HeaderTab": {
-        "selectedBackground": "#202020",
-        "selectedInactiveBackground": "#202020",
+        "selectedBackground": "#242424",
+        "selectedInactiveBackground": "#242424",
         "hoverBackground": "#383838",
         "hoverInactiveBackground": "#383838"
       }
@@ -89,7 +89,7 @@
     },
 
     "EditorTabs": {
-      "borderColor": "#202020",
+      "borderColor": "#242424",
       "underlineColor": "#6888C9cc",
       "selectedBackground": "#2f3447",
       "selectedForeground": "#EEEEEE",
@@ -145,13 +145,13 @@
     "Button": {
       "background": "#383838",
       "foreground": "#C6C6CC",
-      "startBorderColor": "#202020",
-      "endBorderColor": "#202020",
+      "startBorderColor": "#242424",
+      "endBorderColor": "#242424",
       "startBackground": "#424447",
       "endBackground": "#424447",
       "default.foreground": "#FFFFFF",
-      "default.startBorderColor": "#202020",
-      "default.endBorderColor": "#202020",
+      "default.startBorderColor": "#242424",
+      "default.endBorderColor": "#242424",
       "default.startBackground": "#2f4266",
       "default.endBackground": "#2f4266"
     },
@@ -181,7 +181,7 @@
 
     "HelpTooltip": {
       "background": "#303030",
-      "borderColor": "#202020",
+      "borderColor": "#242424",
       "foreground": "#C6C6CC"
     },
 
@@ -372,12 +372,12 @@
         "borderColor": "#383838"
       },
       "Button": {
-        "installFillBackground": "#202020",
+        "installFillBackground": "#242424",
         "installFillForeground": "#C6C6CC",
-        "installBackground": "#202020",
+        "installBackground": "#242424",
         "installBorderColor": "#666666",
         "installForeground": "#C6C6CC",
-        "updateBackground": "#202020",
+        "updateBackground": "#242424",
         "updateBorderColor": "#666666",
         "updateForeground": "#C6C6CC"
       },
@@ -386,7 +386,7 @@
     },
 
     "Component": {
-      "borderColor": "#202020",
+      "borderColor": "#242424",
       "errorFocusColor": "#DB5860A0",
       "inactiveErrorFocusColor": "#DB586060",
       "warningFocusColor": "#DE971FA0",
@@ -431,8 +431,8 @@
 
     "ActionButton": {
       "hoverBackground": "#404040",
-      "hoverBorderColor": "#202020",
-      "pressedBackground": "#202020",
+      "hoverBorderColor": "#242424",
+      "pressedBackground": "#242424",
       "pressedBorderColor": "#404040"
     },
 
@@ -440,7 +440,7 @@
       "background": "#303030",
       "foreground": "#C6C6CC",
       "stripeColor": "#2C2C2C",
-      "gridColor": "#202020",
+      "gridColor": "#242424",
       "sortIconColor": "#C6C6CCcc",
       "lightSelectionBackground": "#2f4266",
       "lightSelectionForeground": "#EEEEEE",
@@ -472,7 +472,7 @@
 
     "Counter": {
       "background": "#C6C6CC",
-      "foreground": "#202020"
+      "foreground": "#242424"
     },
 
     "DragAndDrop": {
@@ -498,15 +498,15 @@
 
     "InplaceRefactoringPopup": {
       "background": "#383838",
-      "borderColor": "#202020"
+      "borderColor": "#242424"
     },
 
     "TabbedPane": {
       "background": "#383838",
       "underlineColor": "#2f4266",
       "disabledUnderlineColor": "#454545",
-      "contentAreaColor": "#202020",
-      "hoverColor": "#202020"
+      "contentAreaColor": "#242424",
+      "hoverColor": "#242424"
     },
 
     "VersionControl": {
@@ -516,7 +516,7 @@
     "WelcomeScreen": {
       "background": "#383838",
       "borderColor": "#FF0000",
-      "separatorColor": "#202020",
+      "separatorColor": "#242424",
       "captionBackground": "#0000FF",
       "captionForeground": "#FFFF00",
       "footerBackground": "#FF00FF",
@@ -531,12 +531,12 @@
       }
     },
 
-    "DebuggerTabs.selectedBackground": "#202020",
+    "DebuggerTabs.selectedBackground": "#242424",
 
     "Window.border": "0,0,0,0,58585833",
     "DebuggerPopup.borderColor": "#585858",
     "TitlePane.background": "#383838",
-    "Separator.separatorColor": "#202020",
+    "Separator.separatorColor": "#242424",
     "SidePanel.background": "#303030",
     "OptionPane.background": "#383838",
     "EditorPane.inactiveBackground": "#383838",
