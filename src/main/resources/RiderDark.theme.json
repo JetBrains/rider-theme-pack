@@ -404,28 +404,28 @@
     },
 
     "TextField": {
-      "background": "#242424",
+      "background": "#282828",
       "foreground": "#C6C6CC",
-      "inactiveBackground": "#242424",
+      "inactiveBackground": "#282828",
       "inactiveForeground": "#C6C6CC"
     },
 
     "FormattedTextField": {
-      "background": "#242424",
+      "background": "#282828",
       "foreground": "#C6C6CC",
-      "inactiveBackground": "#242424",
+      "inactiveBackground": "#282828",
       "inactiveForeground": "#C6C6CC"
     },
 
     "PasswordField": {
-      "background": "#242424",
+      "background": "#282828",
       "foreground": "#C6C6CC"
     },
 
     "TextArea": {
-      "background": "#242424",
+      "background": "#282828",
       "foreground": "#C6C6CC",
-      "inactiveBackground": "#242424",
+      "inactiveBackground": "#282828",
       "inactiveForeground": "#C6C6CC"
     },
 
