@@ -1428,8 +1428,6 @@
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="787878" />
-        <option name="EFFECT_COLOR" value="787878" />
-        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="REGEXP.BAD_CHARACTER">
@@ -1654,13 +1652,13 @@
     <option name="ReSharper.FORMAT_STRING_ITEM">
       <value>
         <option name="FOREGROUND" value="91E5FF" />
-        <option name="FONT_TYPE" value="0" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.FORMAT_STRING_ITEM_2">
       <value>
         <option name="FOREGROUND" value="91E5FF" />
-        <option name="FONT_TYPE" value="0" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.HINT">
@@ -1761,7 +1759,7 @@
         <option name="BACKGROUND" value="21404d" />
         <option name="EFFECT_COLOR" value="107F9C" />
         <option name="EFFECT_TYPE" value="4" />
-        <option name="FONT_TYPE" value="0" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
@@ -2478,9 +2476,7 @@
       <value>
         <option name="FOREGROUND" value="FF6254" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="FF6254" />
         <option name="ERROR_STRIPE_COLOR" value="FF6254" />
-        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_NAME">
