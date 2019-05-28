@@ -90,6 +90,7 @@
 
     "EditorTabs": {
       "borderColor": "#2c2c2c",
+      "background": "#383838",
       "underlineColor": "#6888C9cc",
       "selectedBackground": "#2f3447",
       "selectedForeground": "#EEEEEE",

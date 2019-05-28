@@ -91,6 +91,7 @@
     "EditorTabs": {
       "borderColor": "#d0d0d0",
       "underlineColor": "#5397E6",
+      "background": "#e8e8e8",
       "selectedBackground": "#FFFFFF",
       "selectedForeground": "#000000",
       "inactiveMaskColor": "#E8E8E8"
