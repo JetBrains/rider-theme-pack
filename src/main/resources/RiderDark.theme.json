@@ -517,7 +517,7 @@
     "WelcomeScreen": {
       "background": "#383838",
       "borderColor": "#FF0000",
-      "separatorColor": "#242424",
+      "separatorColor": "#303030",
       "captionBackground": "#0000FF",
       "captionForeground": "#FFFF00",
       "footerBackground": "#FF00FF",
