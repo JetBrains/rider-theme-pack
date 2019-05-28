@@ -23,26 +23,26 @@
     },
 
     "Borders": {
-      "color": "#242424",
-      "ContrastBorderColor": "#242424"
+      "color": "#383838",
+      "ContrastBorderColor": "#2c2c2c"
     },
 
     "NavBar": {
-      "borderColor": "#242424"
+      "borderColor": "#2c2c2c"
     },
 
     "StatusBar": {
-      "borderColor": "#242424"
+      "borderColor": "#2c2c2c"
     },
 
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "#242424",
+        "selectedBackground": "#2c2c2c",
         "selectedForeground": "#C6C6CC",
         "hoverBackground": "#303030"
       },
       "Header": {
-        "borderColor": "#242424",
+        "borderColor": "#2c2c2c",
         "background": "#383838",
         "inactiveBackground": "#383838"
       },
@@ -89,7 +89,7 @@
     },
 
     "EditorTabs": {
-      "borderColor": "#242424",
+      "borderColor": "#2c2c2c",
       "underlineColor": "#6888C9cc",
       "selectedBackground": "#2f3447",
       "selectedForeground": "#EEEEEE",
@@ -536,7 +536,7 @@
     "Window.border": "0,0,0,0,58585833",
     "DebuggerPopup.borderColor": "#585858",
     "TitlePane.background": "#383838",
-    "Separator.separatorColor": "#242424",
+    "Separator.separatorColor": "#303030",
     "SidePanel.background": "#303030",
     "OptionPane.background": "#383838",
     "EditorPane.inactiveBackground": "#383838",
