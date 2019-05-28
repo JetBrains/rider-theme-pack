@@ -633,8 +633,8 @@
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="383838" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="6B2FBA" />
+        <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -1758,7 +1758,6 @@
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
         <option name="FOREGROUND" value="00637D" />
-        <option name="BACKGROUND" value="d1f6ff" />
         <option name="EFFECT_COLOR" value="76BDCF" />
         <option name="EFFECT_TYPE" value="4" />
         <option name="FONT_TYPE" value="1" />
