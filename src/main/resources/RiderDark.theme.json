@@ -154,7 +154,8 @@
       "default.startBorderColor": "#2c2c2c",
       "default.endBorderColor": "#2c2c2c",
       "default.startBackground": "#2f4266",
-      "default.endBackground": "#2f4266"
+      "default.endBackground": "#2f4266",
+      "shadowWidth": 0
     },
 
     "ToggleButton": {
