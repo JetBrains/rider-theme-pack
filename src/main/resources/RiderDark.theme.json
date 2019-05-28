@@ -146,13 +146,13 @@
     "Button": {
       "background": "#383838",
       "foreground": "#C6C6CC",
-      "startBorderColor": "#242424",
-      "endBorderColor": "#242424",
+      "startBorderColor": "#2c2c2c",
+      "endBorderColor": "#2c2c2c",
       "startBackground": "#424447",
       "endBackground": "#424447",
       "default.foreground": "#FFFFFF",
-      "default.startBorderColor": "#242424",
-      "default.endBorderColor": "#242424",
+      "default.startBorderColor": "#2c2c2c",
+      "default.endBorderColor": "#2c2c2c",
       "default.startBackground": "#2f4266",
       "default.endBackground": "#2f4266"
     },
@@ -387,7 +387,7 @@
     },
 
     "Component": {
-      "borderColor": "#242424",
+      "borderColor": "#2c2c2c",
       "errorFocusColor": "#DB5860A0",
       "inactiveErrorFocusColor": "#DB586060",
       "warningFocusColor": "#DE971FA0",
@@ -432,8 +432,8 @@
 
     "ActionButton": {
       "hoverBackground": "#404040",
-      "hoverBorderColor": "#242424",
-      "pressedBackground": "#242424",
+      "hoverBorderColor": "#2c2c2c",
+      "pressedBackground": "#2c2c2c",
       "pressedBorderColor": "#404040"
     },
 
