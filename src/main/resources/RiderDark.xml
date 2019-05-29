@@ -78,6 +78,7 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="4D341E" />
     <option name="INDENT_GUIDE" value="404040" />
     <option name="SELECTION_FOREGROUND" value="" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="686868" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -716,26 +717,26 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="522D29" />
-        <option name="ERROR_STRIPE_COLOR" value="BF3428" />
+        <option name="BACKGROUND" value="762F29" />
+        <option name="ERROR_STRIPE_COLOR" value="762F29" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="472A5E" />
-        <option name="ERROR_STRIPE_COLOR" value="784FB3" />
+        <option name="BACKGROUND" value="545454" />
+        <option name="ERROR_STRIPE_COLOR" value="545454" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="25401A" />
-        <option name="ERROR_STRIPE_COLOR" value="487D34" />
+        <option name="BACKGROUND" value="315423" />
+        <option name="ERROR_STRIPE_COLOR" value="315423" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="283857" />
-        <option name="ERROR_STRIPE_COLOR" value="406AC2" />
+        <option name="BACKGROUND" value="30497B" />
+        <option name="ERROR_STRIPE_COLOR" value="30497B" />
       </value>
     </option>
     <option name="DOCKER_BRACKETS">

@@ -30,14 +30,14 @@
     <option name="HTML_TAG_TREE_LEVEL4" value="ff" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
     <option name="INDENT_GUIDE" value="E0E0E0" />
-    <option name="INFORMATION_HINT" value="F8F8F4" />
+    <option name="INFORMATION_HINT" value="F8F8F8" />
     <option name="LINE_NUMBERS_COLOR" value="A0A0A0" />
     <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
     <option name="MODIFIED_LINES_COLOR" value="dae4f7" />
     <option name="NOTIFICATION_BACKGROUND" value="faefe1" />
     <option name="QUESTION_HINT" value="faefe1" />
-    <option name="READONLY_BACKGROUND" value="F8F8F4" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="F8F8F4" />
+    <option name="READONLY_BACKGROUND" value="F8F8F8" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="F8F8F8" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="DB946E" />
     <option name="RIGHT_MARGIN_COLOR" value="E0E0E0" />
     <option name="SELECTED_INDENT_GUIDE" value="C1C1C1" />
@@ -79,6 +79,7 @@
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="888899" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="E0E0E0" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -719,26 +720,26 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="ffeae8" />
-        <option name="ERROR_STRIPE_COLOR" value="E87266" />
+        <option name="BACKGROUND" value="F7C2BD" />
+        <option name="ERROR_STRIPE_COLOR" value="F7C2BD" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="f1e6ff" />
-        <option name="ERROR_STRIPE_COLOR" value="B190DE" />
+        <option name="BACKGROUND" value="CECECE" />
+        <option name="ERROR_STRIPE_COLOR" value="CECECE" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="e1eddc" />
-        <option name="ERROR_STRIPE_COLOR" value="8FBD7F" />
+        <option name="BACKGROUND" value="C6DDBD" />
+        <option name="ERROR_STRIPE_COLOR" value="C6DDBD" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="dae4f7" />
-        <option name="ERROR_STRIPE_COLOR" value="80AAFF" />
+        <option name="BACKGROUND" value="B3CBFA" />
+        <option name="ERROR_STRIPE_COLOR" value="B3CBFA" />
       </value>
     </option>
     <option name="DOCKER_BRACKETS">
@@ -817,7 +818,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="A0A0A0" />
-        <option name="BACKGROUND" value="F8F8F4" />
+        <option name="BACKGROUND" value="F8F8F8" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
       </value>
     </option>
@@ -923,7 +924,7 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="383838" />
-        <option name="BACKGROUND" value="F8F8F4" />
+        <option name="BACKGROUND" value="F8F8F8" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
       </value>
     </option>
@@ -1281,7 +1282,7 @@
     <option name="LESS_INJECTED_CODE">
       <value>
         <option name="FOREGROUND" value="383838" />
-        <option name="BACKGROUND" value="F8F8F4" />
+        <option name="BACKGROUND" value="F8F8F8" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
       </value>
     </option>
@@ -1600,7 +1601,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
       <value>
-        <option name="BACKGROUND" value="F8F8F4" />
+        <option name="BACKGROUND" value="F8F8F8" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG">
@@ -2237,7 +2238,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="282828" />
+        <option name="FOREGROUND" value="202020" />
         <option name="BACKGROUND" value="FFFFFF" />
       </value>
     </option>
