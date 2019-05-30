@@ -533,6 +533,10 @@
       }
     },
 
+    "Group": {
+      "separatorColor": "#484848"
+    },
+
     "DebuggerTabs.selectedBackground": "#242424",
 
     "Window.border": "0,0,0,0,58585833",
