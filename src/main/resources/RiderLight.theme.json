@@ -295,10 +295,10 @@
       "foreground": "#333338",
       "background": "#F8F8F8",
       "disabledForeground": "#a7a7af",
-      "nonEditableBackground": "#F8F8F8",
-      "ArrowButton.background": "#F8F8F8",
-      "ArrowButton.nonEditableBackground": "#F8F8F8",
-      "ArrowButton.iconColor": "5a5a66CC",
+      "nonEditableBackground": "#FFFFFF",
+      "ArrowButton.background": "#FFFFFF",
+      "ArrowButton.nonEditableBackground": "#FFFFFF",
+      "ArrowButton.iconColor": "b8b8bf",
       "ArrowButton.disabledIconColor": "5a5a6666"
     },
 
@@ -389,6 +389,7 @@
 
     "Component": {
       "borderColor": "#D0D0D0",
+      "disabledBorderColor": "#D0D0D0",
       "errorFocusColor": "#DB5860A0",
       "inactiveErrorFocusColor": "#DB586060",
       "warningFocusColor": "#DE971FA0",

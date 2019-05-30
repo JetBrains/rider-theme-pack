@@ -295,15 +295,15 @@
       "foreground": "#C6C6CC",
       "background": "#383838",
       "disabledForeground": "#6A6A70",
-      "nonEditableBackground": "#424447",
-      "ArrowButton.background": "#424447",
-      "ArrowButton.nonEditableBackground": "#424447",
-      "ArrowButton.iconColor": "C6C6CCCC",
+      "nonEditableBackground": "#303030",
+      "ArrowButton.background": "#303030",
+      "ArrowButton.nonEditableBackground": "#303030",
+      "ArrowButton.iconColor": "737376",
       "ArrowButton.disabledIconColor": "C6C6CC66"
     },
 
     "ComboBoxButton": {
-      "background": "#424447"
+      "background": "#343434"
     },
 
     "ComboPopup.border": "1,1,1,1,585858",
@@ -388,7 +388,8 @@
     },
 
     "Component": {
-      "borderColor": "#2c2c2c",
+      "borderColor": "#484848",
+      "disabledBorderColor": "#484848",
       "errorFocusColor": "#DB5860A0",
       "inactiveErrorFocusColor": "#DB586060",
       "warningFocusColor": "#DE971FA0",
@@ -406,26 +407,26 @@
     },
 
     "TextField": {
-      "background": "#282828",
+      "background": "#303030",
       "foreground": "#C6C6CC",
       "inactiveBackground": "#282828",
       "inactiveForeground": "#C6C6CC"
     },
 
     "FormattedTextField": {
-      "background": "#282828",
+      "background": "#303030",
       "foreground": "#C6C6CC",
       "inactiveBackground": "#282828",
       "inactiveForeground": "#C6C6CC"
     },
 
     "PasswordField": {
-      "background": "#282828",
+      "background": "#303030",
       "foreground": "#C6C6CC"
     },
 
     "TextArea": {
-      "background": "#282828",
+      "background": "#303030",
       "foreground": "#C6C6CC",
       "inactiveBackground": "#282828",
       "inactiveForeground": "#C6C6CC"
@@ -578,7 +579,6 @@
       "Objects.Blue": "#6786C7FF",
       "Objects.Purple": "#A36AA2FF",
       "Objects.Pink": "#BD6478FF"
-
     }
   }
 }
