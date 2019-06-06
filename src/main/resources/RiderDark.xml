@@ -195,7 +195,7 @@
     </option>
     <option name="CONSOLE_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -558,7 +558,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -613,7 +613,7 @@
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -654,8 +654,8 @@
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
-        <option name="EFFECT_COLOR" value="BDBDBD" />
+        <option name="FOREGROUND" value="BDBDBD" />
+        <option name="EFFECT_COLOR" value="787878" />
         <option name="EFFECT_TYPE" value="1" />
         <option name="FONT_TYPE" value="0" />
       </value>
@@ -789,7 +789,7 @@
     </option>
     <option name="DOCKER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1018,7 +1018,7 @@
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1062,7 +1062,7 @@
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1361,7 +1361,7 @@
     </option>
     <option name="LESS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1725,7 +1725,7 @@
     </option>
     <option name="ReSharper.JS_BLOCK_LOCAL_VARIABLE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1737,7 +1737,7 @@
     </option>
     <option name="ReSharper.JS_LOCAL_VARIABLE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1779,7 +1779,7 @@
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2069,7 +2069,7 @@
     </option>
     <option name="SASS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2159,7 +2159,7 @@
     </option>
     <option name="SQL_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2212,7 +2212,7 @@
     </option>
     <option name="SQL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2245,7 +2245,7 @@
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2340,7 +2340,7 @@
     </option>
     <option name="TS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2384,7 +2384,7 @@
     </option>
     <option name="TS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
