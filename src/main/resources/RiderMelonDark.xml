@@ -58,26 +58,26 @@
     <option name="ScrollBar.thumbColor" value="88889940" />
     <option name="ScrollBar.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.hoverTrackColor" value="383838" />
-    <option name="ScrollBar.hoverThumbColor" value="888899" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="888899" />
+    <option name="ScrollBar.hoverThumbColor" value="88889940" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="888899C0" />
     <option name="ScrollBar.Transparent.trackColor" value="38383800" />
     <option name="ScrollBar.Transparent.thumbColor" value="88889940" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="38383800" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="888899" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="888899" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="88889940" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="888899C0" />
     <option name="ScrollBar.Mac.trackColor" value="383838" />
     <option name="ScrollBar.Mac.thumbColor" value="88889940" />
     <option name="ScrollBar.Mac.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Mac.hoverTrackColor" value="383838" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="888899" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="888899" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="88889940" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="888899C0" />
     <option name="ScrollBar.Mac.Transparent.trackColor" value="38383800" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="38383800" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899C0" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="404040" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="686868" />
   </colors>
