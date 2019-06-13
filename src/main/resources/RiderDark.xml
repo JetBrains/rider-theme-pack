@@ -1771,10 +1771,8 @@
     </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="855934" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="BACKGROUND" value="604025" />
       </value>
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
