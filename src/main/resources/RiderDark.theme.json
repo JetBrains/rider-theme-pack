@@ -69,13 +69,17 @@
       "errorForeground": "#d8796f"
     },
 
+    "DefaultTabs": {
+      "background": "#383838",
+      "hoverBackground": "303030"
+    },
+
     "EditorTabs": {
       "borderColor": "#2c2c2c",
       "background": "#383838",
       "underlineColor": "#6888C9cc",
-      "selectedBackground": "#2f3447",
-      "selectedForeground": "#EEEEEE",
-      "inactiveMaskColor": "#383838"
+      "selectedBackground": "#282828",
+      "underlinedTabBackground": "#282828"
     },
 
     "ToolWindow": {
@@ -92,8 +96,8 @@
       "HeaderTab": {
         "selectedBackground": "#242424",
         "selectedInactiveBackground": "#242424",
-        "hoverBackground": "#282828",
-        "hoverInactiveBackground": "#282828"
+        "hoverBackground": "#303030",
+        "hoverInactiveBackground": "#303030"
       }
     },
 
@@ -367,7 +371,7 @@
       "Tab": {
         "selectedBackground": "#242424",
         "selectedForeground": "#C6C6CC",
-        "hoverBackground": "#383838"
+        "hoverBackground": "#303030"
       },
       "SearchField": {
         "background": "#242424",
