@@ -35,25 +35,6 @@
       "borderColor": "#2c2c2c"
     },
 
-    "ToolWindow": {
-      "Button": {
-        "selectedBackground": "#2c2c2c",
-        "selectedForeground": "#C6C6CC",
-        "hoverBackground": "#303030"
-      },
-      "Header": {
-        "borderColor": "#2c2c2c",
-        "background": "#383838",
-        "inactiveBackground": "#383838"
-      },
-      "HeaderTab": {
-        "selectedBackground": "#242424",
-        "selectedInactiveBackground": "#242424",
-        "hoverBackground": "#383838",
-        "hoverInactiveBackground": "#383838"
-      }
-    },
-
     "SearchEverywhere": {
       "Header.background": "#383838",
       "Tab": {
@@ -95,6 +76,25 @@
       "selectedBackground": "#2f3447",
       "selectedForeground": "#EEEEEE",
       "inactiveMaskColor": "#383838"
+    },
+
+    "ToolWindow": {
+      "Button": {
+        "selectedBackground": "#2c2c2c",
+        "selectedForeground": "#C6C6CC",
+        "hoverBackground": "#303030"
+      },
+      "Header": {
+        "borderColor": "#2c2c2c",
+        "background": "#383838",
+        "inactiveBackground": "#383838"
+      },
+      "HeaderTab": {
+        "selectedBackground": "#242424",
+        "selectedInactiveBackground": "#242424",
+        "hoverBackground": "#282828",
+        "hoverInactiveBackground": "#282828"
+      }
     },
 
     "ScrollBar": {
