@@ -33,8 +33,8 @@
     <option name="LINE_NUMBERS_COLOR" value="A0A0A0" />
     <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
     <option name="MODIFIED_LINES_COLOR" value="dae4f7" />
-    <option name="NOTIFICATION_BACKGROUND" value="faefe1" />
-    <option name="QUESTION_HINT" value="faefe1" />
+    <option name="NOTIFICATION_BACKGROUND" value="faecdc" />
+    <option name="QUESTION_HINT" value="faecdc" />
     <option name="READONLY_BACKGROUND" value="F8F8F8" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="F8F8F8" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="DB946E" />
@@ -50,7 +50,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="F5EBEA" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ffeae8" />
     <option name="WHITESPACES" value="D0D0D0" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="faefe1" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="faecdc" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="ScrollBar.background" value="E8E8E8" />
@@ -90,7 +90,7 @@
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="000000" />
+        <option name="ERROR_STRIPE_COLOR" value="CECECE" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
@@ -218,9 +218,9 @@
     </option>
     <option name="CONSOLE_SELECTED_PARAMETER">
       <value>
-        <option name="BACKGROUND" value="d1f6ff" />
-        <option name="EFFECT_COLOR" value="0088AB" />
-        <option name="ERROR_STRIPE_COLOR" value="0088AB" />
+        <option name="BACKGROUND" value="EFD6B5" />
+        <option name="EFFECT_COLOR" value="9C5800" />
+        <option name="ERROR_STRIPE_COLOR" value="EFD6B5" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -831,8 +831,8 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="9C5800" />
-        <option name="ERROR_STRIPE_COLOR" value="9C5800" />
+        <option name="EFFECT_COLOR" value="AB8A00" />
+        <option name="ERROR_STRIPE_COLOR" value="AB8A00" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -906,13 +906,15 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="f7f0d2" />
-        <option name="ERROR_STRIPE_COLOR" value="AB8A00" />
+        <option name="ERROR_STRIPE_COLOR" value="EEE1AD" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" value="EEE1AD" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="DBC363" />
-        <option name="ERROR_STRIPE_COLOR" value="DBC363" />
+        <option name="ERROR_STRIPE_COLOR" value="AB8A00" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1416,9 +1418,11 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffe8fe" />
+        <option name="BACKGROUND" value="f7f0d2" />
         <option name="FOREGROUND" value="000000" />
         <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="EEE1AD" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
@@ -1623,9 +1627,9 @@
     </option>
     <option name="ReSharper.CONTEXT_EXIT">
       <value>
-        <option name="BACKGROUND" value="CF97CE" />
+        <option name="BACKGROUND" value="EFCDEE" />
         <option name="EFFECT_COLOR" value="941290" />
-        <option name="ERROR_STRIPE_COLOR" value="61005E" />
+        <option name="ERROR_STRIPE_COLOR" value="EFCDEE" />
       </value>
     </option>
     <option name="ReSharper.DELEGATE_IDENTIFIER">
@@ -2060,8 +2064,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="c7f5e8" />
-        <option name="ERROR_STRIPE_COLOR" value="00855F" />
+        <option name="BACKGROUND" value="B0E2D3" />
+        <option name="ERROR_STRIPE_COLOR" value="B0E2D3" />
       </value>
     </option>
     <option name="SQL_BAD_CHARACTER">
@@ -2222,9 +2226,9 @@
     </option>
     <option name="TDIFF_FUZZY_MISMATCHED">
       <value>
-        <option name="BACKGROUND" value="d1f6ff" />
+        <option name="BACKGROUND" value="AFDEEA" />
         <option name="EFFECT_COLOR" value="0088AB" />
-        <option name="ERROR_STRIPE_COLOR" value="0088AB" />
+        <option name="ERROR_STRIPE_COLOR" value="AFDEEA" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -2241,14 +2245,14 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f7f0d2" />
-        <option name="ERROR_STRIPE_COLOR" value="AB8A00" />
+        <option name="BACKGROUND" value="EEE1AD" />
+        <option name="ERROR_STRIPE_COLOR" value="EEE1AD" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="00855F" />
-        <option name="ERROR_STRIPE_COLOR" value="005C43" />
+        <option name="ERROR_STRIPE_COLOR" value="00855F" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2448,7 +2452,11 @@
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffe8fe" />
+        <option name="BACKGROUND" value="ffeae8" />
+        <option name="FOREGROUND" value="D91400" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_COLOR" value="F7C2BD" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
@@ -2461,13 +2469,15 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="f7f0d2" />
-        <option name="ERROR_STRIPE_COLOR" value="AB8A00" />
+        <option name="ERROR_STRIPE_COLOR" value="EEE1AD" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" value="EEE1AD" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffe8fe" />
-        <option name="ERROR_STRIPE_COLOR" value="941290" />
+        <option name="BACKGROUND" value="EFCDEE" />
+        <option name="ERROR_STRIPE_COLOR" value="EFCDEE" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
