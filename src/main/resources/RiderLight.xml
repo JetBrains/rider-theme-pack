@@ -13,16 +13,16 @@
     <option name="EDITOR_FONT_NAME" value="Menlo" />
   </font>
   <colors>
-    <option name="ADDED_LINES_COLOR" value="e1eddc" />
-    <option name="ANNOTATIONS_COLOR" value="000000" />
-    <option name="BORDER_LINES_COLOR" value="FFFFFF" />
+    <option name="ADDED_LINES_COLOR" value="D1E3C9" />
+    <option name="ANNOTATIONS_COLOR" value="707070" />
+    <option name="BORDER_LINES_COLOR" value="FBFBFB" />
     <option name="CARET_COLOR" value="000000" />
-    <option name="CARET_ROW_COLOR" value="F0F4F4" />
+    <option name="CARET_ROW_COLOR" value="F4F8F8" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
     <option name="DELETED_LINES_COLOR" value="E87266" />
-    <option name="DOCUMENTATION_COLOR" value="FFFFFF" />
+    <option name="DOCUMENTATION_COLOR" value="FBFBFB" />
     <option name="ERROR_HINT" value="ffeae8" />
-    <option name="GUTTER_BACKGROUND" value="FFFFFF" />
+    <option name="GUTTER_BACKGROUND" value="FBFBFB" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
     <option name="HTML_TAG_TREE_LEVEL1" value="ffff00" />
     <option name="HTML_TAG_TREE_LEVEL2" value="ff00" />
@@ -30,20 +30,20 @@
     <option name="HTML_TAG_TREE_LEVEL4" value="ff" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
     <option name="INDENT_GUIDE" value="E0E0E0" />
-    <option name="INFORMATION_HINT" value="F8F8F8" />
-    <option name="LINE_NUMBERS_COLOR" value="A0A0A0" />
+    <option name="INFORMATION_HINT" value="FCFCFC" />
+    <option name="LINE_NUMBERS_COLOR" value="#888888" />
     <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
-    <option name="MODIFIED_LINES_COLOR" value="dae4f7" />
+    <option name="MODIFIED_LINES_COLOR" value="C3D5F9" />
     <option name="NOTIFICATION_BACKGROUND" value="faecdc" />
     <option name="QUESTION_HINT" value="faecdc" />
-    <option name="READONLY_BACKGROUND" value="F8F8F8" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="F8F8F8" />
+    <option name="READONLY_BACKGROUND" value="FCFCFC" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="FCFCFC" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="DB946E" />
     <option name="RIGHT_MARGIN_COLOR" value="E0E0E0" />
     <option name="SELECTED_INDENT_GUIDE" value="C1C1C1" />
     <option name="SELECTED_TEARLINE_COLOR" value="C1C1C1" />
     <option name="SELECTION_BACKGROUND" value="b8d9ff" />
-    <option name="SOFT_WRAP_SIGN_COLOR" value="A0A0A0" />
+    <option name="SOFT_WRAP_SIGN_COLOR" value="949494" />
     <option name="TEARLINE_COLOR" value="E0E0E0" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="e1eddc" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="E3ECE3" />
@@ -51,8 +51,10 @@
     <option name="VCS_ANNOTATIONS_COLOR_4" value="F5EBEA" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="ffeae8" />
     <option name="WHITESPACES" value="D0D0D0" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="faecdc" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="F3DDC3" />
     <option name="SELECTION_FOREGROUND" value="" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="E0E0E0" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
     <option name="ScrollBar.background" value="E8E8E8" />
     <option name="ScrollBar.trackColor" value="E8E8E8" />
     <option name="ScrollBar.thumbColor" value="88889940" />
@@ -78,8 +80,7 @@
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="E8E8E800" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899C0" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="E0E0E0" />
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#888888" />
   </colors>
   <attributes>
     <option name="BAD_CHARACTER">
@@ -90,7 +91,7 @@
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="CECECE" />
+        <option name="ERROR_STRIPE_COLOR" value="DADADA" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
@@ -167,7 +168,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -218,9 +219,9 @@
     </option>
     <option name="CONSOLE_SELECTED_PARAMETER">
       <value>
-        <option name="BACKGROUND" value="EFD6B5" />
+        <option name="BACKGROUND" value="F3DDC3" />
         <option name="EFFECT_COLOR" value="9C5800" />
-        <option name="ERROR_STRIPE_COLOR" value="EFD6B5" />
+        <option name="ERROR_STRIPE_COLOR" value="F3DDC3" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -308,6 +309,7 @@
     <option name="CSS.IDENT">
       <value>
         <option name="FOREGROUND" value="6B2FBA" />
+        <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="CSS.IMPORTANT">
@@ -381,14 +383,14 @@
     <option name="CSS.URL">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -457,13 +459,13 @@
     </option>
     <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="144700" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
-        <option name="FOREGROUND" value="144700" />
+        <option name="FOREGROUND" value="217303" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -658,7 +660,7 @@
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="383838" />
-        <option name="EFFECT_COLOR" value="A0A0A0" />
+        <option name="EFFECT_COLOR" value="949494" />
         <option name="EFFECT_TYPE" value="1" />
         <option name="FONT_TYPE" value="0" />
       </value>
@@ -720,26 +722,26 @@
     </option>
     <option name="DIFF_CONFLICT">
       <value>
-        <option name="BACKGROUND" value="F7C2BD" />
-        <option name="ERROR_STRIPE_COLOR" value="F7C2BD" />
+        <option name="BACKGROUND" value="FAD2CE" />
+        <option name="ERROR_STRIPE_COLOR" value="FAD2CE" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
-        <option name="BACKGROUND" value="CECECE" />
-        <option name="ERROR_STRIPE_COLOR" value="CECECE" />
+        <option name="BACKGROUND" value="DADADA" />
+        <option name="ERROR_STRIPE_COLOR" value="DADADA" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
       <value>
-        <option name="BACKGROUND" value="C6DDBD" />
-        <option name="ERROR_STRIPE_COLOR" value="C6DDBD" />
+        <option name="BACKGROUND" value="D1E3C9" />
+        <option name="ERROR_STRIPE_COLOR" value="D1E3C9" />
       </value>
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="B3CBFA" />
-        <option name="ERROR_STRIPE_COLOR" value="B3CBFA" />
+        <option name="BACKGROUND" value="C3D5F9" />
+        <option name="ERROR_STRIPE_COLOR" value="C3D5F9" />
       </value>
     </option>
     <option name="DOCKER_BRACKETS">
@@ -810,22 +812,21 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f7f0d2" />
+        <option name="BACKGROUND" value="#ffda99" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="AB8A00" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="FOREGROUND" value="949494" />
+        <option name="BACKGROUND" value="FCFCFC" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -847,7 +848,7 @@
       <value>
         <option name="FOREGROUND" value="000000" />
         <option name="BACKGROUND" value="E0E0E0" />
-        <option name="EFFECT_COLOR" value="A0A0A0" />
+        <option name="EFFECT_COLOR" value="949494" />
       </value>
     </option>
     <option name="GRID_NULL_VALUE">
@@ -858,7 +859,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="0088AB" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -869,7 +870,7 @@
     </option>
     <option name="HTML_CODE">
       <value>
-        <option name="FOREGROUND" value="383838" />
+        <option name="FOREGROUND" value="202020" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -899,7 +900,7 @@
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -910,10 +911,10 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f7f0d2" />
-        <option name="ERROR_STRIPE_COLOR" value="EEE1AD" />
+        <option name="BACKGROUND" value="F1E7BC" />
+        <option name="ERROR_STRIPE_COLOR" value="F1E7BC" />
         <option name="EFFECT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" value="EEE1AD" />
+        <option name="EFFECT_COLOR" value="DBC363" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
@@ -926,7 +927,7 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="FOREGROUND" value="383838" />
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="BACKGROUND" value="FCFCFC" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
       </value>
     </option>
@@ -934,7 +935,7 @@
       <value>
         <option name="FOREGROUND" value="707070" />
         <option name="BACKGROUND" value="EBEBEB" />
-        <option name="EFFECT_COLOR" value="A0A0A0" />
+        <option name="EFFECT_COLOR" value="949494" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1284,7 +1285,7 @@
     <option name="LESS_INJECTED_CODE">
       <value>
         <option name="FOREGROUND" value="383838" />
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="BACKGROUND" value="FCFCFC" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
       </value>
     </option>
@@ -1360,7 +1361,7 @@
     <option name="LESS_URL">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1392,7 +1393,7 @@
     </option>
     <option name="LOG_DEBUG_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
@@ -1403,7 +1404,7 @@
     </option>
     <option name="LOG_EXPIRED_ENTRY">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
       </value>
     </option>
     <option name="LOG_INFO_OUTPUT">
@@ -1423,23 +1424,22 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f7f0d2" />
+        <option name="BACKGROUND" value="F1E7BC" />
         <option name="FOREGROUND" value="000000" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="EEE1AD" />
+        <option name="EFFECT_COLOR" value="DBC363" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="c7f5e8" />
-        <option name="EFFECT_COLOR" value="00855F" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
       </value>
     </option>
     <option name="REGEXP.BAD_CHARACTER">
@@ -1539,38 +1539,9 @@
     </option>
     <option name="REGEXP.REDUNDANT_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
-        <option name="EFFECT_COLOR" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
+        <option name="EFFECT_COLOR" value="949494" />
         <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="00855F" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="9C5800" />
-        <option name="FONT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_BLOCK_TAG">
-      <value>
-        <option name="FOREGROUND" value="300073" />
-        <option name="FONT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="217303" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="6B3E00" />
-        <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_MVC_ACTION">
@@ -1603,26 +1574,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
-      <value>
-        <option name="BACKGROUND" value="F8F8F8" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG">
-      <value>
-        <option name="FOREGROUND" value="300073" />
-        <option name="FONT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
       <value>
-        <option name="EFFECT_COLOR" value="6B3E00" />
-      </value>
-    </option>
-    <option name="ReSharper.ASP_NET_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="300073" />
-        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="ReSharper.BRACE_OUTLINE">
@@ -1632,9 +1586,9 @@
     </option>
     <option name="ReSharper.CONTEXT_EXIT">
       <value>
-        <option name="BACKGROUND" value="EFCDEE" />
+        <option name="BACKGROUND" value="F5D8F4" />
         <option name="EFFECT_COLOR" value="941290" />
-        <option name="ERROR_STRIPE_COLOR" value="EFCDEE" />
+        <option name="ERROR_STRIPE_COLOR" value="F5D8F4" />
       </value>
     </option>
     <option name="ReSharper.DELEGATE_IDENTIFIER">
@@ -1681,7 +1635,7 @@
     </option>
     <option name="ReSharper.INACTIVE_PREPROCESSOR_BRANCH">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
       </value>
     </option>
     <option name="ReSharper.JSDOC_KEYWORD">
@@ -1761,14 +1715,14 @@
     </option>
     <option name="ReSharper.LATE_BOUND_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="BACKGROUND" value="EFD6B5" />
+        <option name="BACKGROUND" value="F3DDC3" />
       </value>
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
@@ -1791,7 +1745,7 @@
     <option name="ReSharper.PATH_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1826,7 +1780,7 @@
     <option name="ReSharper.ST_HYPERLINK">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1839,7 +1793,7 @@
     <option name="ReSharper.ST_PATH">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2052,7 +2006,7 @@
     <option name="SASS_URL">
       <value>
         <option name="FOREGROUND" value="0F54D6" />
-        <option name="EFFECT_COLOR" value="0F54D6" />
+        <option name="EFFECT_COLOR" value="80AAFF" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2064,8 +2018,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="B0E2D3" />
-        <option name="ERROR_STRIPE_COLOR" value="B0E2D3" />
+        <option name="BACKGROUND" value="B9EADC" />
+        <option name="ERROR_STRIPE_COLOR" value="B9EADC" />
       </value>
     </option>
     <option name="SQL_BAD_CHARACTER">
@@ -2118,7 +2072,7 @@
       <value>
         <option name="FOREGROUND" value="383838" />
         <option name="BACKGROUND" value="E0E0E0" />
-        <option name="EFFECT_COLOR" value="A0A0A0" />
+        <option name="EFFECT_COLOR" value="949494" />
       </value>
     </option>
     <option name="SQL_KEYWORD">
@@ -2219,16 +2173,16 @@
     </option>
     <option name="TDIFF_FUZZY_MATCHED">
       <value>
-        <option name="FOREGROUND" value="A0A0A0" />
+        <option name="FOREGROUND" value="949494" />
         <option name="BACKGROUND" value="E0E0E0" />
         <option name="EFFECT_COLOR" value="C1C1C1" />
       </value>
     </option>
     <option name="TDIFF_FUZZY_MISMATCHED">
       <value>
-        <option name="BACKGROUND" value="AFDEEA" />
+        <option name="BACKGROUND" value="BAE5EF" />
         <option name="EFFECT_COLOR" value="0088AB" />
-        <option name="ERROR_STRIPE_COLOR" value="AFDEEA" />
+        <option name="ERROR_STRIPE_COLOR" value="BAE5EF" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -2245,8 +2199,8 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="EEE1AD" />
-        <option name="ERROR_STRIPE_COLOR" value="EEE1AD" />
+        <option name="BACKGROUND" value="F1E7BC" />
+        <option name="ERROR_STRIPE_COLOR" value="F1E7BC" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
@@ -2410,7 +2364,7 @@
       <value>
         <option name="FOREGROUND" value="6B3E00" />
         <option name="BACKGROUND" value="E0E0E0" />
-        <option name="EFFECT_COLOR" value="A0A0A0" />
+        <option name="EFFECT_COLOR" value="949494" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2455,7 +2409,7 @@
         <option name="BACKGROUND" value="ffeae8" />
         <option name="FOREGROUND" value="D91400" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="F7C2BD" />
+        <option name="EFFECT_COLOR" value="FAD2CE" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -2468,16 +2422,16 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="f7f0d2" />
-        <option name="ERROR_STRIPE_COLOR" value="EEE1AD" />
+        <option name="BACKGROUND" value="F1E7BC" />
+        <option name="ERROR_STRIPE_COLOR" value="F1E7BC" />
         <option name="EFFECT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" value="EEE1AD" />
+        <option name="EFFECT_COLOR" value="DBC363" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="EFCDEE" />
-        <option name="ERROR_STRIPE_COLOR" value="EFCDEE" />
+        <option name="BACKGROUND" value="F5D8F4" />
+        <option name="ERROR_STRIPE_COLOR" value="F5D8F4" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
@@ -2595,9 +2549,16 @@
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
-    <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT">
       <value>
-        <option name="FOREGROUND" value="00855F" />
+        <option name="FOREGROUND" value="300073" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="0088AB" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
   </attributes>
