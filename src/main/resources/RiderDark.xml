@@ -394,7 +394,7 @@
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="EFFECT_COLOR" value="FF6254" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
@@ -444,7 +444,7 @@
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -589,10 +589,10 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="EFFECT_COLOR" value="FF6254" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -700,8 +700,8 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="85C46C" />
+        <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -809,7 +809,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="#704B00" />
+        <option name="BACKGROUND" value="#6B4C1B" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -908,10 +908,9 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4D4211" />
-        <option name="ERROR_STRIPE_COLOR" value="4D4211" />
+        <option name="BACKGROUND" value="232E46" />
+        <option name="ERROR_STRIPE_COLOR" value="293A5F" />
         <option name="EFFECT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" value="A3891E" />
       </value>
     </option>
     <option name="INFO_ATTRIBUTES">
@@ -1039,7 +1038,7 @@
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="EFFECT_COLOR" value="FF6254" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
@@ -1132,7 +1131,7 @@
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1168,7 +1167,7 @@
     </option>
     <option name="JSON.INVALID_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="EFFECT_COLOR" value="FF6254" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
@@ -1205,7 +1204,7 @@
     </option>
     <option name="JSON.VALID_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1428,9 +1427,8 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="F0F0F0" />
-        <option name="BACKGROUND" value="4D4211" />
+        <option name="BACKGROUND" value="406AC2" />
         <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="A3891E" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -1501,7 +1499,7 @@
     </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="EFFECT_COLOR" value="FF6254" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
@@ -1620,13 +1618,13 @@
     </option>
     <option name="ReSharper.FORMAT_STRING_ITEM">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="C191FF" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="ReSharper.FORMAT_STRING_ITEM_2">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="C191FF" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -1724,8 +1722,7 @@
     </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="BACKGROUND" value="4E361E" />
+        <option name="BACKGROUND" value="472B63" />
       </value>
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
@@ -1770,8 +1767,8 @@
     </option>
     <option name="ReSharper.STRING_ESCAPE_CHARACTER_2">
       <value>
-        <option name="FOREGROUND" value="855934" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="66B9CC" />
+        <option name="FONT_TYPE" value="0" />
       </value>
     </option>
     <option name="ReSharper.STRUCT_IDENTIFIER">
@@ -2314,7 +2311,7 @@
     </option>
     <option name="TS.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="EFFECT_COLOR" value="FF6254" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
@@ -2408,7 +2405,7 @@
     </option>
     <option name="TS.VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="FFCE91" />
+        <option name="FOREGROUND" value="85C46C" />
         <option name="FONT_TYPE" value="0" />
       </value>
     </option>
@@ -2430,10 +2427,9 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4D4211" />
-        <option name="ERROR_STRIPE_COLOR" value="4D4211" />
+        <option name="BACKGROUND" value="232E46" />
+        <option name="ERROR_STRIPE_COLOR" value="293A5F" />
         <option name="EFFECT_TYPE" value="0" />
-        <option name="EFFECT_COLOR" value="A3891E" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
