@@ -542,11 +542,17 @@
       "separatorColor": "#484848"
     },
 
+    "TitlePane": {
+      "background": "#282828",
+      "inactiveBackground": "#383838",
+      "infoForeground": "#A8A8A8",
+      "inactiveInfoForeground": "#666666"
+    },
+
     "DebuggerTabs.selectedBackground": "#242424",
 
     "Window.border": "0,0,0,0,58585833",
     "DebuggerPopup.borderColor": "#585858",
-    "TitlePane.background": "#383838",
     "Separator.separatorColor": "#303030",
     "SidePanel.background": "#303030",
     "OptionPane.background": "#383838",
