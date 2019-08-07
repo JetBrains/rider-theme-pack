@@ -125,7 +125,7 @@
     <option name="CODE_VISION_DEFAULT">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="909090" />
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="CODE_VISION_HOVERED">
@@ -930,9 +930,8 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="BACKGROUND" value="343434" />
-        <option name="EFFECT_COLOR" value="787878" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="909090" />
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT_CURRENT">
@@ -1458,7 +1457,7 @@
     <option name="REGEXP.BRACKETS">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="A65426" />
+        <option name="FOREGROUND" value="FF9259" />
       </value>
     </option>
     <option name="REGEXP.CHARACTER">
@@ -1508,7 +1507,7 @@
     <option name="REGEXP.META">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="406AC2" />
+        <option name="FOREGROUND" value="6C95EB" />
       </value>
     </option>
     <option name="REGEXP.NAME">
@@ -1524,7 +1523,7 @@
     <option name="REGEXP.PARENTHS">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="487D34" />
+        <option name="FOREGROUND" value="66C3CC" />
       </value>
     </option>
     <option name="REGEXP.QUANTIFIER">
@@ -1630,7 +1629,7 @@
     <option name="ReSharper.EVENT_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="C191FF" />
+        <option name="FOREGROUND" value="ED94C0" />
       </value>
     </option>
     <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
