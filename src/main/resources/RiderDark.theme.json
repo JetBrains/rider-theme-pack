@@ -302,8 +302,8 @@
       "nonEditableBackground": "#303030",
       "ArrowButton.background": "#303030",
       "ArrowButton.nonEditableBackground": "#303030",
-      "ArrowButton.iconColor": "737376",
-      "ArrowButton.disabledIconColor": "C6C6CC66"
+      "ArrowButton.iconColor": "A5A5AB",
+      "ArrowButton.disabledIconColor": "A5A5AB66"
     },
 
     "ComboBoxButton": {
