@@ -9,7 +9,7 @@
       "//background": "#FF0000",
       "//foreground": "#00FF00",
       "//borderColor": "#FF00FF",
-      "selectionBackground": "#b8d9ff",
+      "selectionBackground": "#99C8FF",
       "selectionForeground": "#000000",
       "selectionInactiveBackground": "#d5dff0",
       "selectionBackgroundInactive": "#d5dff0",
@@ -157,8 +157,8 @@
       "default.foreground": "#FFFFFF",
       "//default.startBorderColor": "#427aba",
       "//default.endBorderColor": "#427aba",
-      "//default.startBackground": "#b8d9ff",
-      "//default.endBackground": "#b8d9ff",
+      "//default.startBackground": "#99C8FF",
+      "//default.endBackground": "#99C8FF",
       "shadowWidth": 0
     },
 
@@ -177,7 +177,7 @@
     "List": {
       "background": "#F8F8F8",
       "foreground": "#333338",
-      "selectionBackground": "#b8d9ff",
+      "selectionBackground": "#99C8FF",
       "selectionForeground": "#000000"
     },
 
@@ -193,7 +193,7 @@
 
     "ParameterInfo": {
       "background": "#F0F0F0",
-      "currentOverloadBackground": "#b8d9ff",
+      "currentOverloadBackground": "#99C8FF",
       "borderColor": "#FFFFFF",
       "foreground": "#333338",
       "currentParameterForeground": "#000000",
@@ -204,7 +204,7 @@
 
     "Menu": {
       "background": "#E8E8E8",
-      "borderColor": "#D0D0D0",
+      "borderColor": "#B0B0B0",
       "foreground": "#333338",
       "selectionForeground": "#000000",
       "separatorColor": "#D0D0D0",
@@ -223,7 +223,7 @@
 
     "Popup": {
       "paintBorder": true,
-      "borderColor": "#D0D0D0",
+      "borderColor": "#B0B0B0",
       "inactiveBorderColor": "#D0D0D0",
       "separatorColor": "#D0D0D0",
       "separatorForeground": "#999999",
@@ -253,7 +253,7 @@
     "MenuItem": {
       "background": "#E8E8E8",
       "foreground": "#333338",
-      "selectionBackground": "#b8d9ff",
+      "selectionBackground": "#99C8FF",
       "selectionForeground": "#000000",
       "acceleratorForeground": "#666666",
       "acceleratorSelectionForeground": "#000000",
@@ -263,8 +263,8 @@
     "CheckBoxMenuItem": {
       "background": "#E8E8E8",
       "foreground": "#333338",
-      "selectionBackground": "#b8d9ff",
-      "selectionForeground": "#333338",
+      "selectionBackground": "#99C8FF",
+      "selectionForeground": "#000000",
       "acceleratorForeground": "#666666",
       "acceleratorSelectionForeground": "#000000",
       "disabledForeground": "#a7a7af"
@@ -273,8 +273,8 @@
     "RadioButtonMenuItem": {
       "background": "#E8E8E8",
       "foreground": "#333338",
-      "selectionBackground": "#b8d9ff",
-      "selectionForeground": "#333338",
+      "selectionBackground": "#99C8FF",
+      "selectionForeground": "#000000",
       "acceleratorForeground": "#666666",
       "acceleratorSelectionForeground": "#000000",
       "disabledForeground": "#a7a7af"
@@ -363,7 +363,7 @@
 
     "Plugins": {
       "background": "#F8F8F8",
-      "lightSelectionBackground": "#b8d9ff",
+      "lightSelectionBackground": "#99C8FF",
       "SectionHeader": {
         "background": "#E8E8E8",
         "foreground": "#333338"
@@ -449,7 +449,7 @@
       "stripeColor": "#FFFFFF",
       "gridColor": "#E8E8E8",
       "sortIconColor": "#5a5a66cc",
-      "lightSelectionBackground": "#b8d9ff",
+      "lightSelectionBackground": "#99C8FF",
       "lightSelectionForeground": "#000000",
       "lightSelectionInactiveBackground": "#d5dff0",
       "lightSelectionInactiveForeground": "#000000"
@@ -533,7 +533,7 @@
       "groupIconBorderColor": "#000080",
       "Projects": {
         "background": "#F8F8F8",
-        "selectionBackground": "#b8d9ff",
+        "selectionBackground": "#99C8FF",
         "selectionInactiveBackground": "#d5dff0"
       }
     },
