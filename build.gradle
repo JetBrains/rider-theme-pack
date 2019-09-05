@@ -19,7 +19,7 @@ dependencies {
 intellij {
     type = 'RD'
     //version '2019.1-SNAPSHOT'
-    version '2019.2-SNAPSHOT'
+    version '2019.3-SNAPSHOT'
     pluginName 'Rider UI Theme Pack'
     // intellijRepo 'http://jetbrains-com-mirror.labs.intellij.net/intellij-repository'
     // intellijRepo 'https://www.jetbrains.com/intellij-repository'
