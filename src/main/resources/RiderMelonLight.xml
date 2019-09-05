@@ -16,7 +16,7 @@
     <option name="ANNOTATIONS_COLOR" value="707070" />
     <option name="BORDER_LINES_COLOR" value="FBFBFB" />
     <option name="CARET_COLOR" value="000000" />
-    <option name="CARET_ROW_COLOR" value="F4F8F8" />
+    <option name="CARET_ROW_COLOR" value="FCFCE0" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
     <option name="DELETED_LINES_COLOR" value="FF5C5C" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
@@ -31,15 +31,15 @@
     <option name="HTML_TAG_TREE_LEVEL4" value="ff" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
     <option name="INDENT_GUIDE" value="E0E0E0" />
-    <option name="INFORMATION_HINT" value="F8F8F8" />
+    <option name="INFORMATION_HINT" value="FBFBFB" />
     <option name="LINE_NUMBERS_COLOR" value="#888888" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#888888" />
     <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
     <option name="MODIFIED_LINES_COLOR" value="C0DAF9" />
     <option name="NOTIFICATION_BACKGROUND" value="faecdc" />
     <option name="QUESTION_HINT" value="faecdc" />
-    <option name="READONLY_BACKGROUND" value="F8F8F8" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="F8F8F8" />
+    <option name="READONLY_BACKGROUND" value="FBFBFB" />
+    <option name="READONLY_FRAGMENT_BACKGROUND" value="FBFBFB" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="F28E46" />
     <option name="RIGHT_MARGIN_COLOR" value="E0E0E0" />
     <option name="SELECTED_INDENT_GUIDE" value="C1C1C1" />
@@ -459,13 +459,13 @@
     <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="000000" />
+        <option name="FOREGROUND" value="949494" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="383838" />
+        <option name="FOREGROUND" value="D1A165" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -817,7 +817,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="BACKGROUND" value="FBFBFB" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
         <option name="FOREGROUND" value="949494" />
       </value>
@@ -924,7 +924,7 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="BACKGROUND" value="FBFBFB" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
         <option name="FOREGROUND" value="383838" />
       </value>
@@ -1281,7 +1281,7 @@
     </option>
     <option name="LESS_INJECTED_CODE">
       <value>
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="BACKGROUND" value="FBFBFB" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
         <option name="FOREGROUND" value="383838" />
       </value>
@@ -1578,7 +1578,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
       <value>
-        <option name="BACKGROUND" value="F8F8F8" />
+        <option name="BACKGROUND" value="FBFBFB" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG">
@@ -1619,7 +1619,7 @@
     <option name="ReSharper.DELEGATE_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="6B2FBA" />
+        <option name="FOREGROUND" value="8C6C41" />
       </value>
     </option>
     <option name="ReSharper.ENUM_IDENTIFIER">
@@ -1741,7 +1741,7 @@
     <option name="ReSharper.LATE_BOUND_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="1" />
-        <option name="FOREGROUND" value="7EC765" />
+        <option name="FOREGROUND" value="73B55C" />
       </value>
     </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
