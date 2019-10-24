@@ -328,18 +328,18 @@
       "borderColor": "#354052",
       "foreground": "#c4daff",
 
-      "errorBackground": "#592624",
-      "errorBorderColor": "#73302e",
-      "errorForeground": "#ff9794",
+      "errorBackground": "$validationErrorBackground",
+      "errorBorderColor": "$validationErrorBorder",
+      "errorForeground": "$validationErrorForeground",
 
       "ToolWindow": {
-        "errorBackground": "#592624",
-        "errorBorderColor": "#73302e",
-        "errorForeground": "#ff9794",
+        "errorBackground": "$validationErrorBackground",
+        "errorBorderColor": "$validationErrorBorder",
+        "errorForeground": "$validationErrorForeground",
 
-        "warningBackground": "#523911",
-        "warningBorderColor": "#704f17",
-        "warningForeground": "#edba68",
+        "warningBackground": "$validationWarningBackground",
+        "warningBorderColor": "$validationWarningBorder",
+        "warningForeground": "$validationWarningForeground",
 
         "informativeBackground": "#15394d",
         "informativeBorderColor": "#1b4a63",
@@ -354,10 +354,10 @@
     },
 
     "ValidationTooltip": {
-      "errorBackground": "#592624",
-      "errorBorderColor": "#73302e",
-      "warningBackground": "#523911",
-      "warningBorderColor": "#704f17"
+      "errorBackground": "$validationErrorBackground",
+      "errorBorderColor": "$validationErrorBorder",
+      "warningBackground": "$validationWarningBackground",
+      "warningBorderColor": "$validationWarningBorder"
     },
 
     "Link": {
@@ -593,7 +593,13 @@
     "$textInputBackground": "#282828",
     "$linkRegular": "#6888C9",
     "$linkAccented": "#6895ED",
-    "$buttonFace": "#424447"
+    "$buttonFace": "#424447",
+    "$validationErrorBackground": "#592624",
+    "$validationErrorBorder": "#73302e",
+    "$validationErrorForeground": "#ff9794",
+    "$validationWarningBackground": "#523911",
+    "$validationWarningBorder": "#704f17",
+    "$validationWarningForeground": "#edba68"
   },
 
   "icons": {
