@@ -414,7 +414,7 @@
       "foreground": "$regularForeground",
       "infoForeground": "$regularForeground",
       "Actions.background": "$panelBackground",
-      "Actions.infoForeg$validationErrorBorderround": "$regularForeground"
+      "Actions.infoForeground": "$regularForeground"
     },
 
     "TextField": {
