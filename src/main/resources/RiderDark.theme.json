@@ -596,18 +596,18 @@
     "$linkRegular": "#6888C9",
     "$linkAccented": "#6895ED",
     "$buttonFace": "#424447",
-    "$notificationBackground": "#333c4d",
-    "$notificationBorder": "#354052",
-    "$notificationForeground": "#c4daff",
+    "$notificationBackground": "#333C4D",
+    "$notificationBorder": "#4B566B",
+    "$notificationForeground": "#C4DAFF",
     "$validationErrorBackground": "#592624",
-    "$validationErrorBorder": "#73302e",
-    "$validationErrorForeground": "#ff9794",
+    "$validationErrorBorder": "#753937",
+    "$validationErrorForeground": "#FF9794",
     "$validationWarningBackground": "#523911",
-    "$validationWarningBorder": "#704f17",
-    "$validationWarningForeground": "#edba68",
-    "$validationInformativeBackground": "#15394d",
-    "$validationInformativeBorder": "#1b4a63",
-    "$validationInformativeForeground": "#61bced"
+    "$validationWarningBorder": "#6C4F20",
+    "$validationWarningForeground": "#EDBA68",
+    "$validationInformativeBackground": "#154D4D",
+    "$validationInformativeBorder": "#226868",
+    "$validationInformativeForeground": "#61EDED"
   },
 
   "icons": {
