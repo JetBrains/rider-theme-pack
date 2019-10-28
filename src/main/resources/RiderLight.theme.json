@@ -58,15 +58,15 @@
     },
 
     "SearchMatch": {
-      "startBackground": "#e6bd1b",
-      "endBackground": "#e6bd1b"
+      "startBackground": "$speedSearchMatchBackground",
+      "endBackground": "$speedSearchMatchBackground"
     },
 
     "SpeedSearch": {
-      "background": "#f7f0d2",
-      "borderColor": "#FFFFFF80",
+      "background": "$speedSearchBackground",
+      "borderColor": "$speedSearchBackground",
       "foreground": "$regularForeground",
-      "errorForeground": "#d91400"
+      "errorForeground": "$validationErrorForeground"
     },
 
     "DefaultTabs": {
@@ -608,7 +608,9 @@
     "$validationWarningForeground": "#A87300",
     "$validationInformativeBackground": "#DCF0E1",
     "$validationInformativeBorder": "#C0DFC8",
-    "$validationInformativeForeground": "#378C49"
+    "$validationInformativeForeground": "#378C49",
+    "$speedSearchBackground": "#F7E8A8",
+    "$speedSearchMatchBackground": "#FAE080"
   },
 
   "icons": {
