@@ -325,9 +325,9 @@
     },
 
     "Notification": {
-      "background": "#f2f7ff",
-      "borderColor": "#f7ffff",
-      "foreground": "#2c3f61",
+      "background": "$notificationBackground",
+      "borderColor": "$notificationBorder",
+      "foreground": "$notificationForeground",
 
       "errorBackground": "$validationErrorBackground",
       "errorBorderColor": "$validationErrorBorder",
@@ -342,14 +342,14 @@
         "warningBorderColor": "$validationWarningBorder",
         "warningForeground": "$validationWarningForeground",
 
-        "informativeBackground": "#DCF0E1",
-        "informativeBorderColor": "#E6F5E9",
-        "informativeForeground": "#378C49"
+        "informativeBackground": "$validationInformativeBackground",
+        "informativeBorderColor": "$validationInformativeBorder",
+        "informativeForeground": "$validationInformativeForeground"
       },
 
       "MoreButton": {
-        "background": "#f2f7ff",
-        "innerBorderColor": "#f2f7ff",
+        "background": "$notificationBackground",
+        "innerBorderColor": "$notificationBackground",
         "foreground": "$linkRegular"
       }
     },
@@ -595,12 +595,18 @@
     "$linkRegular": "#5c85cc",
     "$linkAccented": "#1295DB",
     "$buttonFace": "#F8F8F8",
+    "$notificationBackground": "#f2f7ff",
+    "$notificationBorder": "#f7ffff",
+    "$notificationForeground": "#2c3f61",
     "$validationErrorBackground": "#FFE3E3",
     "$validationErrorBorder": "#FFEDED",
     "$validationErrorForeground": "#B5494F",
     "$validationWarningBackground": "#FAEED5",
     "$validationWarningBorder": "#FFF7E6",
-    "$validationWarningForeground": "#A87300"
+    "$validationWarningForeground": "#A87300",
+    "$validationInformativeBackground": "#DCF0E1",
+    "$validationInformativeBorder": "#E6F5E9",
+    "$validationInformativeForeground": "#378C49"
   },
 
   "icons": {

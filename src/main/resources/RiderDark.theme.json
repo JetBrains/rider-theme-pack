@@ -324,9 +324,9 @@
     },
 
     "Notification": {
-      "background": "#333c4d",
-      "borderColor": "#354052",
-      "foreground": "#c4daff",
+      "background": "$notificationBackground",
+      "borderColor": "$notificationBorder",
+      "foreground": "$notificationForeground",
 
       "errorBackground": "$validationErrorBackground",
       "errorBorderColor": "$validationErrorBorder",
@@ -341,14 +341,14 @@
         "warningBorderColor": "$validationWarningBorder",
         "warningForeground": "$validationWarningForeground",
 
-        "informativeBackground": "#15394d",
-        "informativeBorderColor": "#1b4a63",
-        "informativeForeground": "#61bced"
+        "informativeBackground": "$validationInformativeBackground",
+        "informativeBorderColor": "$validationInformativeBorder",
+        "informativeForeground": "$validationInformativeForeground"
       },
 
       "MoreButton": {
-        "background": "#333c4d",
-        "innerBorderColor": "#333c4d",
+        "background": "$notificationBackground",
+        "innerBorderColor": "$notificationBackground",
         "foreground": "$linkRegular"
       }
     },
@@ -414,7 +414,7 @@
       "foreground": "$regularForeground",
       "infoForeground": "$regularForeground",
       "Actions.background": "$panelBackground",
-      "Actions.infoForeground": "$regularForeground"
+      "Actions.infoForeg$validationErrorBorderround": "$regularForeground"
     },
 
     "TextField": {
@@ -594,12 +594,18 @@
     "$linkRegular": "#6888C9",
     "$linkAccented": "#6895ED",
     "$buttonFace": "#424447",
+    "$notificationBackground": "#333c4d",
+    "$notificationBorder": "#354052",
+    "$notificationForeground": "#c4daff",
     "$validationErrorBackground": "#592624",
     "$validationErrorBorder": "#73302e",
     "$validationErrorForeground": "#ff9794",
     "$validationWarningBackground": "#523911",
     "$validationWarningBorder": "#704f17",
-    "$validationWarningForeground": "#edba68"
+    "$validationWarningForeground": "#edba68",
+    "$validationInformativeBackground": "#15394d",
+    "$validationInformativeBorder": "#1b4a63",
+    "$validationInformativeForeground": "#61bced"
   },
 
   "icons": {
