@@ -80,9 +80,10 @@
     "EditorTabs": {
       "borderColor": "$border",
       "background": "$panelBackground",
-      "underlineColor": "#5397E6",
-      "selectedBackground": "$textInputBackground",
-      "underlinedTabBackground": "$textInputBackground"
+      "underlineColor": "$selectionBackground",
+      "inactiveUnderlineColor": "$selectionBackgroundInactive",
+      "underlineHeight": 3,
+      "underlinedTabBackground": "$toolwindowBackground"
     },
 
     "ToolWindow": {
