@@ -467,7 +467,9 @@
     "TableHeader": {
       "background": "$panelBackground",
       "foreground": "$mutedForeground",
-      "cellBorder": "1,5,2,5"
+      "cellBorder": "0,1,1,1",
+      "separatorColor": "$toolwindowBackground",
+      "bottomSeparatorColor": "$panelBackground"
     },
 
     "ProgressBar": {
