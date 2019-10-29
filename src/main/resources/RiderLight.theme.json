@@ -88,20 +88,20 @@
 
     "ToolWindow": {
       "Button": {
-        "selectedBackground": "#D0D0D0",
+        "selectedBackground": "$selectionBackgroundInactive",
         "selectedForeground": "$regularForeground",
-        "hoverBackground": "#F8F8F8"
+        "hoverBackground": "$toolwindowBackground"
       },
       "Header": {
-        "borderColor": "#CBCBCB",
+        "borderColor": "$border",
         "background": "$panelBackground",
-        "inactiveBackground": "#E6E6E6"
+        "inactiveBackground": "$panelBackground"
       },
       "HeaderTab": {
-        "selectedBackground": "#d0d0d0",
-        "selectedInactiveBackground": "#D4D4D4",
-        "hoverBackground": "#F8F8F8",
-        "hoverInactiveBackground": "#F8F8F8"
+        "selectedBackground": "$panelBackground",
+        "selectedInactiveBackground": "$panelBackground",
+        "hoverBackground": "$toolwindowBackground",
+        "hoverInactiveBackground": "$toolwindowBackground"
       }
     },
 
