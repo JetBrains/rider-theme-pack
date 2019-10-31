@@ -241,7 +241,7 @@
       },
       "Toolbar": {
         "background": "$panelBackground",
-        "borderColor": "#F8F8F8"
+        "borderColor": "$toolwindowBackground"
       },
       "Advertiser": {
         "background": "$panelBackground",
@@ -292,8 +292,8 @@
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
       "infoForeground": "$mutedForeground",
-      "matchForeground": "#9C5800",
-      "matchSelectionForeground": "#9C5800"
+      "matchForeground": "$searchMatchForeground",
+      "matchSelectionForeground": "$searchMatchForeground"
     },
 
     "Label": {
@@ -310,8 +310,8 @@
       "nonEditableBackground": "$buttonFace",
       "ArrowButton.background": "$buttonFace",
       "ArrowButton.nonEditableBackground": "$buttonFace",
-      "ArrowButton.iconColor": "#82828f",
-      "ArrowButton.disabledIconColor": "82828f66"
+      "ArrowButton.iconColor": "$iconGrayRegular",
+      "ArrowButton.disabledIconColor": "$iconGrayDisabled"
     },
 
     "ComboBoxButton": {
@@ -377,22 +377,22 @@
         "foreground": "$regularForeground"
       },
       "Tab": {
-        "selectedBackground": "#FFFFFF",
+        "selectedBackground": "$toolwindowBackground",
         "selectedForeground": "$regularForeground",
-        "hoverBackground": "#F8F8F8"
+        "hoverBackground": "$textInputBackground"
       },
       "SearchField": {
         "background": "$textInputBackground",
         "borderColor": "$panelBackground"
       },
       "Button": {
-        "installFillBackground": "#FFFFFF",
+        "installFillBackground": "$validationWarningBackground",
         "installFillForeground": "$regularForeground",
-        "installBackground": "#FFFFFF",
-        "installBorderColor": "#BFBFBF",
+        "installBackground": "$textInputBackground",
+        "installBorderColor": "$border",
         "installForeground": "$regularForeground",
-        "updateBackground": "#FFFFFF",
-        "updateBorderColor": "#BFBFBF",
+        "updateBackground": "$notificationBackground",
+        "updateBorderColor": "$border",
         "updateForeground": "$regularForeground"
       },
       "tagBackground": "$panelBackground",
@@ -403,10 +403,10 @@
       "borderColor": "$controlBorder",
       "focusedBorderColor": "$focusedBorder",
       "disabledBorderColor": "$controlBorder",
-      "errorFocusColor": "#DB5860A0",
-      "inactiveErrorFocusColor": "#DB586060",
-      "warningFocusColor": "#DE971FA0",
-      "inactiveWarningFocusColor": "#DE971F60",
+      "errorFocusColor": "$validationErrorFocus",
+      "inactiveErrorFocusColor": "$validationErrorFocusInactive",
+      "warningFocusColor": "$validationWarningFocus",
+      "inactiveWarningFocusColor": "$validationWarningFocusInactive",
       "iconColor": "$mutedForeground",
       "hoverIconColor": "$mutedForeground"
     },
@@ -491,7 +491,7 @@
     },
 
     "Counter": {
-      "background": "#82828Fb2",
+      "background": "$iconGrayMuted",
       "foreground": "$panelBackground"
     },
 
@@ -523,10 +523,11 @@
 
     "TabbedPane": {
       "background": "$panelBackground",
-      "underlineColor": "#5397e6",
-      "disabledUnderlineColor": "#CCCCCC",
+      "underlineColor": "$selectionBackground",
+      "disabledUnderlineColor": "$selectionBackgroundInactive",
       "contentAreaColor": "$border",
-      "hoverColor": "#D0D0D0"
+      "hoverColor": "$textInputBackground",
+      "tabSelectionHeight": "3"
     },
 
     "VersionControl": {
@@ -556,7 +557,7 @@
     },
 
     "TitlePane": {
-      "background": "#FFFFFF",
+      "background": "$titleBackground",
       "inactiveBackground": "$panelBackground",
       "infoForeground": "$mutedForeground",
       "inactiveInfoForeground": "$disabledForeground"
@@ -582,6 +583,7 @@
   },
 
   "colors": {
+    "$titleBackground": "#FFFFFF",
     "$selectionBackground": "#99C8FF",
     "$selectionBackgroundInactive": "#c8cacc",
     "$selectionForeground": "#000000",
@@ -606,14 +608,22 @@
     "$validationErrorBackground": "#FFE3E3",
     "$validationErrorBorder": "#F3C9CA",
     "$validationErrorForeground": "#B5494F",
+    "$validationErrorFocus": "#DB5860A0",
+    "$validationErrorFocusInactive": "#DB586060",
     "$validationWarningBackground": "#FAEED5",
     "$validationWarningBorder": "#ECD9B1",
     "$validationWarningForeground": "#A87300",
+    "$validationWarningFocus": "#DE971FA0",
+    "$validationWarningFocusInactive": "#DE971F60",
     "$validationInformativeBackground": "#DCF0E1",
     "$validationInformativeBorder": "#C0DFC8",
     "$validationInformativeForeground": "#378C49",
     "$speedSearchBackground": "#F7E8A8",
-    "$speedSearchMatchBackground": "#FAE080"
+    "$speedSearchMatchBackground": "#FAE080",
+    "$searchMatchForeground": "#9C7A00",
+    "$iconGrayRegular": "#82828F",
+    "$iconGrayMuted": "#82828FB2",
+    "$iconGrayDisabled": "#82828f66"
   },
 
   "icons": {
