@@ -14,16 +14,16 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="D1E3C9" />
     <option name="ANNOTATIONS_COLOR" value="707070" />
-    <option name="BORDER_LINES_COLOR" value="FBFBFB" />
+    <option name="BORDER_LINES_COLOR" value="FFFFFF" />
     <option name="CARET_COLOR" value="000000" />
     <option name="CARET_ROW_COLOR" value="FCFCE0" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
     <option name="DELETED_LINES_COLOR" value="FF5C5C" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
-    <option name="DOCUMENTATION_COLOR" value="FBFBFB" />
+    <option name="DOCUMENTATION_COLOR" value="FFFFFF" />
     <option name="ERROR_HINT" value="ffeae8" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="E0E0E0" />
-    <option name="GUTTER_BACKGROUND" value="FBFBFB" />
+    <option name="GUTTER_BACKGROUND" value="FFFFFF" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
     <option name="HTML_TAG_TREE_LEVEL1" value="ffff00" />
     <option name="HTML_TAG_TREE_LEVEL2" value="ff00" />
