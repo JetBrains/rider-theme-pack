@@ -72,16 +72,16 @@
     "DefaultTabs": {
       "background": "$panelBackground",
       "hoverBackground": "$textInputBackground",
-      "underlineColor": "$selectionBackground",
-      "inactiveUnderlineColor": "$selectionBackgroundInactive",
+      "underlineColor": "$selectionUnderline",
+      "inactiveUnderlineColor": "$selectionUnderlineInactive",
       "underlinedTabBackground": "$textInputBackground"
     },
 
     "EditorTabs": {
       "borderColor": "$border",
       "background": "$panelBackground",
-      "underlineColor": "$selectionBackground",
-      "inactiveUnderlineColor": "$selectionBackgroundInactive",
+      "underlineColor": "$selectionUnderline",
+      "inactiveUnderlineColor": "$selectionUnderlineInactive",
       "underlineHeight": 3,
       "underlinedTabBackground": "$toolwindowBackground"
     },
@@ -523,11 +523,11 @@
 
     "TabbedPane": {
       "background": "$panelBackground",
-      "underlineColor": "$selectionBackground",
-      "disabledUnderlineColor": "$selectionBackgroundInactive",
+      "underlineColor": "$selectionUnderline",
+      "disabledUnderlineColor": "$selectionUnderlineInactive",
       "contentAreaColor": "$border",
       "hoverColor": "$textInputBackground",
-      "tabSelectionHeight": "3"
+      "tabSelectionHeight": 3
     },
 
     "VersionControl": {
@@ -585,7 +585,9 @@
   "colors": {
     "$titleBackground": "#282828",
     "$selectionBackground": "#2a5285",
-    "$selectionBackgroundInactive": "#525559",
+    "$selectionUnderline": "#33639e",
+    "$selectionBackgroundInactive": "#4a4d51",
+    "$selectionUnderlineInactive": "#606469",
     "$selectionForeground": "#EEEEEE",
     "$selectionForegroundInactive": "#EEEEEE",
     "$border": "#2c2c2c",
@@ -595,7 +597,7 @@
     "$popupBorder": "#585858",
     "$toolwindowBackground": "#303030",
     "$panelBackground": "#383838",
-    "$regularForeground": "#C6C6CC",
+    "$regularForeground": "#c0c0c6",
     "$mutedForeground": "#9999A8",
     "$disabledForeground": "#6A6A70",
     "$textInputBackground": "#282828",

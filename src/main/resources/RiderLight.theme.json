@@ -72,16 +72,16 @@
     "DefaultTabs": {
       "background": "$panelBackground",
       "hoverBackground": "$textInputBackground",
-      "underlineColor": "$selectionBackground",
-      "inactiveUnderlineColor": "$selectionBackgroundInactive",
+      "underlineColor": "$selectionUnderline",
+      "inactiveUnderlineColor": "$selectionUnderlineInactive",
       "underlinedTabBackground": "$textInputBackground"
     },
 
     "EditorTabs": {
       "borderColor": "$border",
       "background": "$panelBackground",
-      "underlineColor": "$selectionBackground",
-      "inactiveUnderlineColor": "$selectionBackgroundInactive",
+      "underlineColor": "$selectionUnderline",
+      "inactiveUnderlineColor": "$selectionUnderlineInactive",
       "underlineHeight": 3,
       "underlinedTabBackground": "$toolwindowBackground"
     },
@@ -523,11 +523,11 @@
 
     "TabbedPane": {
       "background": "$panelBackground",
-      "underlineColor": "$selectionBackground",
-      "disabledUnderlineColor": "$selectionBackgroundInactive",
+      "underlineColor": "$selectionUnderline",
+      "disabledUnderlineColor": "$selectionUnderlineInactive",
       "contentAreaColor": "$border",
       "hoverColor": "$textInputBackground",
-      "tabSelectionHeight": "3"
+      "tabSelectionHeight": 3
     },
 
     "VersionControl": {
@@ -585,17 +585,19 @@
   "colors": {
     "$titleBackground": "#FFFFFF",
     "$selectionBackground": "#99C8FF",
+    "$selectionUnderline": "#80bbff",
     "$selectionBackgroundInactive": "#c8cacc",
-    "$selectionForeground": "#000000",
-    "$selectionForegroundInactive": "#000000",
-    "$border": "#D0D0D0",
-    "$controlBorder": "#D0D0D0",
-    "$separator": "#D0D0D0",
+    "$selectionUnderlineInactive": "#b0b2b4",
+    "$selectionForeground": "#383848",
+    "$selectionForegroundInactive": "#383848",
+    "$border": "#D8D8D8",
+    "$controlBorder": "#D8D8D8",
+    "$separator": "#D8D8D8",
     "$focusedBorder": "#83acdb",
     "$popupBorder": "#B0B0B0",
-    "$toolwindowBackground": "#FBFBFB",
+    "$toolwindowBackground": "#F8F8F8",
     "$panelBackground": "#E8E8E8",
-    "$regularForeground": "#333338",
+    "$regularForeground": "#383848",
     "$mutedForeground": "#767680",
     "$disabledForeground": "#a7a7af",
     "$textInputBackground": "#FFFFFF",
