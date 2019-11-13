@@ -470,7 +470,7 @@
       "background": "$panelBackground",
       "foreground": "$mutedForeground",
       "cellBorder": "0,1,1,1",
-      "separatorColor": "$toolwindowBackground",
+      "separatorColor": "$border",
       "bottomSeparatorColor": "$panelBackground"
     },
 
