@@ -1610,7 +1610,6 @@
     <option name="ReSharper.CONTEXT_EXIT">
       <value>
         <option name="BACKGROUND" value="522750" />
-        <option name="EFFECT_COLOR" value="D688D4" />
         <option name="ERROR_STRIPE_COLOR" value="522750" />
       </value>
     </option>
