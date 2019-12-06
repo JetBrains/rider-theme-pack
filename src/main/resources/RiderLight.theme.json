@@ -584,10 +584,10 @@
 
   "colors": {
     "$titleBackground": "#FFFFFF",
-    "$selectionBackground": "#99C8FF",
-    "$selectionUnderline": "#80bbff",
-    "$selectionBackgroundInactive": "#c8cacc",
-    "$selectionUnderlineInactive": "#b0b2b4",
+    "$selectionBackground": "#A6CFFF",
+    "$selectionUnderline": "#99C8FF",
+    "$selectionBackgroundInactive": "#D5D7D9",
+    "$selectionUnderlineInactive": "#C8CACC",
     "$selectionForeground": "#383848",
     "$selectionForegroundInactive": "#383848",
     "$border": "#D8D8D8",
