@@ -12,7 +12,7 @@
     <option name="EDITOR_FONT_NAME" value="Menlo" />
   </font>
   <colors>
-    <option name="ADDED_LINES_COLOR" value="D1E3C9" />
+    <option name="ADDED_LINES_COLOR" value="BFDEB3" />
     <option name="ANNOTATIONS_COLOR" value="707070" />
     <option name="BORDER_LINES_COLOR" value="FFFFFF" />
     <option name="CARET_COLOR" value="000000" />
@@ -152,12 +152,12 @@
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="22664A" />
+        <option name="FOREGROUND" value="005C43" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -172,12 +172,12 @@
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
@@ -203,7 +203,7 @@
     </option>
     <option name="CONSOLE_RANGE_TO_EXECUTE">
       <value>
-        <option name="EFFECT_COLOR" value="217303" />
+        <option name="EFFECT_COLOR" value="248700" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
@@ -275,7 +275,7 @@
     </option>
     <option name="CSS.COLOR">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="CSS.COMMA">
@@ -287,7 +287,7 @@
     <option name="CSS.COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="CSS.DOT">
@@ -299,7 +299,7 @@
     <option name="CSS.FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="CSS.HASH">
@@ -376,7 +376,7 @@
     </option>
     <option name="CSS.UNICODE.RANGE">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="CSS.URL">
@@ -398,7 +398,7 @@
         <option name="EFFECT_COLOR" value="D91400" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -413,7 +413,7 @@
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
@@ -424,12 +424,12 @@
     </option>
     <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
@@ -470,13 +470,13 @@
     </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="DEFAULT_BRACES">
@@ -518,12 +518,12 @@
     <option name="DEFAULT_DOC_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
       <value>
-        <option name="FOREGROUND" value="73B55C" />
+        <option name="FOREGROUND" value="8BC775" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
@@ -533,7 +533,7 @@
     </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="73B55C" />
+        <option name="FOREGROUND" value="8BC775" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -551,13 +551,13 @@
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -580,7 +580,7 @@
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -594,7 +594,7 @@
         <option name="EFFECT_COLOR" value="D91400" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="DEFAULT_KEYWORD">
@@ -612,7 +612,7 @@
     <option name="DEFAULT_LINE_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
@@ -636,7 +636,7 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -679,7 +679,7 @@
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -758,7 +758,7 @@
     <option name="DOCKER_COMMENTS">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="DOCKER_DOT">
@@ -858,7 +858,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -875,7 +875,7 @@
     <option name="HTML_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
@@ -958,7 +958,7 @@
     <option name="JS.BLOCK_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JS.BRACES">
@@ -988,12 +988,12 @@
     <option name="JS.DOC_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JS.DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="73B55C" />
+        <option name="FOREGROUND" value="8BC775" />
       </value>
     </option>
     <option name="JS.DOC_TAG">
@@ -1010,13 +1010,13 @@
     <option name="JS.FUNCTION_ARROW">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1028,7 +1028,7 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
@@ -1042,7 +1042,7 @@
         <option name="EFFECT_COLOR" value="D91400" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JS.KEYWORD">
@@ -1060,7 +1060,7 @@
     <option name="JS.LINE_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JS.LOCAL_VARIABLE">
@@ -1115,7 +1115,7 @@
     <option name="JS.STATIC_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
@@ -1139,7 +1139,7 @@
     <option name="JSON.BLOCK_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JSON.BRACES">
@@ -1171,7 +1171,7 @@
         <option name="EFFECT_COLOR" value="D91400" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JSON.KEYWORD">
@@ -1183,7 +1183,7 @@
     <option name="JSON.LINE_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="JSON.NUMBER">
@@ -1235,7 +1235,7 @@
     </option>
     <option name="LESS_COLOR">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="LESS_COMMA">
@@ -1247,7 +1247,7 @@
     <option name="LESS_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="LESS_DOT">
@@ -1259,7 +1259,7 @@
     <option name="LESS_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="LESS_IDENT">
@@ -1352,7 +1352,7 @@
     </option>
     <option name="LESS_UNICODE_RANGE">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="LESS_URL">
@@ -1427,7 +1427,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="B0ECD3" />
+        <option name="BACKGROUND" value="A9E6D0" />
         <option name="EFFECT_TYPE" value="0" />
         <option name="FONT_TYPE" value="0" />
         <option name="FOREGROUND" value="000000" />
@@ -1483,7 +1483,7 @@
     <option name="REGEXP.COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="REGEXP.DOT">
@@ -1503,7 +1503,7 @@
         <option name="EFFECT_COLOR" value="D91400" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="REGEXP.META">
@@ -1530,7 +1530,7 @@
     </option>
     <option name="REGEXP.QUANTIFIER">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="REGEXP.QUOTE_CHARACTER">
@@ -1601,7 +1601,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="ReSharper.BRACE_OUTLINE">
@@ -1636,7 +1636,7 @@
     <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="ReSharper.FORMAT_STRING_ITEM">
@@ -1653,7 +1653,7 @@
     </option>
     <option name="ReSharper.HINT">
       <value>
-        <option name="EFFECT_COLOR" value="217303" />
+        <option name="EFFECT_COLOR" value="248700" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -1706,7 +1706,7 @@
     <option name="ReSharper.JS_FUNCTION_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="ReSharper.JS_LOCAL_VARIABLE_IDENTIFIER">
@@ -1723,18 +1723,18 @@
     </option>
     <option name="ReSharper.JS_PROPERTY_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="ReSharper.JS_UNKNOWN_PROPERTY_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="ReSharper.JS_XML_DOCUMENTATION_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="ReSharper.LATE_BOUND_IDENTIFIER">
@@ -1810,7 +1810,7 @@
     <option name="ReSharper.ST_METHOD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="ReSharper.ST_PATH">
@@ -1892,7 +1892,7 @@
     </option>
     <option name="SASS_COLOR">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="SASS_COMMA">
@@ -1904,7 +1904,7 @@
     <option name="SASS_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="SASS_DEFAULT">
@@ -1927,7 +1927,7 @@
     <option name="SASS_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="SASS_GLOBAL">
@@ -2028,7 +2028,7 @@
     </option>
     <option name="SASS_UNICODE_RANGE">
       <value>
-        <option name="FOREGROUND" value="175200" />
+        <option name="FOREGROUND" value="1B6600" />
       </value>
     </option>
     <option name="SASS_URL">
@@ -2046,8 +2046,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="B0ECD3" />
-        <option name="ERROR_STRIPE_COLOR" value="52C997" />
+        <option name="BACKGROUND" value="A9E6D0" />
+        <option name="ERROR_STRIPE_COLOR" value="7CCFB6" />
       </value>
     </option>
     <option name="SQL_BAD_CHARACTER">
@@ -2082,7 +2082,7 @@
     <option name="SQL_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="SQL_DATABASE_OBJECT">
@@ -2142,7 +2142,7 @@
     <option name="SQL_PROCEDURE">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="SQL_SCHEMA">
@@ -2188,9 +2188,9 @@
     </option>
     <option name="SUGGESTION">
       <value>
-        <option name="EFFECT_COLOR" value="217303" />
+        <option name="EFFECT_COLOR" value="248700" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="217303" />
+        <option name="ERROR_STRIPE_COLOR" value="248700" />
       </value>
     </option>
     <option name="TDIFF_EXCLUDED_COLUMN">
@@ -2247,7 +2247,7 @@
     <option name="TS.BLOCK_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="TS.BRACES">
@@ -2277,12 +2277,12 @@
     <option name="TS.DOC_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="TS.DOC_MARKUP">
       <value>
-        <option name="FOREGROUND" value="73B55C" />
+        <option name="FOREGROUND" value="8BC775" />
       </value>
     </option>
     <option name="TS.DOC_TAG">
@@ -2299,13 +2299,13 @@
     <option name="TS.FUNCTION_ARROW">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="TS.GLOBAL_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="TS.GLOBAL_VARIABLE">
@@ -2317,7 +2317,7 @@
     <option name="TS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="TS.INSTANCE_MEMBER_VARIABLE">
@@ -2337,7 +2337,7 @@
         <option name="EFFECT_COLOR" value="D91400" />
         <option name="EFFECT_TYPE" value="2" />
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="TS.KEYWORD">
@@ -2349,7 +2349,7 @@
     <option name="TS.LINE_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="TS.LOCAL_VARIABLE">
@@ -2405,7 +2405,7 @@
     <option name="TS.STATIC_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="2A8F65" />
+        <option name="FOREGROUND" value="00855F" />
       </value>
     </option>
     <option name="TS.STATIC_MEMBER_VARIABLE">
@@ -2470,7 +2470,7 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
@@ -2482,7 +2482,7 @@
     <option name="XML_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -2523,7 +2523,7 @@
     <option name="YAML_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="217303" />
+        <option name="FOREGROUND" value="248700" />
       </value>
     </option>
     <option name="YAML_SCALAR_DSTRING">
