@@ -7,12 +7,12 @@ repositories {
 }
 
 intellij {
-    val BuildForIDEA = false
+    val BuildForIDEA = true
     if (BuildForIDEA) {
         version = "2019.3"
     } else {
         type = "RD"
-        version = "2019.3-SNAPSHOT"
+        version = "2019.3"
     }
     pluginName = "Rider UI Theme Pack"
 
@@ -27,6 +27,10 @@ intellij {
             // IDEs from SDK are launched with 512m by default, which is not enough for Rider.
             // Rider uses this value when launched not from SDK.
             maxHeapSize = "1500m"
+        }
+        withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
+            updateSinceUntilBuild = true
+            setUntilBuild("")
         }
     }
 }
