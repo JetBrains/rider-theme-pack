@@ -7,19 +7,11 @@
         Set of UI themes for Rider IDE
     ]]></description>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
-    <!-- uncomment to enable plugin in all products -->
     <depends>com.intellij.modules.lang</depends>
-    <!-- -->
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here 8a3b25d3-a2ca-4257-b75d-5c6da0aab04f -->
         <themeProvider id="366e07da-0b3b-4dc7-8f2a-d6e2a566d761" path="/RiderLight.theme.json"/>
         <themeProvider id="8dab8682-e50b-4f2b-8c88-5494ecf2c4d6" path="/RiderDark.theme.json"/>
     </extensions>
 
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
 </idea-plugin>
