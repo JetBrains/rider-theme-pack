@@ -583,7 +583,7 @@
   },
 
   "colors": {
-    "$titleBackground": "#282828",
+    "$titleBackground": "#383838",
     "$selectionBackground": "#2a5285",
     "$selectionUnderline": "#33639e",
     "$selectionBackgroundInactive": "#4a4d51",
