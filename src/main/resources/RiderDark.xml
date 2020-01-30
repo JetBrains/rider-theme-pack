@@ -1,9 +1,9 @@
 <scheme name="Rider Dark" parent_scheme="Darcula" version="142">
   <font>
-    <option name="EDITOR_FONT_NAME" value="Consolas" />
+    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Menlo" />
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
   </font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="29421F" />
@@ -2558,5 +2558,4 @@
       </value>
     </option>
   </attributes>
-  <option name="FONT_SCALE" value="1.0" />
 </scheme>
