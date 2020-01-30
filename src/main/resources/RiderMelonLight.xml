@@ -630,7 +630,7 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="6B2FBA" />
+        <option name="FOREGROUND" value="383838" />
       </value>
     </option>
     <option name="DEFAULT_PARAMETER">
@@ -920,7 +920,6 @@
       <value>
         <option name="BACKGROUND" value="FBFBFB" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
-        <option name="FOREGROUND" value="383838" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -1277,7 +1276,6 @@
       <value>
         <option name="BACKGROUND" value="FBFBFB" />
         <option name="EFFECT_COLOR" value="E0E0E0" />
-        <option name="FOREGROUND" value="383838" />
       </value>
     </option>
     <option name="LESS_JS_CODE_DELIM">
