@@ -12,6 +12,14 @@
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="366e07da-0b3b-4dc7-8f2a-d6e2a566d761" path="/RiderLight.theme.json"/>
         <themeProvider id="8dab8682-e50b-4f2b-8c88-5494ecf2c4d6" path="/RiderDark.theme.json"/>
+        <themeProvider id="d769a0ab-9f5a-4569-918c-da06b8e15d73" path="/RiderMelonLight.theme.json"/>
+        <themeProvider id="ac6166c2-d72d-4a62-af60-1c37453c1ef8" path="/RiderMelonDark.theme.json"/>
+        <themeProvider id="aeded717-808a-4463-92a1-0c8eedffb6ce" path="/VisualStudioLight.theme.json"/>
+        <themeProvider id="709ff484-870e-43f0-b8e3-6d902edfdd88" path="/VisualStudioDark.theme.json"/>
+        <themeProvider id="24335b57-4b81-4f3e-bae6-f1123c6b9673" path="/VisualAssistLight.theme.json"/>
+        <themeProvider id="c6476b2d-17d0-4cd1-8adf-8fa04c023e35" path="/VisualAssistDark.theme.json"/>
+        <themeProvider id="9fda5f0d-4ced-43af-9b72-c04191cb03e2" path="/ReSharperLight.theme.json"/>
+        <themeProvider id="0a42c741-0f2f-4825-8890-866726a32da5" path="/ReSharperDark.theme.json"/>
     </extensions>
 
 </idea-plugin>
