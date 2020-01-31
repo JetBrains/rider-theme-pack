@@ -629,6 +629,10 @@
   },
 
   "icons": {
+    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
+    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
+    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
+    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg",
     "ColorPalette": {
       "Actions.Grey": "#A5A5AAFF",
       "Actions.GreyInline": "#A5A5ABFF",
