@@ -2,7 +2,7 @@
   "name": "Rider Light",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/RiderLight.xml",
+  "editorScheme": "/colorSchemes/RiderLight.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

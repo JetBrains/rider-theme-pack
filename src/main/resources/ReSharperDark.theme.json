@@ -2,7 +2,7 @@
   "name": "ReSharper Dark",
   "dark": true,
   "author": "JetBrains",
-  "editorScheme": "/ReSharperDark.xml",
+  "editorScheme": "/colorSchemes/ReSharperDark.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

@@ -2,7 +2,7 @@
   "name": "Visual Studio Light",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/VisualStudioLight.xml",
+  "editorScheme": "/colorSchemes/VisualStudioLight.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

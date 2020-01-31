@@ -2,7 +2,7 @@
   "name": "Rider Melon Dark",
   "dark": true,
   "author": "JetBrains",
-  "editorScheme": "/RiderMelonDark.xml",
+  "editorScheme": "/colorSchemes/RiderMelonDark.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

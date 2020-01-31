@@ -2,7 +2,7 @@
   "name": "ReSharper Light",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/ReSharperLight.xml",
+  "editorScheme": "/colorSchemes/ReSharperLight.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

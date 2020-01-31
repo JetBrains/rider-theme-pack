@@ -2,7 +2,7 @@
   "name": "Visual Assist Dark",
   "dark": true,
   "author": "JetBrains",
-  "editorScheme": "/VisualAssistDark.xml",
+  "editorScheme": "/colorSchemes/VisualAssistDark.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

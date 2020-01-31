@@ -2,7 +2,7 @@
   "name": "Visual Studio Dark",
   "dark": true,
   "author": "JetBrains",
-  "editorScheme": "/VisualStudioDark.xml",
+  "editorScheme": "/colorSchemes/VisualStudioDark.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",

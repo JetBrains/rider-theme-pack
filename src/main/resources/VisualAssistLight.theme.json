@@ -2,7 +2,7 @@
   "name": "Visual Assist Light",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/VisualAssistLight.xml",
+  "editorScheme": "/colorSchemes/VisualAssistLight.xml",
   "ui": {
     "*": {
       "//*": "#FF00FF",
