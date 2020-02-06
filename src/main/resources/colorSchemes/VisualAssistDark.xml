@@ -45,7 +45,9 @@
       </value>
     </option>
     <option name="DEFAULT_COMMA">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="b4b4b4" />
+      </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
@@ -98,10 +100,14 @@
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_SEMICOLON">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="b4b4b4" />
+      </value>
     </option>
     <option name="DEFAULT_STATIC_METHOD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ff8000" />
+      </value>
     </option>
     <option name="DEFAULT_STRING">
       <value>
@@ -195,7 +201,7 @@
     </option>
     <option name="ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="4ec9b0" />
+        <option name="FOREGROUND" value="ff8000" />
       </value>
     </option>
     <option name="ReSharper.ENUM_IDENTIFIER">
@@ -387,7 +393,7 @@
     </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="bd63c5" />
+        <option name="FOREGROUND" value="b9771e" />
       </value>
     </option>
     <option name="ReSharper.CPP_ENUM_IDENTIFIER">
@@ -395,11 +401,7 @@
         <option name="FOREGROUND" value="ffd700" />
       </value>
     </option>
-    <option name="ReSharper.CPP_GLOBAL_FUNCTION_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="ff8000" />
-      </value>
-    </option>
+    <option name="ReSharper.CPP_GLOBAL_FUNCTION_IDENTIFIER" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="ReSharper.CPP_GLOBAL_VARIABLE_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="bdb76b" />
@@ -437,7 +439,7 @@
     </option>
     <option name="ReSharper.NAMESPACE_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="ffd700" />
+        <option name="FOREGROUND" value="b8d7a3" />
       </value>
     </option>
   </attributes>

@@ -224,21 +224,9 @@
         <option name="FOREGROUND" value="8b008b" />
       </value>
     </option>
-    <option name="ReSharper.CPP_STRUCT_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="2b91af" />
-      </value>
-    </option>
-    <option name="ReSharper.CPP_TEMPLATE_PARAMETER_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="6400" />
-      </value>
-    </option>
-    <option name="ReSharper.CPP_UNION_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="2b91af" />
-      </value>
-    </option>
+    <option name="ReSharper.CPP_STRUCT_IDENTIFIER" baseAttributes="ReSharper.STRUCT_IDENTIFIER" />
+    <option name="ReSharper.CPP_TEMPLATE_PARAMETER_IDENTIFIER" baseAttributes="ReSharper.TYPE_PARAMETER_IDENTIFIER" />
+    <option name="ReSharper.CPP_UNION_IDENTIFIER" baseAttributes="ReSharper.ENUM_IDENTIFIER" />
     <option name="ReSharper.CPP_UNION_MEMBER_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="8b008b" />
