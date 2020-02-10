@@ -1,10 +1,9 @@
 <scheme name="Rider Dark" parent_scheme="Darcula" version="142">
+  <!-- This document is auto-generated, do not edit manually. -->
   <font>
-    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
-  </font>
+    </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="Consolas" />
-  </font>
+    </font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="29421F" />
     <option name="ANNOTATIONS_COLOR" value="909090" />
