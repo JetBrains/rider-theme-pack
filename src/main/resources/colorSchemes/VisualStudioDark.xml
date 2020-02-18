@@ -1,4 +1,5 @@
-<scheme name="Visual Studio Dark" version="142" parent_scheme="Darcula">
+<scheme name="Visual Studio Dark" parent_scheme="Darcula" version="142">
+  <!-- This document is auto-generated, do not edit manually.-->
   <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
@@ -93,8 +94,8 @@
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="a800" />
         <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="a800" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -114,9 +115,9 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="287bde" />
         <option name="EFFECT_COLOR" value="287bde" />
         <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="287bde" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -215,8 +216,8 @@
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff3333" />
-        <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
         <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="cf5b56" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -232,10 +233,10 @@
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="287bde" />
         <option name="BACKGROUND" value="313131" />
         <option name="EFFECT_COLOR" value="287bde" />
         <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="287bde" />
       </value>
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
@@ -377,8 +378,8 @@
     </option>
     <option name="ReSharper.IL_CODE_LABEL">
       <value>
-        <option name="FOREGROUND" value="696969" />
         <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="696969" />
       </value>
     </option>
     <option name="ReSharper.IL_COMMENT">
@@ -388,8 +389,8 @@
     </option>
     <option name="ReSharper.IL_CONSTANT_LITERAL">
       <value>
-        <option name="FOREGROUND" value="b8d7a3" />
         <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="b8d7a3" />
       </value>
     </option>
     <option name="ReSharper.IL_KEYWORD">
@@ -399,14 +400,14 @@
     </option>
     <option name="ReSharper.IL_STRING_LITERAL">
       <value>
-        <option name="FOREGROUND" value="d69d85" />
         <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="d69d85" />
       </value>
     </option>
     <option name="ReSharper.JS_BLOCK_LOCAL_CONSTANT_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="8ee69d" />
         <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="8ee69d" />
       </value>
     </option>
     <option name="ReSharper.JS_XML_DOCUMENTATION_COMMENT">
@@ -444,8 +445,8 @@
     <option name="SUGGESTION">
       <value>
         <option name="EFFECT_COLOR" value="ff00" />
-        <option name="ERROR_STRIPE_COLOR" value="a760a" />
         <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="a760a" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
@@ -453,8 +454,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="dcdcdc" />
         <option name="BACKGROUND" value="1e1e1e" />
+        <option name="FOREGROUND" value="dcdcdc" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -465,9 +466,9 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="87cefa" />
-        <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="a72b2" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="87cefa" />
       </value>
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
@@ -478,8 +479,8 @@
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ffb700" />
-        <option name="ERROR_STRIPE_COLOR" value="ffb700" />
         <option name="EFFECT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="ffb700" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
@@ -490,8 +491,8 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ff3333" />
         <option name="ERROR_STRIPE_COLOR" value="ff0000" />
+        <option name="FOREGROUND" value="ff3333" />
       </value>
     </option>
   </attributes>
