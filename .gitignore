@@ -79,6 +79,7 @@ fabric.properties
 !/.idea
 /.idea/*
 !/.idea/codeStyles
+!/.idea/runConfigurations
 !/.idea/inspectionProfiles
 */**/.idea
 .shelf
