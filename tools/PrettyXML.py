@@ -13,7 +13,7 @@ if sys.version_info < MIN_PYTHON:
 def empty(s: str) -> bool: return not s or not s.strip()
 
 
-def prettyPrint(elem: ET.Element, newLine: str = '\r\n', sort: str = None, singleIndent: str = '  ', level: int = 0):
+def prettyPrint(elem: ET.Element, newLine: str = '\n', sort: str = None, singleIndent: str = '  ', level: int = 0):
     """
     Sorts and indents the provided ElementTree
     :param elem: the ElementTree to beautify
@@ -96,7 +96,7 @@ if __name__ == '__main__':
             try:
                 tree = ET.parse(file)
                 root = tree.getroot()
-                prettyPrint(root, newLine='\r\n', sort='name')
+                prettyPrint(root, newLine='\n', sort='name')
                 if args.output and numberOfFiles == 1:
                     logging.info("  writing to " + args.output)
                     tree.write(args.output, encoding='unicode')
