@@ -4,7 +4,17 @@
     <vendor email="konstantin.homatyano@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
 
     <description><![CDATA[
-        Set of UI themes for Rider IDE
+        Set of UI themes for Rider IDE:
+        - Rider Dark
+        - Rider Light
+        - Rider Melon Dark
+        - Rider Melon Light
+        - ReSharper Dark
+        - ReSharper Light
+        - Visual Assist Dark
+        - Visual Assist Light
+        - Visual Studio Dark
+        - Visual Studio Light
     ]]></description>
 
     <depends>com.intellij.modules.lang</depends>
