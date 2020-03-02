@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="linearGradient-1" x1="50%" x2="50%" y1="0%" y2="99.751%">
+      <stop offset="0%" stop-color="#FFD2BB"/>
+      <stop offset="100%" stop-color="#FF8C78"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-2" x1="49.954%" x2="11.07%" y1="25.164%" y2="100.974%">
+      <stop offset="0%" stop-color="#8961D4"/>
+      <stop offset="100%" stop-color="#BCA1FF"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-3" x1="88.348%" x2="49.742%" y1=".835%" y2="75.456%">
+      <stop offset="0%" stop-color="#3A5FD6"/>
+      <stop offset="99.96%" stop-color="#7395EB"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-4" x1="50%" x2="50%" y1="0%" y2="99.751%">
+      <stop offset="0%" stop-color="#F6E7A9"/>
+      <stop offset="100%" stop-color="#EFD04A"/>
+    </linearGradient>
+    <linearGradient id="linearGradient-5" x1="42.347%" x2="57.656%" y1="24.388%" y2="75.734%">
+      <stop offset="0%" stop-color="#181833"/>
+      <stop offset="14.52%" stop-color="#242441"/>
+      <stop offset="45.51%" stop-color="#3A3A58"/>
+      <stop offset="74.52%" stop-color="#474766"/>
+      <stop offset="99.35%" stop-color="#4B4B6B"/>
+    </linearGradient>
+  </defs>
+  <g fill-rule="evenodd">
+    <path fill="url(#linearGradient-1)" fill-rule="nonzero" d="M20 1L3.5 10.5 20 20.1z" opacity=".7"/>
+    <path fill="url(#linearGradient-2)" fill-rule="nonzero" d="M3.5 10.5L3.5 29.6 20 20.1z" opacity=".7"/>
+    <path fill="url(#linearGradient-3)" fill-rule="nonzero" d="M3.5 29.6L20 39.1 20 20.1z" opacity=".7"/>
+    <path fill="url(#linearGradient-4)" fill-rule="nonzero" d="M20 1L20 20.1 36.5 10.5z" opacity=".7"/>
+    <path fill="url(#linearGradient-5)" fill-rule="nonzero" d="M20 20.1L20 39.1 36.5 29.6 36.5 10.5z" opacity=".7"/>
+    <path fill="#FFF" fill-rule="nonzero" d="M21.4 20.8L24.5 19C25.4 18.5 26.1 18.4 26.5 18.6 26.9 18.8 27.1 19.3 27.1 20.1L27.1 20.1C27.1 21.4 26.5 22.5 25.6 23.4L27.3 25.3 25.5 26.3 24 24.6 22.8 25.3 22.8 27.8 21.3 28.7 21.3 20.8 21.4 20.8zM24.4 22.9C25.1 22.5 25.6 21.8 25.6 21.1L25.6 21.1C25.6 20.4 25.1 20.2 24.4 20.7L22.9 21.6 22.9 23.9 24.4 22.9zM28.2 16.9L30.9 15.4C33.1 14.2 34.6 15 34.6 17.2L34.6 17.2C34.6 19.4 33.1 22 30.9 23.3L28.2 24.8 28.2 16.9 28.2 16.9zM29.8 17.6L29.8 22.4 31 21.7C32.2 21 33.1 19.5 33.1 18.1L33.1 18.1C33.1 16.7 32.3 16.2 31 16.9L29.8 17.6zM27.8 32.5L21.4 36.2 21.4 34.6 27.8 30.9z"/>
+  </g>
+</svg>
