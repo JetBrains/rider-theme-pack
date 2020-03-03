@@ -1,4 +1,5 @@
-<scheme name="ReSharper Dark" version="142" parent_scheme="Darcula">
+<scheme name="ReSharper Dark" parent_scheme="Darcula" version="142">
+  <!-- This document is auto-generated, do not edit manually.-->
   <option name="FONT_SCALE" value="1.0" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Consolas" />
@@ -92,8 +93,8 @@
     </option>
     <option name="CONSOLE_USER_INPUT">
       <value>
-        <option name="FOREGROUND" value="a800" />
         <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="a800" />
       </value>
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
@@ -113,9 +114,9 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="287bde" />
         <option name="EFFECT_COLOR" value="287bde" />
         <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="287bde" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -169,8 +170,8 @@
     </option>
     <option name="INLINE_PARAMETER_HINT">
       <value>
-        <option name="FOREGROUND" value="787878" />
         <option name="BACKGROUND" value="3b3b3c" />
+        <option name="FOREGROUND" value="787878" />
       </value>
     </option>
     <option name="LOG_DEBUG_OUTPUT">
@@ -210,14 +211,14 @@
     </option>
     <option name="ReSharper.ASP_NET_BLOCK_TAG">
       <value>
-        <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="d2d295" />
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="dcdcdc" />
         <option name="BACKGROUND" value="1e1e1e" />
+        <option name="FOREGROUND" value="dcdcdc" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -228,9 +229,9 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="2aafd4" />
-        <option name="FONT_TYPE" value="1" />
         <option name="ERROR_STRIPE_COLOR" value="2aafd4" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="2aafd4" />
       </value>
     </option>
   </attributes>
