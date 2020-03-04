@@ -1,4 +1,5 @@
 import glob
+import inspect
 import logging
 from xml.etree import ElementTree as ET
 import argparse
@@ -22,6 +23,8 @@ def prettyPrint(elem: ET.Element, newLine: str = '\n', sort: str = None, singleI
     :param singleIndent: the string of whitespaces used to create indentation
     :param level: the current depth of recursive prettyPrint() call
     """
+    # Based on the code snipped published at http://effbot.org/zone/element-lib.htm#prettyprint
+
     i = newLine + level * singleIndent
 
     # since Python 3.7, dict preserves the order of the inserted elements yet it won't allow to reorder them
@@ -45,13 +48,15 @@ def prettyPrint(elem: ET.Element, newLine: str = '\n', sort: str = None, singleI
     else:
         # if has child elements
         # sort top level elements by tag name in reverse order
-        # then add the 'auto-generated' banner to the top
         # sort all other levels' elements by the specified attribute's value
         if level == 0:
             if sort:
                 # sort by tag name
-                elem[:] = sorted(elem, key=lambda child: child.tag if child.tag else '', reverse=True)
-            elem.insert(0, ET.Comment(" This document is auto-generated, do not edit manually."))
+                # for XML comment nodes child.tag is a function, not a string
+                # chr(0x10FFFF) is the last possible char
+                elem[:] = sorted(elem, key=lambda child:
+                    child.tag if child.tag and not inspect.isfunction(child.tag)
+                    else chr(0x10FFFF), reverse=True)
         else:
             if sort:
                 # sort by specified attribute's values
@@ -96,6 +101,7 @@ if __name__ == '__main__':
             try:
                 tree = ET.parse(file)
                 root = tree.getroot()
+                root.insert(0, ET.Comment(" This document is auto-generated, do not edit manually."))
                 prettyPrint(root, newLine='\n', sort='name')
                 if args.output and numberOfFiles == 1:
                     logging.info("  writing to " + args.output)
