@@ -941,6 +941,7 @@
         <option name="FOREGROUND" value="383838" />
       </value>
     </option>
+    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JS.BADCHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="D91400" />
@@ -1435,6 +1436,7 @@
         <option name="FOREGROUND" value="949494" />
       </value>
     </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="REGEXP.BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="D91400" />
@@ -2432,6 +2434,7 @@
         <option name="FOREGROUND" value="D91400" />
       </value>
     </option>
+    <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="856800" />
@@ -2511,6 +2514,7 @@
         <option name="FOREGROUND" value="8C6C41" />
       </value>
     </option>
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FONT_TYPE" value="2" />
