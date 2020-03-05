@@ -186,7 +186,8 @@
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
       "selectionBackground": "$selectionBackground",
-      "selectionForeground": "$selectionForeground"
+      "selectionForeground": "$selectionForeground",
+      "border": "0,0,0,0"
     },
 
     "Spinner": {
@@ -322,7 +323,8 @@
 
     "Tree": {
       "background": "$toolwindowBackground",
-      "foreground": "$regularForeground"
+      "foreground": "$regularForeground",
+      "border": "0,0,0,0"
     },
 
     "Notification": {
