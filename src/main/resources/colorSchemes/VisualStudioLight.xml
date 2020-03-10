@@ -232,6 +232,7 @@
         <option name="ERROR_STRIPE_COLOR" value="8995a6" />
       </value>
     </option>
+    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="LOG_DEBUG_OUTPUT">
       <value>
         <option name="FOREGROUND" value="737373" />
@@ -277,6 +278,7 @@
         <option name="FOREGROUND" value="a9a9a9" />
       </value>
     </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="REFERENCE_HYPERLINK_COLOR">
       <value>
         <option name="EFFECT_COLOR" value="ff" />
@@ -448,6 +450,7 @@
         <option name="BACKGROUND" value="ffb496" />
       </value>
     </option>
+    <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ffa500" />
@@ -467,5 +470,6 @@
         <option name="FOREGROUND" value="ff0000" />
       </value>
     </option>
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
   </attributes>
 </scheme>
