@@ -404,6 +404,7 @@
 
     "Component": {
       "borderColor": "$controlBorder",
+      "focusColor": "$controlFocus",
       "focusedBorderColor": "$focusedBorder",
       "disabledBorderColor": "$controlBorder",
       "errorFocusColor": "$validationErrorFocus",
@@ -455,7 +456,8 @@
       "hoverBackground": "$buttonFace",
       "hoverBorderColor": "$buttonFace",
       "pressedBackground": "$buttonFace",
-      "pressedBorderColor": "$controlBorder"
+      "pressedBorderColor": "$controlBorder",
+      "focusedBorderColor": "$focusedBorder"
     },
 
     "Table": {
@@ -598,6 +600,7 @@
     "$controlBorder": "#D8D8D8",
     "$separator": "#D8D8D8",
     "$focusedBorder": "#83acdb",
+    "$controlFocus": "#A6CFFF",
     "$popupBorder": "#B0B0B0",
     "$toolwindowBackground": "#F8F8F8",
     "$panelBackground": "#E8E8E8",
