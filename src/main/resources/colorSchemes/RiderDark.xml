@@ -1,9 +1,7 @@
 <scheme name="Rider Dark" parent_scheme="Darcula" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
-  <font>
-    </font>
-  <font>
-    </font>
+  <font />
+  <font />
   <colors>
     <option name="ADDED_LINES_COLOR" value="29421F" />
     <option name="ANNOTATIONS_COLOR" value="909090" />
@@ -687,8 +685,7 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="BACKGROUND" value="383838" />
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="BACKGROUND" value="303030" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">

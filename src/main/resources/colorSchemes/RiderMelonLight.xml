@@ -1,9 +1,7 @@
 <scheme name="Rider Melon Light" parent_scheme="Default" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
-  <font>
-    </font>
-  <font>
-    </font>
+  <font />
+  <font />
   <colors>
     <option name="ADDED_LINES_COLOR" value="BFDEB3" />
     <option name="ANNOTATIONS_COLOR" value="707070" />
@@ -689,8 +687,7 @@
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
-        <option name="FOREGROUND" value="000000" />
+        <option name="BACKGROUND" value="FCFCF4" />
       </value>
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
