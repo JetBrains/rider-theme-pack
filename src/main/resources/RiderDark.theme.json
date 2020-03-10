@@ -307,6 +307,7 @@
     "ComboBox": {
       "foreground": "$regularForeground",
       "background": "$buttonFace",
+      "disabledBackground": "$textInputBackgroundDisabled",
       "disabledForeground": "$disabledForeground",
       "nonEditableBackground": "$buttonFace",
       "ArrowButton.background": "$buttonFace",
@@ -425,6 +426,7 @@
 
     "TextField": {
       "background": "$textInputBackground",
+      "disabledBackground": "$textInputBackgroundDisabled",
       "foreground": "$regularForeground",
       "inactiveBackground": "$textInputBackground",
       "inactiveForeground": "$regularForeground"
@@ -602,7 +604,8 @@
     "$regularForeground": "#c0c0c6",
     "$mutedForeground": "#9999A8",
     "$disabledForeground": "#6A6A70",
-    "$textInputBackground": "#282828",
+    "$textInputBackground": "#2C2C2C",
+    "$textInputBackgroundDisabled": "#383838",
     "$linkRegular": "#6888C9",
     "$linkAccented": "#6895ED",
     "$buttonFace": "#424447",
