@@ -637,6 +637,14 @@
   },
 
   "icons": {
+    "/welcome/project/remove.svg": "/icons/remove.svg",
+    "/welcome/project/remove-hover.svg": "/icons/remove-hover.svg",
+    "/welcome/project/removeDisabled.svg": "/icons/removeDisabled.svg",
+    "/welcome/project/removeDisabled-hover.svg": "/icons/removeDisabled-hover.svg",
+    "/welcome/project/remove_dark.svg": "/icons/remove_dark.svg",
+    "/welcome/project/remove-hover_dark.svg": "/icons/remove-hover_dark.svg",
+    "/welcome/project/removeDisabled_dark.svg": "/icons/removeDisabled_dark.svg",
+    "/welcome/project/removeDisabled-hover_dark.svg": "/icons/removeDisabled-hover_dark.svg",
     "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
