@@ -402,7 +402,7 @@
       "tagForeground": "$regularForeground"
     },
 
-    "Component": {
+  "Component": {
       "borderColor": "$controlBorder",
       "focusColor": "$controlFocus",
       "focusedBorderColor": "$focusedBorder",
@@ -609,8 +609,8 @@
     "$disabledForeground": "#a7a7af",
     "$textInputBackground": "#FFFFFF",
     "$textInputBackgroundDisabled": "#F0F0F0",
-    "$linkRegular": "#5c85cc",
-    "$linkAccented": "#1295DB",
+    "$linkRegular": "#4E83BF",
+    "$linkAccented": "#1270DB",
     "$buttonFace": "#F8F8F8",
     "$notificationBackground": "#E6EFFF",
     "$notificationBorder": "#D1D8E5",
@@ -650,19 +650,19 @@
       "Actions.Blue": "#5f8ad4FF",
       "Actions.Yellow": "#dba716FF",
 
-      "Objects.Grey": "#82828dFF",
-      "Objects.BlackText": "#383848FF",
-      "Objects.Red": "#e87669FF",
-      "Objects.RedStatus": "#e87669FF",
-      "Objects.Yellow": "#dba716FF",
-      "Objects.YellowDark": "#dba716FF",
-      "Objects.Green": "#6ba653FF",
-      "Objects.GreenAndroid": "#6ba653FF",
-      "Objects.Blue": "#5f8ad4FF",
-      "Objects.Purple": "#b36ab1FF",
-      "Objects.Pink": "#e8699cFF",
+      "Objects.Grey": "#82828dC0",
+      "Objects.BlackText": "#383848C0",
+      "Objects.Red": "#e87668C0",
+      "Objects.RedStatus": "#e87667C0",
+      "Objects.Yellow": "#dba715C0",
+      "Objects.YellowDark": "#dba714C0",
+      "Objects.Green": "#6ba652C0",
+      "Objects.GreenAndroid": "#6ba651C0",
+      "Objects.Blue": "#5f8ad3C0",
+      "Objects.Purple": "#b36ab1C0",
+      "Objects.Pink": "#e8699cC0",
 
-      "Checkbox.Background.Default": "#ff00ff"
+      "Checkbox.Background.Default": "#FF0000"
     }
   }
 }

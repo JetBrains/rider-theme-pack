@@ -590,14 +590,14 @@
 
   "colors": {
     "$titleBackground": "#383838",
-    "$selectionBackground": "#2a5285",
-    "$selectionUnderline": "#33639e",
+    "$selectionBackground": "#354f85",
+    "$selectionUnderline": "#4c679e",
     "$selectionBackgroundInactive": "#4a4d51",
     "$selectionUnderlineInactive": "#606469",
     "$selectionForeground": "#EEEEEE",
     "$selectionForegroundInactive": "#EEEEEE",
     "$border": "#2c2c2c",
-    "$controlBorder": "#282828",
+    "$controlBorder": "#242424",
     "$separator": "#2c2c2c",
     "$focusedBorder": "#182C57",
     "$controlFocus": "#4c679e",
@@ -657,10 +657,11 @@
       "Objects.Yellow": "#BDA64AFF",
       "Objects.YellowDark": "#BDA64AFF",
       "Objects.Green": "#669653FF",
-      "Objects.GreenAndroid": "#669653FF",
+      "Objects.GreenAndroid": "#669652FF",
       "Objects.Blue": "#6786C7FF",
       "Objects.Purple": "#A36AA2FF",
       "Objects.Pink": "#BD6478FF"
+
     }
   }
 }
