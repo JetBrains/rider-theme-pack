@@ -55,8 +55,8 @@ def prettyPrint(elem: ET.Element, newLine: str = '\n', sort: str = None, singleI
                 # for XML comment nodes child.tag is a function, not a string
                 # chr(0x10FFFF) is the last possible char
                 elem[:] = sorted(elem, key=lambda child:
-                    child.tag if child.tag and not inspect.isfunction(child.tag)
-                    else chr(0x10FFFF), reverse=True)
+                child.tag if child.tag and not inspect.isfunction(child.tag)
+                else chr(0x10FFFF), reverse=True)
         else:
             if sort:
                 # sort by specified attribute's values
@@ -103,11 +103,14 @@ if __name__ == '__main__':
                 root = tree.getroot()
                 root.insert(0, ET.Comment(" This document is auto-generated, do not edit manually."))
                 prettyPrint(root, newLine='\n', sort='name')
+                result = ET.tostring(root, encoding='unicode')
                 if args.output and numberOfFiles == 1:
                     logging.info("  writing to " + args.output)
-                    tree.write(args.output, encoding='unicode')
+                    f = open(args.output, "w", newline="\n")
                 else:
                     logging.info("  writing to " + file)
-                    tree.write(file, encoding='unicode')
+                    f = open(file, "w", newline="\n")
+                f.write(result)
+                f.close()
             except ET.ParseError:
                 logging.warning(file + " is not an XML file, skipping")
