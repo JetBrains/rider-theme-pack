@@ -1,7 +1,9 @@
 <scheme name="Rider Light" parent_scheme="Default" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
-  <font />
-  <font />
+  <font>
+    </font>
+  <font>
+    </font>
   <colors>
     <option name="ADDED_LINES_COLOR" value="BFDEB3" />
     <option name="ANNOTATIONS_COLOR" value="707070" />
@@ -1601,6 +1603,68 @@
       <value>
         <option name="BACKGROUND" value="F5D8F4" />
         <option name="ERROR_STRIPE_COLOR" value="F5D8F4" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_CLASS_FIELD_IDENTIFIER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="ReSharper.CPP_CLASS_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="300073" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_ENUM_IDENTIFIER" baseAttributes="ReSharper.ENUM_IDENTIFIER" />
+    <option name="ReSharper.CPP_GLOBAL_FUNCTION_IDENTIFIER" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="ReSharper.CPP_GLOBAL_VARIABLE_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="383838" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_LOCAL_TYPEDEF_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="6B2FBA" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_LOCAL_VARIABLE_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="383838" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="00855F" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_PREPROCESSOR_MACRO_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="0F54D6" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_STRUCT_FIELD_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="300073" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_STRUCT_IDENTIFIER" baseAttributes="ReSharper.STRUCT_IDENTIFIER" />
+    <option name="ReSharper.CPP_TEMPLATE_PARAMETER_IDENTIFIER" baseAttributes="ReSharper.TYPE_PARAMETER_IDENTIFIER" />
+    <option name="ReSharper.CPP_TYPEDEF_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.CPP_UE4_REFLECTION_SPECIFIER_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="6B2FBA" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_UNION_IDENTIFIER" baseAttributes="ReSharper.ENUM_IDENTIFIER" />
+    <option name="ReSharper.CPP_UNION_MEMBER_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="300073" />
       </value>
     </option>
     <option name="ReSharper.DELEGATE_IDENTIFIER">
