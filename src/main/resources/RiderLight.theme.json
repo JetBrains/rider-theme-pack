@@ -508,7 +508,7 @@
     },
 
     "Editor": {
-      "background": "$textInputBackground",
+      "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
       "shortcutForeground": "$linkRegular"
     },
