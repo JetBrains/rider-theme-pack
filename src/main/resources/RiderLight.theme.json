@@ -579,6 +579,18 @@
       "foreground": "$regularForeground"
     },
 
+    "Debugger": {
+      "Variables": {
+        "valueForeground": "$regularForeground",
+        "changedValueForeground": "$validationInformativeForeground",
+        "modifyingValueForeground": "$notificationForeground",
+        "collectingDataForeground": "$mutedForeground",
+        "errorMessageForeground": "$validationErrorForeground",
+        "evaluatingExpressionForeground": "$notificationForeground",
+        "exceptionForeground": "$validationWarningForeground"
+      }
+    },
+
     "DebuggerTabs.selectedBackground": "#FFFFFF",
 
     "Window.border": "0,0,0,0,FFFFFF33",
