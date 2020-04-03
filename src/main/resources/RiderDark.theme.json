@@ -166,7 +166,8 @@
         "endBorderColor": "$focusedBorder",
         "focusedBorderColor": "$focusedBorder",
         "startBackground": "$selectionBackground",
-        "endBackground": "$selectionBackground"
+        "endBackground": "$selectionBackground",
+        "focusColor": "$controlFocus"
       }
     },
 
