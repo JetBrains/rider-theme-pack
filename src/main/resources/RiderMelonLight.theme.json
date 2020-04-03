@@ -34,7 +34,7 @@
     "SearchEverywhere": {
       "Header.background": "$panelBackground",
       "Tab": {
-        "selectedBackground": "$textInputBackground",
+        "selectedBackground": "$tabBackgroundSelected",
         "selectedForeground": "$selectionForeground"
       },
       "SearchField": {
@@ -64,10 +64,10 @@
     },
     "DefaultTabs": {
       "background": "$panelBackground",
-      "hoverBackground": "$textInputBackground",
+      "hoverBackground": "$tabBackgroundSelected",
       "underlineColor": "$selectionUnderline",
       "inactiveUnderlineColor": "$selectionUnderlineInactive",
-      "underlinedTabBackground": "$textInputBackground"
+      "underlinedTabBackground": "$tabBackgroundSelected"
     },
     "EditorTabs": {
       "borderColor": "$border",
@@ -147,7 +147,8 @@
         "endBorderColor": "$focusedBorder",
         "focusedBorderColor": "$focusedBorder",
         "startBackground": "$selectionBackground",
-        "endBackground": "$selectionBackground"
+        "endBackground": "$selectionBackground",
+        "focusColor": "$controlFocus"
       }
     },
     "ToggleButton": {
@@ -288,6 +289,7 @@
     "Tree": {
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
+      "modifiedItemForeground": "$linkAccented",
       "border": "0,0,0,0"
     },
     "Notification": {
@@ -336,7 +338,7 @@
       "Tab": {
         "selectedBackground": "$toolwindowBackground",
         "selectedForeground": "$regularForeground",
-        "hoverBackground": "$textInputBackground"
+        "hoverBackground": "$tabBackgroundSelected"
       },
       "SearchField": {
         "background": "$textInputBackground",
@@ -469,7 +471,7 @@
       "underlineColor": "$selectionUnderline",
       "disabledUnderlineColor": "$selectionUnderlineInactive",
       "contentAreaColor": "$border",
-      "hoverColor": "$textInputBackground",
+      "hoverColor": "$tabBackgroundSelected",
       "tabSelectionHeight": 3
     },
     "VersionControl": {},
@@ -536,8 +538,8 @@
     "$border": "#D8D8D8",
     "$controlBorder": "#D8D8D8",
     "$separator": "#D8D8D8",
-    "$focusedBorder": "#83acdb",
-    "$controlFocus": "#A6CFFF",
+    "$focusedBorder": "#4982CC",
+    "$controlFocus": "#A6CFFFC0",
     "$popupBorder": "#B0B0B0",
     "$toolwindowBackground": "#F8F8F8",
     "$panelBackground": "#E8E8E8",
@@ -546,6 +548,7 @@
     "$disabledForeground": "#a7a7af",
     "$textInputBackground": "#FFFFFF",
     "$textInputBackgroundDisabled": "#F0F0F0",
+    "$tabBackgroundSelected": "#FFFFFF",
     "$linkRegular": "#4E83BF",
     "$linkAccented": "#1270DB",
     "$buttonFace": "#F8F8F8",
@@ -604,7 +607,13 @@
       "Objects.Blue": "#5f8ad3C0",
       "Objects.Purple": "#b36ab1C0",
       "Objects.Pink": "#e8699cC0",
-      "Checkbox.Background.Default": "#FF0000"
+      "Checkbox.Background.Default": "#45484d",
+      "Checkbox.Background.Selected": "#85BDFF",
+      "Checkbox.Border.Default": "#C0C0C0",
+      "Checkbox.Foreground.Selected": "#333333",
+      "Checkbox.Focus.Thin.Default": "#4982CC",
+      "Checkbox.Focus.Thin.Selected": "#4982CC",
+      "Checkbox.Focus.Wide": "#A6CFFFC0"
     }
   }
 }
