@@ -614,7 +614,7 @@
     "$controlBorder": "#242424",
     "$separator": "#2c2c2c",
     "$focusedBorder": "#182C57",
-    "$controlFocus": "#4c679e",
+    "$controlFocus": "#354f85C0",
     "$popupBorder": "#585858",
     "$toolwindowBackground": "#323232",
     "$panelBackground": "#383838",
