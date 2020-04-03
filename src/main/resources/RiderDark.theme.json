@@ -326,6 +326,7 @@
     "Tree": {
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
+      "modifiedItemForeground": "$linkAccented",
       "border": "0,0,0,0"
     },
 
