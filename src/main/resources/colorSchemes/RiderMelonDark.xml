@@ -94,7 +94,7 @@
     </option>
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="BACKGROUND" value="282828" />
+        <option name="BACKGROUND" value="262626" />
         <option name="FOREGROUND" value="F0F0F0" />
       </value>
     </option>
@@ -2273,7 +2273,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="BACKGROUND" value="282828" />
+        <option name="BACKGROUND" value="262626" />
         <option name="FOREGROUND" value="d0d0d0" />
       </value>
     </option>
