@@ -683,8 +683,13 @@
       "Objects.GreenAndroid": "#669652FF",
       "Objects.Blue": "#6786C7FF",
       "Objects.Purple": "#A36AA2FF",
-      "Objects.Pink": "#BD6478FF"
+      "Objects.Pink": "#BD6478FF",
 
+      "Checkbox.Background.Default.Dark": "#45484d",
+      "Checkbox.Border.Default.Dark": "#202020",
+      "Checkbox.Foreground.Selected.Dark": "#b9b9bf",
+      "Checkbox.Focus.Thin.Default.Dark": "#000E2E",
+      "Checkbox.Focus.Wide.Dark": "#354f85C0"
     }
   }
 }
