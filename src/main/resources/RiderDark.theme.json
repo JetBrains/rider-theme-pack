@@ -38,7 +38,7 @@
     "SearchEverywhere": {
       "Header.background": "$panelBackground",
       "Tab": {
-        "selectedBackground": "$textInputBackground",
+        "selectedBackground": "$tabBackgroundSelected",
         "selectedForeground": "$selectionForeground"
       },
       "SearchField": {
@@ -71,10 +71,10 @@
 
     "DefaultTabs": {
       "background": "$panelBackground",
-      "hoverBackground": "$textInputBackground",
+      "hoverBackground": "$tabBackgroundSelected",
       "underlineColor": "$selectionUnderline",
       "inactiveUnderlineColor": "$selectionUnderlineInactive",
-      "underlinedTabBackground": "$textInputBackground"
+      "underlinedTabBackground": "$tabBackgroundSelected"
     },
 
     "EditorTabs": {
@@ -382,7 +382,7 @@
       "Tab": {
         "selectedBackground": "$toolwindowBackground",
         "selectedForeground": "$regularForeground",
-        "hoverBackground": "$textInputBackground"
+        "hoverBackground": "$tabBackgroundSelected"
       },
       "SearchField": {
         "background": "$textInputBackground",
@@ -532,7 +532,7 @@
       "underlineColor": "$selectionUnderline",
       "disabledUnderlineColor": "$selectionUnderlineInactive",
       "contentAreaColor": "$border",
-      "hoverColor": "$textInputBackground",
+      "hoverColor": "$tabBackgroundSelected",
       "tabSelectionHeight": 3
     },
 
@@ -621,8 +621,9 @@
     "$disabledForeground": "#6A6A70",
     "$textInputBackground": "#2C2C2C",
     "$textInputBackgroundDisabled": "#383838",
-    "$linkRegular": "#6888C9",
-    "$linkAccented": "#6895ED",
+    "$tabBackgroundSelected": "#2C2C2C",
+    "$linkRegular": "#789ADB",
+    "$linkAccented": "#5F94FF",
     "$buttonFace": "#424447",
     "$notificationBackground": "#333C4D",
     "$notificationBorder": "#4B566B",
