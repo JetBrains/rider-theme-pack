@@ -1408,6 +1408,36 @@
         <option name="FOREGROUND" value="E8C42F" />
       </value>
     </option>
+    <option name="MARKDOWN_CODE_BLOCK">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="909090" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_FENCE">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="909090" />
+      </value>
+    </option>
+    <option name="MARKDOWN_CODE_SPAN">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="909090" />
+      </value>
+    </option>
+    <option name="MARKDOWN_HRULE">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="909090" />
+      </value>
+    </option>
+    <option name="MARKDOWN_TABLE_SEPARATOR">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="909090" />
+      </value>
+    </option>
     <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="FF5647" />
