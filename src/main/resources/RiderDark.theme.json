@@ -377,7 +377,7 @@
 
     "Plugins": {
       "background": "$toolwindowBackground",
-      "lightSelectionBackground": "$selectionBackground",
+      "lightSelectionBackground": "$selectionBackgroundMuted",
       "SectionHeader": {
         "background": "$panelBackground",
         "foreground": "$regularForeground"
@@ -607,6 +607,7 @@
   "colors": {
     "$titleBackground": "#383838",
     "$selectionBackground": "#354f85",
+    "$selectionBackgroundMuted": "#2d3f60",
     "$selectionUnderline": "#4c679e",
     "$selectionBackgroundInactive": "#4a4d51",
     "$selectionUnderlineInactive": "#606469",
