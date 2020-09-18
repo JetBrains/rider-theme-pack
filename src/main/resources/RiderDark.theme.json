@@ -302,7 +302,8 @@
       "background": "$panelBackground",
       "foreground": "$regularForeground",
       "disabledForeground": "$disabledForeground",
-      "selectedDisabledForeground": "$disabledForeground"
+      "selectedDisabledForeground": "$disabledForeground",
+      "infoForeground": "$mutedForeground"
     },
 
     "ComboBox": {
@@ -414,7 +415,8 @@
       "warningFocusColor": "$validationWarningFocus",
       "inactiveWarningFocusColor": "$validationWarningFocusInactive",
       "iconColor": "$mutedForeground",
-      "hoverIconColor": "$mutedForeground"
+      "hoverIconColor": "$mutedForeground",
+      "infoForeground": "$mutedForeground"
     },
 
     "ToolTip": {
