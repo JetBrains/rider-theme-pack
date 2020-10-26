@@ -591,6 +591,7 @@
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
     "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg",
+    "debugger/nextStatement.svg": "/rider/debugger/nextStatement.svg",
     "ColorPalette": {
       "Actions.Grey": "#A5A5AAFF",
       "Actions.GreyInline": "#A5A5ABFF",
