@@ -14,7 +14,10 @@ intellij {
     if (useRiderSdk) {
         type = "RD"
     }
-    version = "2019.3"
+
+    // version = "2020.2" // release
+    version = "203-SNAPSHOT" // dev snapshot
+
     pluginName = "Rider UI Theme Pack"
 
     tasks {
