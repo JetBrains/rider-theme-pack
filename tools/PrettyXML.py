@@ -18,7 +18,7 @@ def prettyPrint(elem: ET.Element, newLine: str = '\n', sort: str = None, singleI
     """
     Sorts and indents the provided ElementTree
     :param elem: the ElementTree to beautify
-    :param newLine: the string to create a new line
+    :param newLine: the string to create a new line (this is NOT a LF or CRLF, it is a platform-agnostic new line symbol)
     :param sort: the name of the attribute which is used to sort sibling XML elements
     :param singleIndent: the string of whitespaces used to create indentation
     :param level: the current depth of recursive prettyPrint() call
@@ -102,14 +102,14 @@ if __name__ == '__main__':
                 tree = ET.parse(file)
                 root = tree.getroot()
                 root.insert(0, ET.Comment(" This document is auto-generated, do not edit manually."))
-                prettyPrint(root, newLine='\n', sort='name')
+                prettyPrint(root, sort='name')
                 result = ET.tostring(root, encoding='unicode')
                 if args.output and numberOfFiles == 1:
                     logging.info("  writing to " + args.output)
-                    f = open(args.output, "w", newline="\n")
+                    f = open(args.output, "w", newline="\r\n") # Scheme XML files should use Windows CRLF as line separators
                 else:
                     logging.info("  writing to " + file)
-                    f = open(file, "w", newline="\n")
+                    f = open(file, "w", newline="\r\n") # Scheme XML files should use Windows CRLF as line separators
                 f.write(result)
                 f.close()
             except ET.ParseError:
