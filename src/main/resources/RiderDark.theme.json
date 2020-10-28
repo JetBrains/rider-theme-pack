@@ -392,12 +392,12 @@
         "borderColor": "$panelBackground"
       },
       "Button": {
-        "installFillBackground": "$validationWarningBackground",
+        "installFillBackground": "$buttonFace",
         "installFillForeground": "$regularForeground",
-        "installBackground": "$textInputBackground",
+        "installBackground": "$buttonFace",
         "installBorderColor": "$border",
         "installForeground": "$regularForeground",
-        "updateBackground": "$notificationBackground",
+        "updateBackground": "$buttonFace",
         "updateBorderColor": "$border",
         "updateForeground": "$regularForeground"
       },
