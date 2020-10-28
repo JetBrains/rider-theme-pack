@@ -438,6 +438,78 @@
         <option name="FOREGROUND" value="941290" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_1_MARKER">
+      <value>
+        <option name="BACKGROUND" value="ffb985" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_1_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="ffeada" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_MARKER">
+      <value>
+        <option name="BACKGROUND" value="e8dd46" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="f8f5c7" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_3_MARKER">
+      <value>
+        <option name="BACKGROUND" value="b0e66b" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_3_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="e7f7d2" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_4_MARKER">
+      <value>
+        <option name="BACKGROUND" value="6bebb4" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_4_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="d2f9e8" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_MARKER">
+      <value>
+        <option name="BACKGROUND" value="a1a6ff" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="e3e4ff" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_6_MARKER">
+      <value>
+        <option name="BACKGROUND" value="ffa6fe" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_6_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="ffe4ff" />
+        <option name="FOREGROUND" value="202020" />
+      </value>
+    </option>
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FONT_TYPE" value="2" />

@@ -436,6 +436,78 @@
         <option name="FOREGROUND" value="D688D4" />
       </value>
     </option>
+    <option name="CodeWithMe.USER_1_MARKER">
+      <value>
+        <option name="BACKGROUND" value="b02a2a" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_1_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="502727" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_MARKER">
+      <value>
+        <option name="BACKGROUND" value="a17100" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_2_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="4b3d1b" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_3_MARKER">
+      <value>
+        <option name="BACKGROUND" value="2d8700" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_3_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="28431b" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_4_MARKER">
+      <value>
+        <option name="BACKGROUND" value="007c87" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_4_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="1b4043" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_MARKER">
+      <value>
+        <option name="BACKGROUND" value="5b4bd6" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_5_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="36315b" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_6_MARKER">
+      <value>
+        <option name="BACKGROUND" value="a32ea2" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
+    <option name="CodeWithMe.USER_6_SELECTION">
+      <value>
+        <option name="BACKGROUND" value="4c284b" />
+        <option name="FOREGROUND" value="d0d0d0" />
+      </value>
+    </option>
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
         <option name="FONT_TYPE" value="2" />
