@@ -476,6 +476,10 @@
       "hoverColor": "$tabBackgroundSelected",
       "tabSelectionHeight": 3
     },
+    "Viewport": {
+      "background": "$toolwindowBackground",
+      "foreground": "$regularForeground"
+    },
     "VersionControl": {},
     "WelcomeScreen": {
       "background": "#F0F0F0",

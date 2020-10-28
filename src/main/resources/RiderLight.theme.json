@@ -540,6 +540,11 @@
       "tabSelectionHeight": 3
     },
 
+    "Viewport": {
+      "background": "$toolwindowBackground",
+      "foreground": "$regularForeground"
+    },
+
     "VersionControl": {
 
     },

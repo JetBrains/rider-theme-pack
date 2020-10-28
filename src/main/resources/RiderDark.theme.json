@@ -544,6 +544,11 @@
 
     },
 
+    "Viewport": {
+      "background": "$toolwindowBackground",
+      "foreground": "$regularForeground"
+    },
+
     "WelcomeScreen": {
       "background": "$panelBackground",
       "borderColor": "#FF0000",
