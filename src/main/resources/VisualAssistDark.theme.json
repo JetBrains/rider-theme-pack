@@ -514,7 +514,7 @@
     "Debugger": {
       "Variables": {
         "valueForeground": "$regularForeground",
-        "changedValueForeground": "$validationInformativeForeground",
+        "changedValueForeground": "$validationWarningForeground",
         "modifyingValueForeground": "$notificationForeground",
         "collectingDataForeground": "$mutedForeground",
         "errorMessageForeground": "$validationErrorForeground",
