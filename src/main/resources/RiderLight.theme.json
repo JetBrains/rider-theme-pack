@@ -232,7 +232,7 @@
     },
 
     "Popup": {
-      "paintBorder": true,
+      "xpaintBorder": true,
       "borderColor": "$popupBorder",
       "inactiveBorderColor": "$popupBorder",
       "separatorColor": "$separator",
@@ -405,7 +405,7 @@
       "tagForeground": "$regularForeground"
     },
 
-  "Component": {
+    "Component": {
       "borderColor": "$controlBorder",
       "focusColor": "$controlFocus",
       "focusedBorderColor": "$focusedBorder",
@@ -423,7 +423,7 @@
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
       "borderColor": "$border",
-      "paintBorder": "true",
+      "xpaintBorder": true,
       "infoForeground": "$regularForeground",
       "Actions.background": "$panelBackground",
       "Actions.infoForeground": "$regularForeground"

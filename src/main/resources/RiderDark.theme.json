@@ -232,7 +232,7 @@
     },
 
     "Popup": {
-      "paintBorder": true,
+      "xpaintBorder": true,
       "borderColor": "$popupBorder",
       "inactiveBorderColor": "$popupBorder",
       "separatorColor": "$separator",
@@ -423,7 +423,7 @@
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
       "borderColor": "$border",
-      "paintBorder": "true",
+      "xpaintBorder": "true",
       "infoForeground": "$regularForeground",
       "Actions.background": "$panelBackground",
       "Actions.infoForeground": "$regularForeground"
