@@ -10,5 +10,5 @@ There is an IDEA run configuration 'Sort color scheme files' for that task.
 
 #### Rider-specific color themes (`Rider*.xml`)
 
-These files are created by an utility which is not published yet. Please don't edit them manually, 
+These files are created by a utility which is not published yet. Please don't edit them manually, 
 these changes will be lost.
