@@ -55,8 +55,8 @@ def prettyPrint(elem: ET.Element, newLine: str = '\n', sort: str = None, singleI
                 # for XML comment nodes child.tag is a function, not a string
                 # chr(0x10FFFF) is the last possible char
                 elem[:] = sorted(elem, key=lambda child:
-                child.tag if child.tag and not inspect.isfunction(child.tag)
-                else chr(0x10FFFF), reverse=True)
+                    child.tag if child.tag and not inspect.isfunction(child.tag)
+                    else chr(0x10FFFF), reverse=True)
         else:
             if sort:
                 # sort by specified attribute's values
@@ -106,10 +106,10 @@ if __name__ == '__main__':
                 result = ET.tostring(root, encoding='unicode')
                 if args.output and numberOfFiles == 1:
                     logging.info("  writing to " + args.output)
-                    f = open(args.output, "w", newline="\r\n") # Scheme XML files should use Windows CRLF as line separators
+                    f = open(args.output, "w", newline="\n") # Scheme XML files should use Unix LF as line separators
                 else:
                     logging.info("  writing to " + file)
-                    f = open(file, "w", newline="\r\n") # Scheme XML files should use Windows CRLF as line separators
+                    f = open(file, "w", newline="\n") # Scheme XML files should use Unix LF as line separators
                 f.write(result)
                 f.close()
             except ET.ParseError:
