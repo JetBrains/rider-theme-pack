@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.intellij") version "0.4.13"
+    id("org.jetbrains.intellij") version "0.5.1"
     id("me.filippov.gradle.jvm.wrapper") version "0.9.3"
 }
 
@@ -13,10 +13,13 @@ intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
     if (useRiderSdk) {
         type = "RD"
+        version = "2020.3-SNAPSHOT" // to run in Rider
+    }
+    else {
+        version = "203-SNAPSHOT" // to run in IDEA
     }
 
     // version = "2020.2" // release
-    version = "203-SNAPSHOT" // dev snapshot
 
     pluginName = "Rider UI Theme Pack"
 
