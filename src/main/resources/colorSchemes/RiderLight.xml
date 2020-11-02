@@ -229,12 +229,12 @@
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="856800" />
+        <option name="FOREGROUND" value="826A00" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="B39B00" />
+        <option name="FOREGROUND" value="CC9C00" />
       </value>
     </option>
     <option name="CSS.BAD_CHARACTER">
@@ -774,7 +774,7 @@
     </option>
     <option name="DEPRECATED_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="856800" />
+        <option name="EFFECT_COLOR" value="826A00" />
         <option name="EFFECT_TYPE" value="3" />
       </value>
     </option>
@@ -890,9 +890,9 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="B39B00" />
+        <option name="EFFECT_COLOR" value="CC9C00" />
         <option name="EFFECT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="B39B00" />
+        <option name="ERROR_STRIPE_COLOR" value="CC9C00" />
       </value>
     </option>
     <option name="GRID_ERROR_VALUE">
@@ -976,7 +976,7 @@
       <value>
         <option name="EFFECT_COLOR" value="E3C33D" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="B39B00" />
+        <option name="ERROR_STRIPE_COLOR" value="CC9C00" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
@@ -1472,7 +1472,7 @@
     </option>
     <option name="LOG_WARNING_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="B39B00" />
+        <option name="FOREGROUND" value="CC9C00" />
       </value>
     </option>
     <option name="MARKDOWN_CODE_BLOCK">
@@ -1971,7 +1971,7 @@
     </option>
     <option name="ReSharper.ST_SUSPICIOUS_TEXT">
       <value>
-        <option name="EFFECT_COLOR" value="856800" />
+        <option name="EFFECT_COLOR" value="826A00" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2593,9 +2593,9 @@
     <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="856800" />
+        <option name="EFFECT_COLOR" value="826A00" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="B39B00" />
+        <option name="ERROR_STRIPE_COLOR" value="CC9C00" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
