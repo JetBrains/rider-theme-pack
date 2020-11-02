@@ -94,7 +94,7 @@
       },
       "Header": {
         "borderColor": "$border",
-        "background": "$panelBackground",
+        "background": "$selectionToolwindowHeader",
         "inactiveBackground": "$panelBackground"
       },
       "HeaderTab": {
@@ -618,6 +618,7 @@
     "$selectionUnderlineInactive": "#CBCDCF",
     "$selectionForeground": "#383848",
     "$selectionForegroundInactive": "#383848",
+    "$selectionToolwindowHeader": "#DCE4F0",
     "$border": "#D8D8D8",
     "$controlBorder": "#D8D8D8",
     "$separator": "#D8D8D8",
