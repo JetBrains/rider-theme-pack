@@ -7,19 +7,19 @@ repositories {
     mavenCentral()
 }
 
-version = "0.6"
+version = "0.7"
 
 intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
     if (useRiderSdk) {
         type = "RD"
-        version = "2020.3-SNAPSHOT" // to run in Rider
+        //version = "2020.3-SNAPSHOT" // to run in Rider
+        version = "2020.2" // release
     }
     else {
-        version = "203-SNAPSHOT" // to run in IDEA
+        //version = "203-SNAPSHOT" // to run in IDEA
+        version = "2020.2" // release
     }
-
-    // version = "2020.2" // release
 
     pluginName = "Rider UI Theme Pack"
 
