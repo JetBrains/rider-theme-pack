@@ -14,11 +14,11 @@ intellij {
     if (useRiderSdk) {
         type = "RD"
         //version = "2020.3-SNAPSHOT" // to run in Rider
-        version = "2020.2" // release
+        version = "2020.3.2" // release
     }
     else {
         //version = "203-SNAPSHOT" // to run in IDEA
-        version = "2020.2" // release
+        version = "2020.3.2" // release
     }
 
     pluginName = "Rider UI Theme Pack"
