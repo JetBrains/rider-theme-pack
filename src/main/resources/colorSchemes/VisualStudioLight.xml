@@ -5,7 +5,7 @@
   <option name="EDITOR_FONT_NAME" value="Consolas" />
   <colors>
     <option name="CARET_COLOR" value="404040" />
-    <option name="CARET_ROW_COLOR" value="f0f0f0" />
+    <option name="CARET_ROW_COLOR" value="f8f8f8" />
     <option name="CONSOLE_BACKGROUND_KEY" value="e6e7e8" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
     <option name="LINE_NUMBERS_COLOR" value="2b91af" />
@@ -230,6 +230,12 @@
       <value>
         <option name="BACKGROUND" value="dbe0cc" />
         <option name="ERROR_STRIPE_COLOR" value="8995a6" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT">
+      <value>
+        <option name="BACKGROUND" value="f3ebc2" />
+        <option name="FOREGROUND" value="7a7a7a" />
       </value>
     </option>
     <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
