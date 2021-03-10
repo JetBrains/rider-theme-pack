@@ -3,6 +3,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="29421F" />
     <option name="ANNOTATIONS_COLOR" value="909090" />
+    <option name="BookmarkIcon.background" value="D9B72B" />
     <option name="CARET_COLOR" value="F0F0F0" />
     <option name="CARET_ROW_COLOR" value="202424" />
     <option name="CONSOLE_BACKGROUND_KEY" value="303030" />
@@ -24,6 +25,9 @@
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#808080" />
     <option name="METHOD_SEPARATORS_COLOR" value="383838" />
     <option name="MODIFIED_LINES_COLOR" value="293A5F" />
+    <option name="MnemonicIcon.background" value="D9B72B" />
+    <option name="MnemonicIcon.borderColor" value="282828" />
+    <option name="MnemonicIcon.foreground" value="262626" />
     <option name="NOTIFICATION_BACKGROUND" value="3D3020" />
     <option name="QUESTION_HINT" value="3D3020" />
     <option name="READONLY_BACKGROUND" value="303030" />

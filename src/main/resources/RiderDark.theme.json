@@ -27,6 +27,16 @@
       "ContrastBorderColor": "$border"
     },
 
+    "BookmarkIcon": {
+      "background": "$bookmarkBackground"
+    },
+
+    "MnemonicIcon": {
+      "background": "$bookmarkBackground",
+      "borderColor": "$toolwindowBackground",
+      "foreground": "$textInputBackground"
+    },
+
     "NavBar": {
       "borderColor": "$border"
     },
@@ -657,7 +667,8 @@
     "$searchMatchForeground": "#D4BC64",
     "$iconGrayRegular": "#A5A5AB",
     "$iconGrayMuted": "#A5A5ABB2",
-    "$iconGrayDisabled": "#A5A5AB66"
+    "$iconGrayDisabled": "#A5A5AB66",
+    "$bookmarkBackground": "#D9B72B"
   },
 
   "icons": {

@@ -3,6 +3,7 @@
   <colors>
     <option name="ADDED_LINES_COLOR" value="BFDEB3" />
     <option name="ANNOTATIONS_COLOR" value="707070" />
+    <option name="BookmarkIcon.background" value="CC9C00" />
     <option name="CARET_COLOR" value="000000" />
     <option name="CARET_ROW_COLOR" value="F4F8F8" />
     <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
@@ -24,6 +25,9 @@
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#888888" />
     <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
     <option name="MODIFIED_LINES_COLOR" value="C0DAF9" />
+    <option name="MnemonicIcon.background" value="CC9C00" />
+    <option name="MnemonicIcon.borderColor" value="FFFFFF" />
+    <option name="MnemonicIcon.foreground" value="FFFFFF" />
     <option name="NOTIFICATION_BACKGROUND" value="faecdc" />
     <option name="QUESTION_HINT" value="faecdc" />
     <option name="READONLY_BACKGROUND" value="FBFBFB" />
@@ -961,9 +965,7 @@
       </value>
     </option>
     <option name="IDENT">
-      <value>
-        <option name="FONT_TYPE" value="0" />
-      </value>
+      <value />
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
@@ -1005,7 +1007,6 @@
         <option name="FOREGROUND" value="383838" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="JS.BADCHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="D91400" />
@@ -1529,7 +1530,6 @@
         <option name="FOREGROUND" value="949494" />
       </value>
     </option>
-    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="REGEXP.BAD_CHARACTER">
       <value>
         <option name="EFFECT_COLOR" value="D91400" />
@@ -2589,7 +2589,6 @@
         <option name="FOREGROUND" value="D91400" />
       </value>
     </option>
-    <option name="VELOCITY_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="826A00" />

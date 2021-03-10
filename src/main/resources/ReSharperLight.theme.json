@@ -25,6 +25,14 @@
       "color": "$border",
       "ContrastBorderColor": "$border"
     },
+    "BookmarkIcon": {
+      "background": "$bookmarkBackground"
+    },
+    "MnemonicIcon": {
+      "background": "$bookmarkBackground",
+      "borderColor": "$toolwindowBackground",
+      "foreground": "$textInputBackground"
+    },
     "NavBar": {
       "borderColor": "$border"
     },
@@ -581,7 +589,8 @@
     "$searchMatchForeground": "#9C7A00",
     "$iconGrayRegular": "#82828F",
     "$iconGrayMuted": "#82828FB2",
-    "$iconGrayDisabled": "#82828f66"
+    "$iconGrayDisabled": "#82828f66",
+    "$bookmarkBackground": "#cc9c00"
   },
   "icons": {
     "/welcome/project/remove.svg": "/icons/remove.svg",
