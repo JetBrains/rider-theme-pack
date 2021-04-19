@@ -610,6 +610,17 @@
       }
     },
 
+    "UnitTests": {
+      "UnknownStatus.foreground": "$regularForeground",
+      "IgnoredStatus.foreground": "$mutedForeground",
+      "SuccessStatus.foreground": "$validationInformativeForeground",
+      "InconclusiveStatus.foreground": "$validationWarningForeground",
+      "FailedStatus.foreground": "$validationErrorForeground",
+      "AbortedStatus.foreground": "$validationErrorForeground",
+      "PendingStatus.foreground": "$regularForeground",
+      "RunningStatus.foreground": "$regularForeground"
+    },
+
     "DebuggerTabs.selectedBackground": "#242424",
 
     "Window.border": "0,0,0,0,58585833",
