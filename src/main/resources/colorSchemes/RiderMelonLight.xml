@@ -11,7 +11,7 @@
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
     <option name="DOCUMENTATION_COLOR" value="FFFFFF" />
     <option name="ERROR_HINT" value="ffeae8" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="E0E0E0" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="D8D8D8" />
     <option name="GUTTER_BACKGROUND" value="FFFFFF" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
     <option name="HTML_TAG_TREE_LEVEL1" value="ffff00" />
@@ -19,11 +19,11 @@
     <option name="HTML_TAG_TREE_LEVEL3" value="ffff" />
     <option name="HTML_TAG_TREE_LEVEL4" value="ff" />
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
-    <option name="INDENT_GUIDE" value="E0E0E0" />
+    <option name="INDENT_GUIDE" value="D8D8D8" />
     <option name="INFORMATION_HINT" value="FBFBFB" />
     <option name="LINE_NUMBERS_COLOR" value="#888888" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#888888" />
-    <option name="METHOD_SEPARATORS_COLOR" value="E0E0E0" />
+    <option name="METHOD_SEPARATORS_COLOR" value="D8D8D8" />
     <option name="MODIFIED_LINES_COLOR" value="C0DAF9" />
     <option name="MnemonicIcon.background" value="CC9C00" />
     <option name="MnemonicIcon.borderColor" value="FFFFFF" />
@@ -33,9 +33,9 @@
     <option name="READONLY_BACKGROUND" value="FBFBFB" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="FBFBFB" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="F28E46" />
-    <option name="RIGHT_MARGIN_COLOR" value="E0E0E0" />
-    <option name="SELECTED_INDENT_GUIDE" value="C1C1C1" />
-    <option name="SELECTED_TEARLINE_COLOR" value="C1C1C1" />
+    <option name="RIGHT_MARGIN_COLOR" value="D8D8D8" />
+    <option name="SELECTED_INDENT_GUIDE" value="A0A0A0" />
+    <option name="SELECTED_TEARLINE_COLOR" value="A0A0A0" />
     <option name="SELECTION_BACKGROUND" value="b8d9ff" />
     <option name="SELECTION_FOREGROUND" value="" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="949494" />
@@ -64,7 +64,7 @@
     <option name="ScrollBar.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.thumbColor" value="88889940" />
     <option name="ScrollBar.trackColor" value="E8E8E8" />
-    <option name="TEARLINE_COLOR" value="E0E0E0" />
+    <option name="TEARLINE_COLOR" value="D8D8D8" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="e1eddc" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="E3ECE3" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="EBEBEB" />
@@ -879,7 +879,7 @@
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="FBFBFB" />
-        <option name="EFFECT_COLOR" value="E0E0E0" />
+        <option name="EFFECT_COLOR" value="D8D8D8" />
         <option name="FOREGROUND" value="949494" />
       </value>
     </option>
@@ -906,7 +906,7 @@
     </option>
     <option name="GRID_IMAGE_VALUE">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
+        <option name="BACKGROUND" value="D8D8D8" />
         <option name="EFFECT_COLOR" value="949494" />
         <option name="FOREGROUND" value="000000" />
       </value>
@@ -986,7 +986,7 @@
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
         <option name="BACKGROUND" value="FBFBFB" />
-        <option name="EFFECT_COLOR" value="E0E0E0" />
+        <option name="EFFECT_COLOR" value="D8D8D8" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -1162,7 +1162,7 @@
     </option>
     <option name="JS.REGEXP">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
+        <option name="BACKGROUND" value="D8D8D8" />
         <option name="FONT_TYPE" value="0" />
         <option name="FOREGROUND" value="00656E" />
       </value>
@@ -1343,7 +1343,7 @@
     <option name="LESS_INJECTED_CODE">
       <value>
         <option name="BACKGROUND" value="FBFBFB" />
-        <option name="EFFECT_COLOR" value="E0E0E0" />
+        <option name="EFFECT_COLOR" value="D8D8D8" />
       </value>
     </option>
     <option name="LESS_JS_CODE_DELIM">
@@ -2250,7 +2250,7 @@
     </option>
     <option name="SQL_EXTERNAL_TOOL">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
+        <option name="BACKGROUND" value="D8D8D8" />
         <option name="EFFECT_COLOR" value="949494" />
         <option name="FOREGROUND" value="383838" />
       </value>
@@ -2347,14 +2347,14 @@
     </option>
     <option name="TDIFF_EXCLUDED_COLUMN">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
-        <option name="EFFECT_COLOR" value="C1C1C1" />
+        <option name="BACKGROUND" value="D8D8D8" />
+        <option name="EFFECT_COLOR" value="A0A0A0" />
       </value>
     </option>
     <option name="TDIFF_FUZZY_MATCHED">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
-        <option name="EFFECT_COLOR" value="C1C1C1" />
+        <option name="BACKGROUND" value="D8D8D8" />
+        <option name="EFFECT_COLOR" value="A0A0A0" />
         <option name="FOREGROUND" value="949494" />
       </value>
     </option>
@@ -2542,7 +2542,7 @@
     </option>
     <option name="TS.REGEXP">
       <value>
-        <option name="BACKGROUND" value="E0E0E0" />
+        <option name="BACKGROUND" value="D8D8D8" />
         <option name="EFFECT_COLOR" value="949494" />
         <option name="FONT_TYPE" value="0" />
         <option name="FOREGROUND" value="00656E" />
