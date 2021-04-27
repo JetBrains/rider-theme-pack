@@ -444,7 +444,9 @@
       "failedColor": "#BA5249B0",
       "failedEndColor": "#BA524940",
       "passedColor": "#6EA35AB0",
-      "passedEndColor": "#6EA35A40"
+      "passedEndColor": "#6EA35A40",
+      "selectionForeground": "$regularForeground",
+      "selectionBackground": "$regularForeground"
     },
     "Slider": {
       "background": "$panelBackground",
@@ -543,6 +545,11 @@
       "AbortedStatus.foreground": "$validationErrorForeground",
       "PendingStatus.foreground": "$regularForeground",
       "RunningStatus.foreground": "$regularForeground"
+    },
+    "NewClass": {
+      "Panel.background": "#404040",
+      "SearchField.background": "$textInputBackground",
+      "separatorWidth": 2
     },
     "DebuggerTabs.selectedBackground": "#242424",
     "Window.border": "0,0,0,0,58585833",
