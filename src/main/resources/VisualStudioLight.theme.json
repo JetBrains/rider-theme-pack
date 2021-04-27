@@ -444,7 +444,9 @@
       "failedColor": "#d96462B0",
       "failedEndColor": "#d9646240",
       "passedColor": "#63994dB0",
-      "passedEndColor": "#63994d40"
+      "passedEndColor": "#63994d40",
+      "selectionForeground": "$regularForeground",
+      "selectionBackground": "$regularForeground"
     },
     "Slider": {
       "background": "$panelBackground",
