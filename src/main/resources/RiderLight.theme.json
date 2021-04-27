@@ -656,7 +656,7 @@
     "$popupBorder": "#B0B0B0",
     "$toolwindowBackground": "#F8F8F8",
     "$panelBackground": "#E8E8E8",
-    "$regularForeground": "#383848",
+    "$regularForeground": "#303040",
     "$mutedForeground": "#767680",
     "$disabledForeground": "#a7a7af",
     "$textInputBackground": "#FFFFFF",
