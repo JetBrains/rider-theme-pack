@@ -544,6 +544,11 @@
       "PendingStatus.foreground": "$regularForeground",
       "RunningStatus.foreground": "$regularForeground"
     },
+    "NewClass": {
+      "Panel.background": "$titleBackground",
+      "SearchField.background": "$textInputBackground",
+      "separatorWidth": 2
+    },
     "DebuggerTabs.selectedBackground": "#FFFFFF",
     "Window.border": "0,0,0,0,FFFFFF33",
     "DebuggerPopup.borderColor": "$popupBorder",
