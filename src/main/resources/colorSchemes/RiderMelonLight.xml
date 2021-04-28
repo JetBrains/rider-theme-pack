@@ -800,8 +800,8 @@
     </option>
     <option name="DIFF_MODIFIED">
       <value>
-        <option name="BACKGROUND" value="C3D5F9" />
-        <option name="ERROR_STRIPE_COLOR" value="C3D5F9" />
+        <option name="BACKGROUND" value="D1C8FF" />
+        <option name="ERROR_STRIPE_COLOR" value="D1C8FF" />
       </value>
     </option>
     <option name="DOCKER_BRACKETS">
