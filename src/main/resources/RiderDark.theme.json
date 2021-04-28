@@ -713,7 +713,7 @@
       "Actions.Yellow": "#D9B72BFF",
 
       "Objects.Grey": "#A5A5ACFF",
-      "Objects.BlackText": "#3C3C4FFF",
+      "Objects.BlackText": "#242424FF",
       "Objects.Red": "#BA574EFF",
       "Objects.RedStatus": "#BA574EFF",
       "Objects.Yellow": "#D9B72AFF",
