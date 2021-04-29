@@ -130,6 +130,11 @@
       <value />
     </option>
     <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="dcdcaa" />
+      </value>
+    </option>
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="569cd6" />
@@ -140,9 +145,19 @@
         <option name="FOREGROUND" value="57a64a" />
       </value>
     </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="b5cea8" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -216,6 +231,11 @@
       <value>
         <option name="BACKGROUND" value="d2d295" />
         <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="dcdcaa" />
       </value>
     </option>
     <option name="ReSharper.ST_METHOD" baseAttributes="DEFAULT_INSTANCE_METHOD" />

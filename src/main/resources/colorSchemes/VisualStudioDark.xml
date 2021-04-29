@@ -165,7 +165,11 @@
     <option name="DEFAULT_INSTANCE_FIELD">
       <value />
     </option>
-    <option name="DEFAULT_INSTANCE_METHOD" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="dcdcaa" />
+      </value>
+    </option>
     <option name="DEFAULT_INTERFACE_NAME">
       <value>
         <option name="FOREGROUND" value="b8d7a3" />
@@ -181,6 +185,11 @@
         <option name="FOREGROUND" value="57a64a" />
       </value>
     </option>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
+      </value>
+    </option>
     <option name="DEFAULT_NUMBER">
       <value>
         <option name="FOREGROUND" value="b5cea8" />
@@ -190,7 +199,9 @@
       <value />
     </option>
     <option name="DEFAULT_PARAMETER">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
+      </value>
     </option>
     <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
@@ -371,6 +382,11 @@
     <option name="ReSharper.CSHARP_ACCESSOR_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="569cd6" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="dcdcaa" />
       </value>
     </option>
     <option name="ReSharper.ENUM_IDENTIFIER">
