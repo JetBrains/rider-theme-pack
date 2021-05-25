@@ -553,7 +553,7 @@
     },
 
     "Viewport": {
-      "background": "$toolwindowBackground",
+      "background": "$panelBackground",
       "foreground": "$regularForeground"
     },
 

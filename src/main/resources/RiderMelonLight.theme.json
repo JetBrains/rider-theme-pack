@@ -487,7 +487,7 @@
       "tabSelectionHeight": 3
     },
     "Viewport": {
-      "background": "$toolwindowBackground",
+      "background": "$panelBackground",
       "foreground": "$regularForeground"
     },
     "VersionControl": {},
