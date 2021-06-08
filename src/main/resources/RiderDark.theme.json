@@ -206,8 +206,8 @@
     },
 
     "HelpTooltip": {
-      "background": "$panelBackground",
-      "borderColor": "$border",
+      "background": "$tooltipBackground",
+      "borderColor": "$popupBorder",
       "foreground": "$regularForeground"
     },
 
@@ -430,9 +430,9 @@
     },
 
     "ToolTip": {
-      "background": "$toolwindowBackground",
+      "background": "$tooltipBackground",
       "foreground": "$regularForeground",
-      "borderColor": "$border",
+      "borderColor": "$popupBorder",
       "xpaintBorder": "true",
       "infoForeground": "$regularForeground",
       "Actions.background": "$panelBackground",
@@ -656,6 +656,7 @@
     "$popupBorder": "#585858",
     "$toolwindowBackground": "#323232",
     "$panelBackground": "#383838",
+    "$tooltipBackground": "#383838",
     "$regularForeground": "#c0c0c6",
     "$mutedForeground": "#9999A8",
     "$disabledForeground": "#6A6A70",
