@@ -413,8 +413,8 @@
     },
     "ActionButton": {
       "hoverBackground": "$buttonFace",
-      "hoverBorderColor": "$buttonFace",
-      "pressedBackground": "$buttonFace",
+      "hoverBorderColor": "$controlBorder",
+      "pressedBackground": "$controlBorder",
       "pressedBorderColor": "$controlBorder",
       "focusedBorderColor": "$focusedBorder"
     },
@@ -626,7 +626,7 @@
     "ColorPalette": {
       "Actions.Grey": "#A5A5AAFF",
       "Actions.GreyInline": "#A5A5ABFF",
-      "Actions.GreyInline.Dark": "#737376FF",
+      "Actions.GreyInline.Dark": "#A5A5ACFF",
       "Actions.Red": "#BA574EFF",
       "Actions.Green": "#669653FF",
       "Actions.Blue": "#6786C7FF",
