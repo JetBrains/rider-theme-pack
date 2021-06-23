@@ -563,7 +563,7 @@
 
     "WelcomeScreen": {
       "background": "#F0F0F0",
-      "borderColor": "#FF0000",
+      "borderColor": "$separator",
       "separatorColor": "$separator",
       "captionBackground": "#0000FF",
       "captionForeground": "#FFFF00",
@@ -572,7 +572,10 @@
       "headerBackground": "#800000",
       "headerForeground": "#008000",
       "groupIconBorderColor": "#000080",
+      "Details.background": "$toolwindowBackground",
       "Projects": {
+        "actions.selectionBackground": "$selectionBackground",
+        "actions.background": "$toolwindowBackground",
         "background": "$toolwindowBackground",
         "selectionBackground": "$selectionBackground",
         "selectionInactiveBackground": "$selectionBackgroundInactive"
@@ -712,6 +715,7 @@
       "Actions.Green": "#6ba653FF",
       "Actions.Blue": "#5f8ad4FF",
       "Actions.Yellow": "#cc9c00FF",
+      "xActions.WelcomeScreen": "#ff00ff",
 
       "Objects.Grey": "#82828eA0",
       "Objects.BlackText": "#383848FF",
