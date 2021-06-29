@@ -209,7 +209,9 @@
       <value />
     </option>
     <option name="DEFAULT_STATIC_METHOD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="74531F" />
+      </value>
     </option>
     <option name="DEFAULT_STRING">
       <value>
