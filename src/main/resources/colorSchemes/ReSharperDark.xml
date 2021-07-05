@@ -400,5 +400,11 @@
         <option name="FOREGROUND" value="ff3333" />
       </value>
     </option>
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD" />
   </attributes>
 </scheme>
