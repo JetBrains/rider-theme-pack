@@ -495,21 +495,15 @@
       "background": "$panelBackground",
       "borderColor": "$separator",
       "separatorColor": "$separator",
-      "captionBackground": "#0000FF",
-      "captionForeground": "#FFFF00",
-      "footerBackground": "#FF00FF",
-      "footerForeground": "#00FFFF",
-      "headerBackground": "#800000",
-      "headerForeground": "#008000",
-      "groupIconBorderColor": "#000080",
       "Details.background": "$toolwindowBackground",
       "Projects": {
         "actions.selectionBackground": "$selectionBackground",
-        "actions.background": "$toolwindowBackground",
+        "actions.background": "$panelBackground",
         "background": "$toolwindowBackground",
         "selectionBackground": "$selectionBackground",
         "selectionInactiveBackground": "$selectionBackgroundInactive"
-      }
+      },
+      "SidePanel.background": "$panelBackground"
     },
     "Group": {
       "separatorColor": "$separator"
@@ -578,7 +572,7 @@
     "$controlFocus": "#354f85C0",
     "$popupBorder": "#585858",
     "$toolwindowBackground": "#323232",
-    "$panelBackground": "#383838",
+    "$panelBackground": "#3B3B3B",
     "$tooltipBackground": "#383838",
     "$regularForeground": "#c0c0c6",
     "$mutedForeground": "#9999A8",

@@ -492,24 +492,18 @@
     },
     "VersionControl": {},
     "WelcomeScreen": {
-      "background": "#F0F0F0",
+      "background": "$panelBackground",
       "borderColor": "$separator",
       "separatorColor": "$separator",
-      "captionBackground": "#0000FF",
-      "captionForeground": "#FFFF00",
-      "footerBackground": "#FF00FF",
-      "footerForeground": "#00FFFF",
-      "headerBackground": "#800000",
-      "headerForeground": "#008000",
-      "groupIconBorderColor": "#000080",
       "Details.background": "$toolwindowBackground",
       "Projects": {
         "actions.selectionBackground": "$selectionBackground",
-        "actions.background": "$toolwindowBackground",
+        "actions.background": "$panelBackground",
         "background": "$toolwindowBackground",
         "selectionBackground": "$selectionBackground",
         "selectionInactiveBackground": "$selectionBackgroundInactive"
-      }
+      },
+      "SidePanel.background": "$panelBackground"
     },
     "Group": {
       "separatorColor": "$separator"
@@ -578,7 +572,7 @@
     "$controlFocus": "#A6CFFFC0",
     "$popupBorder": "#B0B0B0",
     "$toolwindowBackground": "#F8F8F8",
-    "$panelBackground": "#E8E8E8",
+    "$panelBackground": "#EBEBEB",
     "$tooltipBackground": "#F8F8F8",
     "$regularForeground": "#303040",
     "$mutedForeground": "#767680",
