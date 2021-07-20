@@ -2385,9 +2385,9 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="ERROR_STRIPE_COLOR" value="39CC8F" />
+        <option name="ERROR_STRIPE_COLOR" value="1F858F" />
         <option name="FONT_TYPE" value="2" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="66C3CC" />
       </value>
     </option>
     <option name="TS.BADCHARACTER">
