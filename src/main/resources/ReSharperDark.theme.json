@@ -509,7 +509,7 @@
       "separatorColor": "$separator"
     },
     "TitlePane": {
-      "background": "$titleBackground",
+      "background": "$panelBackground",
       "inactiveBackground": "$panelBackground",
       "infoForeground": "$mutedForeground",
       "inactiveInfoForeground": "$disabledForeground"

@@ -581,7 +581,7 @@
     },
 
     "TitlePane": {
-      "background": "$titleBackground",
+      "background": "$panelBackground",
       "inactiveBackground": "$panelBackground",
       "infoForeground": "$mutedForeground",
       "inactiveInfoForeground": "$disabledForeground"
@@ -621,7 +621,7 @@
     },
 
     "NewClass": {
-      "Panel.background": "$titleBackground",
+      "Panel.background": "$panelBackground",
       "SearchField.background": "$textInputBackground",
       "separatorWidth": 2
     },
@@ -636,7 +636,7 @@
   },
 
   "colors": {
-    "$titleBackground": "#E8E8E8",
+    "$titleBackground": "#EBEBEB",
     "$selectionBackground": "#A6CFFF",
     "$selectionBackgroundMuted": "#CDE4FC",
     "$selectionUnderline": "#99C8FF",
