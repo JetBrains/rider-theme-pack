@@ -980,7 +980,7 @@
       <value>
         <option name="EFFECT_COLOR" value="949494" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="383838" />
+        <option name="ERROR_STRIPE_COLOR" value="949494" />
       </value>
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
