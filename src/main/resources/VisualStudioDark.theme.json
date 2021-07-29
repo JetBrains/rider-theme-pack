@@ -47,7 +47,7 @@
       },
       "SearchField": {
         "background": "$textInputBackground",
-        "borderColor": "$textInputBackground",
+        "borderColor": "$panelBackground",
         "infoForeground": "$disabledForeground"
       },
       "List": {
