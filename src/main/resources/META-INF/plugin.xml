@@ -20,16 +20,35 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <bundledColorScheme path="/colorSchemes/RiderLight" />
         <themeProvider id="RiderLight" path="/RiderLight.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/RiderDark" />
         <themeProvider id="RiderDark" path="/RiderDark.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/RiderMelonLight" />
         <themeProvider id="RiderMelonLight" path="/RiderMelonLight.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/RiderMelonDark" />
         <themeProvider id="RiderMelonDark" path="/RiderMelonDark.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/VisualStudioLight" />
         <themeProvider id="VisualStudioLight" path="/VisualStudioLight.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/VisualStudioDark" />
         <themeProvider id="VisualStudioDark" path="/VisualStudioDark.theme.json"/>
-        <themeProvider id="VisualAssistLight" path="/VisualAssistLight.theme.json"/>
-        <themeProvider id="VisualAssistDark" path="/VisualAssistDark.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/ReSharperLight" />
         <themeProvider id="ReSharperLight" path="/ReSharperLight.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/ReSharperDark" />
         <themeProvider id="ReSharperDark" path="/ReSharperDark.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/VisualAssistLight" />
+        <themeProvider id="VisualAssistLight" path="/VisualAssistLight.theme.json"/>
+
+        <bundledColorScheme path="/colorSchemes/VisualAssistDark" />
+        <themeProvider id="VisualAssistDark" path="/VisualAssistDark.theme.json"/>
     </extensions>
 
 </idea-plugin>
