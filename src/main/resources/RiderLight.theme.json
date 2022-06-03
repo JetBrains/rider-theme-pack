@@ -337,6 +337,8 @@
     "Tree": {
       "background": "$toolwindowBackground",
       "foreground": "$regularForeground",
+      "hoverBackground": "$selectionBackgroundMuted",
+      "hoverInactiveBackground": "$selectionBackgroundMuted",
       "modifiedItemForeground": "$linkAccented",
       "border": "0,0,0,0"
     },
