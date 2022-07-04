@@ -2694,7 +2694,7 @@
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
       </value>
     </option>
     <option name="YAML_SCALAR_STRING">
@@ -2705,7 +2705,7 @@
     </option>
     <option name="YAML_SCALAR_VALUE">
       <value>
-        <option name="FOREGROUND" value="F0F0F0" />
+        <option name="FOREGROUND" value="BDBDBD" />
       </value>
     </option>
     <option name="YAML_SIGN">
