@@ -213,10 +213,9 @@
       "foreground": "$regularForeground"
     },
     "Popup": {
-      "xpaintBorder": true,
       "borderColor": "$popupBorder",
       "inactiveBorderColor": "$popupBorder",
-      "separatorColor": "$separator",
+      "separatorColor": "$listSeparator",
       "separatorForeground": "$mutedForeground",
       "Header": {
         "activeBackground": "$panelBackground",
@@ -570,6 +569,7 @@
     "$border": "#D8D8D8",
     "$controlBorder": "#D8D8D8",
     "$separator": "#D8D8D8",
+    "$listSeparator": "#E5E5E5",
     "$focusedBorder": "#4982CC",
     "$controlFocus": "#A6CFFFC0",
     "$popupBorder": "#B0B0B0",
