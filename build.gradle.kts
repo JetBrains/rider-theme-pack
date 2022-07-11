@@ -1,27 +1,27 @@
 plugins {
-    id("org.jetbrains.intellij") version "0.7.3"
-    id("me.filippov.gradle.jvm.wrapper") version "0.9.3"
+    id("org.jetbrains.intellij") version "1.7.0"
+    id("me.filippov.gradle.jvm.wrapper") version "0.11.0"
 }
 
 repositories {
     mavenCentral()
 }
 
-version = "0.10.1"
+version = "0.10.2"
 
 intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
     if (useRiderSdk) {
-        type = "RD"
-        //version = "2020.3-SNAPSHOT" // to run in Rider
-        version = "2021.2" // release
+        type.set("RD")
+        // version.set("2022.2-SNAPSHOT") // to run in Rider
+        version.set("2022.1") // release
     }
     else {
-        //version = "203-SNAPSHOT" // to run in IDEA
-        version = "2021.2" // release
+        // version.set("222-SNAPSHOT") // to run in IDEA
+        version.set("2022.1") // release
     }
 
-    pluginName = "Rider UI Theme Pack"
+    pluginName.set("Rider UI Theme Pack")
 
     tasks {
         buildSearchableOptions {
@@ -38,8 +38,8 @@ intellij {
             }
         }
         withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
-            updateSinceUntilBuild = true
-            setUntilBuild("")
+            updateSinceUntilBuild.set(true)
+            untilBuild.set("")
         }
     }
 }
