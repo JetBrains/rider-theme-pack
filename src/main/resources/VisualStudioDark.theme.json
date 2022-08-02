@@ -37,7 +37,8 @@
       "borderColor": "$border"
     },
     "StatusBar": {
-      "borderColor": "$border"
+      "borderColor": "$border",
+      "background": "$panelBackground"
     },
     "SearchEverywhere": {
       "Header.background": "$panelBackground",

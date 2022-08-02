@@ -42,7 +42,8 @@
     },
 
     "StatusBar": {
-      "borderColor": "$border"
+      "borderColor": "$border",
+      "background": "$panelBackground"
     },
 
     "SearchEverywhere": {
