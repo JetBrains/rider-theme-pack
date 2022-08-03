@@ -1268,21 +1268,41 @@
         <option name="FOREGROUND" value="ff0000" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" />
-    <option name="XML_ATTRIBUTE_VALUE" />
-    <option name="XML_COMMENT" />
-    <option name="XML_ENTITY_REFERENCE" />
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="0000ff" />
+      </value>
+    </option>
+    <option name="XML_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="008000" />
+      </value>
+    </option>
+    <option name="XML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+      </value>
+    </option>
     <option name="XML_NS_PREFIX" />
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="0000ff" />
       </value>
     </option>
-    <option name="XML_TAG" />
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="0000ff" />
+      </value>
+    </option>
     <option name="XML_TAG_DATA" />
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="800006" />
+        <option name="FOREGROUND" value="a31515" />
       </value>
     </option>
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />

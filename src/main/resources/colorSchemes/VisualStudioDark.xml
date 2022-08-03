@@ -1258,33 +1258,39 @@
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="bababa" />
+        <option name="FOREGROUND" value="92caf4" />
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_VALUE" />
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
     <option name="XML_COMMENT" />
     <option name="XML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="6d9cbe" />
+        <option name="FOREGROUND" value="92caf4" />
       </value>
     </option>
     <option name="XML_NS_PREFIX" />
     <option name="XML_PROLOGUE">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="569cd6" />
       </value>
     </option>
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
