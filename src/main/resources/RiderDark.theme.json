@@ -441,6 +441,14 @@
       "Actions.infoForeground": "$regularForeground"
     },
 
+    "GotItTooltip": {
+      "background": "$tooltipBackground",
+      "borderColor": "$popupBorder",
+      "foreground": "$regularForeground",
+      "linkForeground": "$linkRegular",
+      "shortcutForeground": "$linkRegular"
+    },
+
     "TextField": {
       "background": "$textInputBackground",
       "disabledBackground": "$textInputBackgroundDisabled",
