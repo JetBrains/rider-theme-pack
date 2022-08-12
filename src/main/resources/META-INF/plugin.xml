@@ -3,19 +3,14 @@
     <name>Rider UI Theme Pack</name>
     <vendor email="konstantin.homatyano@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
 
-    <description><![CDATA[
-        Set of UI themes for Rider IDE:
-        - Rider Dark
-        - Rider Light
-        - Rider Melon Dark
-        - Rider Melon Light
-        - ReSharper Dark
-        - ReSharper Light
-        - Visual Assist Dark
-        - Visual Assist Light
-        - Visual Studio Dark
-        - Visual Studio Light
-    ]]></description>
+    <description>
+        Set of UI themes for Rider IDE:&lt;br/&gt;
+        - Rider, Light and Dark&lt;br/&gt;
+        - Rider Melon, Light and Dark&lt;br/&gt;
+        - Visual Studio, Light and Dark&lt;br/&gt;
+        - Visual Studio with ReSharper, Light and Dark&lt;br/&gt;
+        - Visual Studio with Visual Assist, Light and Dark&lt;br/&gt;
+    </description>
 
     <depends>com.intellij.modules.lang</depends>
 
