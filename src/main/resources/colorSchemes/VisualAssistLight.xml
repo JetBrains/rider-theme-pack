@@ -1,8 +1,5 @@
 <scheme name="Visual Assist Light" parent_scheme="Default" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="12" />
-  <option name="EDITOR_FONT_NAME" value="Consolas" />
   <metaInfo>
     <property name="lcNameBundle">messages.RiderBundle</property>
     <property name="lcNameKey">visual.assist.light.color.scheme.name</property>
