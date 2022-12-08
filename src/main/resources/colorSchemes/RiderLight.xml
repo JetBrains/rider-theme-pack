@@ -1,5 +1,9 @@
 <scheme name="Rider Light" parent_scheme="Default" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
+  <metaInfo>
+    <property name="lcNameBundle">messages.RiderBundle</property>
+    <property name="lcNameKey">rider.light.color.scheme.name</property>
+  </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="BFDEB3" />
     <option name="ANNOTATIONS_COLOR" value="707070" />
