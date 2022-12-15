@@ -1241,6 +1241,11 @@
         <option name="FOREGROUND" value="008000" />
       </value>
     </option>
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="74531F" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="ff0000" />

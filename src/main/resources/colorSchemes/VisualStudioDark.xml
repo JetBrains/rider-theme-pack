@@ -1268,6 +1268,11 @@
       </value>
     </option>
     <option name="XML_COMMENT" />
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="DCDCAA" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="92caf4" />

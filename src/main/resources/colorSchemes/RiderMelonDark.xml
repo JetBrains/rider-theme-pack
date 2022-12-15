@@ -2647,6 +2647,12 @@
         <option name="FOREGROUND" value="909090" />
       </value>
     </option>
+    <option name="XML_CUSTOM_TAG_NAME">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="C191FF" />
+      </value>
+    </option>
     <option name="XML_ENTITY_REFERENCE">
       <value>
         <option name="FONT_TYPE" value="0" />
