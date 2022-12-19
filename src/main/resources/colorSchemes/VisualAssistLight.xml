@@ -1,9 +1,5 @@
 <scheme name="Visual Assist Light" parent_scheme="Default" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
-  <metaInfo>
-    <property name="lcNameBundle">messages.RiderBundle</property>
-    <property name="lcNameKey">visual.assist.light.color.scheme.name</property>
-  </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="404040" />
     <option name="CARET_ROW_COLOR" value="f0f0f0" />
