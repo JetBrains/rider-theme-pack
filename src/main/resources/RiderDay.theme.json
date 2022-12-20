@@ -1,0 +1,27 @@
+{
+  "name": "Rider Day",
+  "dark": false,
+  "author": "JetBrains",
+  "editorScheme": "/colorSchemes/RiderDay.xml",
+
+  "colors": {},
+
+  "ui": {},
+
+  "icons": {
+    "/windows/minimize.svg": "/icons/folder.svg",
+    "/windows/minimizeInactive.svg": "/icons/treeDownArrow.svg",
+    "/windows/maximize.svg": "/icons/folder.svg",
+    "/windows/maximizeInactive.svg": "/icons/treeDownArrow.svg",
+    "/windows/closeActive.svg": "/icons/folder.svg",
+    "/windows/closeInactive.svg": "/icons/treeDownArrow.svg",
+    "/windows/closeHover.svg": "/icons/treeRightArrow.svg",
+    "/windows/restore.svg": "/icons/folder.svg",
+    "/windows/restoreInactive.svg": "/icons/treeDownArrow.svg",
+
+    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderLight).svg",
+    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderLight).svg",
+    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderLight).svg",
+    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderLight).svg"
+  }
+}

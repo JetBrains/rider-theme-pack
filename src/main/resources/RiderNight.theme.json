@@ -1,0 +1,17 @@
+{
+  "name": "Rider Night",
+  "dark": true,
+  "author": "JetBrains",
+  "editorScheme": "/colorSchemes/RiderNight.xml",
+
+  "ui": {},
+
+  "colors": {},
+
+  "icons": {
+    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
+    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
+    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
+    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg"
+  }
+}
