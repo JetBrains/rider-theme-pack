@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>Rider UI Theme Pack</id>
     <name>Rider UI Theme Pack</name>
-    <vendor email="konstantin.homatyano@jetbrains.com" url="http://www.jetbrains.com">JetBrains</vendor>
+    <vendor email="konstantin.homatyano@jetbrains.com" url="https://www.jetbrains.com">JetBrains</vendor>
 
     <description>
         Set of UI themes for Rider IDE:&lt;br/&gt;
