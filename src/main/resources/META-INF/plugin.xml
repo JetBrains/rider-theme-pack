@@ -15,12 +15,14 @@
 
     <depends>com.intellij.modules.lang</depends>
 
+    <idea-version since-build="231.7665"/>
+
     <extensions defaultExtensionNs="com.intellij">
         <bundledColorScheme path="/colorSchemes/RiderDay" />
-        <themeProvider id="RiderDay" path="/RiderDay.theme.json"/>
+        <themeProvider id="RiderDay" path="/RiderDay.theme.json" targetUi="new" order="first"/>
 
         <bundledColorScheme path="/colorSchemes/RiderNight" />
-        <themeProvider id="RiderNight" path="/RiderNight.theme.json"/>
+        <themeProvider id="RiderNight" path="/RiderNight.theme.json" targetUi="new" order="first"/>
 
         <bundledColorScheme path="/colorSchemes/RiderLight" />
         <themeProvider id="RiderLight" path="/RiderLight.theme.json"/>
