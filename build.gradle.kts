@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-version = "0.11.0"
+version = "0.12.0"
 
 intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
@@ -39,6 +39,7 @@ intellij {
         }
         withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
             updateSinceUntilBuild.set(true)
+            sinceBuild.set("231.7665")
             untilBuild.set("")
         }
     }
