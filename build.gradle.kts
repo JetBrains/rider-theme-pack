@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.7.0"
+    id("org.jetbrains.intellij") version "1.13.0"
     id("me.filippov.gradle.jvm.wrapper") version "0.11.0"
 }
 
@@ -14,11 +14,11 @@ intellij {
     if (useRiderSdk) {
         type.set("RD")
         // version.set("2022.2-SNAPSHOT") // to run in Rider
-        version.set("2022.1") // release
+        version.set("2022.2") // release
     }
     else {
         // version.set("222-SNAPSHOT") // to run in IDEA
-        version.set("2022.1") // release
+        version.set("2022.2") // release
     }
 
     pluginName.set("Rider UI Theme Pack")
