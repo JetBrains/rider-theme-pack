@@ -18,40 +18,49 @@
     <idea-version since-build="231.7665"/>
 
     <extensions defaultExtensionNs="com.intellij">
-        <bundledColorScheme path="/colorSchemes/RiderDay" />
-        <themeProvider id="RiderDay" path="/RiderDay.theme.json" targetUi="new" order="first"/>
-
-        <bundledColorScheme path="/colorSchemes/RiderNight" />
-        <themeProvider id="RiderNight" path="/RiderNight.theme.json" targetUi="new" order="first"/>
-
+        <!-- default -->
         <bundledColorScheme path="/colorSchemes/RiderLight" />
+        <themeProvider id="RiderDay" path="/RiderDay.theme.json" targetUi="new" order="first"/>
         <themeProvider id="RiderLight" path="/RiderLight.theme.json"/>
 
         <bundledColorScheme path="/colorSchemes/RiderDark" />
+        <themeProvider id="RiderNight" path="/RiderNight.theme.json" targetUi="new" order="first"/>
         <themeProvider id="RiderDark" path="/RiderDark.theme.json"/>
 
+        <!-- Melon -->
         <bundledColorScheme path="/colorSchemes/RiderMelonLight" />
+        <themeProvider id="RiderMelonDay" path="/RiderMelonDay.theme.json" targetUi="new"/>
         <themeProvider id="RiderMelonLight" path="/RiderMelonLight.theme.json"/>
 
         <bundledColorScheme path="/colorSchemes/RiderMelonDark" />
+        <themeProvider id="RiderMelonNight" path="/RiderMelonNight.theme.json" targetUi="new"/>
         <themeProvider id="RiderMelonDark" path="/RiderMelonDark.theme.json"/>
 
+        <!-- Visual Studio -->
         <bundledColorScheme path="/colorSchemes/VisualStudioLight" />
+        <themeProvider id="VisualStudioDay" path="/VisualStudioDay.theme.json" targetUi="new"/>
         <themeProvider id="VisualStudioLight" path="/VisualStudioLight.theme.json"/>
 
         <bundledColorScheme path="/colorSchemes/VisualStudioDark" />
+        <themeProvider id="VisualStudioNight" path="/VisualStudioNight.theme.json" targetUi="new"/>
         <themeProvider id="VisualStudioDark" path="/VisualStudioDark.theme.json"/>
 
+        <!-- ReSharper -->
         <bundledColorScheme path="/colorSchemes/ReSharperLight" />
+        <themeProvider id="ReSharperDay" path="/ReSharperDay.theme.json" targetUi="new"/>
         <themeProvider id="ReSharperLight" path="/ReSharperLight.theme.json"/>
 
         <bundledColorScheme path="/colorSchemes/ReSharperDark" />
+        <themeProvider id="ReSharperNight" path="/ReSharperNight.theme.json" targetUi="new"/>
         <themeProvider id="ReSharperDark" path="/ReSharperDark.theme.json"/>
 
+        <!-- Visual Assist -->
         <bundledColorScheme path="/colorSchemes/VisualAssistLight" />
+        <themeProvider id="VisualAssistDay" path="/VisualAssistDay.theme.json" targetUi="new"/>
         <themeProvider id="VisualAssistLight" path="/VisualAssistLight.theme.json"/>
 
         <bundledColorScheme path="/colorSchemes/VisualAssistDark" />
+        <themeProvider id="VisualAssistNight" path="/VisualAssistNight.theme.json" targetUi="new"/>
         <themeProvider id="VisualAssistDark" path="/VisualAssistDark.theme.json"/>
     </extensions>
 

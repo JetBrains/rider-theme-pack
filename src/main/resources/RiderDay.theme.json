@@ -2,7 +2,7 @@
   "name": "Rider Day",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/colorSchemes/RiderDay.xml",
+  "editorScheme": "/colorSchemes/RiderLight.xml",
 
   "colors": {
     "Grey1": "#000000",

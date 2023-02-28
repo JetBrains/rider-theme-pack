@@ -3,7 +3,7 @@
   "name": "Visual Assist Day",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/colorSchemes/VisualAssistDay.xml",
+  "editorScheme": "/colorSchemes/VisualAssistLight.xml",
   "colors": {
     "Grey1": "#000000",
     "Grey2": "#262626",

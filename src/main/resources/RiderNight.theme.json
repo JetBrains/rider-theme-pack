@@ -2,7 +2,7 @@
   "name": "Rider Night",
   "dark": true,
   "author": "JetBrains",
-  "editorScheme": "/colorSchemes/RiderNight.xml",
+  "editorScheme": "/colorSchemes/RiderDark.xml",
 
   "colors": {
     "Grey1": "#1C1C1C",

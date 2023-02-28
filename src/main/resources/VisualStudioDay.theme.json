@@ -3,7 +3,7 @@
   "name": "Visual Studio Day",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/colorSchemes/VisualStudioDay.xml",
+  "editorScheme": "/colorSchemes/VisualStudioLight.xml",
   "colors": {
     "Grey1": "#000000",
     "Grey2": "#262626",
