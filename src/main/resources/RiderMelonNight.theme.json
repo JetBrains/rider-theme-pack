@@ -3,7 +3,7 @@
   "name": "Rider Melon Night",
   "dark": true,
   "author": "JetBrains",
-  "editorScheme": "/colorSchemes/RiderMelonDark.xml",
+  "editorScheme": "/colorSchemes/RiderMelonNight.xml",
   "colors": {
     "Grey1": "#1C1C1C",
     "Grey2": "#2B2B2B",
@@ -73,7 +73,29 @@
     "Orange8": "#F0AC81",
     "Orange9": "#F5BD98",
     "Orange10": "#FACEAF",
-    "Orange11": "#FFDFC7"
+    "Orange11": "#FFDFC7",
+    "Purple1": "#2F2936",
+    "Purple2": "#433358",
+    "Purple3": "#583D7A",
+    "Purple4": "#6C469C",
+    "Purple5": "#8150BE",
+    "Purple6": "#955AE0",
+    "Purple7": "#A571E6",
+    "Purple8": "#B589EC",
+    "Purple9": "#C4A0F3",
+    "Purple10": "#D4B8F9",
+    "Purple11": "#E4CEFF",
+    "Teal1": "#1D3838",
+    "Teal2": "#1E4D4A",
+    "Teal3": "#20635D",
+    "Teal4": "#21786F",
+    "Teal5": "#238E82",
+    "Teal6": "#24A394",
+    "Teal7": "#42B1A4",
+    "Teal8": "#60C0B5",
+    "Teal9": "#7DCEC5",
+    "Teal10": "#9BDDD6",
+    "Teal11": "#B9EBE6"
   },
   "ui": {
     "*": {
@@ -190,7 +212,8 @@
       "rowBackground": "#3573F026"
     },
     "EditorTabs": {
-      "tabInsets": "-3,12,-4,8",
+      "underlineArc": "4",
+      "unselectedBlend": "0.7",
       "hoverBackground": "#1E1F2200",
       "inactiveHoverBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
@@ -198,7 +221,6 @@
     },
     "Editor": {
       "SearchField": {
-        "borderInsets": "7,10,7,8",
         "background": "Grey1"
       },
       "Toolbar": {
@@ -211,7 +233,8 @@
       "hoverForeground": "Blue9",
       "pressedForeground": "Blue9",
       "visitedForeground": "Blue9",
-      "secondaryForeground": "Blue9"
+      "secondaryForeground": "Blue9",
+      "focusedBorderColor": "Blue7"
     },
     "List": {
       "rowHeight": "24",
@@ -237,17 +260,13 @@
     },
     "Menu": {
       "separatorColor": "Grey4",
-      "borderColor": "Grey4",
-      "borderInsets": "6,1,6,1",
-      "Selection": {
-        "innerInsets": "0,6,0,6"
-      }
+      "borderColor": "Grey4"
     },
     "Notification": {
       "background": "Grey3",
       "borderColor": "Grey4",
+      "foreground": "Grey13",
       "linkForeground": "Blue9",
-      "borderInsets": "4,4,4,0",
       "Button": {
         "background": "Grey3",
         "borderColor": "Grey7",
@@ -283,14 +302,10 @@
       "borderColor": "Grey4",
       "inactiveBorderColor": "Grey3",
       "Advertiser": {
-        "borderInsets": "6,20,6,20",
         "foreground": "Grey8",
         "background": "Grey3",
         "borderColor": "Grey3",
-        "fontSizeOffset": {
-          "os.default": -1,
-          "os.windows": 0
-        }
+        "fontSizeOffset": -1
       },
       "Header": {
         "activeBackground": "Grey2",
@@ -298,29 +313,27 @@
         "inactiveForeground": "Grey7"
       }
     },
-    "PopupMenu": {
-      "Selection": {
-        "innerInsets": "0,6,0,6"
-      }
-    },
+    "PopupMenu": {},
     "ComplexPopup.Header.background": "Grey3",
     "CompletionPopup": {
       "foreground": "Grey10",
       "matchForeground": "Blue8",
       "Advertiser": {
         "foreground": "Grey7",
-        "background": "Grey3",
-        "borderInsets": "4,12,3,8"
+        "background": "Grey3"
       }
     },
     "ProgressBar": {
       "progressColor": "Blue7",
       "indeterminateStartColor": "Blue9",
       "indeterminateEndColor": "Blue5",
+      "passedColor": "Green5",
+      "passedEndColor": "Green8",
+      "failedColor": "Red5",
+      "failedEndColor": "Red8",
       "trackColor": "Grey4"
     },
-    "ToolBar.verticalToolbarInsets": "7,4,7,4",
-    "ToolBar.horizontalToolbarInsets": "4,7,4,7",
+    "ToolBar.separatorColor": "Grey4",
     "SearchField": {
       "errorForeground": "Red6",
       "errorBackground": "Red2"
@@ -333,8 +346,7 @@
       },
       "Advertiser": {
         "foreground": "Grey8",
-        "background": "Grey3",
-        "borderInsets": "6,20,6,20"
+        "background": "Grey3"
       }
     },
     "SearchMatch": {
@@ -355,21 +367,16 @@
       "Widget": {
         "foreground": "Grey9",
         "hoverForeground": "Grey12",
-        "pressedBackground": "Grey4",
-        "widgetInsets": "6,8,6,8"
+        "pressedBackground": "Grey4"
       },
       "Breadcrumbs": {
         "foreground": "Grey9",
         "hoverForeground": "Grey12",
-        "itemInsets": "0,0,0,0",
-        "chevronInset": "0",
-        "floatingToolbarInsets": "8,12,8,12",
-        "itemBackgroundInsets": "2,4,2,4"
+        "chevronInset": "0"
       }
     },
     "TabbedPane": {
       "tabHeight": 40,
-      "tabInsets": "0,12,0,12",
       "tabSelectionArc": 4,
       "hoverColor": "Grey4",
       "contentAreaColor": "Grey1",
@@ -425,28 +432,35 @@
         "font.size.offset": 0
       },
       "HeaderTab": {
-        "hoverInactiveBackground": "Grey3",
-        "leftRightInsets": "0,12,0,12"
+        "hoverInactiveBackground": "Grey3"
       },
       "Button": {
+        "selectedForeground": "Grey14",
+        "selectedBackground": "Blue6",
         "DragAndDrop": {
           "stripeBackground": "Grey2",
-          "buttonDropBackground": "#35538F99"
+          "buttonDropBackground": "#35538F99",
+          "buttonDropBorderColor": "Blue8"
         }
+      },
+      "Stripe": {
+        "separatorColor": "Grey4",
+        "DragAndDrop": {
+          "separatorColor": "Blue8"
+        }
+      },
+      "DragAndDrop": {
+        "areaBackground": "#366ACF4D"
       }
     },
     "MainToolbar": {
       "Icon": {
-        "borderInsets": "10,10,10,10",
         "background": "Grey2",
         "pressedBackground": "Grey3"
       },
       "Dropdown": {
-        "borderInsets": "3,12,3,6",
-        "pressedBackground": "Grey3"
-      },
-      "Button": {
-        "buttonInsets": "0,0,0,0"
+        "pressedBackground": "Grey3",
+        "maxWidth": 350
       },
       "background": "Grey2",
       "separatorColor": "Grey1"
@@ -470,12 +484,19 @@
       "Log.Commit": {
         "currentBranchBackground": "#1c2433",
         "unmatchedForeground": "Grey7",
-        "hoveredBackground": "#FFFFFFED"
+        "hoveredBackground": "#FFFFFFED",
+        "Reference.foreground": "Grey7"
       },
       "FileHistory.Commit.selectedBranchBackground": "#1c2433",
       "MarkerPopup": {
-        "borderInsets": "6,8,6,10",
         "borderColor": "Grey4"
+      },
+      "GitLog": {
+        "headIconColor": "Yellow8",
+        "localBranchIconColor": "Green6",
+        "otherIconColor": "Grey8",
+        "remoteBranchIconColor": "Purple8",
+        "tagIconColor": "Grey8"
       }
     },
     "EditorPane.splitBorder": "Grey3",
@@ -486,35 +507,60 @@
     "Lesson": {
       "shortcutBackground": "Grey5"
     },
+    "Tooltip.Learning": {
+      "background": "Blue6",
+      "borderColor": "Blue6",
+      "spanBackground": "Blue4",
+      "spanForeground": "Grey14",
+      "foreground": "Grey14",
+      "stepNumberForeground": "Blue11"
+    },
     "UnattendedHostStatus": {
       "warningBackground": "Yellow7",
       "warningForeground": "Grey3",
       "dangerBackground": "Red6"
     },
-    "CodeWithMe.Users": {
-      "1": {
-        "Background": "Green6",
-        "Foreground": "Grey13"
+    "CodeWithMe": {
+      "MainToolbar": {
+        "NoConnectionLabelForeground": "Grey8"
       },
-      "2": {
-        "Background": "#15A0B2",
-        "Foreground": "Grey13"
-      },
-      "3": {
-        "Background": "Red6",
-        "Foreground": "Grey13"
-      },
-      "4": {
-        "Background": "#955AE0",
-        "Foreground": "Grey13"
-      },
-      "5": {
-        "Background": "Yellow6",
-        "Foreground": "Grey13"
-      },
-      "6": {
-        "Background": "Orange6",
-        "Foreground": "Grey13"
+      "Users": {
+        "1": {
+          "Background": "Green6",
+          "Foreground": "Grey14",
+          "StopFollowingLinkForeground": "Blue1",
+          "FollowingBorderTextForeground": "Grey14"
+        },
+        "2": {
+          "Background": "Red6",
+          "Foreground": "Grey14",
+          "StopFollowingLinkForeground": "Blue1",
+          "FollowingBorderTextForeground": "Grey14"
+        },
+        "3": {
+          "Background": "Purple6",
+          "Foreground": "Grey14",
+          "StopFollowingLinkForeground": "Blue1",
+          "FollowingBorderTextForeground": "Grey14"
+        },
+        "4": {
+          "Background": "Orange6",
+          "Foreground": "Grey14",
+          "StopFollowingLinkForeground": "Blue1",
+          "FollowingBorderTextForeground": "Grey14"
+        },
+        "5": {
+          "Background": "Teal6",
+          "Foreground": "Grey14",
+          "StopFollowingLinkForeground": "Blue1",
+          "FollowingBorderTextForeground": "Grey14"
+        },
+        "6": {
+          "Background": "Yellow6",
+          "Foreground": "Grey14",
+          "StopFollowingLinkForeground": "Blue1",
+          "FollowingBorderTextForeground": "Grey1"
+        }
       }
     },
     "PackageSearch": {
@@ -540,19 +586,31 @@
       "PackageTagSelected.foreground": "Grey10"
     },
     "RunWidget": {
-      "foreground": "Grey14",
+      "foreground": "Grey12",
+      "disabledForeground": "#FFFFFF66",
       "background": "Blue5",
       "runningBackground": "Green5",
       "hoverBackground": "#00000019",
       "pressedBackground": "#00000028",
       "separatorColor": "#FFFFFF40"
+    },
+    "MainWindow.Tab": {
+      "selectedForeground": "Grey11",
+      "selectedBackground": "Grey2",
+      "selectedInactiveBackground": "Grey3",
+      "foreground": "Grey10",
+      "background": "#131314",
+      "hoverForeground": "Grey11",
+      "hoverBackground": "#1A1A1B",
+      "separatorColor": "Grey2",
+      "borderColor": "Grey1"
     }
   },
   "icons": {
-    "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/icons/expUI/dark/checkBoxTemp.svg",
-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/icons/expUI/dark/checkBoxFocusedTemp.svg",
-    "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/icons/expUI/dark/radioTemp.svg",
-    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/icons/expUI/dark/radioFocusedTemp.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/expUI/icons/dark/checkBoxTemp.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/expUI/icons/dark/checkBoxFocusedTemp.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radioTemp.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocusedTemp.svg",
     "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
