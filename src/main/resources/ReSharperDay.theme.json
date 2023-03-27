@@ -3,7 +3,7 @@
   "name": "ReSharper Day",
   "dark": false,
   "author": "JetBrains",
-  "editorScheme": "/colorSchemes/ReSharperDay.xml",
+  "editorScheme": "/colorSchemes/ReSharperLight.xml",
   "colors": {
     "Grey1": "#000000",
     "Grey2": "#262626",
