@@ -638,7 +638,7 @@
       "Actions.Green": "#6ba653FF",
       "Actions.Blue": "#5f8ad4FF",
       "Actions.Yellow": "#cc9c00FF",
-      "xActions.WelcomeScreen": "#ff00ff",
+      "Actions.WelcomeScreen": "#ff00ff",
       "Objects.Grey": "#82828eA0",
       "Objects.BlackText": "#383848FF",
       "Objects.Red": "#e87668C0",
@@ -653,7 +653,7 @@
       "Checkbox.Background.Default": "#FFFFFF",
       "Checkbox.Background.Selected": "#85BDFF",
       "Checkbox.Border.Default": "#C0C0C0",
-      "xCheckbox.Foreground.Selected": "#333333",
+      "Checkbox.Foreground.Selected": "#ff00ff",
       "Checkbox.Focus.Thin.Default": "#4982CC",
       "Checkbox.Focus.Thin.Selected": "#4982CC",
       "Checkbox.Focus.Wide": "#A6CFFFC0"
