@@ -38,3 +38,7 @@ The lists of UI themes will have two instances of each theme:
 
 Unlike the UI themes, the lists of Editor Color Schemes will only contain a single instance of each color theme, 
 and these color schemes are the ones from the updated version of the plugin.
+
+## Branches
+
+The plugin `Rider Theme Pack` in the IDEA plugin gallery is built from the branch `master`. The branches named `net*` are for the themes bundled with the matching branches of Rider.
