@@ -75,6 +75,7 @@ fabric.properties
 # ----
 !/.idea
 /.idea/*
+!/.idea/icon.*
 !/.idea/codeStyles
 !/.idea/runConfigurations
 !/.idea/inspectionProfiles
