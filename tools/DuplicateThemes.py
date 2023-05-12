@@ -89,7 +89,7 @@ if __name__ == "__main__":
         name = "Visual Assist Dark",
         scheme = "/colorSchemes/VisualAssistDark.xml")
 
-    # New UI
+############## New UI ##############################
 
     # Rider -> Rider Melon
     # Separate theme only for convenience in switching
@@ -97,13 +97,13 @@ if __name__ == "__main__":
         src = "RiderDay.theme.json",
         dest = "RiderMelonDay.theme.json",
         name = "Rider Melon Day",
-        scheme = "/colorSchemes/RiderMelonDay.xml")
+        scheme = "/colorSchemes/RiderMelonLight.xml")
 
     copyTheme(
         src = "RiderNight.theme.json",
         dest = "RiderMelonNight.theme.json",
         name = "Rider Melon Night",
-        scheme = "/colorSchemes/RiderMelonNight.xml")
+        scheme = "/colorSchemes/RiderMelonDark.xml")
 
 
     # Rider -> Visual Studio
@@ -112,13 +112,13 @@ if __name__ == "__main__":
         src = "RiderDay.theme.json",
         dest = "VisualStudioDay.theme.json",
         name = "Visual Studio Day",
-        scheme = "/colorSchemes/VisualStudioDay.xml")
+        scheme = "/colorSchemes/VisualStudioLight.xml")
 
     copyTheme(
         src = "RiderNight.theme.json",
         dest = "VisualStudioNight.theme.json",
         name = "Visual Studio Night",
-        scheme = "/colorSchemes/VisualStudioNight.xml")
+        scheme = "/colorSchemes/VisualStudioDark.xml")
 
 
     # Visual Studio -> ReSharper
@@ -127,13 +127,13 @@ if __name__ == "__main__":
         src = "VisualStudioDay.theme.json",
         dest = "ReSharperDay.theme.json",
         name = "ReSharper Day",
-        scheme = "/colorSchemes/ReSharperDay.xml")
+        scheme = "/colorSchemes/ReSharperLight.xml")
 
     copyTheme(
         src = "VisualStudioNight.theme.json",
         dest = "ReSharperNight.theme.json",
         name = "ReSharper Night",
-        scheme = "/colorSchemes/ReSharperNight.xml")
+        scheme = "/colorSchemes/ReSharperDark.xml")
 
 
     # Visual Studio -> Visual Assist
@@ -142,10 +142,10 @@ if __name__ == "__main__":
         src = "VisualStudioDay.theme.json",
         dest = "VisualAssistDay.theme.json",
         name = "Visual Assist Day",
-        scheme = "/colorSchemes/VisualAssistDay.xml")
+        scheme = "/colorSchemes/VisualAssistLight.xml")
 
     copyTheme(
         src = "VisualStudioNight.theme.json",
         dest = "VisualAssistNight.theme.json",
         name = "Visual Assist Night",
-        scheme = "/colorSchemes/VisualAssistNight.xml")
+        scheme = "/colorSchemes/VisualAssistDark.xml")
