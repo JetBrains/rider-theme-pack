@@ -653,7 +653,7 @@
       "Checkbox.Background.Default": "#FFFFFF",
       "Checkbox.Background.Selected": "#85BDFF",
       "Checkbox.Border.Default": "#C0C0C0",
-      "Checkbox.Foreground.Selected": "#ff00ff",
+      "Checkbox.Foreground.Selected": "#333333",
       "Checkbox.Focus.Thin.Default": "#4982CC",
       "Checkbox.Focus.Thin.Selected": "#4982CC",
       "Checkbox.Focus.Wide": "#A6CFFFC0"
