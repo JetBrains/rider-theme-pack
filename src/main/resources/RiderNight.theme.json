@@ -178,6 +178,13 @@
         "endBorderColor": "Blue6",
         "focusedBorderColor": "Grey1",
         "shadowColor": "#00000000"
+      },
+
+      "Split": {
+        "default": {
+          "iconColor": "Grey14",
+          "separatorColor": "Blue10"
+        }
       }
     },
 
@@ -247,9 +254,11 @@
     "EditorTabs": {
       "underlineArc": "4",
       "unselectedBlend": "0.7",
+      "background": "Grey1",
       "hoverBackground": "#1E1F2200",
       "inactiveHoverBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
+      "underlinedTabBackground": "Grey1",
       "underTabsBorderColor":"Grey3"
     },
 
@@ -463,8 +472,6 @@
     },
 
     "HelpTooltip": {
-      "defaultTextBorderInsets": "12,16,16,16",
-      "smallTextBorderInsets": "8,12,9,12",
       "verticalGap": 6
     },
 
@@ -476,6 +483,9 @@
       "Header.foreground": "Grey14",
       "shortcutForeground": "Grey14",
       "shortcutBackground": "Grey5",
+      "codeForeground": "Grey14",
+      "codeBackground": "Grey3",
+      "codeBorderColor": "Grey7",
       "linkForeground": "Blue9",
       "Button": {
         "foreground": "Grey14",
@@ -528,10 +538,11 @@
       },
       "Dropdown": {
         "pressedBackground": "Grey3",
-        "maxWidth": 350
+        "maxWidth": 350,
+        "transparentHoverBackground": "#FFFFFF1A"
       },
       "background": "Grey2",
-      "separatorColor": "Grey1"
+      "separatorColor": "Grey4"
     },
 
     "Tree": {
@@ -589,7 +600,74 @@
       "spanBackground": "Blue4",
       "spanForeground": "Grey14",
       "foreground": "Grey14",
-      "stepNumberForeground": "Blue11"
+      "stepNumberForeground": "Blue11",
+      "codeBorderColor": "#FFFFFFBF"
+    },
+
+    "RecentProject": {
+      "Color1": {
+        "MainToolbarGradientStart": "#CE443C",
+        "Avatar": {
+          "Start": "#DB3D3C",
+          "End": "#FF8E42"
+        }
+      },
+      "Color2": {
+        "MainToolbarGradientStart": "#E27237",
+        "Avatar": {
+          "Start": "#F57236",
+          "End": "#FCBA3F"
+        }
+      },
+      "Color3": {
+        "MainToolbarGradientStart": "#2DBCAD",
+        "Avatar": {
+          "Start": "#2BC8BB",
+          "End": "#36EBAE"
+        }
+      },
+      "Color4": {
+        "MainToolbarGradientStart": "#3895E1",
+        "Avatar": {
+          "Start": "#359AF2",
+          "End": "#57DBFF"
+        }
+      },
+      "Color5": {
+        "MainToolbarGradientStart": "#7B75E8",
+        "Avatar": {
+          "Start": "#8379FB",
+          "End": "#85A8FF"
+        }
+      },
+      "Color6": {
+        "MainToolbarGradientStart": "#7854AD",
+        "Avatar": {
+          "Start": "#7E54B5",
+          "End": "#9486FF"
+        }
+      },
+      "Color7": {
+        "MainToolbarGradientStart": "#8F4593",
+        "Avatar": {
+          "Start": "#D63CC8",
+          "End": "#F582B9"
+        }
+      },
+      "Color8": {
+        "MainToolbarGradientStart": "#C840B9",
+        "Avatar": {
+          "Start": "#954294",
+          "End": "#C87DFF"
+        }
+      },
+      "Color9": {
+        "MainToolbarGradientStart": "#D75370",
+        "Avatar": {
+          "Start": "#E75371",
+          "End": "#FF78B5"
+        }
+      }
     },
 
     "UnattendedHostStatus": {
@@ -666,9 +744,11 @@
     },
     "RunWidget" : {
       "foreground": "Grey12",
+      "iconColor": "Grey12",
       "disabledForeground": "#FFFFFF66",
       "background": "Blue5",
       "runningBackground": "Green5",
+      "runningIconColor": "Grey12",
       "hoverBackground": "#00000019",
       "pressedBackground": "#00000028",
       "separatorColor": "#FFFFFF40"
@@ -684,7 +764,9 @@
       "hoverBackground": "#1A1A1B",
       "separatorColor": "Grey2",
       "borderColor": "Grey1"
-    }
+    },
+
+    "MainWindow.FullScreeControl.Background": "#5A5A5A"
   },
 
   "icons": {
