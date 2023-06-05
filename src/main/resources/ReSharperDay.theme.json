@@ -273,7 +273,8 @@
       "background": "Grey2",
       "foreground": "Grey12",
       "selectionForeground": "Grey12",
-      "selectionBackground": "Grey3"
+      "selectionBackground": "Grey3",
+      "transparentSelectionBackground": "#FFFFFF1A"
     },
     "MemoryIndicator": {
       "allocatedBackground": "Grey11",
@@ -512,6 +513,7 @@
       "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
       "expandedIcon": "/expui/general/chevronDown.svg",
       "expandedSelectedIcon": "/expui/general/chevronDown.svg",
+      "forceFocusedSelectionForeground": false,
       "rowHeight": 24,
       "hash": "Grey11",
       "border": "4,12,4,12",
@@ -691,13 +693,10 @@
     "RunWidget": {
       "foreground": "Grey12",
       "iconColor": "Grey12",
-      "disabledForeground": "#FFFFFF66",
-      "background": "#3369D6",
       "runningBackground": "#599E5E",
       "runningIconColor": "Grey12",
       "hoverBackground": "#00000019",
-      "pressedBackground": "#00000028",
-      "separatorColor": "#FFFFFF40"
+      "pressedBackground": "#00000028"
     },
     "MainWindow.Tab": {
       "selectedForeground": "Grey9",
@@ -710,7 +709,82 @@
       "separatorColor": "Grey3",
       "borderColor": "Grey3"
     },
-    "MainWindow.FullScreeControl.Background": "#808080"
+    "MainWindow.FullScreeControl.Background": "#7A7B80",
+    "Profiler": {
+      "ChartSlider": {
+        "foreground": "Grey1",
+        "lineColor": "Grey8"
+      },
+      "CpuChart": {
+        "background": "Green9",
+        "borderColor": "Green5",
+        "inactiveBackground": "#C5E5CC66",
+        "inactiveBorderColor": "Green8",
+        "pointBackground": "Green5",
+        "pointBorderColor": "Grey13"
+      },
+      "MemoryChart": {
+        "background": "Blue10",
+        "borderColor": "Blue5",
+        "inactiveBackground": "#C2D6FC66",
+        "inactiveBorderColor": "Blue9",
+        "pointBackground": "Blue5",
+        "pointBorderColor": "Grey13"
+      },
+      "Timer": {
+        "foreground": "Grey1",
+        "disabledForeground": "Grey8"
+      },
+      "LiveChart": {
+        "horizontalAxisColor": "Grey9"
+      }
+    },
+    "FlameGraph.Tooltip": {
+      "scaleBackground": "#EBECF0",
+      "scaleColor": "#C2D6FC",
+      "foreground": "#000000"
+    },
+    "LineProfiler": {
+      "Line": {
+        "labelBackground": "#F1F2F4",
+        "foreground": "Grey3",
+        "hoverBackground": "Grey12"
+      },
+      "HotLine": {
+        "labelBackground": "Red10",
+        "foreground": "Red3",
+        "hoverBackground": "Red9"
+      },
+      "IgnoredLine": {
+        "labelBackground": "Grey12",
+        "foreground": "Grey8"
+      }
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "Grey11",
+        "Snippet": {
+          "border": "Grey10",
+          "MoreLines": {
+            "foreground": "Grey7",
+            "background": "Grey13",
+            "hoverForeground": "Grey7",
+            "hoverBackground": "Grey12"
+          }
+        }
+      },
+      "HelpBrowserMessage": {
+        "Snippet": {
+          "border": "Grey11",
+          "MoreLines": {
+            "foreground": "Grey7",
+            "background": "Grey13",
+            "hoverForeground": "Grey7",
+            "hoverBackground": "Grey12"
+          }
+        }
+      }
+    }
   },
   "icons": {
     "/windows/minimize.svg": "/expui/windows/minimize.svg",

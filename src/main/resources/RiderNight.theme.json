@@ -300,7 +300,8 @@
 
     "MainMenu": {
       "selectionForeground": "Grey12",
-      "selectionBackground": "Grey3"
+      "selectionBackground": "Grey3",
+      "transparentSelectionBackground": "#FFFFFF1A"
     },
 
     "MemoryIndicator": {
@@ -681,37 +682,37 @@
         "NoConnectionLabelForeground": "Grey8"
       },
       "Users": {
-      "1": {
-        "Background": "Green6",
+        "1": {
+          "Background": "Green6",
           "Foreground": "Grey14",
           "StopFollowingLinkForeground": "Blue1",
           "FollowingBorderTextForeground": "Grey14"
-      },
-      "2": {
+        },
+        "2": {
           "Background": "Red6",
           "Foreground": "Grey14",
           "StopFollowingLinkForeground": "Blue1",
           "FollowingBorderTextForeground": "Grey14"
-      },
-      "3": {
+        },
+        "3": {
           "Background": "Purple6",
           "Foreground": "Grey14",
           "StopFollowingLinkForeground": "Blue1",
           "FollowingBorderTextForeground": "Grey14"
-      },
-      "4": {
+        },
+        "4": {
           "Background": "Orange6",
           "Foreground": "Grey14",
           "StopFollowingLinkForeground": "Blue1",
           "FollowingBorderTextForeground": "Grey14"
-      },
-      "5": {
+        },
+        "5": {
           "Background": "Teal6",
           "Foreground": "Grey14",
           "StopFollowingLinkForeground": "Blue1",
           "FollowingBorderTextForeground": "Grey14"
-      },
-      "6": {
+        },
+        "6": {
           "Background": "Yellow6",
           "Foreground": "Grey14",
           "StopFollowingLinkForeground": "Blue1",
@@ -719,6 +720,8 @@
         }
       }
     },
+
+
 
     "PackageSearch": {
       "SearchResult": {
@@ -745,13 +748,10 @@
     "RunWidget" : {
       "foreground": "Grey12",
       "iconColor": "Grey12",
-      "disabledForeground": "#FFFFFF66",
-      "background": "Blue5",
       "runningBackground": "Green5",
       "runningIconColor": "Grey12",
       "hoverBackground": "#00000019",
-      "pressedBackground": "#00000028",
-      "separatorColor": "#FFFFFF40"
+      "pressedBackground": "#00000028"
     },
 
     "MainWindow.Tab" : {
@@ -766,7 +766,82 @@
       "borderColor": "Grey1"
     },
 
-    "MainWindow.FullScreeControl.Background": "#5A5A5A"
+    "MainWindow.FullScreeControl.Background": "#575A5C",
+    "Profiler": {
+      "ChartSlider": {
+        "foreground": "Grey12",
+        "lineColor": "Grey5"
+      },
+      "CpuChart": {
+        "background": "Green2",
+        "borderColor": "Green5",
+        "inactiveBackground": "Green1",
+        "inactiveBorderColor": "Green2",
+        "pointBackground": "Green5",
+        "pointBorderColor": "Grey2"
+      },
+      "MemoryChart": {
+        "background": "Blue2",
+        "borderColor": "Blue8",
+        "inactiveBackground": "Blue1",
+        "inactiveBorderColor": "Blue3",
+        "pointBackground": "Blue5",
+        "pointBorderColor": "Grey2"
+      },
+      "Timer": {
+        "foreground": "Grey12",
+        "disabledForeground": "Grey7"
+      },
+      "LiveChart": {
+        "horizontalAxisColor": "Grey4"
+      }
+    },
+    "FlameGraph.Tooltip": {
+      "scaleBackground": "#43454A",
+      "scaleColor": "#375FAD",
+      "foreground": "#DFE1E5"
+    },
+    "LineProfiler" : {
+      "Line" : {
+        "labelBackground" : "Grey2",
+        "foreground" : "Grey7",
+        "hoverBackground" : "Grey3"
+      },
+      "HotLine" : {
+        "labelBackground" : "Red1",
+        "foreground" : "Red6",
+        "hoverBackground" : "Red2"
+      },
+      "IgnoredLine" : {
+        "labelBackground" : "Grey2",
+        "foreground" : "Grey5"
+      }
+    },
+    "HelpBrowser": {
+      "UserMessage": {
+        "background": "Grey4",
+        "Snippet": {
+          "border": "Grey5",
+          "MoreLines": {
+            "foreground": "Grey8",
+            "background": "Grey2",
+            "hoverForeground": "Grey8",
+            "hoverBackground": "Grey3"
+          }
+        }
+      },
+      "HelpBrowserMessage": {
+        "Snippet": {
+          "border": "Grey3",
+          "MoreLines": {
+            "foreground": "Grey8",
+            "background": "Grey2",
+            "hoverForeground": "Grey8",
+            "hoverBackground": "Grey3"
+          }
+        }
+      }
+    }
   },
 
   "icons": {
