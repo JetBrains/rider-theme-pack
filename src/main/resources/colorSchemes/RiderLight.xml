@@ -535,6 +535,12 @@
         <option name="FOREGROUND" value="D1A165" />
       </value>
     </option>
+    <option name="DEBUGGER_PREDICTED_FOLLOWUP_STATEMENT">
+      <value>
+        <option name="EFFECT_COLOR" value="FFAA00" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="DEBUGGER_PREDICTED_EXCEPTION">
       <value>
         <option name="EFFECT_COLOR" value="B086EB" />

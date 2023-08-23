@@ -535,21 +535,9 @@
         <option name="FOREGROUND" value="7A5C43" />
       </value>
     </option>
-    <option name="DEBUGGER_PREDICTED_EXCEPTION">
+    <option name="DEBUGGER_PREDICTED_FOLLOWUP_STATEMENT">
       <value>
-        <option name="EFFECT_COLOR" value="784FB3" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEBUGGER_PREDICTED_FLOW">
-      <value>
-        <option name="EFFECT_COLOR" value="784FB3" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="DEBUGGER_PREDICTED_SCOPE">
-      <value>
-        <option name="EFFECT_COLOR" value="4D2F6B" />
+        <option name="EFFECT_COLOR" value="A17022" />
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
@@ -571,6 +559,24 @@
     <option name="DEBUGGER_PREDICTED_VALUE_TRUE_ALT">
       <value>
         <option name="BACKGROUND" value="29421F" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_EXCEPTION">
+      <value>
+        <option name="EFFECT_COLOR" value="784FB3" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_FLOW">
+      <value>
+        <option name="EFFECT_COLOR" value="784FB3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_SCOPE">
+      <value>
+        <option name="EFFECT_COLOR" value="4D2F6B" />
+        <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
