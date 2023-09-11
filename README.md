@@ -1,5 +1,7 @@
 # rider-theme-pack
 
+[![JetBrains team project](https://jb.gg/badges/team.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 ## Color scheme editing
 
 After making changes to the color scheme files (`colorSchemes\*.xml`) apply the sorting utility
