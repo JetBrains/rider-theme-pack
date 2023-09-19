@@ -479,8 +479,8 @@
     "ActionButton": {
       "hoverBackground": "$buttonFace",
       "hoverBorderColor": "$controlBorder",
-      "pressedBackground": "$controlBorder",
-      "pressedBorderColor": "$controlBorder",
+      "pressedBackground": "$pressedBackground",
+      "pressedBorderColor": "$pressedBorder",
       "focusedBorderColor": "$focusedBorder"
     },
 
@@ -641,6 +641,7 @@
     "Window.border": "0,0,0,0,FFFFFF33",
     "DebuggerPopup.borderColor": "$popupBorder",
     "Separator.separatorColor": "$separator",
+    "ToolBar.separatorColor": "$separator",
     "SidePanel.background": "$toolwindowBackground",
     "OptionPane.background": "$panelBackground"
   },
@@ -657,6 +658,8 @@
     "$selectionToolwindowHeader": "#DCE4F0",
     "$border": "#D8D8D8",
     "$controlBorder": "#D8D8D8",
+    "$pressedBackground": "#D8D8D8",
+    "$pressedBorder": "#D1D1D1",
     "$separator": "#D8D8D8",
     "$listSeparator": "#E5E5E5",
     "$focusedBorder": "#4982CC",
