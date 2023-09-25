@@ -1,7 +1,7 @@
 <scheme name="Rider Dark" parent_scheme="Darcula" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
   <colors>
-    <option name="ADDED_LINES_COLOR" value="29421F" />
+    <option name="ADDED_LINES_COLOR" value="2C4722" />
     <option name="ANNOTATIONS_COLOR" value="909090" />
     <option name="BookmarkIcon.background" value="D9B72B" />
     <option name="CARET_COLOR" value="F0F0F0" />
@@ -128,7 +128,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#181818" />
+        <option name="FOREGROUND" value="#000000" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -148,12 +148,12 @@
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#484848" />
+        <option name="FOREGROUND" value="#666666" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -163,7 +163,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#808080" />
+        <option name="FOREGROUND" value="#BDBDBD" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -232,7 +232,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#D0D0D0" />
+        <option name="FOREGROUND" value="#F0F0F0" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -295,7 +295,7 @@
     <option name="CSS.FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="CSS.HASH">
@@ -409,7 +409,7 @@
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
@@ -535,6 +535,44 @@
         <option name="FOREGROUND" value="7A5C43" />
       </value>
     </option>
+    <option name="DEBUGGER_PREDICTED_EXCEPTION">
+      <value>
+        <option name="EFFECT_COLOR" value="784FB3" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_FLOW">
+      <value>
+        <option name="EFFECT_COLOR" value="784FB3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_SCOPE">
+      <value>
+        <option name="EFFECT_COLOR" value="4D2F6B" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_FALSE">
+      <value>
+        <option name="BACKGROUND" value="612722" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_FALSE_ALT">
+      <value>
+        <option name="BACKGROUND" value="612722" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_TRUE">
+      <value>
+        <option name="BACKGROUND" value="29421F" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_TRUE_ALT">
+      <value>
+        <option name="BACKGROUND" value="29421F" />
+      </value>
+    </option>
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="85C46C" />
@@ -618,13 +656,13 @@
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
@@ -647,7 +685,7 @@
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -746,7 +784,7 @@
     <option name="DEFAULT_STATIC_METHOD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -1076,13 +1114,13 @@
     <option name="JS.FUNCTION_ARROW">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
@@ -1094,7 +1132,7 @@
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
@@ -1181,7 +1219,7 @@
     <option name="JS.STATIC_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="JS.STATIC_MEMBER_VARIABLE">
@@ -1325,7 +1363,7 @@
     <option name="LESS_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="LESS_IDENT">
@@ -1529,7 +1567,7 @@
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="133F2F" />
+        <option name="BACKGROUND" value="13362E" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1696,7 +1734,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.BRACE_OUTLINE">
@@ -1741,7 +1779,7 @@
     <option name="ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.CPP_PREPROCESSOR_MACRO_IDENTIFIER">
@@ -1793,7 +1831,7 @@
     <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.FORMAT_STRING_ITEM">
@@ -1863,7 +1901,7 @@
     <option name="ReSharper.JS_FUNCTION_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.JS_LOCAL_VARIABLE_IDENTIFIER">
@@ -1902,7 +1940,7 @@
     </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
-        <option name="BACKGROUND" value="472B63" />
+        <option name="BACKGROUND" value="4D2F6B" />
       </value>
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
@@ -1967,7 +2005,7 @@
     <option name="ReSharper.ST_METHOD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.ST_PATH">
@@ -2084,7 +2122,7 @@
     <option name="SASS_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="SASS_GLOBAL">
@@ -2203,8 +2241,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="133F2F" />
-        <option name="ERROR_STRIPE_COLOR" value="18704B" />
+        <option name="BACKGROUND" value="144238" />
+        <option name="ERROR_STRIPE_COLOR" value="187057" />
       </value>
     </option>
     <option name="SQL_BAD_CHARACTER">
@@ -2299,7 +2337,7 @@
     <option name="SQL_PROCEDURE">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="SQL_SCHEMA">
@@ -2456,13 +2494,13 @@
     <option name="TS.FUNCTION_ARROW">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="TS.GLOBAL_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="TS.GLOBAL_VARIABLE">
@@ -2474,7 +2512,7 @@
     <option name="TS.INSTANCE_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="TS.INSTANCE_MEMBER_VARIABLE">
@@ -2562,7 +2600,7 @@
     <option name="TS.STATIC_MEMBER_FUNCTION">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="TS.STATIC_MEMBER_VARIABLE">
@@ -2646,7 +2684,7 @@
     <option name="XML_CUSTOM_TAG_NAME">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">

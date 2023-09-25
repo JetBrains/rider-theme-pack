@@ -1,7 +1,7 @@
 <scheme name="Rider Melon Dark" parent_scheme="Darcula" version="142">
   <!-- This document is auto-generated, do not edit manually.-->
   <colors>
-    <option name="ADDED_LINES_COLOR" value="29421F" />
+    <option name="ADDED_LINES_COLOR" value="2C4722" />
     <option name="ANNOTATIONS_COLOR" value="909090" />
     <option name="BookmarkIcon.background" value="D9B72B" />
     <option name="CARET_COLOR" value="F0F0F0" />
@@ -128,7 +128,7 @@
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#181818" />
+        <option name="FOREGROUND" value="#000000" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
@@ -148,12 +148,12 @@
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="CONSOLE_DARKGRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#484848" />
+        <option name="FOREGROUND" value="#666666" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
@@ -163,7 +163,7 @@
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#808080" />
+        <option name="FOREGROUND" value="#BDBDBD" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
@@ -232,7 +232,7 @@
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#D0D0D0" />
+        <option name="FOREGROUND" value="#F0F0F0" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -315,7 +315,7 @@
     <option name="CSS.KEYWORD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="CSS.NUMBER">
@@ -409,7 +409,7 @@
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
@@ -533,6 +533,44 @@
       <value>
         <option name="FONT_TYPE" value="2" />
         <option name="FOREGROUND" value="7A5C43" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_EXCEPTION">
+      <value>
+        <option name="EFFECT_COLOR" value="784FB3" />
+        <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_FLOW">
+      <value>
+        <option name="EFFECT_COLOR" value="784FB3" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_SCOPE">
+      <value>
+        <option name="EFFECT_COLOR" value="4D2F6B" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_FALSE">
+      <value>
+        <option name="BACKGROUND" value="612722" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_FALSE_ALT">
+      <value>
+        <option name="BACKGROUND" value="612722" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_TRUE">
+      <value>
+        <option name="BACKGROUND" value="29421F" />
+      </value>
+    </option>
+    <option name="DEBUGGER_PREDICTED_VALUE_TRUE_ALT">
+      <value>
+        <option name="BACKGROUND" value="29421F" />
       </value>
     </option>
     <option name="DEFAULT_ATTRIBUTE">
@@ -691,7 +729,7 @@
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -1138,7 +1176,7 @@
     <option name="JS.MODULE_NAME">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="JS.NUMBER">
@@ -1529,7 +1567,7 @@
     </option>
     <option name="NOT_TOP_FRAME_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="133F2F" />
+        <option name="BACKGROUND" value="13362E" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1696,7 +1734,7 @@
     </option>
     <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
       <value>
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.BRACE_OUTLINE">
@@ -1902,7 +1940,7 @@
     </option>
     <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
       <value>
-        <option name="BACKGROUND" value="472B63" />
+        <option name="BACKGROUND" value="4D2F6B" />
       </value>
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER">
@@ -1914,7 +1952,7 @@
     <option name="ReSharper.NAMESPACE_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="ReSharper.NAME_OR_SIGNATURE_CHANGED">
@@ -2117,13 +2155,13 @@
     <option name="SASS_KEYWORD">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="SASS_MIXIN">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="SASS_NUMBER">
@@ -2203,8 +2241,8 @@
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="133F2F" />
-        <option name="ERROR_STRIPE_COLOR" value="18704B" />
+        <option name="BACKGROUND" value="144238" />
+        <option name="ERROR_STRIPE_COLOR" value="187057" />
       </value>
     </option>
     <option name="SQL_BAD_CHARACTER">
@@ -2305,7 +2343,7 @@
     <option name="SQL_SCHEMA">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="SQL_SEMICOLON">
@@ -2518,7 +2556,7 @@
     <option name="TS.MODULE_NAME">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="TS.NUMBER">
@@ -2658,7 +2696,7 @@
     <option name="XML_NS_PREFIX">
       <value>
         <option name="FONT_TYPE" value="0" />
-        <option name="FOREGROUND" value="39CC8F" />
+        <option name="FOREGROUND" value="39CC9B" />
       </value>
     </option>
     <option name="XML_PROLOGUE">
