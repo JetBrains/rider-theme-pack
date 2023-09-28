@@ -27,6 +27,7 @@ intellij {
         buildSearchableOptions {
             enabled = false
         }
+
         // Initially introduced in:
         // https://github.com/JetBrains/ForTea/blob/master/Frontend/build.gradle.kts
         if (!useRiderSdk) {
