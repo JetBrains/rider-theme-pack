@@ -15,7 +15,11 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <idea-version since-build="231.7665"/>
+<!-- This dependency if enabled will break the light Rider client
+    <depends>com.intellij.modules.rider</depends>
+-->
+
+    <idea-version since-build="233" until-build="233.*"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- default -->
