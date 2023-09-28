@@ -5,6 +5,7 @@
   "author": "JetBrains",
   "parentTheme": "ExperimentalDark",
   "editorScheme": "/colorSchemes/RiderMelonDark.xml",
+  "parentTheme": "ExperimentalLight",
   "colors": {
     "Grey1": "#1C1C1C",
     "Grey2": "#2B2B2B",
