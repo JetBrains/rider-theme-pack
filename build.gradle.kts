@@ -27,7 +27,6 @@ intellij {
         buildSearchableOptions {
             enabled = false
         }
-
         // Initially introduced in:
         // https://github.com/JetBrains/ForTea/blob/master/Frontend/build.gradle.kts
         if (!useRiderSdk) {
@@ -37,10 +36,10 @@ intellij {
                 maxHeapSize = "1500m"
             }
         }
-        withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
-            updateSinceUntilBuild.set(true)
-            sinceBuild.set("231.7665")
-            untilBuild.set("")
-        }
+//        withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
+//            updateSinceUntilBuild.set(true)
+//            sinceBuild.set("231.7665")
+//            untilBuild.set("")
+//        }
     }
 }
