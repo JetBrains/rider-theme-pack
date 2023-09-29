@@ -38,9 +38,9 @@ intellij {
             }
         }
         withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
-            updateSinceUntilBuild.set(true)
-            sinceBuild.set("231.7665")
-            untilBuild.set("")
+            updateSinceUntilBuild.set(false)
+//            sinceBuild.set("231.7665")
+//            untilBuild.set("")
         }
     }
 }
