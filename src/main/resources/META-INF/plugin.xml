@@ -13,7 +13,9 @@
         - Visual Studio with Visual Assist, Light and Dark&lt;br/&gt;
     </description>
 
+<!-- This dependency if enabled will break the light Rider client
     <depends>com.intellij.modules.rider</depends>
+-->
 
     <idea-version since-build="232" until-build="232.*"/>
 
