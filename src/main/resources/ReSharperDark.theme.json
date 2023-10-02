@@ -3,6 +3,7 @@
   "name": "ReSharper Dark",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "Darcula",
   "editorScheme": "/colorSchemes/ReSharperDark.xml",
   "ui": {
     "*": {

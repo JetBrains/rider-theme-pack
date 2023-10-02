@@ -3,6 +3,7 @@
   "name": "Rider Melon Dark",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "Darcula",
   "editorScheme": "/colorSchemes/RiderMelonDark.xml",
   "ui": {
     "*": {

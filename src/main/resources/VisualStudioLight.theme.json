@@ -3,6 +3,7 @@
   "name": "Visual Studio Light",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "IntelliJ",
   "editorScheme": "/colorSchemes/VisualStudioLight.xml",
   "ui": {
     "*": {

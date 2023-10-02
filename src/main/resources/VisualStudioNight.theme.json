@@ -3,9 +3,8 @@
   "name": "Visual Studio Night",
   "dark": true,
   "author": "JetBrains",
-  "parentTheme": "ExperimentalDark",
+  "parentTheme": "ExperimentalLight",
   "editorScheme": "/colorSchemes/VisualStudioDark.xml",
-  "parentTheme": "ExperimentalDark",
   "colors": {
     "Grey1": "#1C1C1C",
     "Grey2": "#2B2B2B",

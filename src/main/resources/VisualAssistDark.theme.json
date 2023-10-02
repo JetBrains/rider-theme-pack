@@ -3,6 +3,7 @@
   "name": "Visual Assist Dark",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "Darcula",
   "editorScheme": "/colorSchemes/VisualAssistDark.xml",
   "ui": {
     "*": {

@@ -3,6 +3,7 @@
   "name": "Rider Melon Light",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "IntelliJ",
   "editorScheme": "/colorSchemes/RiderMelonLight.xml",
   "ui": {
     "*": {

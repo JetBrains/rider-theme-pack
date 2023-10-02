@@ -2,6 +2,7 @@
   "name": "Rider Light",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "IntelliJ",
   "editorScheme": "/colorSchemes/RiderLight.xml",
   "ui": {
     "*": {

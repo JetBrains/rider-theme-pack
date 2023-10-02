@@ -2,6 +2,7 @@
   "name": "Rider Dark",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "Darcula",
   "editorScheme": "/colorSchemes/RiderDark.xml",
   "ui": {
     "*": {

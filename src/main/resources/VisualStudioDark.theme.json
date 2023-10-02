@@ -3,6 +3,7 @@
   "name": "Visual Studio Dark",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "Darcula",
   "editorScheme": "/colorSchemes/VisualStudioDark.xml",
   "ui": {
     "*": {
