@@ -4,6 +4,7 @@
   "author": "JetBrains",
   "parentTheme": "ExperimentalLight",
   "editorScheme": "/colorSchemes/RiderDark.xml",
+  "parentTheme": "ExperimentalDark",
 
   "colors": {
     "Grey1": "#1C1C1C",

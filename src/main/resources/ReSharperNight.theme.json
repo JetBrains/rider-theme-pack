@@ -3,7 +3,7 @@
   "name": "ReSharper Night",
   "dark": true,
   "author": "JetBrains",
-  "parentTheme": "ExperimentalLight",
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/colorSchemes/ReSharperDark.xml",
   "colors": {
     "Grey1": "#1C1C1C",
