@@ -4,7 +4,7 @@
   "dark": true,
   "author": "JetBrains",
   "parentTheme": "ExperimentalDark",
-  "editorScheme": "/colorSchemes/ReSharperDark.xml",
+  "editorScheme": "ReSharper Dark",
   "colors": {
     "Grey1": "#1C1C1C",
     "Grey2": "#2B2B2B",

@@ -4,7 +4,7 @@
   "dark": true,
   "author": "JetBrains",
   "parentTheme": "Darcula",
-  "editorScheme": "/colorSchemes/VisualAssistDark.xml",
+  "editorScheme": "Visual Assist Dark",
   "ui": {
     "*": {
       "//*": "#FF00FF",

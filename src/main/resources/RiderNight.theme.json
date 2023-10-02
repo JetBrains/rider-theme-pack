@@ -2,9 +2,8 @@
   "name": "Rider Night",
   "dark": true,
   "author": "JetBrains",
-  "parentTheme": "ExperimentalLight",
-  "editorScheme": "/colorSchemes/RiderDark.xml",
   "parentTheme": "ExperimentalDark",
+  "editorScheme": "Rider Dark",
 
   "colors": {
     "Grey1": "#1C1C1C",

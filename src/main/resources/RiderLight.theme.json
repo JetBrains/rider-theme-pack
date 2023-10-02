@@ -3,7 +3,7 @@
   "dark": false,
   "author": "JetBrains",
   "parentTheme": "IntelliJ",
-  "editorScheme": "/colorSchemes/RiderLight.xml",
+  "editorScheme": "Rider Light",
   "ui": {
     "*": {
       "//*": "#FF00FF",

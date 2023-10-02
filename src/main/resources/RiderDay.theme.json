@@ -3,7 +3,7 @@
   "dark": false,
   "author": "JetBrains",
   "parentTheme": "ExperimentalLight",
-  "editorScheme": "/colorSchemes/RiderLight.xml",
+  "editorScheme": "Rider Light",
 
   "colors": {
     "Grey1": "#000000",

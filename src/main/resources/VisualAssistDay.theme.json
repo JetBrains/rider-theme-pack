@@ -4,7 +4,7 @@
   "dark": false,
   "author": "JetBrains",
   "parentTheme": "ExperimentalLight",
-  "editorScheme": "/colorSchemes/VisualAssistLight.xml",
+  "editorScheme": "Visual Assist Light",
   "colors": {
     "Grey1": "#000000",
     "Grey2": "#262626",

@@ -4,7 +4,7 @@
   "dark": false,
   "author": "JetBrains",
   "parentTheme": "IntelliJ",
-  "editorScheme": "/colorSchemes/RiderMelonLight.xml",
+  "editorScheme": "Rider Melon Light",
   "ui": {
     "*": {
       "//*": "#FF00FF",

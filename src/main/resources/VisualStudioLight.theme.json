@@ -4,7 +4,7 @@
   "dark": false,
   "author": "JetBrains",
   "parentTheme": "IntelliJ",
-  "editorScheme": "/colorSchemes/VisualStudioLight.xml",
+  "editorScheme": "Visual Studio Light",
   "ui": {
     "*": {
       "//*": "#FF00FF",

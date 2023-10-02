@@ -3,7 +3,7 @@
   "dark": true,
   "author": "JetBrains",
   "parentTheme": "Darcula",
-  "editorScheme": "/colorSchemes/RiderDark.xml",
+  "editorScheme": "Rider Dark",
   "ui": {
     "*": {
       "//*": "#FF00FF",

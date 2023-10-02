@@ -4,7 +4,7 @@
   "dark": false,
   "author": "JetBrains",
   "parentTheme": "IntelliJ",
-  "editorScheme": "/colorSchemes/VisualAssistLight.xml",
+  "editorScheme": "Visual Assist Light",
   "ui": {
     "*": {
       "//*": "#FF00FF",
