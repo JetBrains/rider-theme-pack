@@ -43,4 +43,4 @@ and these color schemes are the ones from the updated version of the plugin.
 
 ## Branches
 
-The plugin `Rider Theme Pack` in the IDEA plugin gallery is built from the branch `master`. The branches named `net*` are for the themes bundled with the matching branches of Rider.
+The plugin `Rider Theme Pack` in the IDEA plugin gallery is built from the branch `plugin`. The branches named `net*` are for the themes bundled with the matching branches of Rider.
