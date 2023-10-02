@@ -2,6 +2,7 @@
   "name": "Rider Day",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalLight",
   "editorScheme": "/colorSchemes/RiderLight.xml",
 
   "colors": {

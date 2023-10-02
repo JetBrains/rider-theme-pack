@@ -3,6 +3,7 @@
   "name": "Visual Assist Night",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/colorSchemes/VisualAssistDark.xml",
   "colors": {
     "Grey1": "#1C1C1C",

@@ -2,6 +2,7 @@
   "name": "Rider Night",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/colorSchemes/RiderDark.xml",
 
   "colors": {

@@ -3,6 +3,7 @@
   "name": "Rider Melon Day",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalLight",
   "editorScheme": "/colorSchemes/RiderMelonLight.xml",
   "colors": {
     "Grey1": "#000000",

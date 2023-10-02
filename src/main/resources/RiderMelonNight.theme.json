@@ -3,6 +3,7 @@
   "name": "Rider Melon Night",
   "dark": true,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalDark",
   "editorScheme": "/colorSchemes/RiderMelonDark.xml",
   "colors": {
     "Grey1": "#1C1C1C",

@@ -3,6 +3,7 @@
   "name": "ReSharper Day",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalLight",
   "editorScheme": "/colorSchemes/ReSharperLight.xml",
   "colors": {
     "Grey1": "#000000",

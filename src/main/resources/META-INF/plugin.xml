@@ -13,54 +13,53 @@
         - Visual Studio with Visual Assist, Light and Dark&lt;br/&gt;
     </description>
 
-    <depends>com.intellij.modules.lang</depends>
-    <incompatible-with>com.intellij.modules.rider</incompatible-with>
+    <depends>com.intellij.modules.platform</depends>
 
     <idea-version since-build="231.7665"/>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- default -->
-        <bundledColorScheme path="/colorSchemes/RiderLight" />
+        <bundledColorScheme id="Rider Light" path="/colorSchemes/RiderLight" />
         <themeProvider id="RiderDay" path="/RiderDay.theme.json" targetUi="new" order="first"/>
         <themeProvider id="RiderLight" path="/RiderLight.theme.json" targetUi="classic"/>
 
-        <bundledColorScheme path="/colorSchemes/RiderDark" />
+        <bundledColorScheme id="Rider Dark" path="/colorSchemes/RiderDark" />
         <themeProvider id="RiderNight" path="/RiderNight.theme.json" targetUi="new" order="first"/>
         <themeProvider id="RiderDark" path="/RiderDark.theme.json" targetUi="classic"/>
 
         <!-- Melon -->
-        <bundledColorScheme path="/colorSchemes/RiderMelonLight" />
+        <bundledColorScheme id="Rider Melon Light" path="/colorSchemes/RiderMelonLight" />
         <themeProvider id="RiderMelonDay" path="/RiderMelonDay.theme.json" targetUi="new"/>
         <themeProvider id="RiderMelonLight" path="/RiderMelonLight.theme.json" targetUi="classic"/>
 
-        <bundledColorScheme path="/colorSchemes/RiderMelonDark" />
+        <bundledColorScheme id="Rider Melon Dark" path="/colorSchemes/RiderMelonDark" />
         <themeProvider id="RiderMelonNight" path="/RiderMelonNight.theme.json" targetUi="new"/>
         <themeProvider id="RiderMelonDark" path="/RiderMelonDark.theme.json" targetUi="classic"/>
 
         <!-- Visual Studio -->
-        <bundledColorScheme path="/colorSchemes/VisualStudioLight" />
+        <bundledColorScheme id="Visual Studio Light" path="/colorSchemes/VisualStudioLight" />
         <themeProvider id="VisualStudioDay" path="/VisualStudioDay.theme.json" targetUi="new"/>
         <themeProvider id="VisualStudioLight" path="/VisualStudioLight.theme.json" targetUi="classic"/>
 
-        <bundledColorScheme path="/colorSchemes/VisualStudioDark" />
+        <bundledColorScheme id="Visual Studio Dark" path="/colorSchemes/VisualStudioDark" />
         <themeProvider id="VisualStudioNight" path="/VisualStudioNight.theme.json" targetUi="new"/>
         <themeProvider id="VisualStudioDark" path="/VisualStudioDark.theme.json" targetUi="classic"/>
 
         <!-- ReSharper -->
-        <bundledColorScheme path="/colorSchemes/ReSharperLight" />
+        <bundledColorScheme id="ReSharper Light" path="/colorSchemes/ReSharperLight" />
         <themeProvider id="ReSharperDay" path="/ReSharperDay.theme.json" targetUi="new"/>
         <themeProvider id="ReSharperLight" path="/ReSharperLight.theme.json" targetUi="classic"/>
 
-        <bundledColorScheme path="/colorSchemes/ReSharperDark" />
+        <bundledColorScheme id="ReSharper Dark" path="/colorSchemes/ReSharperDark" />
         <themeProvider id="ReSharperNight" path="/ReSharperNight.theme.json" targetUi="new"/>
         <themeProvider id="ReSharperDark" path="/ReSharperDark.theme.json" targetUi="classic"/>
 
         <!-- Visual Assist -->
-        <bundledColorScheme path="/colorSchemes/VisualAssistLight" />
+        <bundledColorScheme id="Visual Assist Light" path="/colorSchemes/VisualAssistLight" />
         <themeProvider id="VisualAssistDay" path="/VisualAssistDay.theme.json" targetUi="new"/>
         <themeProvider id="VisualAssistLight" path="/VisualAssistLight.theme.json" targetUi="classic"/>
 
-        <bundledColorScheme path="/colorSchemes/VisualAssistDark" />
+        <bundledColorScheme id="Visual Assist Dark" path="/colorSchemes/VisualAssistDark" />
         <themeProvider id="VisualAssistNight" path="/VisualAssistNight.theme.json" targetUi="new"/>
         <themeProvider id="VisualAssistDark" path="/VisualAssistDark.theme.json" targetUi="classic"/>
     </extensions>

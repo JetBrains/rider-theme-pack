@@ -3,6 +3,7 @@
   "name": "Visual Studio Day",
   "dark": false,
   "author": "JetBrains",
+  "parentTheme": "ExperimentalLight",
   "editorScheme": "/colorSchemes/VisualStudioLight.xml",
   "colors": {
     "Grey1": "#000000",
