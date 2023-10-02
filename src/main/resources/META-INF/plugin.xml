@@ -15,6 +15,9 @@
 
     <depends>com.intellij.modules.platform</depends>
 
+    <!-- Rider comes with its own version of this plugin bundled -->
+    <incompatible-with>com.intellij.modules.rider</incompatible-with>
+
     <idea-version since-build="231.7665"/>
 
     <extensions defaultExtensionNs="com.intellij">
