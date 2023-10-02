@@ -553,24 +553,6 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
-    <option name="DEBUGGER_PREDICTED_EXCEPTION">
-      <value>
-        <option name="EFFECT_COLOR" value="B086EB" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEBUGGER_PREDICTED_FLOW">
-      <value>
-        <option name="EFFECT_COLOR" value="B086EB" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
-    <option name="DEBUGGER_PREDICTED_SCOPE">
-      <value>
-        <option name="EFFECT_COLOR" value="E4D5F8" />
-        <option name="EFFECT_TYPE" value="0" />
-      </value>
-    </option>
     <option name="DEBUGGER_PREDICTED_VALUE_FALSE">
       <value>
         <option name="BACKGROUND" value="FFE6E9" />
