@@ -1,4 +1,8 @@
 <scheme name="ReSharper Dark" parent_scheme="Darcula" version="142">
+  <metaInfo>
+    <property name="lcNameBundle">messages.ThemesBundle</property>
+    <property name="lcNameKey">resharper.dark.color.scheme.name</property>
+  </metaInfo>
   <!-- This document is auto-generated, do not edit manually.-->
   <colors>
     <option name="ADDED_LINES_COLOR" value="384C38" />

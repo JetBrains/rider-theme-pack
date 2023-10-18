@@ -1,4 +1,8 @@
 <scheme name="ReSharper Light" parent_scheme="Default" version="142">
+  <metaInfo>
+    <property name="lcNameBundle">messages.ThemesBundle</property>
+    <property name="lcNameKey">resharper.light.color.scheme.name</property>
+  </metaInfo>
   <!-- This document is auto-generated, do not edit manually.-->
   <colors>
     <option name="ADDED_LINES_COLOR" value="c9dec1" />
