@@ -229,6 +229,7 @@
     },
     "EditorTabs": {
       "underlineArc": 4,
+      "underlineHeight": 4,
       "unselectedBlend": 0.7,
       "background": "Grey1",
       "hoverBackground": "#1E1F2200",
@@ -243,6 +244,17 @@
       },
       "Toolbar": {
         "borderColor": "Grey3"
+      },
+      "ToolTip": {
+        "foreground": "Grey12",
+        "background": "Grey3",
+        "border": "Grey4",
+        "errorBackground": "Red1",
+        "errorBorder": "Red2",
+        "successBackground": "Green1",
+        "successBorder": "Green2",
+        "warningBackground": "Yellow1",
+        "warningBorder": "Yellow2"
       }
     },
     "Label.errorForeground": "Red7",
@@ -794,6 +806,22 @@
       "IgnoredLine": {
         "labelBackground": "Grey2",
         "foreground": "Grey5"
+      }
+    },
+    "PresentationAssistant": {
+      "Bright": {
+        "Popup": {
+          "background": "Blue4",
+          "foreground": "Grey14"
+        },
+        "keymapLabel": "Blue11"
+      },
+      "Pale": {
+        "Popup": {
+          "background": "Grey3",
+          "foreground": "Grey14"
+        },
+        "keymapLabel": "Grey8"
       }
     },
     "HelpBrowser": {
