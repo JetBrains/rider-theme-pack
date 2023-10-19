@@ -270,6 +270,7 @@
       "inactiveHoverBackground": "#1E1F2200",
       "inactiveColoredFileBackground": "#1E1F2280",
       "underlinedTabBackground": "Grey1",
+      "underlinedTabForeground": "Grey12",
       "underTabsBorderColor":"Grey3"
     },
 
@@ -330,6 +331,17 @@
     "MemoryIndicator": {
       "allocatedBackground": "Grey1",
       "usedBackground": "#35538F80"
+    },
+
+    "ParameterInfo": {
+      "background": "Grey3",
+      "currentOverloadBackground": "Blue3",
+      "borderColor": "Grey6",
+      "foreground": "Grey11",
+      "currentParameterForeground": "Grey12",
+      "disabledForeground": "Grey7",
+      "infoForeground": "Grey11",
+      "lineSeparatorColor": "Grey3"
     },
 
     "Menu": {

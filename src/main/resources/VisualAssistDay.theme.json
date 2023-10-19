@@ -221,7 +221,8 @@
       "hoverBackground": "#FFFFFF00",
       "hoverInactiveBackground": "#FFFFFF00",
       "inactiveColoredFileBackground": "#FFFFFF80",
-      "underlinedTabBackground": "Grey14"
+      "underlinedTabBackground": "Grey14",
+      "underlinedTabForeground": "Grey1"
     },
     "Editor": {
       "SearchField": {
@@ -273,6 +274,16 @@
         "background": "Grey12",
         "foreground": "Grey4"
       }
+    },
+    "ParameterInfo": {
+      "background": "Grey12",
+      "currentOverloadBackground": "Blue9",
+      "borderColor": "Grey8",
+      "foreground": "Grey3",
+      "currentParameterForeground": "Grey3",
+      "disabledForeground": "Grey8",
+      "infoForeground": "Grey3",
+      "lineSeparatorColor": "Grey12"
     },
     "Menu": {
       "background": "Grey14",

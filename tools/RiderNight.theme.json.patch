@@ -1,0 +1,83 @@
+diff --git a/RiderNight.theme.json b/RiderNight.theme.json
+index b3001be..804d7a6 100644
+--- a/RiderNight.theme.json
++++ b/RiderNight.theme.json
+@@ -1,23 +1,24 @@
+ {
+-  "name": "Dark",
++  "name": "Rider Night",
+   "dark": true,
+   "author": "JetBrains",
+-  "nameKey": "dark.theme.name",
+-  "editorScheme": "Dark",
++  "parentTheme": "ExperimentalDark",
++  "editorScheme": "Rider Dark",
++
+   "colors": {
+-    "Grey1": "#1E1F22",
+-    "Grey2": "#2B2D30",
+-    "Grey3": "#393B40",
+-    "Grey4": "#43454A",
+-    "Grey5": "#4E5157",
+-    "Grey6": "#5A5D63",
+-    "Grey7": "#6F737A",
+-    "Grey8": "#868A91",
+-    "Grey9": "#9DA0A8",
+-    "Grey10": "#B4B8BF",
+-    "Grey11": "#CED0D6",
+-    "Grey12": "#DFE1E5",
+-    "Grey13": "#F0F1F2",
++    "Grey1": "#1C1C1C",
++    "Grey2": "#2B2B2B",
++    "Grey3": "#393939",
++    "Grey4": "#454545",
++    "Grey5": "#4F4F4F",
++    "Grey6": "#5C5C5C",
++    "Grey7": "#737373",
++    "Grey8": "#8A8A8A",
++    "Grey9": "#A1A1A1",
++    "Grey10": "#B8B8B8",
++    "Grey11": "#CBCBCB",
++    "Grey12": "#DFDFDF",
++    "Grey13": "#F2F2F2",
+     "Grey14": "#FFFFFF",
+ 
+     "Blue1": "#25324D",
+@@ -269,6 +270,7 @@
+       "inactiveHoverBackground": "#1E1F2200",
+       "inactiveColoredFileBackground": "#1E1F2280",
+       "underlinedTabBackground": "Grey1",
++      "underlinedTabForeground": "Grey12",
+       "underTabsBorderColor":"Grey3"
+     },
+ 
+@@ -331,6 +333,17 @@
+       "usedBackground": "#35538F80"
+     },
+ 
++    "ParameterInfo": {
++      "background": "Grey3",
++      "currentOverloadBackground": "Blue3",
++      "borderColor": "Grey6",
++      "foreground": "Grey11",
++      "currentParameterForeground": "Grey12",
++      "disabledForeground": "Grey7",
++      "infoForeground": "Grey11",
++      "lineSeparatorColor": "Grey3"
++    },
++
+     "Menu": {
+       "separatorColor": "Grey4",
+       "borderColor": "Grey4"
+@@ -949,6 +962,11 @@
+     "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radioTemp.svg",
+     "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocusedTemp.svg",
+ 
++    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
++    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
++    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
++    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg",
++
+     "ColorPalette": {
+       "Checkbox.Background.Default.Dark": "Grey2",
+       "Checkbox.Border.Default.Dark": "Grey5",

@@ -1,0 +1,85 @@
+diff --git a/RiderDay.theme.json b/RiderDay.theme.json
+index 6480db7..d98c8bb 100644
+--- a/RiderDay.theme.json
++++ b/RiderDay.theme.json
+@@ -1,24 +1,24 @@
+ {
+-  "name": "Light",
++  "name": "Rider Day",
+   "dark": false,
+   "author": "JetBrains",
+-  "parentTheme": "IntelliJ",
+-  "nameKey": "light.theme.name",
+-  "editorScheme": "Light",
++  "parentTheme": "ExperimentalLight",
++  "editorScheme": "Rider Light",
++
+   "colors": {
+     "Grey1": "#000000",
+-    "Grey2": "#27282E",
+-    "Grey3": "#383A42",
+-    "Grey4": "#494B57",
+-    "Grey5": "#5A5D6B",
+-    "Grey6": "#6C707E",
+-    "Grey7": "#818594",
+-    "Grey8": "#A8ADBD",
+-    "Grey9": "#C9CCD6",
+-    "Grey10": "#D3D5DB",
+-    "Grey11": "#DFE1E5",
+-    "Grey12": "#EBECF0",
+-    "Grey13": "#F7F8FA",
++    "Grey2": "#262626",
++    "Grey3": "#3B3B3B",
++    "Grey4": "#4D4D4D",
++    "Grey5": "#606060",
++    "Grey6": "#727272",
++    "Grey7": "#858585",
++    "Grey8": "#ADADAD",
++    "Grey9": "#CCCCCC",
++    "Grey10": "#D5D5D5",
++    "Grey11": "#E3E3E3",
++    "Grey12": "#ECECEC",
++    "Grey13": "#F7F7F7",
+     "Grey14": "#FFFFFF",
+     "windowsPopupBorder": "#B9BDC9",
+ 
+@@ -256,7 +256,8 @@
+       "hoverBackground": "#FFFFFF00",
+       "hoverInactiveBackground": "#FFFFFF00",
+       "inactiveColoredFileBackground": "#FFFFFF80",
+-      "underlinedTabBackground": "Grey14"
++      "underlinedTabBackground": "Grey14",
++      "underlinedTabForeground": "Grey1"
+     },
+ 
+     "Editor": {
+@@ -315,6 +316,17 @@
+       }
+     },
+ 
++    "ParameterInfo": {
++      "background": "Grey12",
++      "currentOverloadBackground": "Blue9",
++      "borderColor": "Grey8",
++      "foreground": "Grey3",
++      "currentParameterForeground": "Grey3",
++      "disabledForeground": "Grey8",
++      "infoForeground": "Grey3",
++      "lineSeparatorColor": "Grey12"
++    },
++
+     "Menu": {
+       "background": "Grey14",
+       "borderColor": {
+@@ -983,6 +995,11 @@
+     "/windows/restore.svg": "/expui/windows/restore.svg",
+     "/windows/restoreInactive.svg": "/expui/windows/restoreInactive.svg",
+ 
++    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderLight).svg",
++    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderLight).svg",
++    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderLight).svg",
++    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderLight).svg",
++
+     "ColorPalette": {
+       "Checkbox.Border.Default": "Grey8",
+       "Checkbox.Background.Selected": "Blue4",
