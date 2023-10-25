@@ -1,5 +1,5 @@
 diff --git a/RiderNight.theme.json b/RiderNight.theme.json
-index b3001be..804d7a6 100644
+index b3001be..6e07306 100644
 --- a/RiderNight.theme.json
 +++ b/RiderNight.theme.json
 @@ -1,23 +1,24 @@
@@ -69,7 +69,26 @@ index b3001be..804d7a6 100644
      "Menu": {
        "separatorColor": "Grey4",
        "borderColor": "Grey4"
-@@ -949,6 +962,11 @@
+@@ -507,14 +520,18 @@
+     },
+ 
+     "StatusBar": {
++      "background": "Grey2",
+       "Widget": {
+         "foreground": "Grey9",
+         "hoverForeground": "Grey12",
++        "hoverBackground": "Grey3",
+         "pressedBackground": "Grey4"
+       },
+       "Breadcrumbs": {
+         "foreground": "Grey9",
+         "hoverForeground": "Grey12",
++        "hoverBackground": "Grey3",
++        "floatingBackground": "Grey2",
+         "chevronInset": 0
+       }
+     },
+@@ -949,6 +966,11 @@
      "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radioTemp.svg",
      "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocusedTemp.svg",
  

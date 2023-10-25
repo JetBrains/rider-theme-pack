@@ -520,14 +520,18 @@
     },
 
     "StatusBar": {
+      "background": "Grey2",
       "Widget": {
         "foreground": "Grey9",
         "hoverForeground": "Grey12",
+        "hoverBackground": "Grey3",
         "pressedBackground": "Grey4"
       },
       "Breadcrumbs": {
         "foreground": "Grey9",
         "hoverForeground": "Grey12",
+        "hoverBackground": "Grey3",
+        "floatingBackground": "Grey2",
         "chevronInset": 0
       }
     },
