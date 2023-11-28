@@ -703,6 +703,44 @@
     "$bookmarkBackground": "#cc9c00"
   },
 
+  "iconColorsOnSelection": {
+    "#db5860": "#D14D55",
+    "#eda200": "#EBA100",
+    "#59A869": "#4A9E5B",
+    "#389FD6": "#2495D1",
+    "#6e6e6e": "#666666",
+
+    "#9aa7b0": "#8FA2B0",
+    "#9aa7b0cc": "#9DB2C2",
+    "#9aa7b099": "#ABBECC",
+
+    "#f26522": "#F76723",
+    "#f26522b3": "#F79668",
+    "#f2652299": "#FFA275",
+
+    "#40b6e0": "#1BADE0",
+    "#40b6e0b3": "#63C7EB",
+    "#40b6e099": "#79CFED",
+
+    "#62b543": "#56AB37",
+    "#62b543b3": "#82C26B",
+    "#62b54399": "#96C983",
+
+    "#f98b9e": "#F2879A",
+    "#f98b9eb3": "#FCA2B2",
+    "#f98b9e99": "#FFB0BE",
+
+    "#f4af3d": "#EBA634",
+    "#f4af3db3": "#EBBF78",
+    "#f4af3d99": "#F2CB8A",
+
+    "#b99bf8": "#AF8FF2",
+    "#b99bf8b3": "#C9B1FC",
+    "#b99bf899": "#CEBAF7",
+
+    "#767a8a": "#6A718A"
+  },
+
   "icons": {
     "/welcome/project/remove.svg": "/icons/remove.svg",
     "/welcome/project/remove-hover.svg": "/icons/remove-hover.svg",
@@ -716,6 +754,7 @@
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderLight).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderLight).svg",
     "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderLight).svg",
+
     "ColorPalette": {
       "Actions.Grey": "#82828fFF",
       "Actions.GreyInline": "#82828eFF",
@@ -726,7 +765,7 @@
       "Actions.Yellow": "#cc9c00FF",
       "Actions.WelcomeScreen": "#ff00ff",
 
-      "Objects.Grey": "#82828eA0",
+      "Objects.Grey": "#82828eC0",
       "Objects.BlackText": "#383848FF",
       "Objects.Red": "#e87668C0",
       "Objects.RedStatus": "#e87667C0",

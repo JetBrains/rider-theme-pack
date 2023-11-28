@@ -977,6 +977,45 @@
     "InlineBanner.pressedBackground": "#FFFFFF1E"
   },
 
+  "iconColorsOnSelection": {
+    "#c75450": "#CF5753",
+    "#f0a732": "#F7AC34",
+    "#499c54": "#4CA358",
+    "#3592c4": "#389ACF",
+    "#afb1b3": "#BDC0C2",
+
+    "#9aa7b0": "#9AA7B0",
+    "#9aa7b0cc": "#8A959C",
+    "#9aa7b099": "#787E82",
+
+    "#f26522": "#F26522",
+    "#f26522b3": "#B5592D",
+    "#f2652299": "#9C4C27",
+
+    "#40b6e0": "#40B6E0",
+    "#40b6e0b3": "#3590B0",
+    "#40b6e099": "#2F819E",
+
+    "#62b543": "#62B543",
+    "#62b543b3": "#558A41",
+    "#62b54399": "#547D45",
+
+    "#f98b9e": "#F98B9E",
+    "#f98b9eb3": "#B5707C",
+    "#f98b9e99": "#9C626C",
+
+    "#f4af3d": "#F4AF3D",
+    "#f4af3db3": "#AB803A",
+    "#f4af3d99": "#9E7A3E",
+
+    "#b99bf8": "#B99BF8",
+    "#b99bf8b3": "#8C79B2",
+    "#b99bf899": "#7D6D9E",
+
+    "#6e6e6e": "#757575",
+    "#5e5e5e": "#636363"
+  },
+
     "icons": {
     "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/expUI/icons/dark/checkBoxTemp.svg",
     "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/expUI/icons/dark/checkBoxFocusedTemp.svg",

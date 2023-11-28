@@ -1002,6 +1002,44 @@
     "InlineBanner.pressedBackground": "00000019"
   },
 
+  "iconColorsOnSelection": {
+    "#db5860": "#D14D55",
+    "#eda200": "#E89F00",
+    "#59A869": "#4A9E5B",
+    "#389FD6": "#329AD1",
+    "#6e6e6e": "#666666",
+
+    "#9aa7b0": "#909FAB",
+    "#9aa7b0cc": "#A9B6C2",
+    "#9aa7b099": "#B8C3CC",
+
+    "#f26522": "#F76723",
+    "#f26522b3": "#FA915F",
+    "#f2652299": "#F59F76",
+
+    "#40b6e0": "#40B6E0",
+    "#40b6e0b3": "#66CAED",
+    "#40b6e099": "#7DD1F0",
+
+    "#62b543": "#5FB041",
+    "#62b543b3": "#8DCC74",
+    "#62b54399": "#9ED48A",
+
+    "#f98b9e": "#ED8496",
+    "#f98b9eb3": "#FCACBA",
+    "#f98b9e99": "#FFB8C4",
+
+    "#f4af3d": "#EBA83B",
+    "#f4af3db3": "#F2BF6B",
+    "#f4af3d99": "#F5C87F",
+
+    "#b99bf8": "#B194ED",
+    "#b99bf8b3": "#C6B1F2",
+    "#b99bf899": "#D1BEFA",
+
+    "#767a8a": "#70758A"
+  },
+
   "icons": {
     "/windows/minimize.svg": "/expui/windows/minimize.svg",
     "/windows/minimizeInactive.svg": "/expui/windows/minimizeInactive.svg",
