@@ -1,6 +1,6 @@
 diff --git a/RiderDay.theme.json b/RiderDay.theme.json
-index 6480db7..d98c8bb 100644
---- a/RiderDay.theme.json
+index b926687..9f46214 100644
+--- a/expUI_light.theme.json
 +++ b/RiderDay.theme.json
 @@ -1,24 +1,24 @@
  {
@@ -43,7 +43,7 @@ index 6480db7..d98c8bb 100644
      "Grey14": "#FFFFFF",
      "windowsPopupBorder": "#B9BDC9",
  
-@@ -256,7 +256,8 @@
+@@ -257,7 +257,8 @@
        "hoverBackground": "#FFFFFF00",
        "hoverInactiveBackground": "#FFFFFF00",
        "inactiveColoredFileBackground": "#FFFFFF80",
@@ -53,7 +53,17 @@ index 6480db7..d98c8bb 100644
      },
  
      "Editor": {
-@@ -315,6 +316,17 @@
+@@ -276,7 +277,8 @@
+         "successBackground": "Green11",
+         "successBorder": "Green8",
+         "warningBackground": "Yellow9",
+-        "warningBorder": "Yellow6"
++        "warningBorder": "Yellow6",
++        "iconHoverBackground": "#0000000D"
+       }
+     },
+ 
+@@ -316,6 +318,17 @@
        }
      },
  
@@ -71,7 +81,19 @@ index 6480db7..d98c8bb 100644
      "Menu": {
        "background": "Grey14",
        "borderColor": {
-@@ -983,6 +995,11 @@
+@@ -983,7 +996,10 @@
+     "ManagedIdeBadgeBorder": "Grey5",
+     "ManagedIdeBadgeBackground": "Grey3",
+     "ManagedIdeBadgeBackgroundHover": "Grey4",
+-    "ManagedIdeMenuItemHover": "Grey12"
++    "ManagedIdeMenuItemHover": "Grey12",
++
++    "InlineBanner.hoverBackground": "#0000000F",
++    "InlineBanner.pressedBackground": "00000019"
+   },
+ 
+   "icons": {
+@@ -996,6 +1012,11 @@
      "/windows/restore.svg": "/expui/windows/restore.svg",
      "/windows/restoreInactive.svg": "/expui/windows/restoreInactive.svg",
  
