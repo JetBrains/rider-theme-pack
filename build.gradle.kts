@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-version = "0.14.4"
+version = "0.14.10"
 
 intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
