@@ -1018,7 +1018,7 @@
     "#5e5e5e": "#636363"
   },
 
-    "icons": {
+  "icons": {
     "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
