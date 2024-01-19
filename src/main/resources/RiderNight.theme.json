@@ -578,6 +578,7 @@
       "borderColor": "Grey3",
       "foreground": "Grey10",
       "stepForeground": "Grey8",
+      "secondaryActionForeground": "Grey8",
       "Header.foreground": "Grey14",
       "shortcutForeground": "Grey14",
       "shortcutBackground": "Grey5",
@@ -706,6 +707,7 @@
       "spanForeground": "Grey14",
       "foreground": "Grey14",
       "stepNumberForeground": "Blue11",
+      "secondaryActionForeground": "Blue11",
       "codeBorderColor": "#FFFFFFBF"
     },
 
@@ -1017,11 +1019,6 @@
   },
 
     "icons": {
-    "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/expUI/icons/dark/checkBoxTemp.svg",
-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/expUI/icons/dark/checkBoxFocusedTemp.svg",
-    "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radioTemp.svg",
-    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocusedTemp.svg",
-
     "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",

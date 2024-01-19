@@ -583,6 +583,7 @@
       "borderColor": "Grey2",
       "foreground": "Grey9",
       "stepForeground": "Grey7",
+      "secondaryActionForeground": "Grey7",
       "Header.foreground": "Grey14",
       "shortcutForeground": "Grey14",
       "shortcutBackground": "Grey5",
@@ -726,6 +727,7 @@
       "spanForeground": "Grey14",
       "foreground": "Grey14",
       "stepNumberForeground": "Blue9",
+      "secondaryActionForeground": "Blue9",
       "codeBorderColor": "#FFFFFFBF"
     },
 
