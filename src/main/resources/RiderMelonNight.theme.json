@@ -507,6 +507,7 @@
       "borderColor": "Grey3",
       "foreground": "Grey10",
       "stepForeground": "Grey8",
+      "secondaryActionForeground": "Grey8",
       "Header.foreground": "Grey14",
       "shortcutForeground": "Grey14",
       "shortcutBackground": "Grey5",
@@ -623,6 +624,7 @@
       "spanForeground": "Grey14",
       "foreground": "Grey14",
       "stepNumberForeground": "Blue11",
+      "secondaryActionForeground": "Blue11",
       "codeBorderColor": "#FFFFFFBF"
     },
     "RecentProject": {

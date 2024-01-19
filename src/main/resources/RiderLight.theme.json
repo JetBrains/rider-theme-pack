@@ -754,7 +754,6 @@
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderLight).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderLight).svg",
     "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderLight).svg",
-
     "ColorPalette": {
       "Actions.Grey": "#82828fFF",
       "Actions.GreyInline": "#82828eFF",
