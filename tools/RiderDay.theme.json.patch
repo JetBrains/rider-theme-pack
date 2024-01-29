@@ -1,5 +1,5 @@
-diff --git a/RiderDay.theme.json b/RiderDay.theme.json
-index b926687..1241124 100644
+diff --git a/expUI_light.theme.json b/RiderDay.theme.json
+index 405ffc8..45dd596 100644
 --- a/expUI_light.theme.json
 +++ b/RiderDay.theme.json
 @@ -1,24 +1,24 @@
@@ -53,17 +53,7 @@ index b926687..1241124 100644
      },
  
      "Editor": {
-@@ -276,7 +277,8 @@
-         "successBackground": "Green11",
-         "successBorder": "Green8",
-         "warningBackground": "Yellow9",
--        "warningBorder": "Yellow6"
-+        "warningBorder": "Yellow6",
-+        "iconHoverBackground": "#0000000D"
-       }
-     },
- 
-@@ -316,6 +318,17 @@
+@@ -317,6 +318,17 @@
        }
      },
  
@@ -81,17 +71,26 @@ index b926687..1241124 100644
      "Menu": {
        "background": "Grey14",
        "borderColor": {
-@@ -983,7 +996,48 @@
-     "ManagedIdeBadgeBorder": "Grey5",
-     "ManagedIdeBadgeBackground": "Grey3",
-     "ManagedIdeBadgeBackgroundHover": "Grey4",
--    "ManagedIdeMenuItemHover": "Grey12"
-+    "ManagedIdeMenuItemHover": "Grey12",
-+
-+    "InlineBanner.hoverBackground": "#0000000F",
-+    "InlineBanner.pressedBackground": "00000019"
-+  },
-+
+@@ -571,6 +583,7 @@
+       "borderColor": "Grey2",
+       "foreground": "Grey9",
+       "stepForeground": "Grey7",
++      "secondaryActionForeground": "Grey7",
+       "Header.foreground": "Grey14",
+       "shortcutForeground": "Grey14",
+       "shortcutBackground": "Grey5",
+@@ -714,6 +727,7 @@
+       "spanForeground": "Grey14",
+       "foreground": "Grey14",
+       "stepNumberForeground": "Blue9",
++      "secondaryActionForeground": "Blue9",
+       "codeBorderColor": "#FFFFFFBF"
+     },
+ 
+@@ -990,6 +1004,44 @@
+     "InlineBanner.pressedBackground": "00000019"
+   },
+ 
 +  "iconColorsOnSelection": {
 +    "#db5860": "#D14D55",
 +    "#eda200": "#E89F00",
@@ -128,10 +127,12 @@ index b926687..1241124 100644
 +    "#b99bf899": "#D1BEFA",
 +
 +    "#767a8a": "#70758A"
-   },
- 
++  },
++
    "icons": {
-@@ -996,6 +1050,11 @@
+     "/windows/minimize.svg": "/expui/windows/minimize.svg",
+     "/windows/minimizeInactive.svg": "/expui/windows/minimizeInactive.svg",
+@@ -1000,6 +1052,11 @@
      "/windows/restore.svg": "/expui/windows/restore.svg",
      "/windows/restoreInactive.svg": "/expui/windows/restoreInactive.svg",
  

@@ -129,10 +129,10 @@
       "modifiedItemForeground": "Blue9"
     },
     "ActionButton": {
-      "hoverBackground": "Grey3",
-      "hoverBorderColor": "Grey3",
-      "pressedBackground": "Grey5",
-      "pressedBorderColor": "Grey5",
+      "hoverBackground": "#FFFFFF16",
+      "hoverBorderColor": "#FFFFFF00",
+      "pressedBackground": "#FFFFFF26",
+      "pressedBorderColor": "#FFFFFF00",
       "focusedBorderColor": "Blue6",
       "hoverSeparatorColor": "Grey6"
     },
@@ -147,11 +147,14 @@
     "Borders.ContrastBorderColor": "Grey1",
     "Breakpoint.iconHoverAlpha": 0.35,
     "Button": {
+      "arc": 8,
+      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaButtonBorder",
       "startBackground": "Grey2",
       "endBackground": "Grey2",
       "startBorderColor": "Grey5",
       "endBorderColor": "Grey5",
       "focusedBorderColor": "Grey2",
+      "minimumSize": "72,28",
       "shadowColor": "#00000000",
       "default": {
         "foreground": "Grey14",
@@ -169,6 +172,11 @@
         }
       }
     },
+    "CheckBox": {
+      "borderInsets": "4,4,4,4",
+      "iconSize": 24,
+      "textIconGap": 4
+    },
     "SegmentedButton": {
       "selectedStartBorderColor": "Grey5",
       "selectedEndBorderColor": "Grey5",
@@ -180,7 +188,10 @@
         "background": "Grey2",
         "nonEditableBackground": "Grey3"
       },
-      "nonEditableBackground": "Grey3"
+      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaComboBoxBorder",
+      "minimumSize": "49,28",
+      "nonEditableBackground": "Grey3",
+      "padding": "1,9,1,6"
     },
     "ComboPopup.border": "1,1,1,1,#43454A",
     "ContextHelp": {
@@ -214,8 +225,9 @@
       "Blue": "Teal2",
       "Gray": "#35363B"
     },
-    "TextField.background": "Grey2",
     "Component": {
+      "arc": "8",
+      "arrowAreaWidth": "28",
       "borderColor": "Grey5",
       "focusedBorderColor": "Grey2",
       "errorFocusColor": "Red5",
@@ -257,7 +269,8 @@
         "successBorder": "Green2",
         "warningBackground": "Yellow1",
         "warningBorder": "Yellow2",
-        "iconHoverBackground": "#FFFFFF1A"
+        "iconHoverBackground": "#FFFFFF1A",
+        "selectionBackground": "Grey2"
       }
     },
     "Label.errorForeground": "Red7",
@@ -379,7 +392,26 @@
       "Notification.hoverBackground": "Grey2"
     },
     "OnePixelDivider.background": "Grey3",
-    "Plugins.SectionHeader.background": "Grey3",
+    "PasswordField": {
+      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew"
+    },
+    "Plugins": {
+      "SectionHeader.background": "Grey3",
+      "Button": {
+        "installFillForeground": "Grey14",
+        "installFillBackground": "Green5",
+        "installBorderColor": "Green5",
+        "installForeground": "Green7",
+        "updateBackground": "Blue5",
+        "updateBorderColor": "Blue5",
+        "updateForeground": "Grey14"
+      },
+      "tagForeground": "Grey9",
+      "tagBackground": "Grey4",
+      "paidTagBackground": "Blue2",
+      "trialTagBackground": "Green3",
+      "eapTagBackground": "Red3"
+    },
     "Popup": {
       "borderWidth": 1,
       "paintBorder": true,
@@ -430,7 +462,11 @@
       "failedEndColor": "Red9",
       "trackColor": "Grey4"
     },
-    "ToolBar.separatorColor": "Grey4",
+    "RadioButton": {
+      "borderInsets": "4,4,4,4",
+      "iconSize": 24,
+      "iconTextGap": 4
+    },
     "SearchField": {
       "errorForeground": "Red7",
       "errorBackground": "Red3"
@@ -459,6 +495,10 @@
       "background": "Grey1",
       "borderColor": "Grey3",
       "errorForeground": "Red7"
+    },
+    "Spinner": {
+      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaSpinnerBorderNew",
+      "minimumSize": "72,28"
     },
     "StatusBar": {
       "background": "Grey2",
@@ -492,6 +532,12 @@
       "separatorColor": "Grey1"
     },
     "Tag.background": "Grey3",
+    "TextField": {
+      "background": "Grey2",
+      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew",
+      "minimumSize": "49,28"
+    },
+    "ToolBar.separatorColor": "Grey4",
     "ToolTip": {
       "background": "Grey3",
       "borderColor": "Grey4",
@@ -503,26 +549,31 @@
       "verticalGap": 6
     },
     "GotItTooltip": {
-      "background": "Grey3",
-      "borderColor": "Grey3",
-      "foreground": "Grey10",
-      "stepForeground": "Grey8",
-      "secondaryActionForeground": "Grey8",
+      "background": "Blue4",
+      "borderColor": "Blue4",
+      "foreground": "#FFFFFFCC",
+      "stepForeground": "Blue11",
+      "secondaryActionForeground": "Blue11",
       "Header.foreground": "Grey14",
       "shortcutForeground": "Grey14",
-      "shortcutBackground": "Grey5",
+      "shortcutBackground": "Blue2",
       "codeForeground": "Grey14",
-      "codeBackground": "Grey3",
-      "codeBorderColor": "Grey7",
-      "linkForeground": "Blue9",
-      "imageBorderColor": "Grey4",
+      "codeBackground": "Blue4",
+      "codeBorderColor": "#FFFFFF80",
+      "linkForeground": "#FFFFFFCC",
+      "linkUnderlineHoveredColor": "#FFFFFF65",
+      "linkUnderlineDefaultColor": "#FFFFFF65",
+      "imageBorderColor": "Grey3",
       "animationBackground": "Grey1",
+      "iconFillColor": "Blue5",
+      "iconBorderColor": "Grey14",
       "Button": {
         "foreground": "Grey14",
-        "startBackground": "Grey6",
-        "endBackground": "Grey6",
-        "startBorderColor": "Grey6",
-        "endBorderColor": "Grey6"
+        "startBackground": "Blue4",
+        "endBackground": "Blue4",
+        "startBorderColor": "#FFFFFF80",
+        "endBorderColor": "#FFFFFF80",
+        "contrastBackground": "Blue2"
       }
     },
     "ValidationTooltip": {
@@ -542,6 +593,7 @@
         "hoverInactiveBackground": "Grey3"
       },
       "Button": {
+        "foreground": "Grey9",
         "selectedForeground": "Grey14",
         "selectedBackground": "Blue6",
         "DragAndDrop": {
@@ -625,7 +677,13 @@
       "foreground": "Grey14",
       "stepNumberForeground": "Blue11",
       "secondaryActionForeground": "Blue11",
-      "codeBorderColor": "#FFFFFFBF"
+      "codeBorderColor": "#FFFFFF80",
+      "linkForeground": "Grey14",
+      "linkUnderlineHoveredColor": "#FFFFFF65",
+      "linkUnderlineDefaultColor": "#FFFFFF65",
+      "iconFillColor": "Blue8",
+      "iconBorderColor": "Grey14",
+      "Header.foreground": "Grey14"
     },
     "RecentProject": {
       "Color1": {
@@ -915,22 +973,24 @@
     "#5e5e5e": "#636363"
   },
   "icons": {
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/expUI/icons/dark/checkBox.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxDisabled.svg": "/themes/expUI/icons/dark/checkBoxDisabled.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/expUI/icons/dark/checkBoxFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelected.svg": "/themes/expUI/icons/dark/checkBoxIndeterminateSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelectedDisabled.svg": "/themes/expUI/icons/dark/checkBoxIndeterminateSelectedDisabled.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelectedFocused.svg": "/themes/expUI/icons/dark/checkBoxIndeterminateSelectedFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelected.svg": "/themes/expUI/icons/dark/checkBoxSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelectedDisabled.svg": "/themes/expUI/icons/dark/checkBoxSelectedDisabled.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelectedFocused.svg": "/themes/expUI/icons/dark/checkBoxSelectedFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radio.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioDisabled.svg": "/themes/expUI/icons/dark/radioDisabled.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocused.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelected.svg": "/themes/expUI/icons/dark/radioSelected.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedDisabled.svg": "/themes/expUI/icons/dark/radioSelectedDisabled.svg",
+    "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedFocused.svg": "/themes/expUI/icons/dark/radioSelectedFocused.svg",
     "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
     "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
-    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg",
-    "ColorPalette": {
-      "Checkbox.Background.Default.Dark": "Grey2",
-      "Checkbox.Border.Default.Dark": "Grey5",
-      "Checkbox.Foreground.Selected.Dark": "Grey14",
-      "Checkbox.Background.Selected.Dark": "Blue6",
-      "Checkbox.Border.Selected.Dark": "Blue6",
-      "Checkbox.Focus.Thin.Default.Dark": "#101012",
-      "Checkbox.Focus.Thin.Selected.Dark": "#101012",
-      "Checkbox.Focus.Wide.Dark": "Blue6",
-      "Checkbox.Foreground.Disabled.Dark": "Grey5",
-      "Checkbox.Border.Disabled.Dark": "Grey3",
-      "Checkbox.Background.Disabled.Dark": "Grey2"
-    }
+    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg"
   }
 }
