@@ -1,8 +1,8 @@
-diff --git a/expUI_dark.theme.json b/RiderNight.theme.json
-index 60a2230..d482ce8 100644
---- a/expUI_dark.theme.json
-+++ b/RiderNight.theme.json
-@@ -1,23 +1,24 @@
+diff --git a/tools/expUI_dark.theme.json b/src/main/resources/RiderNight.theme.json
+index e4aa7df..32ef7b7 100644
+--- a/tools/expUI_dark.theme.json
++++ b/src/main/resources/RiderNight.theme.json
+@@ -1,1045 +1,100 @@
  {
 -  "name": "Dark",
 +  "name": "Rider Night",
@@ -10,10 +10,7 @@ index 60a2230..d482ce8 100644
    "author": "JetBrains",
 -  "nameKey": "dark.theme.name",
 -  "editorScheme": "Dark",
-+  "parentTheme": "ExperimentalDark",
-+  "editorScheme": "Rider Dark",
-+
-   "colors": {
+-  "colors": {
 -    "Grey1": "#1E1F22",
 -    "Grey2": "#2B2D30",
 -    "Grey3": "#393B40",
@@ -27,6 +24,98 @@ index 60a2230..d482ce8 100644
 -    "Grey11": "#CED0D6",
 -    "Grey12": "#DFE1E5",
 -    "Grey13": "#F0F1F2",
+-    "Grey14": "#FFFFFF",
+-
+-    "Blue1": "#25324D",
+-    "Blue2": "#2E436E",
+-    "Blue3": "#35538F",
+-    "Blue4": "#375FAD",
+-    "Blue5": "#366ACE",
+-    "Blue6": "#3574F0",
+-    "Blue7": "#467FF2",
+-    "Blue8": "#548AF7",
+-    "Blue9": "#6B9BFA",
+-    "Blue10": "#83ACFC",
+-    "Blue11": "#99BBFF",
+-
+-    "Green1": "#253627",
+-    "Green2": "#273828",
+-    "Green3": "#375239",
+-    "Green4": "#436946",
+-    "Green5": "#4E8052",
+-    "Green6": "#57965C",
+-    "Green7": "#5FAD65",
+-    "Green8": "#73BD79",
+-    "Green9": "#89CC8E",
+-    "Green10": "#A0DBA5",
+-    "Green11": "#B9EBBD",
+-    "Green12": "#D4FAD7",
+-
+-    "Yellow1": "#3D3223",
+-    "Yellow2": "#5E4D33",
+-    "Yellow3": "#826A41",
+-    "Yellow4": "#9E814A",
+-    "Yellow5": "#BA9752",
+-    "Yellow6": "#D6AE58",
+-    "Yellow7": "#F2C55C",
+-    "Yellow8": "#F5D273",
+-    "Yellow9": "#F7DE8B",
+-    "Yellow10": "#FCEBA4",
+-    "Yellow11": "#FFF6BD",
+-
+-    "Red1": "#402929",
+-    "Red2": "#472B2B",
+-    "Red3": "#5E3838",
+-    "Red4": "#7A4343",
+-    "Red5": "#9C4E4E",
+-    "Red6": "#BD5757",
+-    "Red7": "#DB5C5C",
+-    "Red8": "#E37774",
+-    "Red9": "#EB938D",
+-    "Red10": "#F2B1AA",
+-    "Red11": "#F7CCC6",
+-    "Red12": "#FAE3DE",
+-
+-    "Orange1": "#45322B",
+-    "Orange2": "#614438",
+-    "Orange3": "#825845",
+-    "Orange4": "#A36B4E",
+-    "Orange5": "#C27A53",
+-    "Orange6": "#E08855",
+-    "Orange7": "#E5986C",
+-    "Orange8": "#F0AC81",
+-    "Orange9": "#F5BD98",
+-    "Orange10": "#FACEAF",
+-    "Orange11": "#FFDFC7",
+-
+-    "Purple1": "#2F2936",
+-    "Purple2": "#3B3147",
+-    "Purple3": "#433358",
+-    "Purple4": "#583D7A",
+-    "Purple5": "#6C469C",
+-    "Purple6": "#8150BE",
+-    "Purple7": "#955AE0",
+-    "Purple8": "#A571E6",
+-    "Purple9": "#B589EC",
+-    "Purple10": "#C4A0F3",
+-    "Purple11": "#D4B8F9",
+-    "Purple12": "#E4CEFF",
++  "parentTheme": "ExperimentalDark",
++  "editorScheme": "Rider Dark",
+ 
+-    "Teal1": "#1D3838",
+-    "Teal2": "#1D3D3B",
+-    "Teal3": "#1E4D4A",
+-    "Teal4": "#20635D",
+-    "Teal5": "#21786F",
+-    "Teal6": "#238E82",
+-    "Teal7": "#24A394",
+-    "Teal8": "#42B1A4",
+-    "Teal9": "#60C0B5",
+-    "Teal10": "#7DCEC5",
+-    "Teal11": "#9BDDD6",
+-    "Teal12": "#B9EBE6"
++  "colors": {
 +    "Grey1": "#1C1C1C",
 +    "Grey2": "#2B2B2B",
 +    "Grey3": "#393939",
@@ -40,23 +129,633 @@ index 60a2230..d482ce8 100644
 +    "Grey11": "#CBCBCB",
 +    "Grey12": "#DFDFDF",
 +    "Grey13": "#F2F2F2",
-     "Grey14": "#FFFFFF",
++    "Grey14": "#FFFFFF"
+   },
  
-     "Blue1": "#25324D",
-@@ -270,6 +271,7 @@
-       "hoverInactiveBackground": "#1E1F2200",
-       "inactiveColoredFileBackground": "#1E1F2280",
-       "underlinedTabBackground": "Grey1",
-+      "underlinedTabForeground": "Grey12",
-       "underTabsBorderColor":"Grey3"
+   "ui": {
+ 
+-    "*": {
+-      "foreground": "Grey12",
+-      "background":  "Grey2",
+-      "borderColor": "Grey1",
+-
+-      "disabledText": "Grey6",
+-      "disabledForeground": "Grey6",
+-      "inactiveForeground": "Grey6",
+-      "disabledBackground": "Grey2",
+-      "disabledBorderColor": "Grey4",
+-
+-      "selectionBackground": "Blue2",
+-      "lightSelectionBackground": "Blue2",
+-      "hoverBackground": "Grey3",
+-      "selectionForeground": "Grey12",
+-      "selectionInactiveForeground": "Grey12",
+-      "selectionInactiveBackground": "Grey4",
+-
+-      "infoForeground": "Grey7",
+-      "acceleratorForeground": "Grey7",
+-      "shortcutForeground": "Grey7",
+-
+-      "underlineColor": "Blue6",
+-      "inactiveUnderlineColor": "Grey6",
+-
+-      "focusColor": "Blue6",
+-
+-      "separatorColor": "Grey3",
+-      "separatorForeground": "Grey7",
+-
+-      "modifiedItemForeground": "Blue9"
+-    },
+-
+-    "ActionButton": {
+-      "hoverBackground": "#FFFFFF16",
+-      "hoverBorderColor": "#FFFFFF00",
+-      "pressedBackground": "#FFFFFF26",
+-      "pressedBorderColor": "#FFFFFF00",
+-      "focusedBorderColor": "Blue6",
+-      "hoverSeparatorColor": "Grey6"
+-    },
+-
+-    "Bookmark": {
+-      "Mnemonic.iconForeground": "Grey14",
+-      "MnemonicAvailable.borderColor": "Grey5",
+-      "MnemonicAssigned.background": "Orange6",
+-      "MnemonicAssigned.foreground": "Grey1",
+-      "MnemonicCurrent.background": "Blue7"
+-    },
+-
+-    "Borders.color": "Grey1",
+-    "Borders.ContrastBorderColor": "Grey1",
+-
+-    "Breakpoint.iconHoverAlpha": 0.35,
+-
+-    "Button": {
+-      "arc": 8,
+-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaButtonBorder",
+-      "startBackground": "Grey2",
+-      "endBackground": "Grey2",
+-      "startBorderColor": "Grey5",
+-      "endBorderColor": "Grey5",
+-      "focusedBorderColor": "Grey2",
+-      "minimumSize": "72,28",
+-      "shadowColor": "#00000000",
+-
+-      "default": {
+-        "foreground": "Grey14",
+-        "startBackground": "Blue6",
+-        "endBackground": "Blue6",
+-        "startBorderColor": "Blue6",
+-        "endBorderColor": "Blue6",
+-        "focusedBorderColor": "Grey1",
+-        "shadowColor": "#00000000"
+-      },
+-
+-      "Split": {
+-        "default": {
+-          "iconColor": "Grey14",
+-          "separatorColor": "Blue10"
+-        }
+-      }
+-    },
+-
+-    "CheckBox": {
+-      "borderInsets": "4,4,4,4",
+-      "iconSize": 24,
+-      "textIconGap": 4
+-    },
+-
+-    "SegmentedButton": {
+-      "selectedStartBorderColor": "Grey5",
+-      "selectedEndBorderColor": "Grey5",
+-      "selectedButtonColor": "Grey3",
+-      "focusedSelectedButtonColor": "Blue3"
+-    },
+-
+-    "ComboBox": {
+-      "ArrowButton": {
+-        "background": "Grey2",
+-        "nonEditableBackground": "Grey3"
+-      },
+-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaComboBoxBorder",
+-      "minimumSize": "49,28",
+-      "nonEditableBackground": "Grey3",
+-      "padding": "1,9,1,6"
+-    },
+-
+-    "ComboPopup.border": "1,1,1,1,#43454A",
+-
+-    "ContextHelp": {
+-      "fontSizeOffset": {
+-        "os.windows": 0
+-      }
+-    },
+-
+-    "Counter": {
+-      "background": "Grey8",
+-      "foreground": "#000000"
+-    },
+-
+-    "Debugger": {
+-      "Variables": {
+-        "valueForeground": "Orange8",
+-        "collectingDataForeground": "Grey7",
+-        "evaluatingExpressionForeground": "Grey7",
+-        "changedValueForeground": "Blue8",
+-        "modifyingValueForeground": "Blue8",
+-        "errorMessageForeground": "Red7",
+-        "exceptionForeground": "Red7",
+-        "typeForeground": "Grey7"
+-      },
+-      "EvaluateExpression.background": "Grey3"
+-    },
+-
+-    "FileColor": {
+-      "Yellow": "Yellow1",
+-      "Green": "Green2",
+-      "Orange": "Orange1",
+-      "Rose": "Red2",
+-      "Violet": "Purple2",
+-      "Blue": "Teal2",
+-      "Gray": "#35363B"
+-    },
+-
+-    "Component": {
+-      "arc": "8",
+-      "arrowAreaWidth": "28",
+-      "borderColor": "Grey5",
+-      "focusedBorderColor": "Grey2",
+-      "errorFocusColor": "Red5",
+-      "inactiveErrorFocusColor": "Red3",
+-      "warningFocusColor": "Yellow4",
+-      "inactiveWarningFocusColor": "Yellow2"
+-    },
+-
+-    "DragAndDrop": {
+-      "borderColor": "Blue6",
+-      "rowBackground": "#3573F026"
+-    },
+-
+     "EditorTabs": {
+-      "underlineArc": 4,
+-      "underlineHeight": 4,
+-      "unselectedAlpha": 0.75,
+-      "unselectedBlend": 0.7,
+-      "background": "Grey1",
+-      "hoverBackground": "#1E1F2200",
+-      "hoverInactiveBackground": "#1E1F2200",
+-      "inactiveColoredFileBackground": "#1E1F2280",
+-      "underlinedTabBackground": "Grey1",
+-      "underTabsBorderColor":"Grey3"
+-    },
+-
+-    "Editor": {
+-      "SearchField" : {
+-        "background": "Grey1"
+-      },
+-
+-      "Toolbar" : {
+-        "borderColor" : "Grey3"
+-      },
+-
+-      "ToolTip": {
+-        "foreground": "Grey12",
+-        "background": "Grey3",
+-        "border": "Grey4",
+-        "errorBackground": "Red1",
+-        "errorBorder": "Red2",
+-        "successBackground": "Green1",
+-        "successBorder": "Green2",
+-        "warningBackground": "Yellow1",
+-        "warningBorder": "Yellow2",
+-        "iconHoverBackground": "#FFFFFF1A",
+-        "selectionBackground": "Grey2"
+-      }
+-    },
+-
+-    "Label.errorForeground": "Red7",
+-
+-    "Link": {
+-      "activeForeground": "Blue9",
+-      "hoverForeground": "Blue9",
+-      "pressedForeground": "Blue9",
+-      "visitedForeground": "Blue9",
+-      "secondaryForeground": "Blue9",
+-      "focusedBorderColor": "Blue7"
+-    },
+-
+-    "List": {
+-      "rowHeight": 24,
+-      "border": "4,0,4,0",
+-      "Button": {
+-        "separatorColor": "#FFFFFF33",
+-        "separatorInset": 4,
+-        "hoverBackground": "Blue3",
+-        "leftRightInset": 8
+-      },
+-      "Tag": {
+-        "background": "Grey3",
+-        "foreground": "Grey8"
+-      }
+-    },
+-
+-    "MainMenu": {
+-      "selectionForeground": "Grey12",
+-      "selectionBackground": "Grey3",
+-      "transparentSelectionBackground": "#FFFFFF1A"
+-    },
+-
+-    "MemoryIndicator": {
+-      "allocatedBackground": "Grey1",
+-      "usedBackground": "#35538F80"
+-    },
+-
+-    "Menu": {
+-      "separatorColor": "Grey4",
+-      "borderColor": "Grey4"
+-    },
+-
+-    "NewUiOnboarding.Dialog.background": "Grey2",
+-
+-    "Ide.Shadow": {
+-      "borderInsets": "16,16,16,16",
+-      "top0Color": "#00000000",
+-      "top1Color": "#00000020",
+-      "bottom0Color": "#00000000",
+-      "bottom1Color": "#00000020",
+-      "left0Color": "#00000000",
+-      "left1Color": "#00000020",
+-      "right0Color": "#00000000",
+-      "right1Color": "#00000020",
+-      "topLeft0Color": "#00000000",
+-      "topLeft1Color": "#00000020",
+-      "topRight0Color": "#00000000",
+-      "topRight1Color": "#00000020",
+-      "bottomLeft0Color": "#00000000",
+-      "bottomLeft1Color": "#00000020",
+-      "bottomRight0Color": "#00000000",
+-      "bottomRight1Color": "#00000020"
+-    },
+-    "Notification.Shadow": {
+-      "borderInsets": "5,5,5,5",
+-      "top0Color": "#00000000",
+-      "top1Color": "#00000010",
+-      "bottom0Color": "#00000000",
+-      "bottom1Color": "#00000010",
+-      "left0Color": "#00000000",
+-      "left1Color": "#00000010",
+-      "right0Color": "#00000000",
+-      "right1Color": "#00000010",
+-      "topLeft0Color": "#00000000",
+-      "topLeft1Color": "#00000010",
+-      "topRight0Color": "#00000000",
+-      "topRight1Color": "#00000010",
+-      "bottomLeft0Color": "#00000000",
+-      "bottomLeft1Color": "#00000010",
+-      "bottomRight0Color": "#00000000",
+-      "bottomRight1Color": "#00000010"
+-    },
+-
+-    "Notification": {
+-      "background": "Grey3",
+-      "borderColor": "Grey4",
+-      "foreground": "Grey13",
+-      "linkForeground": "Blue9",
+-      "Button": {
+-        "background": "Grey3",
+-        "borderColor": "Grey7",
+-        "foreground": "Grey14"
+-      },
+-      "MoreButton": {
+-        "background": "Grey2",
+-        "innerBorderColor": "Grey4",
+-        "foreground": "Grey9"
+-      },
+-      "ToolWindow": {
+-        "errorForeground": "Grey12",
+-        "warningForeground": "Grey12",
+-        "informativeForeground": "Grey12",
+-
+-        "errorBackground": "Red3",
+-        "errorBorderColor": "Red4",
+-        "warningBackground": "Yellow1",
+-        "warningBorderColor": "Yellow2",
+-        "informativeBackground": "Green1",
+-        "informativeBorderColor": "Green3"
+-      },
+-      "WelcomeScreen.separatorColor": "#4E5157"
+-    },
+-
+-    "NotificationsToolwindow": {
+-      "newNotification.background": "Grey3",
+-      "newNotification.hoverBackground": "Grey3",
+-      "Notification.hoverBackground": "Grey2"
+-    },
+-
+-    "OnePixelDivider.background": "Grey3",
+-
+-    "PasswordField": {
+-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew"
+-    },
+-
+-    "Plugins": {
+-      "SectionHeader.background": "Grey3",
+-      "Button": {
+-        "installFillForeground": "Grey14",
+-        "installFillBackground": "Green5",
+-        "installBorderColor": "Green5",
+-        "installForeground": "Green7",
+-        "updateBackground": "Blue5",
+-        "updateBorderColor": "Blue5",
+-        "updateForeground": "Grey14"
+-      },
+-      "tagForeground": "Grey9",
+-      "tagBackground": "Grey4",
+-      "paidTagBackground": "Blue2",
+-      "trialTagBackground": "Green3",
+-      "eapTagBackground": "Red3"
+-    },
+-
+-    "Popup": {
+-      "borderWidth": 1,
+-      "paintBorder": true,
+-      "borderColor": "Grey4",
+-      "inactiveBorderColor": "Grey3",
+-      "Advertiser": {
+-        "foreground": "Grey8",
+-        "background": "Grey3",
+-        "borderColor": "Grey3",
+-        "fontSizeOffset": -1
+-      },
+-      "Header": {
+-        "activeBackground": "Grey2",
+-        "inactiveBackground": "Grey2",
+-        "inactiveForeground": "Grey7"
+-      }
+-    },
+-
+-    "PopupMenu": {
+-    },
+-
+-    "Review": {
+-      "Branch": {
+-        "Background": "Grey3",
+-        "Background.Hover": "Grey4"
+-      },
+-      "State": {
+-        "Background": "Grey4",
+-        "Foreground": "Grey8"
+-      },
+-      "ChatItem":{
+-        "Hover": "#5A5D6333"
+-      }
+-    },
+-
+-    "ComplexPopup.Header.background": "Grey3",
+-
+-    "CompletionPopup": {
+-      "foreground": "Grey10",
+-      "matchForeground": "Blue8",
+-      "Advertiser": {
+-        "foreground": "Grey7",
+-        "background": "Grey3"
+-      }
+-    },
+-
+-    "ProgressBar": {
+-      "progressColor": "Blue7",
+-      "indeterminateStartColor": "Blue9",
+-      "indeterminateEndColor": "Blue5",
+-      "passedColor": "Green6",
+-      "passedEndColor": "Green9",
+-      "failedColor": "Red6",
+-      "failedEndColor": "Red9",
+-      "trackColor": "Grey4"
+-    },
+-
+-    "RadioButton": {
+-      "borderInsets": "4,4,4,4",
+-      "iconSize": 24,
+-      "iconTextGap": 4
+-    },
+-
+-    "SearchField": {
+-      "errorForeground": "Red7",
+-      "errorBackground": "Red3"
+-    },
+-
+-    "SearchEverywhere": {
+-      "List.settingsBackground": "Grey8",
+-      "Tab": {
+-        "selectedBackground": "Blue2",
+-        "selectedForeground": "Grey14"
+-      },
+-      "Advertiser": {
+-        "foreground": "Grey8",
+-        "background": "Grey3"
+-      }
+-    },
+-
+-    "SearchMatch": {
+-      "startBackground": "Yellow5",
+-      "endBackground": "Yellow5"
+-    },
+-
+-    "SearchOption": {
+-      "selectedBackground": "Blue3",
+-      "selectedHoveredBackground": "Blue4",
+-      "selectedPressedBackground": "Blue4"
+-    },
+-
+-    "SpeedSearch": {
+-      "background": "Grey1",
+-      "borderColor": "Grey3",
+-      "errorForeground": "Red7"
+-    },
+-
+-    "Spinner": {
+-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaSpinnerBorderNew",
+-      "minimumSize": "72,28"
++      "underlinedTabForeground": "Grey12"
      },
  
-@@ -333,6 +335,17 @@
-       "usedBackground": "#35538F80"
+     "StatusBar": {
++      "background": "Grey2",
+       "Widget": {
+-        "foreground": "Grey9",
+-        "hoverForeground": "Grey12",
+-        "pressedBackground": "Grey4"
++        "hoverBackground": "Grey3"
+       },
+       "Breadcrumbs": {
+-        "foreground": "Grey9",
+-        "hoverForeground": "Grey12",
+-        "chevronInset": 0
++        "hoverBackground": "Grey3",
++        "floatingBackground": "Grey2"
+       }
      },
  
+-    "TabbedPane": {
+-      "tabHeight": 40,
+-      "tabSelectionArc": 4,
+-      "hoverColor": "Grey4",
+-      "contentAreaColor": "Grey1",
+-      "focusColor": "Blue2"
+-    },
+-
+-    "Table": {
+-      "gridColor": "Grey1",
+-      "stripeColor": "Grey2"
+-    },
+-
+-    "TableHeader": {
+-      "bottomSeparatorColor": "Grey1",
+-      "separatorColor": "Grey1"
+-    },
+-
+-    "Tag.background": "Grey3",
+-
+-    "TextField": {
+-      "background": "Grey2",
+-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew",
+-      "minimumSize": "49,28"
+-    },
+-
+-    "ToolBar.separatorColor": "Grey4",
+-
+-    "ToolTip":{
 +    "ParameterInfo": {
-+      "background": "Grey3",
+       "background": "Grey3",
+-      "borderColor": "Grey4",
+-      "foreground": "Grey13",
+-      "infoForeground": "Grey9",
+-      "shortcutForeground": "Grey9"
+-    },
+-
+-    "HelpTooltip": {
+-      "verticalGap": 6
+-    },
+-
+-    "GotItTooltip": {
+-      "background": "Blue4",
+-      "borderColor": "Blue4",
+-      "foreground": "#FFFFFFCC",
+-      "stepForeground": "Blue11",
+-      "secondaryActionForeground": "Blue11",
+-      "Header.foreground": "Grey14",
+-      "shortcutForeground": "Grey14",
+-      "shortcutBackground": "Blue2",
+-      "codeForeground": "Grey14",
+-      "codeBackground": "Blue4",
+-      "codeBorderColor": "#FFFFFF80",
+-      "linkForeground": "#FFFFFFCC",
+-      "linkUnderlineHoveredColor": "#FFFFFF65",
+-      "linkUnderlineDefaultColor": "#FFFFFF65",
+-      "imageBorderColor": "Grey3",
+-      "animationBackground": "Grey1",
+-      "iconFillColor": "Blue5",
+-      "iconBorderColor": "Grey14",
+-      "Button": {
+-        "foreground": "Grey14",
+-        "startBackground": "Blue4",
+-        "endBackground": "Blue4",
+-        "startBorderColor": "#FFFFFF80",
+-        "endBorderColor": "#FFFFFF80",
+-        "contrastBackground": "Blue2"
+-      }
+-    },
+-
+-    "ValidationTooltip": {
+-      "errorBackground": "Red3",
+-      "errorBorderColor": "Red6",
+-      "errorForeground": "Gray14",
+-      "warningBackground": "Yellow2",
+-      "warningBorderColor": "Yellow5",
+-      "warningForeground": "Gray14"
+-    },
+-
+-    "ToolWindow": {
+-      "Header": {
+-        "inactiveBackground": "Grey2",
+-        "font.size.offset": 0
+-      },
+-      "HeaderTab": {
+-        "hoverInactiveBackground": "Grey3"
+-      },
+-      "Button": {
+-        "foreground": "Grey9",
+-        "selectedForeground": "Grey14",
+-        "selectedBackground": "Blue6",
+-        "DragAndDrop" : {
+-          "stripeBackground" : "Grey2",
+-          "buttonDropBackground": "#35538F99",
+-          "buttonDropBorderColor": "Blue8"
+-        }
+-      },
+-      "Stripe": {
+-        "separatorColor": "Grey4",
+-        "DragAndDrop": {
+-          "separatorColor": "Blue8"
+-        }
+-      },
+-      "DragAndDrop": {
+-        "areaBackground": "#366ACF4D"
+-      }
+-    },
+-
+-    "MainToolbar": {
+-      "Icon": {
+-        "background": "Grey2",
+-        "pressedBackground": "Grey3",
+-        "insets": "5,5,5,5"
+-      },
+-      "Dropdown": {
+-        "pressedBackground": "Grey3",
+-        "maxWidth": 350,
+-        "transparentHoverBackground": "#FFFFFF1A"
+-      },
+-      "background": "Grey2",
+-      "separatorColor": "Grey4"
+-    },
+-
+-    "Window.undecorated.border" : "1,1,1,1,#5A5D63",
+-
+-    "Tree": {
+-      "collapsedIcon": "/expui/general/chevronRight.svg",
+-      "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
+-      "expandedIcon": "/expui/general/chevronDown.svg",
+-      "expandedSelectedIcon": "/expui/general/chevronDown.svg",
+-      "rowHeight": 24,
+-      "hash": "Grey5",
+-      "border": "4,12,4,12"
+-    },
+-
+-    "TitlePane": {
+-      "Button": {
+-        "preferredSize": "44,40",
+-        "hoverBackground": "#FFFFFF10"
+-      }
+-    },
+-
+-    "VersionControl": {
+-      "Log.Commit": {
+-        "currentBranchBackground": "#1c2433",
+-        "unmatchedForeground": "Grey7",
+-        "hoveredBackground": "#FFFFFFED",
+-        "Reference.foreground": "Grey7"
+-      },
+-      "FileHistory.Commit.selectedBranchBackground": "#1c2433",
+-      "MarkerPopup": {
+-        "borderColor": "Grey4"
+-      },
+-      "GitLog": {
+-        "headIconColor": "Yellow8",
+-        "localBranchIconColor": "Green7",
+-        "otherIconColor": "Grey8",
+-        "remoteBranchIconColor": "Purple9",
+-        "tagIconColor": "Grey8"
+-      }
+-    },
 +      "currentOverloadBackground": "Blue3",
 +      "borderColor": "Grey6",
 +      "foreground": "Grey11",
@@ -64,98 +763,354 @@ index 60a2230..d482ce8 100644
 +      "disabledForeground": "Grey7",
 +      "infoForeground": "Grey11",
 +      "lineSeparatorColor": "Grey3"
-+    },
-+
-     "Menu": {
-       "separatorColor": "Grey4",
-       "borderColor": "Grey4"
-@@ -512,14 +525,18 @@
-     },
++    }
  
-     "StatusBar": {
-+      "background": "Grey2",
-       "Widget": {
-         "foreground": "Grey9",
-         "hoverForeground": "Grey12",
-+        "hoverBackground": "Grey3",
-         "pressedBackground": "Grey4"
-       },
-       "Breadcrumbs": {
-         "foreground": "Grey9",
-         "hoverForeground": "Grey12",
-+        "hoverBackground": "Grey3",
-+        "floatingBackground": "Grey2",
-         "chevronInset": 0
-       }
-     },
-@@ -561,6 +578,7 @@
-       "borderColor": "Grey3",
-       "foreground": "Grey10",
-       "stepForeground": "Grey8",
-+      "secondaryActionForeground": "Grey8",
-       "Header.foreground": "Grey14",
-       "shortcutForeground": "Grey14",
-       "shortcutBackground": "Grey5",
-@@ -689,6 +707,7 @@
-       "spanForeground": "Grey14",
-       "foreground": "Grey14",
-       "stepNumberForeground": "Blue11",
-+      "secondaryActionForeground": "Blue11",
-       "codeBorderColor": "#FFFFFFBF"
-     },
+-    "EditorPane.splitBorder": "Grey3",
+-
+-    "WelcomeScreen.Details.background": "Grey1",
+-
+-    "TipOfTheDay": {
+-      "Image.borderColor": "Grey3"
+-    },
+-
+-    "Lesson": {
+-      "shortcutBackground": "Grey5"
+-    },
+-
+-    "Tooltip.Learning": {
+-      "background": "Blue6",
+-      "borderColor": "Blue6",
+-      "spanBackground": "Blue4",
+-      "spanForeground": "Grey14",
+-      "foreground": "Grey14",
+-      "stepNumberForeground": "Blue11",
+-      "secondaryActionForeground": "Blue11",
+-      "codeBorderColor": "#FFFFFF80",
+-      "linkForeground": "Grey14",
+-      "linkUnderlineHoveredColor": "#FFFFFF65",
+-      "linkUnderlineDefaultColor": "#FFFFFF65",
+-      "iconFillColor": "Blue8",
+-      "iconBorderColor": "Grey14",
+-      "Header.foreground": "Grey14"
+-    },
+-
+-    "RecentProject": {
+-      "Color1": {
+-        "MainToolbarGradientStart": "#654B40",
+-        "Avatar": {
+-          "Start": "#E08855",
+-          "End": "#E9806F"
+-        }
+-      },
+-      "Color2": {
+-        "MainToolbarGradientStart": "#534C33",
+-        "Avatar": {
+-          "Start": "#B08B14",
+-          "End": "#BB7F19"
+-        }
+-      },
+-      "Color3": {
+-        "MainToolbarGradientStart": "#455038",
+-        "Avatar": {
+-          "Start": "#A1A359",
+-          "End": "#87AA59"
+-        }
+-      },
+-      "Color4": {
+-        "MainToolbarGradientStart": "#31515F",
+-        "Avatar": {
+-          "Start": "#3B92B8",
+-          "End": "#6183EC"
+-        }
+-      },
+-      "Color5": {
+-        "MainToolbarGradientStart": "#344C7D",
+-        "Avatar": {
+-          "Start": "#3574F0",
+-          "End": "#7A64F0"
+-        }
+-      },
+-      "Color6": {
+-        "MainToolbarGradientStart": "#5D354A",
+-        "Avatar": {
+-          "Start": "#C84D8F",
+-          "End": "#A956CF"
+-        }
+-      },
+-      "Color7": {
+-        "MainToolbarGradientStart": "#4F3E65",
+-        "Avatar": {
+-          "Start": "#955AE0",
+-          "End": "#A84DE0"
+-        }
+-      },
+-      "Color8": {
+-        "MainToolbarGradientStart": "#1D4744",
+-        "Avatar": {
+-          "Start": "#24A394",
+-          "End": "#279CCD"
+-        }
+-      },
+-      "Color9": {
+-        "MainToolbarGradientStart": "#3E5540",
+-        "Avatar": {
+-          "Start": "#5FAD65",
+-          "End": "#3D968B"
+-        }
+-      }
+-    },
+-
+-    "UnattendedHostStatus": {
+-      "warningBackground": "Yellow7",
+-      "warningForeground": "Grey3",
+-      "dangerBackground": "Red7"
+-    },
++  },
  
-@@ -960,11 +979,50 @@
-     "InlineBanner.pressedBackground": "#FFFFFF1E"
-   },
- 
+-    "CodeWithMe": {
+-      "MainToolbar": {
+-        "NoConnectionLabelForeground": "Grey8"
+-      },
+-      "Users": {
+-        "1": {
+-          "Background": "Green7",
+-          "Foreground": "Grey14",
+-          "StopFollowingLinkForeground": "Blue1",
+-          "FollowingBorderTextForeground": "Grey14"
+-        },
+-        "2": {
+-          "Background": "Red7",
+-          "Foreground": "Grey14",
+-          "StopFollowingLinkForeground": "Blue1",
+-          "FollowingBorderTextForeground": "Grey14"
+-        },
+-        "3": {
+-          "Background": "Purple7",
+-          "Foreground": "Grey14",
+-          "StopFollowingLinkForeground": "Blue1",
+-          "FollowingBorderTextForeground": "Grey14"
+-        },
+-        "4": {
+-          "Background": "Orange6",
+-          "Foreground": "Grey14",
+-          "StopFollowingLinkForeground": "Blue1",
+-          "FollowingBorderTextForeground": "Grey14"
+-        },
+-        "5": {
+-          "Background": "Teal7",
+-          "Foreground": "Grey14",
+-          "StopFollowingLinkForeground": "Blue1",
+-          "FollowingBorderTextForeground": "Grey14"
+-        },
+-        "6": {
+-          "Background": "Yellow6",
+-          "Foreground": "Grey14",
+-          "StopFollowingLinkForeground": "Blue1",
+-          "FollowingBorderTextForeground": "Grey1"
+-        }
+-      }
+-    },
 +  "iconColorsOnSelection": {
 +    "#c75450": "#CF5753",
 +    "#f0a732": "#F7AC34",
 +    "#499c54": "#4CA358",
 +    "#3592c4": "#389ACF",
 +    "#afb1b3": "#BDC0C2",
-+
+ 
 +    "#9aa7b0": "#9AA7B0",
 +    "#9aa7b0cc": "#8A959C",
 +    "#9aa7b099": "#787E82",
-+
+ 
 +    "#f26522": "#F26522",
 +    "#f26522b3": "#B5592D",
 +    "#f2652299": "#9C4C27",
-+
+ 
+-    "PackageSearch": {
+-      "SearchResult": {
+-        "background": "#1c2433",
+-        "hoverBackground": "#2c3341",
+-        "PackageTag": {
+-          "background": "#2e3643",
+-          "foreground": "Grey12",
+-          "hoverBackground": "#3d4350",
+-          "selectedBackground": "Blue4",
+-          "selectedForeground": "Grey12"
+-        }
+-      },
+-      "PackageTag": {
+-        "background": "Grey4",
+-        "foreground": "Grey9",
+-        "hoverBackground": "#4a4c4e",
+-        "selectedBackground": "Grey4",
+-        "selectedForeground": "Grey9"
+-      },
+-      "PackageTagSelected.background": "Blue4",
+-      "PackageTagSelected.foreground": "Grey10"
+-    },
+-    "RunWidget" : {
+-      "foreground": "Grey12",
+-      "iconColor": "Grey12",
+-      "runningBackground": "Green6",
+-      "runningIconColor": "Grey12",
+-      "hoverBackground": "#00000019",
+-      "pressedBackground": "#00000028"
+-    },
 +    "#40b6e0": "#40B6E0",
 +    "#40b6e0b3": "#3590B0",
 +    "#40b6e099": "#2F819E",
-+
+ 
+-    "MainWindow.Tab" : {
+-      "selectedForeground": "Grey11",
+-      "selectedBackground": "Grey2",
+-      "selectedInactiveBackground": "Grey3",
+-      "foreground": "Grey10",
+-      "background": "#131314",
+-      "hoverForeground": "Grey11",
+-      "hoverBackground": "#1A1A1B",
+-      "separatorColor": "Grey2",
+-      "borderColor": "Grey1"
+-    },
 +    "#62b543": "#62B543",
 +    "#62b543b3": "#558A41",
 +    "#62b54399": "#547D45",
-+
+ 
+-    "MainWindow.FullScreeControl.Background": "#575A5C",
+-    "Profiler": {
+-      "ChartSlider": {
+-        "foreground": "Grey12",
+-        "lineColor": "Grey5"
+-      },
+-      "CpuChart": {
+-        "background": "Green3",
+-        "borderColor": "Green6",
+-        "inactiveBackground": "Green1",
+-        "inactiveBorderColor": "Green3",
+-        "pointBackground": "Green6",
+-        "pointBorderColor": "Grey2"
+-      },
+-      "MemoryChart": {
+-        "background": "Blue2",
+-        "borderColor": "Blue8",
+-        "inactiveBackground": "Blue1",
+-        "inactiveBorderColor": "Blue3",
+-        "pointBackground": "Blue5",
+-        "pointBorderColor": "Grey2"
+-      },
+-      "Timer": {
+-        "foreground": "Grey12",
+-        "disabledForeground": "Grey7"
+-      },
+-      "LiveChart": {
+-        "horizontalAxisColor": "Grey4"
+-      }
+-    },
+-    "FlameGraph.Tooltip": {
+-      "scaleBackground": "#43454A",
+-      "scaleColor": "#375FAD",
+-      "foreground": "#DFE1E5"
+-    },
+-    "LineProfiler" : {
+-      "Line" : {
+-        "labelBackground" : "Grey2",
+-        "foreground" : "Grey7",
+-        "hoverBackground" : "Grey3"
+-      },
+-      "HotLine" : {
+-        "labelBackground" : "Red1",
+-        "foreground" : "Red7",
+-        "hoverBackground" : "Red3"
+-      },
+-      "IgnoredLine" : {
+-        "labelBackground" : "Grey2",
+-        "foreground" : "Grey5"
+-      }
+-    },
+-    "PresentationAssistant": {
+-      "Bright": {
+-        "Popup": {
+-          "foreground": "Grey14",
+-          "border": "Blue4"
+-        },
+-        "PopupBackground": "Blue4",
+-        "keymapLabel": "Blue11"
+-      },
+-      "Pale": {
+-        "Popup": {
+-          "foreground": "Grey14",
+-          "border": "Grey3"
+-        },
+-        "PopupBackground": "Grey3",
+-        "keymapLabel": "Grey8"
+-      }
+-    },
+-    "HelpBrowser": {
+-      "titleHighlightForeground": "Blue6",
+-      "UserMessage": {
+-        "background": "Grey4",
+-        "Snippet": {
+-          "border": "Grey5",
+-          "MoreLines": {
+-            "foreground": "Grey8",
+-            "background": "Grey2",
+-            "hoverForeground": "Grey8",
+-            "hoverBackground": "Grey3"
+-          }
+-        }
+-      },
+-      "HelpBrowserMessage": {
+-        "Snippet": {
+-          "border": "Grey3",
+-          "MoreLines": {
+-            "foreground": "Grey8",
+-            "background": "Grey2",
+-            "hoverForeground": "Grey8",
+-            "hoverBackground": "Grey3"
+-          }
+-        }
+-      }
+-    },
 +    "#f98b9e": "#F98B9E",
 +    "#f98b9eb3": "#B5707C",
 +    "#f98b9e99": "#9C626C",
-+
+ 
+-    "DataSummary.Chart.barColor": "Blue6",
 +    "#f4af3d": "#F4AF3D",
 +    "#f4af3db3": "#AB803A",
 +    "#f4af3d99": "#9E7A3E",
-+
+ 
+-    "ManagedIdeBadgeBorder": "Grey5",
+-    "ManagedIdeBadgeBackground": "Grey3",
+-    "ManagedIdeBadgeBackgroundHover": "Grey4",
+-    "ManagedIdeMenuItemHover": "Grey4",
 +    "#b99bf8": "#B99BF8",
 +    "#b99bf8b3": "#8C79B2",
 +    "#b99bf899": "#7D6D9E",
-+
+ 
+-    "InlineBanner.hoverBackground": "#FFFFFF14",
+-    "InlineBanner.pressedBackground": "#FFFFFF1E"
 +    "#6e6e6e": "#757575",
 +    "#5e5e5e": "#636363"
-+  },
-+
+   },
+ 
    "icons": {
--    "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/expUI/icons/dark/checkBoxTemp.svg",
--    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/expUI/icons/dark/checkBoxFocusedTemp.svg",
--    "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radioTemp.svg",
--    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocusedTemp.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBox.svg": "/themes/expUI/icons/dark/checkBox.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxDisabled.svg": "/themes/expUI/icons/dark/checkBoxDisabled.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxFocused.svg": "/themes/expUI/icons/dark/checkBoxFocused.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelected.svg": "/themes/expUI/icons/dark/checkBoxIndeterminateSelected.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelectedDisabled.svg": "/themes/expUI/icons/dark/checkBoxIndeterminateSelectedDisabled.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxIndeterminateSelectedFocused.svg": "/themes/expUI/icons/dark/checkBoxIndeterminateSelectedFocused.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelected.svg": "/themes/expUI/icons/dark/checkBoxSelected.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelectedDisabled.svg": "/themes/expUI/icons/dark/checkBoxSelectedDisabled.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/checkBoxSelectedFocused.svg": "/themes/expUI/icons/dark/checkBoxSelectedFocused.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/radio.svg": "/themes/expUI/icons/dark/radio.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/radioDisabled.svg": "/themes/expUI/icons/dark/radioDisabled.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/radioFocused.svg": "/themes/expUI/icons/dark/radioFocused.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/radioSelected.svg": "/themes/expUI/icons/dark/radioSelected.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedDisabled.svg": "/themes/expUI/icons/dark/radioSelectedDisabled.svg",
+-    "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedFocused.svg": "/themes/expUI/icons/dark/radioSelectedFocused.svg"
 +    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
 +    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
 +    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
-+    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg",
- 
-     "ColorPalette": {
-       "Checkbox.Background.Default.Dark": "Grey2",
++    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg"
+   }
+ }
