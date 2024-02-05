@@ -21,8 +21,8 @@
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
     <option name="INDENT_GUIDE" value="6a6a6a" />
     <option name="INFORMATION_HINT" value="4B4D4D" />
-    <option name="LINE_NUMBERS_COLOR" value="2b91af" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a4a3a3" />
+    <option name="LINE_NUMBERS_COLOR" value="8a8a8a" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e0e0e0" />
     <option name="METHOD_SEPARATORS_COLOR" value="4d4d4d" />
     <option name="MODIFIED_LINES_COLOR" value="374752" />
     <option name="MnemonicIcon.background" value="5B5341" />
@@ -606,40 +606,20 @@
       </value>
     </option>
     <option name="GRID_ERROR_VALUE" />
-    <option name="GRID_ERROR_VALUE" />
     <option name="GRID_IMAGE_VALUE" />
-    <option name="GRID_IMAGE_VALUE" />
-    <option name="GRID_NULL_VALUE" />
     <option name="GRID_NULL_VALUE" />
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="bababa" />
-      </value>
-    </option>
-    <option name="HTML_ATTRIBUTE_NAME">
-      <value>
-        <option name="FOREGROUND" value="bababa" />
+        <option name="FOREGROUND" value="9cdcfe" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="a5c261" />
-      </value>
-    </option>
-    <option name="HTML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="a5c261" />
+        <option name="FOREGROUND" value="c8c8c8" />
       </value>
     </option>
     <option name="HTML_CODE" />
-    <option name="HTML_CODE" />
     <option name="HTML_COMMENT" />
-    <option name="HTML_COMMENT" />
-    <option name="HTML_ENTITY_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="6d9cbe" />
-      </value>
-    </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="6d9cbe" />
@@ -647,29 +627,12 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="HTML_TAG">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
+        <option name="FOREGROUND" value="808080" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="HTML_TAG_NAME">
-      <value>
-        <option name="FOREGROUND" value="e8bf6a" />
-      </value>
-    </option>
-    <option name="HYPERLINK_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_COLOR" value="287bde" />
-        <option name="EFFECT_TYPE" value="1" />
-        <option name="FOREGROUND" value="287bde" />
+        <option name="FOREGROUND" value="569cd6" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
@@ -882,8 +845,7 @@
     </option>
     <option name="ReSharper.ASP_NET_BLOCK_TAG">
       <value>
-        <option name="BACKGROUND" value="d2d295" />
-        <option name="FOREGROUND" value="0" />
+        <option name="FOREGROUND" value="a699e6" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
@@ -892,12 +854,14 @@
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
-      <value>
-        <option name="BACKGROUND" value="2C2C2C" />
-      </value>
+      <value />
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG" />
-    <option name="ReSharper.ASP_NET_RAZOR_KEYWORD" />
+    <option name="ReSharper.ASP_NET_RAZOR_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="A699E6" />
+      </value>
+    </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -1282,11 +1246,7 @@
         <option name="FOREGROUND" value="808080" />
       </value>
     </option>
-    <option name="XML_TAG_DATA">
-      <value>
-        <option name="FOREGROUND" value="c8c8c8" />
-      </value>
-    </option>
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="569cd6" />
