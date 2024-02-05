@@ -21,8 +21,8 @@
     <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
     <option name="INDENT_GUIDE" value="e6e6e6" />
     <option name="INFORMATION_HINT" value="F7F7F7" />
-    <option name="LINE_NUMBERS_COLOR" value="2b91af" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="" />
+    <option name="LINE_NUMBERS_COLOR" value="7a7a7a" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="000000" />
     <option name="METHOD_SEPARATORS_COLOR" value="c0c0c0" />
     <option name="MODIFIED_LINES_COLOR" value="c3d6e8" />
     <option name="MnemonicIcon.background" value="CC9C00" />
@@ -561,11 +561,7 @@
         <option name="FOREGROUND" value="a31515" />
       </value>
     </option>
-    <option name="DEFAULT_TAG">
-      <value>
-        <option name="BACKGROUND" value="efefef" />
-      </value>
-    </option>
+    <option name="DEFAULT_TAG" baseAttributes="TEXT" />
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR" />
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
@@ -651,13 +647,29 @@
     <option name="GRID_ERROR_VALUE" />
     <option name="GRID_IMAGE_VALUE" />
     <option name="GRID_NULL_VALUE" />
-    <option name="HTML_ATTRIBUTE_NAME" />
-    <option name="HTML_ATTRIBUTE_VALUE" />
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="ff0000" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="0000ff" />
+      </value>
+    </option>
     <option name="HTML_CODE" />
     <option name="HTML_COMMENT" />
     <option name="HTML_ENTITY_REFERENCE" />
-    <option name="HTML_TAG" />
-    <option name="HTML_TAG_NAME" />
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="0000ff" />
+      </value>
+    </option>
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="800000" />
+      </value>
+    </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="589df6" />
@@ -824,16 +836,28 @@
     <option name="REGEXP.REDUNDANT_ESCAPE" />
     <option name="ReSharper.ASP_NET_ATTRIBUTE_NAME" />
     <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE" />
-    <option name="ReSharper.ASP_NET_BLOCK_TAG" />
+    <option name="ReSharper.ASP_NET_BLOCK_TAG">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffc2" />
+      </value>
+    </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME" />
     <option name="ReSharper.ASP_NET_MVC_ACTION" />
     <option name="ReSharper.ASP_NET_MVC_AREA" />
     <option name="ReSharper.ASP_NET_MVC_CONTROLLER" />
     <option name="ReSharper.ASP_NET_MVC_VIEW" />
     <option name="ReSharper.ASP_NET_MVC_VIEW_COMPONENT" />
-    <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK" />
+    <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
+      <value />
+    </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG" />
-    <option name="ReSharper.ASP_NET_RAZOR_KEYWORD" />
+    <option name="ReSharper.ASP_NET_RAZOR_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ffffc2" />
+      </value>
+    </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -1258,7 +1282,7 @@
         <option name="FOREGROUND" value="0000ff" />
       </value>
     </option>
-    <option name="XML_TAG_DATA" />
+    <option name="XML_TAG_DATA" baseAttributes="TEXT" />
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="a31515" />
