@@ -11,14 +11,23 @@ version = "0.14.11"
 
 intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
+    val useStableBuild = System.getProperty("useStableBuild")?.toBoolean() ?: false
     if (useRiderSdk) {
         type.set("RD")
-        // version.set("2022.2-SNAPSHOT") // to run in Rider
-        version.set("2023.3") // release
+        if (useStableBuild) {
+            version.set("2023.3") // Rider release
+        }
+        else {
+            version.set("2024.1-SNAPSHOT") // Rider snapshot
+        }
     }
     else {
-        // version.set("222-SNAPSHOT") // to run in IDEA
-        version.set("2023.3") // release
+        if (useStableBuild) {
+            version.set("2023.3") // IDEA release
+        }
+        else {
+            version.set("241.14024-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
+        }
     }
 
     pluginName.set("Rider UI Theme Pack")
