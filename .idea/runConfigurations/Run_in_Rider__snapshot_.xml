@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run in IDEA" type="GradleRunConfiguration" factoryName="Gradle">
+  <configuration default="false" name="Run in Rider (snapshot)" type="GradleRunConfiguration" factoryName="Gradle">
     <ExternalSystemSettings>
       <option name="executionName" />
       <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -13,7 +13,7 @@
           <option value="runIde" />
         </list>
       </option>
-      <option name="vmOptions" value="-DuseRiderSdk=false -DuseStableBuild=true" />
+      <option name="vmOptions" value="-DuseRiderSdk=true -DuseStableBuild=false" />
     </ExternalSystemSettings>
     <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
     <method v="2" />
