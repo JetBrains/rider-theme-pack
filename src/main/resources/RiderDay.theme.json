@@ -164,7 +164,6 @@
 
     "Button": {
       "arc": 8,
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaButtonBorder",
       "startBorderColor": "Gray9",
       "endBorderColor": "Gray9",
       "focusedBorderColor": "Gray14",
@@ -202,7 +201,6 @@
 
     "ComboBox": {
       "background": "Gray14",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaComboBoxBorder",
       "disabledBackground": "Gray13",
       "minimumSize": "49,28",
       "padding": "1,9,1,6",
@@ -465,8 +463,7 @@
     },
 
     "PasswordField": {
-      "background": "Gray14",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew"
+      "background": "Gray14"
     },
 
     "Plugins": {
@@ -565,7 +562,6 @@
     },
 
     "Spinner": {
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaSpinnerBorderNew",
       "minimumSize": "72,28"
     },
 
@@ -608,7 +604,6 @@
 
     "TextField": {
       "background": "Gray14",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew",
       "minimumSize": "49,28"
     },
 
