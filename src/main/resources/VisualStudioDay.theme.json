@@ -142,7 +142,6 @@
     "Breakpoint.iconHoverAlpha": 0.3,
     "Button": {
       "arc": 8,
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaButtonBorder",
       "startBorderColor": "Gray9",
       "endBorderColor": "Gray9",
       "focusedBorderColor": "Gray14",
@@ -175,7 +174,6 @@
     },
     "ComboBox": {
       "background": "Gray14",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaComboBoxBorder",
       "disabledBackground": "Gray13",
       "minimumSize": "49,28",
       "padding": "1,9,1,6",
@@ -411,8 +409,7 @@
       "Notification.hoverBackground": "Gray13"
     },
     "PasswordField": {
-      "background": "Gray14",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew"
+      "background": "Gray14"
     },
     "Plugins": {
       "background": "Gray14",
@@ -499,7 +496,6 @@
       "borderColor": "Gray12"
     },
     "Spinner": {
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaSpinnerBorderNew",
       "minimumSize": "72,28"
     },
     "StatusBar": {
@@ -535,7 +531,6 @@
     "TextArea.background": "Gray14",
     "TextField": {
       "background": "Gray14",
-      "border": "com.intellij.ide.ui.laf.darcula.ui.DarculaTextBorderNew",
       "minimumSize": "49,28"
     },
     "ToolBar.separatorColor": "Gray11",
