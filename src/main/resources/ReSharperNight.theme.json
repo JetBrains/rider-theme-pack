@@ -1000,9 +1000,9 @@
     "/com/intellij/ide/ui/laf/icons/darcula/radioSelected.svg": "/themes/expUI/icons/dark/radioSelected.svg",
     "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedDisabled.svg": "/themes/expUI/icons/dark/radioSelectedDisabled.svg",
     "/com/intellij/ide/ui/laf/icons/darcula/radioSelectedFocused.svg": "/themes/expUI/icons/dark/radioSelectedFocused.svg",
-    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderDark).svg",
-    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderDark).svg",
-    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderDark).svg",
-    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderDark).svg"
+    "/actions/realIntentionBulb.svg": "/icons/ContextAction(RiderNight).svg",
+    "/actions/refactoringBulb.svg": "/icons/RefactorThis(RiderNight).svg",
+    "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderNight).svg",
+    "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderNight).svg"
   }
 }
