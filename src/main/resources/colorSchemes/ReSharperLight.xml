@@ -10,6 +10,7 @@
     <option name="DELETED_LINES_COLOR" value="9f9f9f" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D9D9D9" />
     <option name="DOCUMENTATION_COLOR" value="f7f7f7" />
+    <option name="LOOKUP_COLOR" value="ffffff"/>
     <option name="ERROR_HINT" value="ffdcdc" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
