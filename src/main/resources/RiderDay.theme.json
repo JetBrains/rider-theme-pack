@@ -193,8 +193,8 @@
     },
 
     "SegmentedButton": {
-      "selectedStartBorderColor": "Gray9",
-      "selectedEndBorderColor": "Gray9",
+      "selectedStartBorderColor": "Gray8",
+      "selectedEndBorderColor": "Gray8",
       "selectedButtonColor": "Gray14",
       "focusedSelectedButtonColor": "Blue11"
     },
@@ -210,6 +210,28 @@
       }
     },
 
+    "Code": {
+      "Inline": {
+        "backgroundColor": "Gray5",
+        "backgroundOpacity": 7
+      },
+      "Block": {
+        "backgroundColor": "Gray5",
+        "backgroundOpacity": 4,
+        "borderColor":"Gray12",
+        "EditorPane": {
+          "backgroundColor": "Gray5",
+          "backgroundOpacity": 4,
+          "borderColor": "Gray12"
+        }
+      }
+    },
+
+    "Shortcut": {
+      "backgroundOpacity": 0,
+      "borderColor":"Gray8"
+    },
+
     "ComboPopup.border": {
       "os.windows": "1,1,1,1,#B9BDC9"
     },
@@ -221,7 +243,7 @@
     },
 
     "Component": {
-      "arc": "8",
+      "arc": 8,
       "arrowAreaWidth": "28",
       "borderColor": "Gray9",
       "focusedBorderColor": "Gray14",
@@ -328,17 +350,6 @@
       }
     },
 
-    "ParameterInfo": {
-      "background": "Gray12",
-      "currentOverloadBackground": "Blue9",
-      "borderColor": "Gray8",
-      "foreground": "Gray3",
-      "currentParameterForeground": "Gray3",
-      "disabledForeground": "Gray8",
-      "infoForeground": "Gray3",
-      "lineSeparatorColor": "Gray12"
-    },
-
     "Menu": {
       "background": "Gray14",
       "borderColor": {
@@ -431,6 +442,7 @@
       "borderColor": "Gray2",
       "foreground": "Gray13",
       "linkForeground": "Blue8",
+      "iconHoverBackground": "#FFFFFF1A",
       "Button": {
         "background": "Gray2",
         "borderColor": "Gray7",
@@ -530,11 +542,6 @@
       "iconTextGap": 4
     },
 
-    "SearchField": {
-      "errorForeground": "Red4",
-      "errorBackground": "Red9"
-    },
-
     "SearchEverywhere": {
       "Tab.selectedBackground": "Blue11",
       "SearchField.background": "Gray14",
@@ -543,6 +550,11 @@
         "foreground": "Gray7",
         "background": "Gray13"
       }
+    },
+
+    "SearchField": {
+      "errorForeground": "Red4",
+      "errorBackground": "Red9"
     },
 
     "SearchMatch": {
@@ -636,7 +648,7 @@
       "codeBorderColor": "Gray6",
       "linkForeground": "Blue8",
       "linkUnderlineHoveredColor": "Blue8",
-      "linkUnderlineDefaultColor": "FFFFFF00",
+      "linkUnderlineDefaultColor": "#FFFFFF00",
       "imageBorderColor": "Gray4",
       "animationBackground": "Gray13",
       "Button": {
@@ -676,7 +688,8 @@
         "DragAndDrop" : {
           "stripeBackground" : "Gray13",
           "buttonDropBackground": "Blue11",
-          "buttonDropBorderColor": "Blue7"
+          "buttonDropBorderColor": "Blue7",
+          "buttonFloatingBackground": "Gray11"
         }
       },
       "Stripe": {
@@ -1047,6 +1060,17 @@
       }
     },
 
+    "ParameterInfo": {
+      "background": "Gray12",
+      "currentOverloadBackground": "Blue9",
+      "borderColor": "Gray8",
+      "foreground": "Gray3",
+      "currentParameterForeground": "Gray3",
+      "disabledForeground": "Gray8",
+      "infoForeground": "Gray3",
+      "lineSeparatorColor": "Gray12"
+    },
+
     "DataSummary.Chart.barColor": "Blue4",
 
     "ManagedIdeBadgeBorder": "Gray5",
@@ -1055,7 +1079,45 @@
     "ManagedIdeMenuItemHover": "Gray12",
 
     "InlineBanner.hoverBackground": "#0000000F",
-    "InlineBanner.pressedBackground": "00000019"
+    "InlineBanner.pressedBackground": "#00000019"
+  },
+
+  "iconColorsOnSelection": {
+    "#db5860": "#D14D55",
+    "#eda200": "#E89F00",
+    "#59A869": "#4A9E5B",
+    "#389FD6": "#329AD1",
+    "#6e6e6e": "#666666",
+
+    "#9aa7b0": "#909FAB",
+    "#9aa7b0cc": "#A9B6C2",
+    "#9aa7b099": "#B8C3CC",
+
+    "#f26522": "#F76723",
+    "#f26522b3": "#FA915F",
+    "#f2652299": "#F59F76",
+
+    "#40b6e0": "#40B6E0",
+    "#40b6e0b3": "#66CAED",
+    "#40b6e099": "#7DD1F0",
+
+    "#62b543": "#5FB041",
+    "#62b543b3": "#8DCC74",
+    "#62b54399": "#9ED48A",
+
+    "#f98b9e": "#ED8496",
+    "#f98b9eb3": "#FCACBA",
+    "#f98b9e99": "#FFB8C4",
+
+    "#f4af3d": "#EBA83B",
+    "#f4af3db3": "#F2BF6B",
+    "#f4af3d99": "#F5C87F",
+
+    "#b99bf8": "#B194ED",
+    "#b99bf8b3": "#C6B1F2",
+    "#b99bf899": "#D1BEFA",
+
+    "#767a8a": "#70758A"
   },
 
   "iconColorsOnSelection": {

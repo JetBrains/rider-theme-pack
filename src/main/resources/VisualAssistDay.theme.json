@@ -167,8 +167,8 @@
       "textIconGap": 4
     },
     "SegmentedButton": {
-      "selectedStartBorderColor": "Gray9",
-      "selectedEndBorderColor": "Gray9",
+      "selectedStartBorderColor": "Gray8",
+      "selectedEndBorderColor": "Gray8",
       "selectedButtonColor": "Gray14",
       "focusedSelectedButtonColor": "Blue11"
     },
@@ -182,6 +182,26 @@
         "nonEditableBackground": "Gray14"
       }
     },
+    "Code": {
+      "Inline": {
+        "backgroundColor": "Gray5",
+        "backgroundOpacity": 7
+      },
+      "Block": {
+        "backgroundColor": "Gray5",
+        "backgroundOpacity": 4,
+        "borderColor": "Gray12",
+        "EditorPane": {
+          "backgroundColor": "Gray5",
+          "backgroundOpacity": 4,
+          "borderColor": "Gray12"
+        }
+      }
+    },
+    "Shortcut": {
+      "backgroundOpacity": 0,
+      "borderColor": "Gray8"
+    },
     "ComboPopup.border": {
       "os.windows": "1,1,1,1,#B9BDC9"
     },
@@ -191,7 +211,7 @@
       }
     },
     "Component": {
-      "arc": "8",
+      "arc": 8,
       "arrowAreaWidth": "28",
       "borderColor": "Gray9",
       "focusedBorderColor": "Gray14",
@@ -287,16 +307,6 @@
         "foreground": "Gray4"
       }
     },
-    "ParameterInfo": {
-      "background": "Gray12",
-      "currentOverloadBackground": "Blue9",
-      "borderColor": "Gray8",
-      "foreground": "Gray3",
-      "currentParameterForeground": "Gray3",
-      "disabledForeground": "Gray8",
-      "infoForeground": "Gray3",
-      "lineSeparatorColor": "Gray12"
-    },
     "Menu": {
       "background": "Gray14",
       "borderColor": {
@@ -380,6 +390,7 @@
       "borderColor": "Gray2",
       "foreground": "Gray13",
       "linkForeground": "Blue8",
+      "iconHoverBackground": "#FFFFFF1A",
       "Button": {
         "background": "Gray2",
         "borderColor": "Gray7",
@@ -469,10 +480,6 @@
       "iconSize": 24,
       "iconTextGap": 4
     },
-    "SearchField": {
-      "errorForeground": "Red4",
-      "errorBackground": "Red9"
-    },
     "SearchEverywhere": {
       "Tab.selectedBackground": "Blue11",
       "SearchField.background": "Gray14",
@@ -481,6 +488,10 @@
         "foreground": "Gray7",
         "background": "Gray13"
       }
+    },
+    "SearchField": {
+      "errorForeground": "Red4",
+      "errorBackground": "Red9"
     },
     "SearchMatch": {
       "startBackground": "Yellow7",
@@ -559,7 +570,7 @@
       "codeBorderColor": "Gray6",
       "linkForeground": "Blue8",
       "linkUnderlineHoveredColor": "Blue8",
-      "linkUnderlineDefaultColor": "FFFFFF00",
+      "linkUnderlineDefaultColor": "#FFFFFF00",
       "imageBorderColor": "Gray4",
       "animationBackground": "Gray13",
       "Button": {
@@ -597,7 +608,8 @@
         "DragAndDrop": {
           "stripeBackground": "Gray13",
           "buttonDropBackground": "Blue11",
-          "buttonDropBorderColor": "Blue7"
+          "buttonDropBorderColor": "Blue7",
+          "buttonFloatingBackground": "Gray11"
         }
       },
       "Stripe": {
@@ -947,13 +959,23 @@
         }
       }
     },
+    "ParameterInfo": {
+      "background": "Gray12",
+      "currentOverloadBackground": "Blue9",
+      "borderColor": "Gray8",
+      "foreground": "Gray3",
+      "currentParameterForeground": "Gray3",
+      "disabledForeground": "Gray8",
+      "infoForeground": "Gray3",
+      "lineSeparatorColor": "Gray12"
+    },
     "DataSummary.Chart.barColor": "Blue4",
     "ManagedIdeBadgeBorder": "Gray5",
     "ManagedIdeBadgeBackground": "Gray3",
     "ManagedIdeBadgeBackgroundHover": "Gray4",
     "ManagedIdeMenuItemHover": "Gray12",
     "InlineBanner.hoverBackground": "#0000000F",
-    "InlineBanner.pressedBackground": "00000019"
+    "InlineBanner.pressedBackground": "#00000019"
   },
   "iconColorsOnSelection": {
     "#db5860": "#D14D55",
