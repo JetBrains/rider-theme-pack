@@ -19,8 +19,6 @@
     <depends>com.intellij.modules.rider</depends>
 -->
 
-    <idea-version since-build="241" until-build="241.*"/>
-
     <extensions defaultExtensionNs="com.intellij">
         <!-- default -->
         <bundledColorScheme id="Rider Light" path="/colorSchemes/RiderLight" />
