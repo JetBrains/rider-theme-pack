@@ -15,18 +15,18 @@ intellij {
     if (useRiderSdk) {
         type.set("RD")
         if (useStableBuild) {
-            version.set("2023.3") // Rider release
+            version.set("2024.1") // Rider release
         }
         else {
-            version.set("2024.1-SNAPSHOT") // Rider snapshot
+            version.set("2024.2-SNAPSHOT") // Rider snapshot
         }
     }
     else {
         if (useStableBuild) {
-            version.set("2023.3") // IDEA release
+            version.set("2024.1") // IDEA release
         }
         else {
-            version.set("241.14024-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
+            version.set("242.20224-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
         }
     }
 
