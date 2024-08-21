@@ -202,6 +202,26 @@
         <option name="FOREGROUND" value="287bde" />
       </value>
     </option>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="9cdcfe" />
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="c8c8c8" />
+      </value>
+    </option>
+    <option name="HTML_TAG">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+      </value>
+    </option>
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="569cd6" />
+      </value>
+    </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3c4248" />
@@ -232,18 +252,54 @@
     </option>
     <option name="ReSharper.ASP_NET_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="9cdcfe" />
+        <option name="FOREGROUND" value="9CDCFE" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="d69d85" />
+        <option name="FOREGROUND" value="D69D85" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_BLOCK_TAG">
+      <value>
+        <option name="FOREGROUND" value="a699e6" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_DIRECTIVE_NAME">
+      <value>
+        <option name="FOREGROUND" value="9CDCFE" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK">
+      <value />
+    </option>
+    <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG" />
+    <option name="ReSharper.ASP_NET_RAZOR_KEYWORD">
       <value>
-        <option name="BACKGROUND" value="d2d295" />
-        <option name="FOREGROUND" value="0" />
+        <option name="FOREGROUND" value="A699E6" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="008080" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="008080" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="62CCFF" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_TOKEN_SUBSTITUTION">
+      <value>
+        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="62CCFF" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RUNAT_ATTRIBUTE">
