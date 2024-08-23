@@ -428,7 +428,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="2b91af" />
+        <option name="FOREGROUND" value="00048b" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE" />
@@ -477,11 +477,13 @@
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="800080" />
+      </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -554,7 +556,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -861,14 +863,14 @@
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
       <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="FOREGROUND" value="800080" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="800000" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT">
       <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="FOREGROUND" value="800080" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="800000" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER">
@@ -890,6 +892,16 @@
     <option name="ReSharper.BRACE_OUTLINE" />
     <option name="ReSharper.CONFIG_FILE_CONFLICT_WARNING" />
     <option name="ReSharper.CONTEXT_EXIT" />
+    <option name="ReSharper.CONTROL_TRANSFER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="800080" />
+      </value>
+    </option>
+    <option name="ReSharper.CONTROL_TRANSFER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="800080" />
+      </value>
+    </option>
     <option name="ReSharper.CPP_CLASS_FIELD_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="8b008b" />
@@ -983,7 +995,7 @@
     <option name="ReSharper.CSHARP_EVENT_IDENTIFIER" />
     <option name="ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="ReSharper.CSHARP_FIELD_IDENTIFIER" />
@@ -1121,7 +1133,9 @@
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER" />
     <option name="ReSharper.NAMESPACE_IDENTIFIER">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="00048b" />
+      </value>
     </option>
     <option name="ReSharper.NAME_OR_SIGNATURE_CHANGED" />
     <option name="ReSharper.PATH_IDENTIFIER" />
@@ -1269,7 +1283,7 @@
     </option>
     <option name="XML_CUSTOM_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
