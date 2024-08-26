@@ -10,7 +10,6 @@
     <option name="DELETED_LINES_COLOR" value="9f9f9f" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D9D9D9" />
     <option name="DOCUMENTATION_COLOR" value="f7f7f7" />
-    <option name="LOOKUP_COLOR" value="FFFFFF"/>
     <option name="ERROR_HINT" value="ffdcdc" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="add9c7" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
@@ -24,6 +23,7 @@
     <option name="INFORMATION_HINT" value="F7F7F7" />
     <option name="LINE_NUMBERS_COLOR" value="7a7a7a" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="000000" />
+    <option name="LOOKUP_COLOR" value="FFFFFF" />
     <option name="METHOD_SEPARATORS_COLOR" value="c0c0c0" />
     <option name="MODIFIED_LINES_COLOR" value="c3d6e8" />
     <option name="MnemonicIcon.background" value="CC9C00" />
@@ -839,8 +839,8 @@
     <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE" />
     <option name="ReSharper.ASP_NET_BLOCK_TAG">
       <value>
-        <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="ffffc2" />
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME" />
@@ -855,8 +855,8 @@
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG" />
     <option name="ReSharper.ASP_NET_RAZOR_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="ffffc2" />
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
@@ -898,6 +898,11 @@
     <option name="ReSharper.CPP_CLASS_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="2b91af" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="016400" />
       </value>
     </option>
     <option name="ReSharper.CPP_ENUM_IDENTIFIER">

@@ -322,6 +322,11 @@
         <option name="FOREGROUND" value="ffd700" />
       </value>
     </option>
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ff8000" />
+      </value>
+    </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="b9771e" />

@@ -232,6 +232,11 @@
     </option>
     <option name="ReSharper.CPP_CLASS_FIELD_IDENTIFIER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="ReSharper.CPP_CLASS_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="880000" />
+      </value>
+    </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="2f4f4f" />

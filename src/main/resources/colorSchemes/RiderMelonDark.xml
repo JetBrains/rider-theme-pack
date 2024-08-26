@@ -1750,6 +1750,12 @@
     </option>
     <option name="ReSharper.CPP_CLASS_FIELD_IDENTIFIER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="ReSharper.CPP_CLASS_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="E1BFFF" />
+      </value>
+    </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />

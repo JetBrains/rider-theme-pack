@@ -10,7 +10,6 @@
     <option name="DELETED_LINES_COLOR" value="656e76" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="212121" />
     <option name="DOCUMENTATION_COLOR" value="2b2d30" />
-    <option name="LOOKUP_COLOR" value="2b2d30"/>
     <option name="ERROR_HINT" value="781732" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="43474a" />
     <option name="GUTTER_BACKGROUND" value="1e1e1e" />
@@ -24,6 +23,7 @@
     <option name="INFORMATION_HINT" value="4B4D4D" />
     <option name="LINE_NUMBERS_COLOR" value="8a8a8a" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="e0e0e0" />
+    <option name="LOOKUP_COLOR" value="2b2d30" />
     <option name="METHOD_SEPARATORS_COLOR" value="4d4d4d" />
     <option name="MODIFIED_LINES_COLOR" value="374752" />
     <option name="MnemonicIcon.background" value="5B5341" />
@@ -901,6 +901,11 @@
     <option name="ReSharper.CPP_CLASS_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="4ec9b0" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="91ed90" />
       </value>
     </option>
     <option name="ReSharper.CPP_ENUM_IDENTIFIER">
