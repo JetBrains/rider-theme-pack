@@ -6,44 +6,44 @@
   "parentTheme": "ExperimentalDark",
   "editorScheme": "Visual Studio Dark",
   "colors": {
-    "Grey1": "#1C1C1C",
-    "Grey2": "#2B2B2B",
-    "Grey3": "#393939",
-    "Grey4": "#454545",
-    "Grey5": "#4F4F4F",
-    "Grey6": "#5C5C5C",
-    "Grey7": "#737373",
-    "Grey8": "#8A8A8A",
-    "Grey9": "#A1A1A1",
-    "Grey10": "#B8B8B8",
-    "Grey11": "#CBCBCB",
-    "Grey12": "#DFDFDF",
-    "Grey13": "#F2F2F2",
-    "Grey14": "#FFFFFF"
+    "Gray1": "#1C1C1C",
+    "Gray2": "#2B2B2B",
+    "Gray3": "#393939",
+    "Gray4": "#454545",
+    "Gray5": "#4F4F4F",
+    "Gray6": "#5C5C5C",
+    "Gray7": "#737373",
+    "Gray8": "#8A8A8A",
+    "Gray9": "#A1A1A1",
+    "Gray10": "#B8B8B8",
+    "Gray11": "#CBCBCB",
+    "Gray12": "#DFDFDF",
+    "Gray13": "#F2F2F2",
+    "Gray14": "#FFFFFF"
   },
   "ui": {
     "EditorTabs": {
-      "underlinedTabForeground": "Grey12"
+      "underlinedTabForeground": "Gray12"
     },
     "StatusBar": {
-      "background": "Grey2",
+      "background": "Gray2",
       "Widget": {
-        "hoverBackground": "Grey3"
+        "hoverBackground": "Gray3"
       },
       "Breadcrumbs": {
-        "hoverBackground": "Grey3",
-        "floatingBackground": "Grey2"
+        "hoverBackground": "Gray3",
+        "floatingBackground": "Gray2"
       }
     },
     "ParameterInfo": {
-      "background": "Grey3",
+      "background": "Gray3",
       "currentOverloadBackground": "Blue3",
-      "borderColor": "Grey6",
-      "foreground": "Grey11",
-      "currentParameterForeground": "Grey12",
-      "disabledForeground": "Grey7",
-      "infoForeground": "Grey11",
-      "lineSeparatorColor": "Grey3"
+      "borderColor": "Gray6",
+      "foreground": "Gray11",
+      "currentParameterForeground": "Gray12",
+      "disabledForeground": "Gray7",
+      "infoForeground": "Gray11",
+      "lineSeparatorColor": "Gray3"
     }
   },
   "iconColorsOnSelection": {

@@ -6,34 +6,34 @@
   "parentTheme": "ExperimentalLight",
   "editorScheme": "Rider Melon Light",
   "colors": {
-    "Grey1": "#000000",
-    "Grey2": "#262626",
-    "Grey3": "#3B3B3B",
-    "Grey4": "#4D4D4D",
-    "Grey5": "#606060",
-    "Grey6": "#727272",
-    "Grey7": "#858585",
-    "Grey8": "#ADADAD",
-    "Grey9": "#CCCCCC",
-    "Grey10": "#D5D5D5",
-    "Grey11": "#E3E3E3",
-    "Grey12": "#ECECEC",
-    "Grey13": "#F7F7F7",
-    "Grey14": "#FFFFFF"
+    "Gray1": "#000000",
+    "Gray2": "#262626",
+    "Gray3": "#3B3B3B",
+    "Gray4": "#4D4D4D",
+    "Gray5": "#606060",
+    "Gray6": "#727272",
+    "Gray7": "#858585",
+    "Gray8": "#ADADAD",
+    "Gray9": "#CCCCCC",
+    "Gray10": "#D5D5D5",
+    "Gray11": "#E3E3E3",
+    "Gray12": "#ECECEC",
+    "Gray13": "#F7F7F7",
+    "Gray14": "#FFFFFF"
   },
   "ui": {
     "EditorTabs": {
-      "underlinedTabForeground": "Grey1"
+      "underlinedTabForeground": "Gray1"
     },
     "ParameterInfo": {
-      "background": "Grey12",
+      "background": "Gray12",
       "currentOverloadBackground": "Blue9",
-      "borderColor": "Grey8",
-      "foreground": "Grey3",
-      "currentParameterForeground": "Grey3",
-      "disabledForeground": "Grey8",
-      "infoForeground": "Grey3",
-      "lineSeparatorColor": "Grey12"
+      "borderColor": "Gray8",
+      "foreground": "Gray3",
+      "currentParameterForeground": "Gray3",
+      "disabledForeground": "Gray8",
+      "infoForeground": "Gray3",
+      "lineSeparatorColor": "Gray12"
     }
   },
   "iconColorsOnSelection": {
@@ -79,15 +79,15 @@
     "/resharper/Bulb/ContextAction.svg": "/icons/ContextAction(RiderLight).svg",
     "/resharper/Refactorings/RefactorThis.svg": "/icons/RefactorThis(RiderLight).svg",
     "ColorPalette": {
-      "Checkbox.Background.Default": "Grey14",
-      "Checkbox.Border.Default": "Grey8",
-      "Checkbox.Foreground.Selected": "Grey14",
+      "Checkbox.Background.Default": "Gray14",
+      "Checkbox.Border.Default": "Gray8",
+      "Checkbox.Foreground.Selected": "Gray14",
       "Checkbox.Background.Selected": "Blue4",
       "Checkbox.Border.Selected": "Blue4",
       "Checkbox.Focus.Wide": "Blue4",
-      "Checkbox.Foreground.Disabled": "Grey9",
-      "Checkbox.Background.Disabled": "Grey13",
-      "Checkbox.Border.Disabled": "Grey11"
+      "Checkbox.Foreground.Disabled": "Gray9",
+      "Checkbox.Background.Disabled": "Gray13",
+      "Checkbox.Border.Disabled": "Gray11"
     }
   }
 }
