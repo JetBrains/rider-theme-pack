@@ -172,8 +172,10 @@
       "startBackground": "$buttonFace",
       "endBackground": "$buttonFace",
       "shadowWidth": 0,
+      "loadingForeground": "$mutedForeground",
       "default": {
         "foreground": "$selectionForeground",
+        "loadingForeground": "$mutedForeground",
         "startBorderColor": "$focusedBorder",
         "endBorderColor": "$focusedBorder",
         "focusedBorderColor": "$focusedBorder",
@@ -193,6 +195,12 @@
       "offBackground": "$buttonFace",
       "offForeground": "$mutedForeground",
       "disabledText": "$disabledForeground"
+    },
+
+    "DisclosureButton": {
+      "defaultBackground": "$toolwindowBackground",
+      "hoverOverlay": "$selectionBackgroundMuted",
+      "pressedOverlay": "$selectionBackground"
     },
 
     "List": {
@@ -519,7 +527,9 @@
     },
 
     "Slider": {
+      "buttonBorderColor": "$mutedForeground",
       "background": "$panelBackground",
+      "trackColor": "$border",
       "tickColor": "$mutedForeground"
     },
 
