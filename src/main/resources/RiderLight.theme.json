@@ -654,7 +654,8 @@
     "Separator.separatorColor": "$separator",
     "ToolBar.separatorColor": "$separator",
     "SidePanel.background": "$toolwindowBackground",
-    "OptionPane.background": "$panelBackground"
+    "OptionPane.background": "$panelBackground",
+    "RunWidget.iconColor": "$iconGrayRegular"
   },
 
   "colors": {
@@ -707,9 +708,9 @@
     "$speedSearchBackground": "#F7E8A8",
     "$speedSearchMatchBackground": "#FAE080",
     "$searchMatchForeground": "#9C7A00",
-    "$iconGrayRegular": "#82828F",
-    "$iconGrayMuted": "#82828FB2",
-    "$iconGrayDisabled": "#82828f66",
+    "$iconGrayRegular": "#6C707E",
+    "$iconGrayMuted": "#6C707EB2",
+    "$iconGrayDisabled": "#6C707E66",
     "$bookmarkBackground": "#cc9c00"
   },
 
