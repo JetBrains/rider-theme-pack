@@ -62,3 +62,8 @@ The plugin `Rider Theme Pack` in the IDEA plugin gallery is built from the branc
 The branches named `net*` are for the themes bundled with the matching branches of Rider:
 * `net232` for Rider 2023.2
 * `net233` for Rider 2023.3
+
+Since 2024, the branches' names no longer have the prefix `net`:
+* `241` for Rider 2024.1
+* `242` for Rider 2024.2
+
