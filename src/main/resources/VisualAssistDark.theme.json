@@ -8,7 +8,7 @@
   "ui": {
     "*": {
       "//*": "#FF00FF",
-      "background": "#3b3b3b",
+      "background": "$panelBackground",
       "//foreground": "#00FF00",
       "//borderColor": "#00FFFF",
       "selectionBackground": "$selectionBackground",

@@ -7,7 +7,7 @@
   "ui": {
     "*": {
       "//*": "#FF00FF",
-      "//background": "#FF0000",
+      "background": "$panelBackground",
       "//foreground": "#00FF00",
       "//borderColor": "#FF00FF",
       "selectionBackground": "$selectionBackground",
@@ -677,7 +677,7 @@
     "$controlFocus": "#A6CFFFC0",
     "$popupBorder": "#B0B0B0",
     "$toolwindowBackground": "#F8F8F8",
-    "$panelBackground": "#EBEBEB",
+    "$panelBackground": "#F2F2F2",
     "$tooltipBackground": "#F8F8F8",
     "$regularForeground": "#303040",
     "$mutedForeground": "#767680",
