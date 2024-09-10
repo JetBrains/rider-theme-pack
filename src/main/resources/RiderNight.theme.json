@@ -1109,10 +1109,6 @@
       "lineSeparatorColor": "Gray3"
     },
 
-    "SslCertificate.popup":{
-      "background": "Gray2",
-      "foreground": "Gray11"
-    },
     "DataSummary.Chart.barColor": "Blue6",
 
     "ManagedIdeBadgeBorder": "Gray5",
