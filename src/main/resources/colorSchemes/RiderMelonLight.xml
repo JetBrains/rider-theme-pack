@@ -6,11 +6,10 @@
     <option name="BookmarkIcon.background" value="CC9C00" />
     <option name="CARET_COLOR" value="000000" />
     <option name="CARET_ROW_COLOR" value="F4F8F8" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="F8F8F8" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="FFFFFF" />
     <option name="DELETED_LINES_COLOR" value="FF5C5C" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D0D0D0" />
-    <option name="DOCUMENTATION_COLOR" value="F8F8F8" />
-    <option name="LOOKUP_COLOR" value="FFFFFF"/>
+    <option name="DOCUMENTATION_COLOR" value="FFFFFF" />
     <option name="ERROR_HINT" value="ffeae8" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="D8D8D8" />
     <option name="GUTTER_BACKGROUND" value="FFFFFF" />
@@ -24,6 +23,7 @@
     <option name="INFORMATION_HINT" value="FBFBFB" />
     <option name="LINE_NUMBERS_COLOR" value="#888888" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#888888" />
+    <option name="LOOKUP_COLOR" value="FFFFFF" />
     <option name="METHOD_SEPARATORS_COLOR" value="D8D8D8" />
     <option name="MODIFIED_LINES_COLOR" value="C0DAF9" />
     <option name="MnemonicIcon.background" value="CC9C00" />
@@ -1029,8 +1029,7 @@
     </option>
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value>
-        <option name="BACKGROUND" value="FBFBFB" />
-        <option name="EFFECT_COLOR" value="D8D8D8" />
+        <option name="BACKGROUND" value="faf1eb" />
       </value>
     </option>
     <option name="INLINE_PARAMETER_HINT">
@@ -1751,6 +1750,12 @@
     </option>
     <option name="ReSharper.CPP_CLASS_FIELD_IDENTIFIER" baseAttributes="DEFAULT_INSTANCE_FIELD" />
     <option name="ReSharper.CPP_CLASS_IDENTIFIER" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="300073" />
+      </value>
+    </option>
     <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
