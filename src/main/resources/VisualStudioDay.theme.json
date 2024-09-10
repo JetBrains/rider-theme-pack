@@ -146,8 +146,10 @@
       "endBorderColor": "Gray9",
       "focusedBorderColor": "Gray14",
       "minimumSize": "72,28",
+      "loadingForeground": "Gray7",
       "default": {
         "foreground": "Gray14",
+        "loadingForeground": "Gray10",
         "startBackground": "Blue4",
         "endBackground": "Blue4",
         "startBorderColor": "Blue4",
@@ -242,6 +244,11 @@
       "rowBackground": "#3573F026"
     },
     "DefaultTabs.hoverBackground": "Gray12",
+    "DisclosureButton": {
+      "defaultBackground": "#0000000D",
+      "hoverOverlay": "#0000000D",
+      "pressedOverlay": "#00000017"
+    },
     "EditorTabs": {
       "underlineArc": 4,
       "underlineHeight": 4,
@@ -502,6 +509,11 @@
       "selectedHoveredBackground": "Blue10",
       "selectedPressedBackground": "Blue10"
     },
+    "Slider": {
+      "buttonBorderColor": "Gray7",
+      "tickColor": "Gray7",
+      "trackColor": "Gray9"
+    },
     "SpeedSearch": {
       "background": "Gray14",
       "borderColor": "Gray12"
@@ -648,7 +660,8 @@
       "background": "Gray13",
       "inactiveBackground": "Gray13",
       "Button": {
-        "preferredSize": "44,40",
+        "preferredSize": "40,40",
+        "preferredSize.compact": "40,30",
         "hoverBackground": "#FFFFFF1A"
       }
     },
@@ -665,13 +678,19 @@
     },
     "MenuBar.borderColor": "Gray3",
     "VersionControl": {
-      "Log.Commit": {
-        "currentBranchBackground": "#e8eefa",
-        "unmatchedForeground": "Gray7",
-        "hoveredBackground": "#E9EAEC",
-        "Reference.foreground": "Gray6"
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "#EDF3FF",
+          "unmatchedForeground": "Gray7",
+          "hoveredBackground": "#E9EAEC",
+          "Reference.foreground": "Gray6"
+        },
+        "Graph": {
+          "saturation": 0.6,
+          "brightness": 0.7
+        }
       },
-      "FileHistory.Commit.selectedBranchBackground": "Blue11",
+      "FileHistory.Commit.selectedBranchBackground": "#EDF3FF",
       "MarkerPopup": {
         "borderColor": "Gray11"
       },
@@ -681,7 +700,8 @@
         "otherIconColor": "Gray6",
         "remoteBranchIconColor": "Purple4",
         "tagIconColor": "Gray6"
-      }
+      },
+      "Merge.Status.NoConflicts.foreground": "Green2"
     },
     "WelcomeScreen.Details.background": "Gray14",
     "TipOfTheDay": {
@@ -793,6 +813,19 @@
         }
       }
     },
+    "LicenseDialog": {
+      "termsAndConditionsForeground": "Gray8",
+      "waitingLabelForeground": "Gray8",
+      "separatorColor": "Gray12",
+      "LicenseList": {
+        "licenseDetailsForeground": "Gray6",
+        "licenseIdForeground": "Gray8",
+        "separatorColor": "Gray10"
+      },
+      "LicenseServer": {
+        "separatorColor": "Gray10"
+      }
+    },
     "UnattendedHostStatus": {
       "warningBackground": "Yellow5",
       "warningForeground": "Gray3",
@@ -839,6 +872,32 @@
           "StopFollowingLinkForeground": "#29498A",
           "FollowingBorderTextForeground": "Gray1"
         }
+      },
+      "Buttons": {
+        "LinkCopied": {
+          "Background": "Green10",
+          "Foreground": "Green4"
+        },
+        "RedButton": {
+          "Background": "Gray14",
+          "Foreground": "Red4",
+          "Hovered": {
+            "Background": "Red4",
+            "Foreground": "Red12"
+          }
+        },
+        "BadgeBackground": "Gray10"
+      },
+      "EndSessionPopup": {
+        "EndButton": {
+          "Background": "Gray4",
+          "Foreground": "Gray14"
+        },
+        "Background": "Gray2",
+        "Foreground": "Gray14",
+        "info.Foreground": "Gray9",
+        "timer.Foreground": "Gray14",
+        "link": "Blue8"
       }
     },
     "RunWidget": {

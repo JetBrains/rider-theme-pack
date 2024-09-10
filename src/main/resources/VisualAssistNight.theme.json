@@ -31,6 +31,8 @@
     "Blue9": "#6B9BFA",
     "Blue10": "#83ACFC",
     "Blue11": "#99BBFF",
+    "Blue12": "#B5CEFF",
+    "Blue13": "#D1E0FF",
     "Green1": "#253627",
     "Green2": "#273828",
     "Green3": "#375239",
@@ -155,8 +157,10 @@
       "focusedBorderColor": "Gray2",
       "minimumSize": "72,28",
       "shadowColor": "#00000000",
+      "loadingForeground": "Gray8",
       "default": {
         "foreground": "Gray14",
+        "loadingForeground": "Gray11",
         "startBackground": "Blue6",
         "endBackground": "Blue6",
         "startBorderColor": "Blue6",
@@ -488,6 +492,9 @@
       "errorForeground": "Red7",
       "errorBackground": "Red3"
     },
+    "SearchFieldWithExtension": {
+      "border": "com.intellij.ui.components.DarculaSearchFieldWithExtensionBorder"
+    },
     "SearchMatch": {
       "startBackground": "Yellow5",
       "endBackground": "Yellow5"
@@ -496,6 +503,12 @@
       "selectedBackground": "Blue3",
       "selectedHoveredBackground": "Blue4",
       "selectedPressedBackground": "Blue4"
+    },
+    "Slider": {
+      "buttonColor": "Gray9",
+      "buttonBorderColor": "Gray2",
+      "tickColor": "Gray8",
+      "trackColor": "Gray6"
     },
     "SpeedSearch": {
       "background": "Gray1",
@@ -640,18 +653,25 @@
     },
     "TitlePane": {
       "Button": {
-        "preferredSize": "44,40",
+        "preferredSize": "40,40",
+        "preferredSize.compact": "40,30",
         "hoverBackground": "#FFFFFF10"
       }
     },
     "VersionControl": {
-      "Log.Commit": {
-        "currentBranchBackground": "#1c2433",
-        "unmatchedForeground": "Gray7",
-        "hoveredBackground": "#FFFFFFED",
-        "Reference.foreground": "Gray7"
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "#283044",
+          "unmatchedForeground": "Gray7",
+          "hoveredBackground": "#FFFFFFED",
+          "Reference.foreground": "Gray7"
+        },
+        "Graph": {
+          "saturation": 0.6,
+          "brightness": 0.6
+        }
       },
-      "FileHistory.Commit.selectedBranchBackground": "#1c2433",
+      "FileHistory.Commit.selectedBranchBackground": "#283044",
       "MarkerPopup": {
         "borderColor": "Gray4"
       },
@@ -661,7 +681,8 @@
         "otherIconColor": "Gray8",
         "remoteBranchIconColor": "Purple9",
         "tagIconColor": "Gray8"
-      }
+      },
+      "Merge.Status.NoConflicts.foreground": "Green6"
     },
     "EditorPane.splitBorder": "Gray3",
     "WelcomeScreen.Details.background": "Gray1",
@@ -752,6 +773,19 @@
         }
       }
     },
+    "LicenseDialog": {
+      "termsAndConditionsForeground": "Gray7",
+      "waitingLabelForeground": "Gray7",
+      "separatorColor": "Gray3",
+      "LicenseList": {
+        "licenseDetailsForeground": "Gray9",
+        "licenseIdForeground": "Gray7",
+        "separatorColor": "Gray4"
+      },
+      "LicenseServer": {
+        "separatorColor": "Gray4"
+      }
+    },
     "UnattendedHostStatus": {
       "warningBackground": "Yellow7",
       "warningForeground": "Gray3",
@@ -798,6 +832,32 @@
           "StopFollowingLinkForeground": "Blue1",
           "FollowingBorderTextForeground": "Gray1"
         }
+      },
+      "Buttons": {
+        "LinkCopied": {
+          "Background": "Green7",
+          "Foreground": "Green3"
+        },
+        "RedButton": {
+          "Background": "Gray2",
+          "Foreground": "Red7",
+          "Hovered": {
+            "Background": "Red7",
+            "Foreground": "Gray14"
+          }
+        },
+        "BadgeBackground": "Gray5"
+      },
+      "EndSessionPopup": {
+        "EndButton": {
+          "Background": "Gray6",
+          "Foreground": "Gray14"
+        },
+        "Background": "Gray3",
+        "Foreground": "Gray14",
+        "info.Foreground": "Gray10",
+        "timer.Foreground": "Gray14",
+        "link": "Blue9"
       }
     },
     "PackageSearch": {

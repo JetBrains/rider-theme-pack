@@ -6,11 +6,10 @@
     <option name="BookmarkIcon.background" value="CC9C00" />
     <option name="CARET_COLOR" value="404040" />
     <option name="CARET_ROW_COLOR" value="f8f8f8" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="e6e7e8" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="ffffff" />
     <option name="DELETED_LINES_COLOR" value="9f9f9f" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="D9D9D9" />
     <option name="DOCUMENTATION_COLOR" value="f7f7f7" />
-    <option name="LOOKUP_COLOR" value="FFFFFF"/>
     <option name="ERROR_HINT" value="ffdcdc" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="add9c7" />
     <option name="GUTTER_BACKGROUND" value="ffffff" />
@@ -24,6 +23,7 @@
     <option name="INFORMATION_HINT" value="F7F7F7" />
     <option name="LINE_NUMBERS_COLOR" value="7a7a7a" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="000000" />
+    <option name="LOOKUP_COLOR" value="FFFFFF" />
     <option name="METHOD_SEPARATORS_COLOR" value="c0c0c0" />
     <option name="MODIFIED_LINES_COLOR" value="c3d6e8" />
     <option name="MnemonicIcon.background" value="CC9C00" />
@@ -428,7 +428,7 @@
     </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="2b91af" />
+        <option name="FOREGROUND" value="00048b" />
       </value>
     </option>
     <option name="DEFAULT_CLASS_REFERENCE" />
@@ -477,11 +477,13 @@
       </value>
     </option>
     <option name="DEFAULT_INSTANCE_FIELD">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="800080" />
+      </value>
     </option>
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="DEFAULT_INTERFACE_NAME">
@@ -554,7 +556,7 @@
     </option>
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
@@ -839,8 +841,8 @@
     <option name="ReSharper.ASP_NET_ATTRIBUTE_VALUE" />
     <option name="ReSharper.ASP_NET_BLOCK_TAG">
       <value>
-        <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="ffffc2" />
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_DIRECTIVE_NAME" />
@@ -855,20 +857,20 @@
     <option name="ReSharper.ASP_NET_RAZOR_CODE_BLOCK_TAG" />
     <option name="ReSharper.ASP_NET_RAZOR_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="0" />
         <option name="BACKGROUND" value="ffffc2" />
+        <option name="FOREGROUND" value="0" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ATTRIBUTE">
       <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="FOREGROUND" value="800080" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="800000" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_RAZOR_TAG_HELPER_ELEMENT">
       <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="FOREGROUND" value="800080" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="FOREGROUND" value="800000" />
       </value>
     </option>
     <option name="ReSharper.ASP_NET_ROUTE_TEMPLATE_PARAMETER">
@@ -890,6 +892,16 @@
     <option name="ReSharper.BRACE_OUTLINE" />
     <option name="ReSharper.CONFIG_FILE_CONFLICT_WARNING" />
     <option name="ReSharper.CONTEXT_EXIT" />
+    <option name="ReSharper.CONTROL_TRANSFER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="800080" />
+      </value>
+    </option>
+    <option name="ReSharper.CONTROL_TRANSFER_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="800080" />
+      </value>
+    </option>
     <option name="ReSharper.CPP_CLASS_FIELD_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="8b008b" />
@@ -898,6 +910,11 @@
     <option name="ReSharper.CPP_CLASS_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="2b91af" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="016400" />
       </value>
     </option>
     <option name="ReSharper.CPP_ENUM_IDENTIFIER">
@@ -978,7 +995,7 @@
     <option name="ReSharper.CSHARP_EVENT_IDENTIFIER" />
     <option name="ReSharper.CSHARP_EXTENSION_METHOD_IDENTIFIER">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="ReSharper.CSHARP_FIELD_IDENTIFIER" />
@@ -1116,7 +1133,9 @@
     </option>
     <option name="ReSharper.MUTABLE_LOCAL_VARIABLE_IDENTIFIER" />
     <option name="ReSharper.NAMESPACE_IDENTIFIER">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="00048b" />
+      </value>
     </option>
     <option name="ReSharper.NAME_OR_SIGNATURE_CHANGED" />
     <option name="ReSharper.PATH_IDENTIFIER" />
@@ -1264,7 +1283,7 @@
     </option>
     <option name="XML_CUSTOM_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="74531F" />
+        <option name="FOREGROUND" value="048a8b" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
