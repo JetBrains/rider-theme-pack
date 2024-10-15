@@ -645,7 +645,7 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="3c4248" />
+        <option name="BACKGROUND" value="406f11" />
         <option name="ERROR_STRIPE_COLOR" value="3c4248" />
       </value>
     </option>
@@ -1205,7 +1205,7 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="636668" />
+        <option name="BACKGROUND" value="653305" />
         <option name="ERROR_STRIPE_COLOR" value="b4b7b9" />
       </value>
     </option>
@@ -1231,7 +1231,7 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="40332b" />
+        <option name="BACKGROUND" value="406f11" />
         <option name="ERROR_STRIPE_COLOR" value="b56277" />
       </value>
     </option>
