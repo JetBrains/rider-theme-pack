@@ -41,23 +41,25 @@ The lists of UI themes will have two instances of each theme:
 Unlike the UI themes, the lists of Editor Color Schemes will only contain a single instance of each color theme, 
 and these color schemes are the ones from the updated version of the plugin.
 
+**Warning!** While running the sand-boxed Rider, be careful not to save the scheme changes as a user-modified scheme. If you do, the file with the modified scheme will be saved in the profile directory at `build/idea-sandbox/config/colors/`. Such modified scheme has a prioroty over the bundled scheme with the same name. As a result, the changes you do to the scheme you develop, will have no effect.
+
 ## How to debug Classic UI
 
 Since version 24.2, it's no longer possible to switch to the Classic UI, and the corresponding registry flag also 
 doesn't work. Instead, one is supposed to install a plugin which enables the Classic UI.
 
-The problem is that it might be quite cumbersome to install the plugin into the temporary versions of Rider/IDEA. 
+The problem is that it might be quite cumbersome to install the plugin into the temporary versions of Rider/IDEA.
 To overcome that, add `<iconMapperSuppressor />` to the list of extensions in the `plugin.xml`:
 
     <extensions defaultExtensionNs="com.intellij">
         <iconMapperSuppressor />
     </extensions>
 
-With this change, Rider/IDEA will launch with the Classic UI turned on.  
+With this change, Rider/IDEA will launch with the Classic UI turned on.
 
 ## Branches
 
-The plugin `Rider Theme Pack` in the IDEA plugin gallery is built from the branch `plugin`. 
+The plugin `Rider Theme Pack` in the IDEA plugin gallery is built from the branch `plugin`.
 
 The branches named `net*` are for the themes bundled with the matching branches of Rider:
 * `net232` for Rider 2023.2
@@ -66,4 +68,3 @@ The branches named `net*` are for the themes bundled with the matching branches 
 Since 2024, the branches' names no longer have the prefix `net`:
 * `241` for Rider 2024.1
 * `242` for Rider 2024.2
-
