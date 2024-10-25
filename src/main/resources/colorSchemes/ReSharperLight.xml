@@ -757,7 +757,11 @@
     <option name="JSON.KEYWORD" />
     <option name="JSON.LINE_COMMENT" />
     <option name="JSON.NUMBER" />
-    <option name="JSON.PROPERTY_KEY" />
+    <option name="JSON.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="2f75b6" />
+      </value>
+    </option>
     <option name="JSON.STRING" />
     <option name="JSON.VALID_ESCAPE" />
     <option name="LINE_FULL_COVERAGE">
