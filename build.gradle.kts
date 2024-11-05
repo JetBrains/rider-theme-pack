@@ -15,7 +15,7 @@ intellij {
     if (useRiderSdk) {
         type.set("RD")
         if (useStableBuild) {
-            version.set("2024.2") // Rider release
+            version.set("2024.2.7") // Rider release
         }
         else {
             version.set("2024.3-SNAPSHOT") // Rider snapshot
@@ -23,10 +23,10 @@ intellij {
     }
     else {
         if (useStableBuild) {
-            version.set("2024.2") // IDEA release
+            version.set("2024.2.4") // IDEA release
         }
         else {
-            version.set("242.21829-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
+            version.set("243.21565-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
         }
     }
 
