@@ -896,7 +896,7 @@
     <option name="ReSharper.BRACE_OUTLINE" />
     <option name="ReSharper.CONFIG_FILE_CONFLICT_WARNING" />
     <option name="ReSharper.CONTEXT_EXIT" />
-    <option name="ReSharper.CONTROL_TRANSFER_KEYWORD">
+    <option name="ReSharper.CONTROL_FLOW_KEYWORD">
       <value>
         <option name="FOREGROUND" value="800080" />
       </value>
