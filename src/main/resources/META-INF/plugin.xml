@@ -37,6 +37,10 @@
         <themeProvider id="RiderMelonNight" path="/RiderMelonNight.theme.json" targetUi="new"/>
         <themeProvider id="RiderMelonDark" path="/RiderMelonDark.theme.json" targetUi="classic"/>
 
+        <!-- Next -->
+        <themeProvider id="NextDay" path="/NextDay.theme.json" targetUi="new"/>
+        <themeProvider id="NextNight" path="/NextNight.theme.json" targetUi="new"/>
+
         <!-- Visual Studio -->
         <bundledColorScheme id="Visual Studio Light" path="/colorSchemes/VisualStudioLight" />
         <themeProvider id="VisualStudioDay" path="/VisualStudioDay.theme.json" targetUi="new"/>
