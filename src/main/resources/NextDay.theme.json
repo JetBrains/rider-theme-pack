@@ -108,7 +108,7 @@
 
     "*": {
       "background":  "Gray13",
-      "borderColor": "Gray12",
+      "borderColor": "#ff00ff00",
 
       "disabledText": "Gray8",
       "disabledForeground": "Gray8",
@@ -116,9 +116,9 @@
       "disabledBackground": "Gray14",
       "disabledBorderColor": "Gray11",
 
-      "selectionBackground": "Blue11",
-      "lightSelectionBackground": "Blue11",
-      "selectionInactiveBackground": "Gray11",
+      "selectionBackground": "#C2D6FC",
+      "lightSelectionBackground": "#C2D6FC",
+      "selectionInactiveBackground": "#C2D6FC80",
       "selectionForeground": "Gray1",
       "selectionInactiveForeground": "Gray1",
 
@@ -157,8 +157,8 @@
       "MnemonicCurrent.foreground": "Gray12"
     },
 
-    "Borders.color": "Gray12",
-    "Borders.ContrastBorderColor": "Gray12",
+    "Borders.color": "#ff00ff00",
+    "Borders.ContrastBorderColor": "#ffff0000",
 
     "Breakpoint.iconHoverAlpha": 0.3,
 
@@ -220,11 +220,11 @@
       "Block": {
         "backgroundColor": "Gray5",
         "backgroundOpacity": 4,
-        "borderColor":"Gray12",
+        "borderColor":"#E5E9F500",
         "EditorPane": {
           "backgroundColor": "Gray5",
           "backgroundOpacity": 4,
-          "borderColor": "Gray12"
+          "borderColor": "#E5E9F500"
         }
       }
     },
@@ -292,12 +292,12 @@
       "underlineHeight": 4,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.9,
-      "background": "Gray14",
+      "background": "#E5E9F5",
       "hoverBackground": "#FFFFFF00",
       "hoverInactiveBackground": "#FFFFFF00",
       "inactiveColoredFileBackground": "#FFFFFF80",
-      "underlinedTabBackground": "Gray14",
-      "underlinedTabForeground": "Gray1"
+      "underlinedTabBackground": "#DEE6F7",
+      "underlinedTabForeground": "#000000"
     },
 
     "Editor": {
@@ -305,7 +305,7 @@
         "background": "Gray14"
       },
       "Toolbar" : {
-        "borderColor" : "Gray12"
+        "borderColor" : "#E5E9F500"
       },
       "ToolTip": {
         "foreground": "Gray1",
@@ -359,15 +359,13 @@
     },
 
     "Menu": {
-      "background": "Gray14",
-      "borderColor": {
-        "os.default": "Gray12",
-        "os.windows": "windowsPopupBorder"
-      }
+      "background": "#F7F8FA",
+      "borderColor": "#C9CCD6",
+      "separatorColor": "#C9CCD6"
     },
 
     "PopupMenu": {
-      "background": "Gray14"
+      "background": "#F7F8FA"
     },
 
     "Review": {
@@ -384,7 +382,7 @@
       }
     },
 
-    "MenuItem.background": "Gray14",
+    "MenuItem.background": "#F7F8FA",
 
     "MainMenu": {
       "background": "Gray2",
@@ -506,20 +504,20 @@
     },
 
     "Popup": {
-      "background": "Gray14",
-      "borderColor": "windowsPopupBorder",
+      "background": "#F7F8FA",
+      "borderColor": "#C9CCD6",
       "Advertiser": {
         "foreground": "Gray7",
-        "background": "Gray13",
-        "borderColor": "Gray13",
+        "background": "#F7F8FA",
+        "borderColor": "#C9CCD6",
         "fontSizeOffset": -1
       },
       "Header": {
-        "activeBackground": "Gray14",
-        "inactiveBackground": "Gray14",
+        "activeBackground": "#F7F8FA",
+        "inactiveBackground": "#F7F8FA",
         "inactiveForeground": "Gray7"
       },
-      "Toolbar.background": "Gray14"
+      "Toolbar.background": "#F7F8FA"
     },
 
     "ComplexPopup.Header.background": "Gray13",
@@ -592,18 +590,18 @@
     },
 
     "StatusBar": {
-      "background": "Gray13",
+      "background": "#E5E9F5",
       "Widget": {
-        "foreground": "Gray6",
-        "hoverForeground": "Gray1",
-        "hoverBackground": "Gray12",
-        "pressedBackground": "Gray11"
+        "foreground": "#818594",
+        "hoverForeground": "#818594",
+        "hoverBackground": "#DEE6F7",
+        "pressedBackground": "#DEE6F7"
       },
       "Breadcrumbs": {
-        "foreground": "Gray6",
-        "hoverForeground": "Gray1",
-        "hoverBackground": "Gray12",
-        "floatingBackground": "Gray14",
+        "foreground": "#818594",
+        "hoverForeground": "#818594",
+        "hoverBackground": "#DEE6F7",
+        "floatingBackground": "#DEE6F7",
         "chevronInset": 0
       }
     },
@@ -685,14 +683,14 @@
     },
 
     "ToolWindow": {
-      "background": "Gray13",
+      "background": "#E5E9F5",
       "Header": {
-        "inactiveBackground": "Gray13",
+        "inactiveBackground": "#E5E9F5",
         "font.size.offset": 0
       },
       "HeaderTab": {
-        "hoverBackground": "Gray12",
-        "hoverInactiveBackground": "Gray12"
+        "hoverBackground": "#E5E9F5",
+        "hoverInactiveBackground": "#E5E9F5"
       },
       "Button": {
         "foreground": "Gray5",
@@ -718,22 +716,22 @@
     },
 
     "MainToolbar": {
-      "background": "Gray2",
-      "foreground": "Gray12",
-      "inactiveBackground": "Gray3",
-      "separatorColor": "Gray4",
+      "background": "#E5E9F5",
+      "foreground": "#000000",
+      "inactiveBackground": "#E5E9F5",
+      "separatorColor": "#DDDEE1",
       "Icon": {
-        "background": "Gray2",
-        "hoverBackground": "Gray3",
-        "pressedBackground": "Gray3",
+        "background": "#E5E9F5",
+        "hoverBackground": "#DEE6F780",
+        "pressedBackground": "#DEE6F7",
         "insets": "5,5,5,5"
       },
       "Dropdown": {
-        "foreground": "Gray12",
-        "background": "Gray2",
-        "hoverBackground": "Gray3",
+        "foreground": "#000000",
+        "background": "#E5E9F5",
+        "hoverBackground": "#DEE6F780",
         "transparentHoverBackground": "#FFFFFF1A",
-        "pressedBackground": "Gray3",
+        "pressedBackground": "#DEE6F7",
         "maxWidth": 350
       }
     },
@@ -743,8 +741,8 @@
     "OnePixelDivider.background": "Gray12",
 
     "TitlePane": {
-      "background": "Gray13",
-      "inactiveBackground": "Gray13",
+      "background": "#E5E9F5",
+      "inactiveBackground": "#E5E9F5",
       "Button": {
         "preferredSize": "40,40",
         "preferredSize.compact": "40,30",
@@ -1002,7 +1000,7 @@
 
 
     "RunWidget" : {
-      "foreground": "Gray12",
+      "foreground": "#000000",
       "iconColor": "Gray12",
       "runningBackground": "#599E5E",
       "runningIconColor": "Gray12",

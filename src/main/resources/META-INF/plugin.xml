@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>Rider UI Theme Pack</id>
+    <id>Rider UI Theme Pack DEBUG</id>
     <name>Rider UI Theme Pack</name>
     <vendor email="konstantin.homatyano@jetbrains.com" url="https://www.jetbrains.com">JetBrains</vendor>
     <version>0.15.1</version>
