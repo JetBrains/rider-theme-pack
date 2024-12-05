@@ -170,6 +170,7 @@
     "Breakpoint.iconHoverAlpha": 0.35,
 
     "Button": {
+      "background": "#2A2F3A",
       "arc": 8,
       "startBackground": "Gray2",
       "endBackground": "Gray2",
@@ -346,6 +347,7 @@
     },
 
     "List": {
+      "background": "#2A2F3A",
       "rowHeight": 24,
       "border": "4,0,4,0",
       "Button": {
@@ -456,6 +458,10 @@
     },
 
     "OnePixelDivider.background": "Gray3",
+
+    "Panel": {
+      "background": "#2A2F3A"
+    },
 
     "PasswordField": {
     },
@@ -575,6 +581,10 @@
       "selectedBackground": "Blue3",
       "selectedHoveredBackground": "Blue4",
       "selectedPressedBackground": "Blue4"
+    },
+
+    "SidePanel": {
+      "background": "#2A2F3A"
     },
 
     "Slider": {
@@ -736,6 +746,7 @@
     "Window.undecorated.border" : "1,1,1,1,#5A5D63",
 
     "Tree": {
+      "background": "#2A2F3A",
       "collapsedIcon": "/expui/general/chevronRight.svg",
       "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
       "expandedIcon": "/expui/general/chevronDown.svg",

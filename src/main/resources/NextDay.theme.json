@@ -163,6 +163,7 @@
     "Breakpoint.iconHoverAlpha": 0.3,
 
     "Button": {
+      "background": "#E5E9F5",
       "arc": 8,
       "startBorderColor": "Gray9",
       "endBorderColor": "Gray9",
@@ -344,6 +345,7 @@
     },
 
     "List": {
+      "background": "#E5E9F5",
       "rowHeight": 24,
       "border": "4,0,4,0",
       "Button": {
@@ -484,6 +486,10 @@
       "background": "Gray14"
     },
 
+    "Panel": {
+      "background": "#E5E9F5"
+    },
+
     "Plugins": {
       "background": "Gray14",
       "SearchField.background": "Gray14",
@@ -572,6 +578,10 @@
       "selectedBackground": "Blue11",
       "selectedHoveredBackground": "Blue10",
       "selectedPressedBackground": "Blue10"
+    },
+
+    "SidePanel": {
+      "background": "#E5E9F5"
     },
 
     "Slider": {
@@ -751,6 +761,7 @@
     },
 
     "Tree": {
+      "background": "#E5E9F5",
       "collapsedIcon": "/expui/general/chevronRight.svg",
       "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
       "expandedIcon": "/expui/general/chevronDown.svg",
