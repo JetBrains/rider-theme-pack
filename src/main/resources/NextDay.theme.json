@@ -163,7 +163,7 @@
     "Breakpoint.iconHoverAlpha": 0.3,
 
     "Button": {
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "arc": 8,
       "startBorderColor": "Gray9",
       "endBorderColor": "Gray9",
@@ -221,11 +221,11 @@
       "Block": {
         "backgroundColor": "Gray5",
         "backgroundOpacity": 4,
-        "borderColor":"#E5E9F500",
+        "borderColor":"#DEE6F700",
         "EditorPane": {
           "backgroundColor": "Gray5",
           "backgroundOpacity": 4,
-          "borderColor": "#E5E9F500"
+          "borderColor": "#DEE6F700"
         }
       }
     },
@@ -293,7 +293,7 @@
       "underlineHeight": 4,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.9,
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "hoverBackground": "#FFFFFF00",
       "hoverInactiveBackground": "#FFFFFF00",
       "inactiveColoredFileBackground": "#FFFFFF80",
@@ -306,7 +306,7 @@
         "background": "Gray14"
       },
       "Toolbar" : {
-        "borderColor" : "#E5E9F500"
+        "borderColor" : "#DEE6F700"
       },
       "ToolTip": {
         "foreground": "Gray1",
@@ -345,7 +345,7 @@
     },
 
     "List": {
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "rowHeight": 24,
       "border": "4,0,4,0",
       "Button": {
@@ -487,7 +487,7 @@
     },
 
     "Panel": {
-      "background": "#E5E9F5"
+      "background": "#DEE6F7"
     },
 
     "Plugins": {
@@ -581,7 +581,7 @@
     },
 
     "SidePanel": {
-      "background": "#E5E9F5"
+      "background": "#DEE6F7"
     },
 
     "Slider": {
@@ -600,7 +600,7 @@
     },
 
     "StatusBar": {
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "Widget": {
         "foreground": "#818594",
         "hoverForeground": "#818594",
@@ -693,14 +693,14 @@
     },
 
     "ToolWindow": {
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "Header": {
-        "inactiveBackground": "#E5E9F5",
+        "inactiveBackground": "#DEE6F7",
         "font.size.offset": 0
       },
       "HeaderTab": {
-        "hoverBackground": "#E5E9F5",
-        "hoverInactiveBackground": "#E5E9F5"
+        "hoverBackground": "#DEE6F7",
+        "hoverInactiveBackground": "#DEE6F7"
       },
       "Button": {
         "foreground": "Gray5",
@@ -726,19 +726,19 @@
     },
 
     "MainToolbar": {
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "foreground": "#000000",
-      "inactiveBackground": "#E5E9F5",
+      "inactiveBackground": "#DEE6F7",
       "separatorColor": "#DDDEE1",
       "Icon": {
-        "background": "#E5E9F5",
+        "background": "#DEE6F7",
         "hoverBackground": "#DEE6F780",
         "pressedBackground": "#DEE6F7",
         "insets": "5,5,5,5"
       },
       "Dropdown": {
         "foreground": "#000000",
-        "background": "#E5E9F5",
+        "background": "#DEE6F7",
         "hoverBackground": "#DEE6F780",
         "transparentHoverBackground": "#FFFFFF1A",
         "pressedBackground": "#DEE6F7",
@@ -751,8 +751,8 @@
     "OnePixelDivider.background": "Gray12",
 
     "TitlePane": {
-      "background": "#E5E9F5",
-      "inactiveBackground": "#E5E9F5",
+      "background": "#DEE6F7",
+      "inactiveBackground": "#DEE6F7",
       "Button": {
         "preferredSize": "40,40",
         "preferredSize.compact": "40,30",
@@ -761,7 +761,7 @@
     },
 
     "Tree": {
-      "background": "#E5E9F5",
+      "background": "#DEE6F7",
       "collapsedIcon": "/expui/general/chevronRight.svg",
       "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
       "expandedIcon": "/expui/general/chevronDown.svg",
