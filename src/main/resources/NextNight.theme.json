@@ -523,7 +523,7 @@
       }
     },
 
-    "ComplexPopup.Header.background": "Gray3",
+    "ComplexPopup.Header.background": "#2A2F3A",
 
     "CompletionPopup": {
       "foreground": "Gray10",

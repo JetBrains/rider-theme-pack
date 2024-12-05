@@ -526,7 +526,7 @@
       "Toolbar.background": "#F7F8FA"
     },
 
-    "ComplexPopup.Header.background": "Gray13",
+    "ComplexPopup.Header.background": "#F7F8FA",
 
     "CompletionPopup": {
       "foreground": "Gray2",
