@@ -201,6 +201,7 @@
     },
 
     "CheckBox": {
+      "background": "#2A2F3A",
       "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "textIconGap": 4
@@ -271,6 +272,10 @@
       "EvaluateExpression.background": "Gray3"
     },
 
+    "DefaultTabs": {
+      "background": "#2A2F3A"
+    },
+
     "FileColor": {
       "Yellow": "Yellow1",
       "Green": "Green2",
@@ -335,7 +340,10 @@
       }
     },
 
-    "Label.errorForeground": "Red7",
+    "Label": {
+      "background": "#2A2F3A",
+      "errorForeground": "Red7"
+    },
 
     "Link": {
       "activeForeground": "Blue9",
@@ -467,7 +475,8 @@
     },
 
     "Plugins": {
-      "SectionHeader.background": "Gray3",
+      "background": "#2A2F3A",
+      "SectionHeader.background": "#2A2F3A",
       "Button": {
         "installFillForeground": "Gray14",
         "installFillBackground": "Green5",
@@ -546,9 +555,14 @@
     },
 
     "RadioButton": {
+      "background": "#2A2F3A",
       "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "iconTextGap": 4
+    },
+
+    "ScrollBar": {
+      "background": "#2A2F3A"
     },
 
     "SearchEverywhere": {
@@ -601,6 +615,7 @@
     },
 
     "Spinner": {
+      "background": "#2A2F3A",
       "minimumSize": "72,28"
     },
 
@@ -619,6 +634,7 @@
     },
 
     "TabbedPane": {
+      "background": "#2A2F3A",
       "tabHeight": 40,
       "tabSelectionArc": 4,
       "hoverColor": "Gray4",
@@ -627,11 +643,13 @@
     },
 
     "Table": {
+      "background": "#2A2F3A",
       "gridColor": "Gray1",
       "stripeColor": "Gray2"
     },
 
     "TableHeader": {
+      "background": "#2A2F3A",
       "bottomSeparatorColor": "Gray1",
       "separatorColor": "Gray1"
     },

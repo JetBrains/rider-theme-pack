@@ -190,6 +190,7 @@
     },
 
     "CheckBox": {
+      "background": "#DEE6F7",
       "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "textIconGap": 4
@@ -280,7 +281,10 @@
       "rowBackground": "#3573F026"
     },
 
-    "DefaultTabs.hoverBackground": "Gray12",
+    "DefaultTabs": {
+      "background": "#DEE6F7",
+      "hoverBackground": "Gray12"
+    },
 
     "DisclosureButton": {
       "defaultBackground": "#0000000D",
@@ -333,7 +337,10 @@
       "Gray": "#F0F1F5"
     },
 
-    "Label.errorForeground": "Red4",
+    "Label": {
+      "background": "#DEE6F7",
+      "errorForeground": "Red4"
+    },
 
     "Link": {
       "activeForeground": "Blue2",
@@ -491,7 +498,7 @@
     },
 
     "Plugins": {
-      "background": "Gray14",
+      "background": "#DEE6F7",
       "SearchField.background": "Gray14",
       "Button": {
         "installFillForeground": "Gray14",
@@ -502,6 +509,7 @@
         "updateBorderColor": "Blue4",
         "updateForeground": "Gray14"
       },
+      "SectionHeader.background": "#DEE6F7",
       "tagForeground": "Gray6",
       "tagBackground": "Gray12",
       "paidTagBackground": "Teal7",
@@ -549,9 +557,14 @@
     },
 
     "RadioButton": {
+      "background": "#DEE6F7",
       "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "iconTextGap": 4
+    },
+
+    "ScrollBar": {
+      "background": "#DEE6F7"
     },
 
     "SearchEverywhere": {
@@ -596,6 +609,7 @@
     },
 
     "Spinner": {
+      "background": "#DEE6F7",
       "minimumSize": "72,28"
     },
 
@@ -617,6 +631,7 @@
     },
 
     "TabbedPane": {
+      "background": "#DEE6F7",
       "tabHeight": 40,
       "tabSelectionArc": 4,
       "hoverColor": "Gray12",
@@ -626,11 +641,15 @@
     },
 
     "Table": {
+      "background": "#DEE6F7",
       "gridColor": "Gray12",
       "stripeColor": "Gray13"
     },
 
-    "TableHeader.bottomSeparatorColor": "Gray12",
+    "TableHeader": {
+      "background": "#DEE6F7",
+      "bottomSeparatorColor": "Gray12"
+    },
 
     "Tag.background": "Gray12",
 
