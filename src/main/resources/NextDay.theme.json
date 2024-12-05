@@ -297,7 +297,7 @@
       "underlineHeight": 4,
       "unselectedAlpha": 0.75,
       "unselectedBlend": 0.9,
-      "background": "#DEE6F7",
+      "background": "#FFFFFF",
       "hoverBackground": "#FFFFFF00",
       "hoverInactiveBackground": "#FFFFFF00",
       "inactiveColoredFileBackground": "#FFFFFF80",
@@ -306,6 +306,7 @@
     },
 
     "Editor": {
+      "background": "#FFFFFF",
       "SearchField" : {
         "background": "Gray14"
       },
