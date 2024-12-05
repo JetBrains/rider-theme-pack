@@ -489,6 +489,10 @@
       "Notification.hoverBackground": "Gray13"
     },
 
+    "OptionPane": {
+      "background": "#DEE6F7"
+    },
+
     "PasswordField": {
       "background": "Gray14"
     },

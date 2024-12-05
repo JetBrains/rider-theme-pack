@@ -467,6 +467,10 @@
 
     "OnePixelDivider.background": "Gray3",
 
+    "OptionPane": {
+      "background": "#2A2F3A"
+    },
+
     "Panel": {
       "background": "#2A2F3A"
     },
