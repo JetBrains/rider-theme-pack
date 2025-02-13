@@ -295,12 +295,14 @@
     "EditorTabs": {
       "underlineArc": 4,
       "underlineHeight": 4,
-      "unselectedAlpha": 0.75,
-      "unselectedBlend": 0.9,
+      "unselectedAlpha": 1,
+      "unselectedBlend": 1,
       "background": "#FFFFFF",
-      "hoverBackground": "#FFFFFF00",
-      "hoverInactiveBackground": "#FFFFFF00",
-      "inactiveColoredFileBackground": "#FFFFFF80",
+      "tabInsets": "-7,8,-7,8",
+      "tabContentActionsLeftInsets": "0,0,0,0",
+      "tabContentActionsNoneInsets": "0,0,0,0",
+      "tabContentActionsRightInsets": "0,4,0,6",
+
       "underlinedTabBackground": "#DEE6F7",
       "underlinedTabForeground": "#000000"
     },
