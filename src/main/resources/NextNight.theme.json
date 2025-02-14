@@ -465,9 +465,9 @@
     },
 
     "NotificationsToolwindow": {
-      "newNotification.background": "Gray3",
-      "newNotification.hoverBackground": "Gray3",
-      "Notification.hoverBackground": "Gray2"
+      "newNotification.background": "#39404D",
+      "newNotification.hoverBackground": "#39404D",
+      "Notification.hoverBackground": "#39404D"
     },
 
     "OnePixelDivider.background": "Gray3",

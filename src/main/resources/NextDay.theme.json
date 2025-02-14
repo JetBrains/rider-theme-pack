@@ -163,7 +163,7 @@
     "Breakpoint.iconHoverAlpha": 0.3,
 
     "Button": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "arc": 8,
       "startBorderColor": "Gray9",
       "endBorderColor": "Gray9",
@@ -190,7 +190,7 @@
     },
 
     "CheckBox": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "textIconGap": 4
@@ -222,11 +222,11 @@
       "Block": {
         "backgroundColor": "Gray5",
         "backgroundOpacity": 4,
-        "borderColor":"#DEE6F700",
+        "borderColor":"#E5EEFF00",
         "EditorPane": {
           "backgroundColor": "Gray5",
           "backgroundOpacity": 4,
-          "borderColor": "#DEE6F700"
+          "borderColor": "#E5EEFF00"
         }
       }
     },
@@ -282,7 +282,7 @@
     },
 
     "DefaultTabs": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "hoverBackground": "Gray12"
     },
 
@@ -303,7 +303,7 @@
       "tabContentActionsNoneInsets": "0,0,0,0",
       "tabContentActionsRightInsets": "0,4,0,6",
 
-      "underlinedTabBackground": "#DEE6F7",
+      "underlinedTabBackground": "#E5EEFF",
       "underlinedTabForeground": "#000000"
     },
 
@@ -313,7 +313,7 @@
         "background": "Gray14"
       },
       "Toolbar" : {
-        "borderColor" : "#DEE6F700"
+        "borderColor" : "#E5EEFF00"
       },
       "ToolTip": {
         "foreground": "Gray1",
@@ -341,7 +341,7 @@
     },
 
     "Label": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "errorForeground": "Red4"
     },
 
@@ -355,7 +355,7 @@
     },
 
     "List": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "rowHeight": 24,
       "border": "4,0,4,0",
       "Button": {
@@ -487,13 +487,13 @@
     },
 
     "NotificationsToolwindow": {
-      "newNotification.background": "Gray12",
-      "newNotification.hoverBackground": "Gray12",
-      "Notification.hoverBackground": "Gray13"
+      "newNotification.background": "#F6F7FA",
+      "newNotification.hoverBackground": "#F6F7FA",
+      "Notification.hoverBackground": "#F6F7FA"
     },
 
     "OptionPane": {
-      "background": "#DEE6F7"
+      "background": "#E5EEFF"
     },
 
     "PasswordField": {
@@ -501,11 +501,11 @@
     },
 
     "Panel": {
-      "background": "#DEE6F7"
+      "background": "#E5EEFF"
     },
 
     "Plugins": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "SearchField.background": "Gray14",
       "Button": {
         "installFillForeground": "Gray14",
@@ -516,7 +516,7 @@
         "updateBorderColor": "Blue4",
         "updateForeground": "Gray14"
       },
-      "SectionHeader.background": "#DEE6F7",
+      "SectionHeader.background": "#E5EEFF",
       "tagForeground": "Gray6",
       "tagBackground": "Gray12",
       "paidTagBackground": "Teal7",
@@ -564,14 +564,14 @@
     },
 
     "RadioButton": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "borderInsets": "4,4,4,4",
       "iconSize": 24,
       "iconTextGap": 4
     },
 
     "ScrollBar": {
-      "background": "#DEE6F7"
+      "background": "#E5EEFF"
     },
 
     "SearchEverywhere": {
@@ -601,7 +601,7 @@
     },
 
     "SidePanel": {
-      "background": "#DEE6F7"
+      "background": "#E5EEFF"
     },
 
     "Slider": {
@@ -616,29 +616,29 @@
     },
 
     "Spinner": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "minimumSize": "72,28"
     },
 
     "StatusBar": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "Widget": {
         "foreground": "#818594",
         "hoverForeground": "#818594",
-        "hoverBackground": "#DEE6F7",
-        "pressedBackground": "#DEE6F7"
+        "hoverBackground": "#E5EEFF",
+        "pressedBackground": "#E5EEFF"
       },
       "Breadcrumbs": {
         "foreground": "#818594",
         "hoverForeground": "#818594",
-        "hoverBackground": "#DEE6F7",
-        "floatingBackground": "#DEE6F7",
+        "hoverBackground": "#E5EEFF",
+        "floatingBackground": "#E5EEFF",
         "chevronInset": 0
       }
     },
 
     "TabbedPane": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "tabHeight": 40,
       "tabSelectionArc": 4,
       "hoverColor": "Gray12",
@@ -648,13 +648,13 @@
     },
 
     "Table": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "gridColor": "Gray12",
       "stripeColor": "Gray13"
     },
 
     "TableHeader": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "bottomSeparatorColor": "Gray12"
     },
 
@@ -718,14 +718,14 @@
     },
 
     "ToolWindow": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "Header": {
-        "inactiveBackground": "#DEE6F7",
+        "inactiveBackground": "#E5EEFF",
         "font.size.offset": 0
       },
       "HeaderTab": {
-        "hoverBackground": "#DEE6F7",
-        "hoverInactiveBackground": "#DEE6F7"
+        "hoverBackground": "#E5EEFF",
+        "hoverInactiveBackground": "#E5EEFF"
       },
       "Button": {
         "foreground": "Gray5",
@@ -751,22 +751,22 @@
     },
 
     "MainToolbar": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "foreground": "#000000",
-      "inactiveBackground": "#DEE6F7",
+      "inactiveBackground": "#E5EEFF",
       "separatorColor": "#DDDEE1",
       "Icon": {
-        "background": "#DEE6F7",
-        "hoverBackground": "#DEE6F780",
-        "pressedBackground": "#DEE6F7",
+        "background": "#E5EEFF",
+        "hoverBackground": "#E5EEFF80",
+        "pressedBackground": "#E5EEFF",
         "insets": "5,5,5,5"
       },
       "Dropdown": {
         "foreground": "#000000",
-        "background": "#DEE6F7",
-        "hoverBackground": "#DEE6F780",
+        "background": "#E5EEFF",
+        "hoverBackground": "#E5EEFF80",
         "transparentHoverBackground": "#0000000D",
-        "pressedBackground": "#DEE6F7",
+        "pressedBackground": "#E5EEFF",
         "maxWidth": 350
       }
     },
@@ -776,8 +776,8 @@
     "OnePixelDivider.background": "Gray12",
 
     "TitlePane": {
-      "background": "#DEE6F7",
-      "inactiveBackground": "#DEE6F7",
+      "background": "#E5EEFF",
+      "inactiveBackground": "#E5EEFF",
       "Button": {
         "preferredSize": "40,40",
         "preferredSize.compact": "40,30",
@@ -786,7 +786,7 @@
     },
 
     "Tree": {
-      "background": "#DEE6F7",
+      "background": "#E5EEFF",
       "collapsedIcon": "/expui/general/chevronRight.svg",
       "collapsedSelectedIcon": "/expui/general/chevronRight.svg",
       "expandedIcon": "/expui/general/chevronDown.svg",
