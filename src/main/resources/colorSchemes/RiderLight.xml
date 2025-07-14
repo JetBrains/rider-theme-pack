@@ -1812,6 +1812,12 @@
         <option name="FOREGROUND" value="300073" />
       </value>
     </option>
+    <option name="ReSharper.C_PREPROCESSOR_INACTIVE_BRANCH_V2">
+      <value>
+        <option name="EFFECT_COLOR" value="FF00FF" />
+        <option name="EFFECT_TYPE" value="6" />
+      </value>
+    </option>
     <option name="ReSharper.DELEGATE_IDENTIFIER">
       <value>
         <option name="FONT_TYPE" value="0" />
