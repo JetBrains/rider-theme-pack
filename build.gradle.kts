@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.intellij") version "1.15.0"
+    id("org.jetbrains.intellij") version "2.6.0"
     id("me.filippov.gradle.jvm.wrapper") version "0.15.0"
 }
 
@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-version = "0.15.2"
+version = "0.15.3"
 
 intellij {
     val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
@@ -15,18 +15,18 @@ intellij {
     if (useRiderSdk) {
         type.set("RD")
         if (useStableBuild) {
-            version.set("2024.2.7") // Rider release
+            version.set("2025.1") // Rider release
         }
         else {
-            version.set("2024.3-SNAPSHOT") // Rider snapshot
+            version.set("2025.2-SNAPSHOT") // Rider snapshot
         }
     }
     else {
         if (useStableBuild) {
-            version.set("2024.2.4") // IDEA release
+            version.set("2025.1") // IDEA release
         }
         else {
-            version.set("243.21565-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
+            version.set("251.25410-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
         }
     }
 
