@@ -1,55 +1,60 @@
+import org.jetbrains.intellij.platform.gradle.tasks.RunIdeTask
+
 plugins {
-    id("org.jetbrains.intellij") version "2.6.0"
+    id("org.jetbrains.intellij.platform") version "2.6.0"
     id("me.filippov.gradle.jvm.wrapper") version "0.15.0"
 }
 
 repositories {
     mavenCentral()
+    intellijPlatform {
+        defaultRepositories()
+    }
 }
 
 version = "0.15.3"
 
-intellij {
-    val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
-    val useStableBuild = System.getProperty("useStableBuild")?.toBoolean() ?: false
-    if (useRiderSdk) {
-        type.set("RD")
-        if (useStableBuild) {
-            version.set("2025.1") // Rider release
-        }
-        else {
-            version.set("2025.2-SNAPSHOT") // Rider snapshot
-        }
-    }
-    else {
-        if (useStableBuild) {
-            version.set("2025.1") // IDEA release
-        }
-        else {
-            version.set("251.25410-EAP-CANDIDATE-SNAPSHOT") // IDEA snapshot
-        }
-    }
+val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
+val useStableBuild = System.getProperty("useStableBuild")?.toBoolean() ?: false
 
-    pluginName.set("Rider UI Theme Pack")
-
-    tasks {
-        buildSearchableOptions {
-            enabled = false
-        }
-
-        // Initially introduced in:
-        // https://github.com/JetBrains/ForTea/blob/master/Frontend/build.gradle.kts
-        if (!useRiderSdk) {
-            withType<org.jetbrains.intellij.tasks.RunIdeTask> {
-                // IDEs from SDK are launched with 512m by default, which is not enough for Rider.
-                // Rider uses this value when launched not from SDK.
-                maxHeapSize = "1500m"
+dependencies {
+    intellijPlatform {
+        if (useRiderSdk) {
+            if (useStableBuild) {
+                rider("2025.1", useInstaller = false) // Rider release
+            } else {
+                rider("2025.2-SNAPSHOT", useInstaller = false) // Rider snapshot
+            }
+        } else {
+            if (useStableBuild) {
+                intellijIdeaCommunity("2025.1") // IDEA release
+            } else {
+                intellijIdeaCommunity("252-EAP-SNAPSHOT", useInstaller = false) // IDEA snapshot
             }
         }
-        withType<org.jetbrains.intellij.tasks.PatchPluginXmlTask> {
-            updateSinceUntilBuild.set(false)
-//            sinceBuild.set("")
-//            untilBuild.set("")
+    }
+}
+
+intellijPlatform {
+    pluginConfiguration {
+        name.set("Rider UI Theme Pack")
+    }
+}
+
+tasks {
+    buildSearchableOptions {
+        enabled = false
+    }
+
+    if (!useRiderSdk) {
+        withType<RunIdeTask> {
+            // IDEs from SDK are launched with 512m by default, which is not enough for Rider.
+            // Rider uses this value when launched not from SDK.
+            maxHeapSize = "1500m"
         }
+    }
+    patchPluginXml {
+        sinceBuild.set(provider { null })
+        untilBuild.set(provider { null })
     }
 }

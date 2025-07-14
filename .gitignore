@@ -157,3 +157,6 @@ atlassian-ide-plugin.xml
 .gradletasknamecache
 
 venv/
+
+# IntelliJ Platform Gradle Plugin
+/.intellijPlatform/
