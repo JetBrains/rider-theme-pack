@@ -29,7 +29,7 @@ dependencies {
             if (useStableBuild) {
                 intellijIdeaCommunity("2025.1") // IDEA release
             } else {
-                intellijIdeaCommunity("252-EAP-SNAPSHOT", useInstaller = false) // IDEA snapshot
+                intellijIdeaCommunity("252.23892-EAP-CANDIDATE-SNAPSHOT", useInstaller = false) // IDEA snapshot
             }
         }
     }
