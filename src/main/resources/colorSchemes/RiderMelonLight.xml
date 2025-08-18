@@ -31,7 +31,6 @@
     <option name="MnemonicIcon.foreground" value="FFFFFF" />
     <option name="NOTIFICATION_BACKGROUND" value="faecdc" />
     <option name="QUESTION_HINT" value="faecdc" />
-    <option name="READONLY_BACKGROUND" value="FBFBFB" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="FBFBFB" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="F28E46" />
     <option name="RIGHT_MARGIN_COLOR" value="D8D8D8" />
