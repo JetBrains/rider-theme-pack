@@ -28,6 +28,9 @@
         <themeProvider id="RiderNight" path="/RiderNight.theme.json" targetUi="new" order="first"/>
         <themeProvider id="RiderDark" path="/RiderDark.theme.json" targetUi="classic"/>
 
+        <!-- default for Islands UI -->
+        <bundledColorScheme id="Rider Islands Dark" path="/colorSchemes/RiderIslandsDark" />
+
         <!-- Melon -->
         <bundledColorScheme id="Rider Melon Light" path="/colorSchemes/RiderMelonLight" />
         <themeProvider id="RiderMelonDay" path="/RiderMelonDay.theme.json" targetUi="new"/>
