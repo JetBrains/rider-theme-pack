@@ -12,7 +12,7 @@ repositories {
     }
 }
 
-version = "0.15.3"
+version = "0.15.4"
 
 val useRiderSdk = System.getProperty("useRiderSdk")?.toBoolean() ?: false
 val useStableBuild = System.getProperty("useStableBuild")?.toBoolean() ?: false
