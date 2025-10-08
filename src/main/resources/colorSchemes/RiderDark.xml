@@ -6,13 +6,13 @@
     <option name="BookmarkIcon.background" value="D9B72B" />
     <option name="CARET_COLOR" value="F0F0F0" />
     <option name="CARET_ROW_COLOR" value="202424" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="191A1C" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="262626" />
     <option name="DELETED_LINES_COLOR" value="BF3428" />
     <option name="DIFF_SEPARATORS_BACKGROUND" value="686868" />
-    <option name="DOCUMENTATION_COLOR" value="191A1C" />
+    <option name="DOCUMENTATION_COLOR" value="262626" />
     <option name="ERROR_HINT" value="4A2421" />
     <option name="FOLDED_TEXT_BORDER_COLOR" value="404040" />
-    <option name="GUTTER_BACKGROUND" value="191A1C" />
+    <option name="GUTTER_BACKGROUND" value="282828" />
     <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
     <option name="HTML_TAG_TREE_LEVEL1" value="ffff00" />
     <option name="HTML_TAG_TREE_LEVEL2" value="ff00" />
@@ -23,14 +23,15 @@
     <option name="INFORMATION_HINT" value="303030" />
     <option name="LINE_NUMBERS_COLOR" value="#808080" />
     <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="#808080" />
-    <option name="LOOKUP_COLOR" value="191A1C" />
+    <option name="LOOKUP_COLOR" value="262626" />
     <option name="METHOD_SEPARATORS_COLOR" value="404040" />
     <option name="MODIFIED_LINES_COLOR" value="293A5F" />
     <option name="MnemonicIcon.background" value="D9B72B" />
-    <option name="MnemonicIcon.borderColor" value="191A1C" />
-    <option name="MnemonicIcon.foreground" value="191A1C" />
+    <option name="MnemonicIcon.borderColor" value="282828" />
+    <option name="MnemonicIcon.foreground" value="262626" />
     <option name="NOTIFICATION_BACKGROUND" value="3D3020" />
     <option name="QUESTION_HINT" value="3D3020" />
+    <option name="READONLY_BACKGROUND" value="303030" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="303030" />
     <option name="RECURSIVE_CALL_ATTRIBUTES" value="A65426" />
     <option name="RIGHT_MARGIN_COLOR" value="404040" />
@@ -93,7 +94,7 @@
     </option>
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="BACKGROUND" value="191A1C" />
+        <option name="BACKGROUND" value="262626" />
         <option name="FOREGROUND" value="F0F0F0" />
       </value>
     </option>
@@ -2427,7 +2428,7 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="BACKGROUND" value="191A1C" />
+        <option name="BACKGROUND" value="262626" />
         <option name="FOREGROUND" value="d0d0d0" />
       </value>
     </option>
